@@ -1,0 +1,723 @@
+{
+  "segments": [
+    {
+      "speaker": "SPEAKER_1",
+      "start": 5.67,
+      "end": 14.59,
+      "text": "Hi Indra, I am Sara, and I will be your interviewer today. Can you tell me about yourself and what you have been working on that you are most interested in?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 16.13,
+      "end": 31.47,
+      "text": "Hi Zara, I am Indira Sandusi. I am currently pursuing University College of Engineering Tiruchirappalli B.Ed campus. I am interested in UI UX because I am I am design I am like to design and attract"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 32.69,
+      "end": 36.13,
+      "text": "attract managers and who can assign the work"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 37.77,
+      "end": 49.31,
+      "text": "\u0906\u0908 \u0906\u0908 \u0935\u093e\u0902\u091f \u091f\u0942 \u0915\u094d\u0930\u093f\u090f\u091f\u093f\u0935 \u0915\u094d\u0930\u093f\u090f\u091f\u093f\u0935\u0932\u0940 \u0925\u093f\u0902\u0915 \u090f\u0902\u0921 \u0906\u0908 \u0917\u093f\u0935 \u0926 \u0921\u093f\u091c\u093e\u0907\u0928 \u092b\u0949\u0930 \u092e\u093e\u092f \u0910\u092a. \u0906\u0908 \u0911\u0932\u0930\u0947\u0921\u0940 \u092b\u093f\u0928\u093f\u0936\u094d\u0921 \u092e\u093e\u092f \u092e\u093f\u0928\u0940 \u092a\u094d\u0930\u094b\u091c\u0947\u0915\u094d\u091f \u0907\u0928 \u092c\u094d\u0932\u0921 \u092c\u0948\u0902\u0915 \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f \u0938\u093f\u0938\u094d\u091f\u092e \u0907\u0928 \u092f\u0942 \u0906\u0930 \u092f\u0942 \u090f\u0915\u094d\u0938."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 54.55,
+      "end": 63.79,
+      "text": "You mentioned UI UX and creative design. What kind of engineer do you want to be in 5 years? And what are you doing now to move towards that?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 64.87,
+      "end": 80.73,
+      "text": "I am currently pursuing Computer Science Engineering in University College of Engineering, Kichirappalli BIT campus. And in this elective paper also in US design, so I choose that because there is very creative design model creating. So I choose that."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 82.85,
+      "end": 84.77,
+      "text": "I moved towards the UI UX"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 91.85,
+      "end": 102.39,
+      "text": "You talked about your computer science course and UI UX selective. Why computer science and has your reason for choosing it shifted as you have studied more?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 103.75,
+      "end": 112.33,
+      "text": "I'm already pursuing 11th and 12th computer science in their school, so I continue my education in computer science."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 112.59,
+      "end": 130.15,
+      "text": "So I choose the college computer science engineering and its UI UX is very interesting and creativity. So I choose that. The other elective is also interestingly but it is very more interesting and attractive to me in the designing process. So I choose that UI UX."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 135.25,
+      "end": 143.29,
+      "text": "You have mentioned UI UX many times. Did you enjoy your degree? What was your favorite part of it?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 144.29,
+      "end": 165.97,
+      "text": "Yes, I am enjoying my degree. My favorite part is I'm I already go to the Rila in three days. That is three day program, then entrepreneurship program. I also I want to I also I finish my education in college. I I also start one new company in entrepreneurship."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 170.97,
+      "end": 176.89,
+      "text": "You mentioned entrepreneurship programs as well. What is one technical thing you genuinely enjoy working on?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 178.07,
+      "end": 182.77,
+      "text": "In technical things, I genuinely work on data analytics."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 184.39,
+      "end": 194.15,
+      "text": "Because I already experienced in Power BI using SQL, so I already part-time working in data analytics, so I am very interested in the technical."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 203.41,
+      "end": 214.71,
+      "text": "You mentioned data analytics, Power BI, and SQL experience. If you had unlimited time and resources, what would you build, um, and why that specifically?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 216.21,
+      "end": 241.27,
+      "text": "I have my unlimited time. I want to improve my communication skill and aptitude skill because the interviews first round is the aptitude skill and in the last round is for one to one conversation. This is a very important communications and eye to eye contact to the interviewer. So I want to improve my currently I'm improving my communication skills and currently I'm studying morning and night one hour aptitude. I also doing that."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 246.23,
+      "end": 254.13,
+      "text": "You spoke about improving communication and aptitude. How would a teammate who has worked closely with you describe your working style?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 262.49,
+      "end": 292.49,
+      "text": "Uh, if anybody give me any work, I will compute in the certain time. If they give and this time you will finish this work, I will finish it. I will finish that work and I will understand how it work with understandable and manageable this in the current time. And I will also explain which in my team who's know that who's know who's experience I will explain what is that and how it is work and why this are this are it. All I will explain to my team work co-partners also."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 292.49,
+      "end": 313.59,
+      "text": "complete my work in the during certain time. And I also have a multi multi multi work in the time. So I prioritize with the work is first I will prioritize and doing that doing like a pro. I also told that my co partners and the team team members I will tell that how it how it will do why. I will tell them."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 316.65,
+      "end": 326.17,
+      "text": "You have described how you support your teammates. Tell me about a project that did not go as planned, or what happened, and what did you take away from it?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 326.89,
+      "end": 356.89,
+      "text": "I I'm NCC carrot. I'm in the idea innovations. They I participate in the idea innovations. In the harvesting small soldiers uniform, it's my project. That means in the in the battlefield area, in the soldiers is very they they have not a battery to charge them in any way. So we identify and identify and do in the battery to charge them. Solar energy from the sun and the electrical physiological energy from the"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 356.89,
+      "end": 370.35,
+      "text": "put step or pressure them that they convert it to the electricity and join to them. That is worker to save the battery. They also give idea for that project but it's not that is only for planned it's not going to"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 370.75,
+      "end": 379.27,
+      "text": "Thanks, Indra, that is all for this part. Your responses have been recorded. We will continue with the next part later. You may go ahead and end the call now."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 379.97,
+      "end": 380.73,
+      "text": "Thank you Zara"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 384.01,
+      "end": 388.69,
+      "text": "You are welcome, Indra. You can end the call now and continue your preparation."
+    }
+  ],
+  "turns": [
+    {
+      "id": 1,
+      "speaker": "SPEAKER_1",
+      "start": 5.67,
+      "end": 14.59,
+      "segment_ids": [
+        0
+      ],
+      "text": "Hi Indra, I am Sara, and I will be your interviewer today. Can you tell me about yourself and what you have been working on that you are most interested in?",
+      "word_count": 31,
+      "duration": 8.92
+    },
+    {
+      "id": 2,
+      "speaker": "SPEAKER_0",
+      "start": 16.13,
+      "end": 49.31,
+      "segment_ids": [
+        1,
+        2,
+        3
+      ],
+      "text": "Hi Zara, I am Indira Sandusi. I am currently pursuing University College of Engineering Tiruchirappalli B.Ed campus. I am interested in UI UX because I am I am design I am like to design and attract attract managers and who can assign the work \u0906\u0908 \u0906\u0908 \u0935\u093e\u0902\u091f \u091f\u0942 \u0915\u094d\u0930\u093f\u090f\u091f\u093f\u0935 \u0915\u094d\u0930\u093f\u090f\u091f\u093f\u0935\u0932\u0940 \u0925\u093f\u0902\u0915 \u090f\u0902\u0921 \u0906\u0908 \u0917\u093f\u0935 \u0926 \u0921\u093f\u091c\u093e\u0907\u0928 \u092b\u0949\u0930 \u092e\u093e\u092f \u0910\u092a. \u0906\u0908 \u0911\u0932\u0930\u0947\u0921\u0940 \u092b\u093f\u0928\u093f\u0936\u094d\u0921 \u092e\u093e\u092f \u092e\u093f\u0928\u0940 \u092a\u094d\u0930\u094b\u091c\u0947\u0915\u094d\u091f \u0907\u0928 \u092c\u094d\u0932\u0921 \u092c\u0948\u0902\u0915 \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f \u0938\u093f\u0938\u094d\u091f\u092e \u0907\u0928 \u092f\u0942 \u0906\u0930 \u092f\u0942 \u090f\u0915\u094d\u0938.",
+      "word_count": 75,
+      "duration": 33.18
+    },
+    {
+      "id": 3,
+      "speaker": "SPEAKER_1",
+      "start": 54.55,
+      "end": 63.79,
+      "segment_ids": [
+        4
+      ],
+      "text": "You mentioned UI UX and creative design. What kind of engineer do you want to be in 5 years? And what are you doing now to move towards that?",
+      "word_count": 29,
+      "duration": 9.24
+    },
+    {
+      "id": 4,
+      "speaker": "SPEAKER_0",
+      "start": 64.87,
+      "end": 84.77,
+      "segment_ids": [
+        5,
+        6
+      ],
+      "text": "I am currently pursuing Computer Science Engineering in University College of Engineering, Kichirappalli BIT campus. And in this elective paper also in US design, so I choose that because there is very creative design model creating. So I choose that. I moved towards the UI UX",
+      "word_count": 46,
+      "duration": 19.9
+    },
+    {
+      "id": 5,
+      "speaker": "SPEAKER_1",
+      "start": 91.85,
+      "end": 102.39,
+      "segment_ids": [
+        7
+      ],
+      "text": "You talked about your computer science course and UI UX selective. Why computer science and has your reason for choosing it shifted as you have studied more?",
+      "word_count": 27,
+      "duration": 10.54
+    },
+    {
+      "id": 6,
+      "speaker": "SPEAKER_0",
+      "start": 103.75,
+      "end": 130.15,
+      "segment_ids": [
+        8,
+        9
+      ],
+      "text": "I'm already pursuing 11th and 12th computer science in their school, so I continue my education in computer science. So I choose the college computer science engineering and its UI UX is very interesting and creativity. So I choose that. The other elective is also interestingly but it is very more interesting and attractive to me in the designing process. So I choose that UI UX.",
+      "word_count": 66,
+      "duration": 26.4
+    },
+    {
+      "id": 7,
+      "speaker": "SPEAKER_1",
+      "start": 135.25,
+      "end": 143.29,
+      "segment_ids": [
+        10
+      ],
+      "text": "You have mentioned UI UX many times. Did you enjoy your degree? What was your favorite part of it?",
+      "word_count": 19,
+      "duration": 8.04
+    },
+    {
+      "id": 8,
+      "speaker": "SPEAKER_0",
+      "start": 144.29,
+      "end": 165.97,
+      "segment_ids": [
+        11
+      ],
+      "text": "Yes, I am enjoying my degree. My favorite part is I'm I already go to the Rila in three days. That is three day program, then entrepreneurship program. I also I want to I also I finish my education in college. I I also start one new company in entrepreneurship.",
+      "word_count": 50,
+      "duration": 21.68
+    },
+    {
+      "id": 9,
+      "speaker": "SPEAKER_1",
+      "start": 170.97,
+      "end": 176.89,
+      "segment_ids": [
+        12
+      ],
+      "text": "You mentioned entrepreneurship programs as well. What is one technical thing you genuinely enjoy working on?",
+      "word_count": 16,
+      "duration": 5.92
+    },
+    {
+      "id": 10,
+      "speaker": "SPEAKER_0",
+      "start": 178.07,
+      "end": 194.15,
+      "segment_ids": [
+        13,
+        14
+      ],
+      "text": "In technical things, I genuinely work on data analytics. Because I already experienced in Power BI using SQL, so I already part-time working in data analytics, so I am very interested in the technical.",
+      "word_count": 34,
+      "duration": 16.08
+    },
+    {
+      "id": 11,
+      "speaker": "SPEAKER_1",
+      "start": 203.41,
+      "end": 214.71,
+      "segment_ids": [
+        15
+      ],
+      "text": "You mentioned data analytics, Power BI, and SQL experience. If you had unlimited time and resources, what would you build, um, and why that specifically?",
+      "word_count": 25,
+      "duration": 11.3
+    },
+    {
+      "id": 12,
+      "speaker": "SPEAKER_0",
+      "start": 216.21,
+      "end": 241.27,
+      "segment_ids": [
+        16
+      ],
+      "text": "I have my unlimited time. I want to improve my communication skill and aptitude skill because the interviews first round is the aptitude skill and in the last round is for one to one conversation. This is a very important communications and eye to eye contact to the interviewer. So I want to improve my currently I'm improving my communication skills and currently I'm studying morning and night one hour aptitude. I also doing that.",
+      "word_count": 75,
+      "duration": 25.06
+    },
+    {
+      "id": 13,
+      "speaker": "SPEAKER_1",
+      "start": 246.23,
+      "end": 254.13,
+      "segment_ids": [
+        17
+      ],
+      "text": "You spoke about improving communication and aptitude. How would a teammate who has worked closely with you describe your working style?",
+      "word_count": 21,
+      "duration": 7.9
+    },
+    {
+      "id": 14,
+      "speaker": "SPEAKER_0",
+      "start": 262.49,
+      "end": 313.59,
+      "segment_ids": [
+        18,
+        19
+      ],
+      "text": "Uh, if anybody give me any work, I will compute in the certain time. If they give and this time you will finish this work, I will finish it. I will finish that work and I will understand how it work with understandable and manageable this in the current time. And I will also explain which in my team who's know that who's know who's experience I will explain what is that and how it is work and why this are this are it. All I will explain to my team work co-partners also. complete my work in the during certain time. And I also have a multi multi multi work in the time. So I prioritize with the work is first I will prioritize and doing that doing like a pro. I also told that my co partners and the team team members I will tell that how it how it will do why. I will tell them.",
+      "word_count": 159,
+      "duration": 51.1
+    },
+    {
+      "id": 15,
+      "speaker": "SPEAKER_1",
+      "start": 316.65,
+      "end": 326.17,
+      "segment_ids": [
+        20
+      ],
+      "text": "You have described how you support your teammates. Tell me about a project that did not go as planned, or what happened, and what did you take away from it?",
+      "word_count": 30,
+      "duration": 9.52
+    },
+    {
+      "id": 16,
+      "speaker": "SPEAKER_0",
+      "start": 326.89,
+      "end": 370.35,
+      "segment_ids": [
+        21,
+        22
+      ],
+      "text": "I I'm NCC carrot. I'm in the idea innovations. They I participate in the idea innovations. In the harvesting small soldiers uniform, it's my project. That means in the in the battlefield area, in the soldiers is very they they have not a battery to charge them in any way. So we identify and identify and do in the battery to charge them. Solar energy from the sun and the electrical physiological energy from the put step or pressure them that they convert it to the electricity and join to them. That is worker to save the battery. They also give idea for that project but it's not that is only for planned it's not going to",
+      "word_count": 117,
+      "duration": 43.46
+    },
+    {
+      "id": 17,
+      "speaker": "SPEAKER_1",
+      "start": 370.75,
+      "end": 379.27,
+      "segment_ids": [
+        23
+      ],
+      "text": "Thanks, Indra, that is all for this part. Your responses have been recorded. We will continue with the next part later. You may go ahead and end the call now.",
+      "word_count": 30,
+      "duration": 8.52
+    },
+    {
+      "id": 18,
+      "speaker": "SPEAKER_0",
+      "start": 379.97,
+      "end": 380.73,
+      "segment_ids": [
+        24
+      ],
+      "text": "Thank you Zara",
+      "word_count": 3,
+      "duration": 0.76
+    },
+    {
+      "id": 19,
+      "speaker": "SPEAKER_1",
+      "start": 384.01,
+      "end": 388.69,
+      "segment_ids": [
+        25
+      ],
+      "text": "You are welcome, Indra. You can end the call now and continue your preparation.",
+      "word_count": 14,
+      "duration": 4.68
+    }
+  ],
+  "latency": [
+    {
+      "from_turn_id": 1,
+      "to_turn_id": 2,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 1.54
+    },
+    {
+      "from_turn_id": 2,
+      "to_turn_id": 3,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.24
+    },
+    {
+      "from_turn_id": 3,
+      "to_turn_id": 4,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 1.08
+    },
+    {
+      "from_turn_id": 4,
+      "to_turn_id": 5,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 7.08
+    },
+    {
+      "from_turn_id": 5,
+      "to_turn_id": 6,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 1.36
+    },
+    {
+      "from_turn_id": 6,
+      "to_turn_id": 7,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.1
+    },
+    {
+      "from_turn_id": 7,
+      "to_turn_id": 8,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 1.0
+    },
+    {
+      "from_turn_id": 8,
+      "to_turn_id": 9,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.0
+    },
+    {
+      "from_turn_id": 9,
+      "to_turn_id": 10,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 1.18
+    },
+    {
+      "from_turn_id": 10,
+      "to_turn_id": 11,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 9.26
+    },
+    {
+      "from_turn_id": 11,
+      "to_turn_id": 12,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 1.5
+    },
+    {
+      "from_turn_id": 12,
+      "to_turn_id": 13,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 4.96
+    },
+    {
+      "from_turn_id": 13,
+      "to_turn_id": 14,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 8.36
+    },
+    {
+      "from_turn_id": 14,
+      "to_turn_id": 15,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 3.06
+    },
+    {
+      "from_turn_id": 15,
+      "to_turn_id": 16,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 0.72
+    },
+    {
+      "from_turn_id": 16,
+      "to_turn_id": 17,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 0.4
+    },
+    {
+      "from_turn_id": 17,
+      "to_turn_id": 18,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 0.7
+    },
+    {
+      "from_turn_id": 18,
+      "to_turn_id": 19,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 3.28
+    }
+  ],
+  "pauses": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_0",
+      "start": 31.47,
+      "end": 32.69,
+      "duration": 1.22
+    },
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_0",
+      "start": 36.13,
+      "end": 37.77,
+      "duration": 1.64
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_0",
+      "start": 80.73,
+      "end": 82.85,
+      "duration": 2.12
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_0",
+      "start": 112.33,
+      "end": 112.59,
+      "duration": 0.26
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_0",
+      "start": 182.77,
+      "end": 184.39,
+      "duration": 1.62
+    }
+  ],
+  "overlaps": [],
+  "stats": {
+    "SPEAKER_1": {
+      "turn_count": 10,
+      "total_speaking_time": 84.58,
+      "total_words": 242,
+      "latency": {
+        "count": 9,
+        "mean": 4.82,
+        "median": 5.0,
+        "p25": 3.28,
+        "p75": 5.24,
+        "min": 0.4,
+        "max": 9.26,
+        "values": [
+          5.24,
+          7.08,
+          5.1,
+          5.0,
+          9.26,
+          4.96,
+          3.06,
+          0.4,
+          3.28
+        ]
+      },
+      "pause": {
+        "count": 0,
+        "mean": 0,
+        "median": 0,
+        "p25": 0,
+        "p75": 0,
+        "min": 0,
+        "max": 0,
+        "values": []
+      },
+      "words": {
+        "count": 10,
+        "mean": 24.2,
+        "median": 26.0,
+        "p25": 19.5,
+        "p75": 29.75,
+        "min": 14,
+        "max": 31,
+        "values": [
+          31,
+          29,
+          27,
+          19,
+          16,
+          25,
+          21,
+          30,
+          30,
+          14
+        ]
+      },
+      "duration": {
+        "count": 10,
+        "mean": 8.46,
+        "median": 8.72,
+        "p25": 7.94,
+        "p75": 9.45,
+        "min": 4.68,
+        "max": 11.3,
+        "values": [
+          8.92,
+          9.24,
+          10.54,
+          8.04,
+          5.92,
+          11.3,
+          7.9,
+          9.52,
+          8.52,
+          4.68
+        ]
+      }
+    },
+    "SPEAKER_0": {
+      "turn_count": 9,
+      "total_speaking_time": 237.62,
+      "total_words": 625,
+      "latency": {
+        "count": 9,
+        "mean": 1.94,
+        "median": 1.18,
+        "p25": 1.0,
+        "p75": 1.5,
+        "min": 0.7,
+        "max": 8.36,
+        "values": [
+          1.54,
+          1.08,
+          1.36,
+          1.0,
+          1.18,
+          1.5,
+          8.36,
+          0.72,
+          0.7
+        ]
+      },
+      "pause": {
+        "count": 5,
+        "mean": 1.37,
+        "median": 1.62,
+        "p25": 1.22,
+        "p75": 1.64,
+        "min": 0.26,
+        "max": 2.12,
+        "values": [
+          1.22,
+          1.64,
+          2.12,
+          0.26,
+          1.62
+        ]
+      },
+      "words": {
+        "count": 9,
+        "mean": 69.44,
+        "median": 66.0,
+        "p25": 46.0,
+        "p75": 75.0,
+        "min": 3,
+        "max": 159,
+        "values": [
+          75,
+          46,
+          66,
+          50,
+          34,
+          75,
+          159,
+          117,
+          3
+        ]
+      },
+      "duration": {
+        "count": 9,
+        "mean": 26.4,
+        "median": 25.06,
+        "p25": 19.9,
+        "p75": 33.18,
+        "min": 0.76,
+        "max": 51.1,
+        "values": [
+          33.18,
+          19.9,
+          26.4,
+          21.68,
+          16.08,
+          25.06,
+          51.1,
+          43.46,
+          0.76
+        ]
+      }
+    }
+  }
+}

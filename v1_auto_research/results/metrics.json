@@ -1,0 +1,20 @@
+{
+  "agreement_count": 38,
+  "agreement_rate": 0.8261,
+  "llm_mixed_but_deterministic_genuine": 5,
+  "llm_mixed_verdict_distribution": {
+    "genuine": 5,
+    "mixed": 11
+  },
+  "score_statistics": {
+    "genuine_mean_score": 0.1273,
+    "mixed_mean_score": 0.1787,
+    "separation": 0.0514
+  },
+  "total_sessions": 46,
+  "verdict_counts": {
+    "ai_assisted": 1,
+    "genuine": 29,
+    "mixed": 16
+  }
+}

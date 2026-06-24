@@ -1,0 +1,1930 @@
+[
+  {
+    "code": "Vol",
+    "name": "Volume",
+    "category": "Voice Delivery",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "rms": 0.05624,
+      "peak": 0.978529,
+      "clip_ratio": 0.0,
+      "p10": 1.2189766351866638e-07,
+      "p90": 0.10136984661221504
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "RMS=0.0562",
+      "Peak=0.9785",
+      "Clip=0.0000"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Var",
+    "name": "Vocal Variety",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The responses show mostly flat delivery with minimal expressive variation. While the candidate covers different topics (technical projects, personal interests, challenges), the tone and energy level remain consistently monotone throughout. There's little variation in pace, emphasis, or emotional engagement that would indicate natural vocal variety or deliberate use of voice to enhance meaning."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The responses show mostly flat delivery with minimal expressive variation. While the candidate covers different topics (technical projects, personal interests, challenges), the tone and energy level remain consistently monotone throughout. There's little variation in pace, emphasis, or emotional engagement that would indicate natural vocal variety or deliberate use of voice to enhance meaning."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ste",
+    "name": "Steadiness",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "The candidate shows understandable but visibly unstable delivery patterns. Volume and pace appear relatively consistent, but there are noticeable issues with sentence completion and flow. Multiple answers end abruptly mid-sentence (answers 1, 4, 5, 7, 8), suggesting either nervousness affecting speech patterns or technical recording issues. While the content is coherent and the candidate maintains engagement throughout, the frequent incomplete thoughts and trailing off indicate instability in delivery that would be noticeable in an interview setting."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate shows understandable but visibly unstable delivery patterns. Volume and pace appear relatively consistent, but there are noticeable issues with sentence completion and flow. Multiple answers end abruptly mid-sentence (answers 1, 4, 5, 7, 8), suggesting either nervousness affecting speech patterns or technical recording issues. While the content is coherent and the candidate maintains engagement throughout, the frequent incomplete thoughts and trailing off indicate instability in delivery that would be noticeable in an interview setting."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ton",
+    "name": "Tone",
+    "category": "Voice Delivery",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "tone_category": "nervous",
+      "reasoning": "The candidate demonstrates knowledge and enthusiasm but shows signs of nervousness through incomplete sentences, rushed delivery, and occasional stumbling over words. While the content is relevant and shows preparation, the delivery lacks the smoothness and composure expected in professional interviews. The tone is acceptable but inconsistent throughout the responses."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate demonstrates knowledge and enthusiasm but shows signs of nervousness through incomplete sentences, rushed delivery, and occasional stumbling over words. While the content is relevant and shows preparation, the delivery lacks the smoothness and composure expected in professional interviews. The tone is acceptable but inconsistent throughout the responses."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Prj",
+    "name": "Projection",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "audio",
+    "score": 3,
+    "raw": {
+      "rms": 0.05624,
+      "peak": 0.978529,
+      "snr_db": 118.33,
+      "clip_ratio": 0.0
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "RMS=0.0562",
+      "SNR=118.3dB",
+      "Clip=0.0000"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "En",
+    "name": "Energy",
+    "category": "Voice Delivery",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows moderate engagement with detailed technical responses and personal examples, but delivery appears somewhat monotone and mechanical. Answers are comprehensive but lack vocal variety or enthusiasm that would indicate higher energy levels. Demonstrates knowledge and involvement but could benefit from more animated delivery."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows moderate engagement with detailed technical responses and personal examples, but delivery appears somewhat monotone and mechanical. Answers are comprehensive but lack vocal variety or enthusiasm that would indicate higher energy levels. Demonstrates knowledge and involvement but could benefit from more animated delivery."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Clr",
+    "name": "Clarity",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate speaks clearly and is generally easy to understand. However, there are several instances of incomplete sentences (answers cut off mid-thought), some grammatical errors, and occasional unclear phrasing that require minor effort to follow. The technical content is well-articulated, but the delivery has room for improvement in terms of sentence completion and flow."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate speaks clearly and is generally easy to understand. However, there are several instances of incomplete sentences (answers cut off mid-thought), some grammatical errors, and occasional unclear phrasing that require minor effort to follow. The technical content is well-articulated, but the delivery has room for improvement in terms of sentence completion and flow."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Mon",
+    "name": "Monotony",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate's speech shows minimal variation in tone and delivery. While the content is substantive and well-structured, the responses follow a very similar pattern with consistent pacing and inflection. There are occasional moments of slight emphasis when discussing technical challenges or personal experiences, but overall the delivery remains quite flat and monotonous throughout all answers."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate's speech shows minimal variation in tone and delivery. While the content is substantive and well-structured, the responses follow a very similar pattern with consistent pacing and inflection. There are occasional moments of slight emphasis when discussing technical challenges or personal experiences, but overall the delivery remains quite flat and monotonous throughout all answers."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "WPM",
+    "name": "Words Per Minute",
+    "category": "Pace & Rhythm",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "avg_wpm": 129.7,
+      "turn_wpm": [
+        116.3,
+        130.7,
+        126.5,
+        120.9,
+        111.3,
+        142.9,
+        142.7,
+        138.0,
+        135.7,
+        132.1
+      ],
+      "turn_count": 10
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Avg WPM=129.7",
+      "Turns=10"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Acc",
+    "name": "Acceleration",
+    "category": "Pace & Rhythm",
+    "layer": "M",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "avg_accel": 1.76,
+      "max_accel": 31.64,
+      "accel_rates": [
+        14.41,
+        -4.24,
+        -5.54,
+        -9.64,
+        31.64,
+        -0.21,
+        -4.67,
+        -2.36,
+        -3.59
+      ]
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Avg accel=1.8 WPM",
+      "Max accel=31.6 WPM"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Dec",
+    "name": "Deceleration",
+    "category": "Pace & Rhythm",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "avg_decel": -1.76,
+      "max_decel": 9.64,
+      "decel_rates": [
+        -14.41,
+        4.24,
+        5.54,
+        9.64,
+        -31.64,
+        0.21,
+        4.67,
+        2.36,
+        3.59
+      ]
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Avg decel=-1.8 WPM",
+      "Max decel=9.6 WPM"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Rus",
+    "name": "Rushing",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "avg_wpm": 129.7,
+      "rush_count": 0,
+      "rush_ratio": 0.0,
+      "wpm_list": [
+        116.3,
+        130.7,
+        126.5,
+        120.9,
+        111.3,
+        142.9,
+        142.7,
+        138.0,
+        135.7,
+        132.1
+      ]
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Avg WPM=129.7",
+      "Rush ratio=0.0%"
+    ],
+    "depends_on": [
+      "WPM"
+    ]
+  },
+  {
+    "code": "Drg",
+    "name": "Dragging",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "avg_wpm": 129.7,
+      "drag_count": 0,
+      "drag_ratio": 0.0,
+      "wpm_list": [
+        116.3,
+        130.7,
+        126.5,
+        120.9,
+        111.3,
+        142.9,
+        142.7,
+        138.0,
+        135.7,
+        132.1
+      ]
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Avg WPM=129.7",
+      "Drag ratio=0.0%"
+    ],
+    "depends_on": [
+      "WPM"
+    ]
+  },
+  {
+    "code": "Pac",
+    "name": "Pace Control",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "avg_wpm": 129.7,
+      "spread": 15.1,
+      "out_of_range_ratio": 0.0
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Avg WPM=129.7",
+      "Spread=15.1",
+      "Out-of-range=0.0%"
+    ],
+    "depends_on": [
+      "WPM",
+      "Rus",
+      "Drg"
+    ]
+  },
+  {
+    "code": "Rhy",
+    "name": "Rhythm",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "spread": 15.1,
+      "long_pauses": 0,
+      "pause_count": 5
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Spread=15.1",
+      "Long pauses=0"
+    ],
+    "depends_on": [
+      "Pac"
+    ]
+  },
+  {
+    "code": "FP",
+    "name": "Filled Pause",
+    "category": "Pauses & Silence",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_fillers": 11,
+      "total_words": 1305,
+      "rate_per_100": 0.84,
+      "per_turn": [
+        {
+          "turn_id": 2,
+          "fillers": 2,
+          "words": 155
+        },
+        {
+          "turn_id": 4,
+          "fillers": 1,
+          "words": 178
+        },
+        {
+          "turn_id": 6,
+          "fillers": 1,
+          "words": 174
+        },
+        {
+          "turn_id": 8,
+          "fillers": 1,
+          "words": 95
+        },
+        {
+          "turn_id": 10,
+          "fillers": 0,
+          "words": 76
+        },
+        {
+          "turn_id": 12,
+          "fillers": 1,
+          "words": 120
+        },
+        {
+          "turn_id": 14,
+          "fillers": 0,
+          "words": 129
+        },
+        {
+          "turn_id": 16,
+          "fillers": 0,
+          "words": 128
+        },
+        {
+          "turn_id": 18,
+          "fillers": 2,
+          "words": 124
+        },
+        {
+          "turn_id": 20,
+          "fillers": 3,
+          "words": 126
+        }
+      ]
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Fillers=11",
+      "Rate=0.8/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "HP",
+    "name": "Hesitation Pause",
+    "category": "Pauses & Silence",
+    "layer": "M+D",
+    "source": "transcript",
+    "score": 0,
+    "raw": {
+      "hp_count": 4,
+      "hp_with_fillers": 4,
+      "hesitation_ratio": 1.0,
+      "rate_per_100": 0.31
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "HP count=4",
+      "Rate=0.3/100w"
+    ],
+    "depends_on": [
+      "FP"
+    ]
+  },
+  {
+    "code": "Lat",
+    "name": "Latency",
+    "category": "Pauses & Silence",
+    "layer": "M",
+    "source": "transcript",
+    "score": 0,
+    "raw": {
+      "avg_latency": 14.54,
+      "p25": 10.02,
+      "p75": 19.3,
+      "too_fast_ratio": 0.0,
+      "too_slow_ratio": 1.0,
+      "latencies": [
+        19.78,
+        14.6,
+        8.62,
+        19.3,
+        13.54,
+        9.82,
+        19.36,
+        15.82,
+        10.02
+      ]
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Avg=14.54s",
+      "Fast=0%",
+      "Slow=100%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Sil",
+    "name": "Long Silence",
+    "category": "Pauses & Silence",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "long_pause_count": 0,
+      "long_pause_ratio": 0.0,
+      "long_pause_total_s": 0,
+      "threshold_s": 2.5
+    },
+    "confidence": 0.85,
+    "evidence": [
+      "Long pauses=0",
+      "Ratio=0.0%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "OP",
+    "name": "Owned Pause",
+    "category": "Pauses & Silence",
+    "layer": "D",
+    "source": "transcript",
+    "score": 0,
+    "raw": {
+      "owned_count": 0,
+      "owned_ratio": 0.0,
+      "total_pauses": 5
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Owned=0",
+      "Ratio=0.0%"
+    ],
+    "depends_on": [
+      "FP",
+      "HP"
+    ]
+  },
+  {
+    "code": "RP",
+    "name": "Recovery Pause",
+    "category": "Pauses & Silence",
+    "layer": "D",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "recovery_pause_count": 3,
+      "score": 2,
+      "reasoning": "Candidate shows mixed recovery patterns - sometimes resumes clearly after pauses (like in technical problem-solving explanations) but other times trails off mid-sentence without proper completion (Answer 1 ends abruptly with 'crypt', Answer 2 cuts off at 'boo'). Recovery is inconsistent rather than reliable."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows mixed recovery patterns - sometimes resumes clearly after pauses (like in technical problem-solving explanations) but other times trails off mid-sentence without proper completion (Answer 1 ends abruptly with 'crypt', Answer 2 cuts off at 'boo'). Recovery is inconsistent rather than reliable."
+    ],
+    "depends_on": [
+      "OP"
+    ]
+  },
+  {
+    "code": "Pau",
+    "name": "Pause Quality",
+    "category": "Pauses & Silence",
+    "layer": "D",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "pause_count": 5,
+      "score": 3,
+      "reasoning": "With only 5 total pauses and no long pauses (2.5s+), the candidate demonstrates good fluency and confidence. The pauses appear to be natural speech patterns rather than hesitation or panic. The 16.8s average latency suggests thoughtful response preparation without excessive delay. Answers flow smoothly with technical detail, indicating composed delivery."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "With only 5 total pauses and no long pauses (2.5s+), the candidate demonstrates good fluency and confidence. The pauses appear to be natural speech patterns rather than hesitation or panic. The 16.8s average latency suggests thoughtful response preparation without excessive delay. Answers flow smoothly with technical detail, indicating composed delivery."
+    ],
+    "depends_on": [
+      "FP",
+      "HP",
+      "OP",
+      "RP",
+      "Lat",
+      "Sil"
+    ]
+  },
+  {
+    "code": "FS",
+    "name": "False Starts",
+    "category": "Fluency",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_fs": 1,
+      "total_words": 1305,
+      "rate_per_100": 0.08,
+      "per_turn": [
+        {
+          "turn_id": 2,
+          "false_starts": 0,
+          "words": 155
+        },
+        {
+          "turn_id": 4,
+          "false_starts": 0,
+          "words": 178
+        },
+        {
+          "turn_id": 6,
+          "false_starts": 0,
+          "words": 174
+        },
+        {
+          "turn_id": 8,
+          "false_starts": 0,
+          "words": 95
+        },
+        {
+          "turn_id": 10,
+          "false_starts": 0,
+          "words": 76
+        },
+        {
+          "turn_id": 12,
+          "false_starts": 0,
+          "words": 120
+        },
+        {
+          "turn_id": 14,
+          "false_starts": 1,
+          "words": 129
+        },
+        {
+          "turn_id": 16,
+          "false_starts": 0,
+          "words": 128
+        },
+        {
+          "turn_id": 18,
+          "false_starts": 0,
+          "words": 124
+        },
+        {
+          "turn_id": 20,
+          "false_starts": 0,
+          "words": 126
+        }
+      ]
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "FS=1",
+      "Rate=0.1/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Rep",
+    "name": "Repetition",
+    "category": "Fluency",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "adj_repeats": 0,
+      "bigram_repeats": 0,
+      "total_repeats": 0,
+      "total_words": 1305,
+      "rate_per_100": 0.0
+    },
+    "confidence": 0.85,
+    "evidence": [
+      "Repeats=0",
+      "Rate=0.0/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "SC",
+    "name": "Self-Correct",
+    "category": "Fluency",
+    "layer": "M+D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_sc": 1,
+      "total_words": 1305,
+      "rate_per_100": 0.08,
+      "per_turn": [
+        {
+          "turn_id": 2,
+          "corrections": 0,
+          "words": 155
+        },
+        {
+          "turn_id": 4,
+          "corrections": 0,
+          "words": 178
+        },
+        {
+          "turn_id": 6,
+          "corrections": 0,
+          "words": 174
+        },
+        {
+          "turn_id": 8,
+          "corrections": 0,
+          "words": 95
+        },
+        {
+          "turn_id": 10,
+          "corrections": 0,
+          "words": 76
+        },
+        {
+          "turn_id": 12,
+          "corrections": 1,
+          "words": 120
+        },
+        {
+          "turn_id": 14,
+          "corrections": 0,
+          "words": 129
+        },
+        {
+          "turn_id": 16,
+          "corrections": 0,
+          "words": 128
+        },
+        {
+          "turn_id": 18,
+          "corrections": 0,
+          "words": 124
+        },
+        {
+          "turn_id": 20,
+          "corrections": 0,
+          "words": 126
+        }
+      ]
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Corrections=1",
+      "Rate=0.1/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Run",
+    "name": "Run-On Speech",
+    "category": "Fluency",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "run_on_turns": 0,
+      "run_on_ratio": 0.0
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Run-on turns=0",
+      "Ratio=0.0%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Frag",
+    "name": "Fragments",
+    "category": "Fluency",
+    "layer": "M+D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_fragments": 4,
+      "total_words": 1305,
+      "rate_per_100": 0.31
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Fragments=4",
+      "Rate=0.3/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Flo",
+    "name": "Speech Flow",
+    "category": "Fluency",
+    "layer": "D",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "fillers": 11,
+      "repeats": 0,
+      "disruption_rate": 0.84,
+      "score": 3,
+      "reasoning": "Speech flows smoothly with natural pacing and coherent thoughts. The 0.8% disruption rate is very low, and while there are 11 fillers across all responses, they don't significantly impact comprehension. Responses are well-structured and complete, with only minor trailing off at sentence endings."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Speech flows smoothly with natural pacing and coherent thoughts. The 0.8% disruption rate is very low, and while there are 11 fillers across all responses, they don't significantly impact comprehension. Responses are well-structured and complete, with only minor trailing off at sentence endings."
+    ],
+    "depends_on": [
+      "FS",
+      "Rep",
+      "SC"
+    ]
+  },
+  {
+    "code": "Coh",
+    "name": "Cohesion",
+    "category": "Fluency",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "connectors": 21,
+      "connector_rate": 1.61,
+      "score": 2,
+      "reasoning": "Basic sequential flow with noticeable gaps. Ideas within individual responses connect adequately, but transitions between topics are abrupt. Low connector usage (1.6%) results in choppy delivery. Some responses cut off mid-sentence, and logical bridges between concepts are often missing, creating a somewhat fragmented overall narrative."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Basic sequential flow with noticeable gaps. Ideas within individual responses connect adequately, but transitions between topics are abrupt. Low connector usage (1.6%) results in choppy delivery. Some responses cut off mid-sentence, and logical bridges between concepts are often missing, creating a somewhat fragmented overall narrative."
+    ],
+    "depends_on": [
+      "Conn"
+    ]
+  },
+  {
+    "code": "Conn",
+    "name": "Connector Words",
+    "category": "Fluency",
+    "layer": "M+J",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "basic_count": 85,
+      "advanced_count": 21,
+      "total_connectors": 106,
+      "advanced_ratio": 0.198
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Basic=85",
+      "Advanced=21",
+      "Adv ratio=19.8%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Grm",
+    "name": "Grammar",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate demonstrates mostly accurate grammar with good sentence structure and clear communication. There are minor errors like 'full stack gap development' (likely meant 'web development'), 'prescriptive project' (possibly 'prescription project'), incomplete sentences due to cutoffs, and occasional awkward phrasing like 'months that projects.' However, these errors don't impede understanding, and the candidate uses complex structures effectively with varied sentence types and technical vocabulary."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate demonstrates mostly accurate grammar with good sentence structure and clear communication. There are minor errors like 'full stack gap development' (likely meant 'web development'), 'prescriptive project' (possibly 'prescription project'), incomplete sentences due to cutoffs, and occasional awkward phrasing like 'months that projects.' However, these errors don't impede understanding, and the candidate uses complex structures effectively with varied sentence types and technical vocabulary."
+    ],
+    "depends_on": [
+      "Ten",
+      "SVA"
+    ]
+  },
+  {
+    "code": "Ten",
+    "name": "Tense",
+    "category": "Language Quality",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate demonstrates mostly accurate tense use throughout the interview. Present tense is used correctly for current situations ('I'm currently pursuing', 'I am highly interested'), past tense for completed actions ('I faced', 'I participated'), and present perfect for experiences ('I have worked'). There are minor issues like 'full stack gap development' (likely meant 'web development') and some awkward phrasing, but tense errors are minimal and don't impede understanding. The candidate shows good control of various tenses appropriate to context."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate demonstrates mostly accurate tense use throughout the interview. Present tense is used correctly for current situations ('I'm currently pursuing', 'I am highly interested'), past tense for completed actions ('I faced', 'I participated'), and present perfect for experiences ('I have worked'). There are minor issues like 'full stack gap development' (likely meant 'web development') and some awkward phrasing, but tense errors are minimal and don't impede understanding. The candidate shows good control of various tenses appropriate to context."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "SVA",
+    "name": "Agreement",
+    "category": "Language Quality",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate demonstrates mostly correct subject-verb agreement throughout the responses. There are a few minor errors (e.g., 'write code' should be 'writing code' in response 8), but the vast majority of sentences show proper agreement between subjects and verbs. The errors present don't impede understanding and the overall grammar is strong."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate demonstrates mostly correct subject-verb agreement throughout the responses. There are a few minor errors (e.g., 'write code' should be 'writing code' in response 8), but the vast majority of sentences show proper agreement between subjects and verbs. The errors present don't impede understanding and the overall grammar is strong."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Sent",
+    "name": "Sentence",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Sentences are mostly understandable but frequently incomplete or cut off mid-thought. Simple sentence structures predominate with basic vocabulary. Several responses end abruptly (answers 1, 2, 3, 4, 7, 8), suggesting incomplete thoughts. While the content is generally coherent, the structural issues and lack of sentence variety limit complexity."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Sentences are mostly understandable but frequently incomplete or cut off mid-thought. Simple sentence structures predominate with basic vocabulary. Several responses end abruptly (answers 1, 2, 3, 4, 7, 8), suggesting incomplete thoughts. While the content is generally coherent, the structural issues and lack of sentence variety limit complexity."
+    ],
+    "depends_on": [
+      "Grm"
+    ]
+  },
+  {
+    "code": "Voc",
+    "name": "Vocabulary",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "unique_ratio": 0.353,
+      "total_words": 1319,
+      "score": 2,
+      "reasoning": "Sufficient vocabulary for technical communication but relies heavily on basic, repetitive terms. Uses appropriate technical jargon (JWT, MERN stack, API) but lacks precision and variety in general vocabulary. Simple sentence structures with frequent repetition of common words like 'project,' 'development,' and 'working.' Shows functional communication ability but limited sophistication in word choice."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Sufficient vocabulary for technical communication but relies heavily on basic, repetitive terms. Uses appropriate technical jargon (JWT, MERN stack, API) but lacks precision and variety in general vocabulary. Simple sentence structures with frequent repetition of common words like 'project,' 'development,' and 'working.' Shows functional communication ability but limited sophistication in word choice."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Reg",
+    "name": "Register",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate demonstrates professional language throughout most responses with appropriate technical terminology and structured explanations. However, there are minor inconsistencies like incomplete sentences (responses 1, 2, 7) and occasional informal phrasing ('I really enjoyed', 'I like breaking it down'). The overall tone is appropriately formal for an interview context with good use of specific examples and technical details."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate demonstrates professional language throughout most responses with appropriate technical terminology and structured explanations. However, there are minor inconsistencies like incomplete sentences (responses 1, 2, 7) and occasional informal phrasing ('I really enjoyed', 'I like breaking it down'). The overall tone is appropriately formal for an interview context with good use of specific examples and technical details."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Tech",
+    "name": "Technical",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates strong technical vocabulary with natural usage of terms like MERN stack, JWT authentication, protected routes, API integration, Firebase authentication, leaflet.js, and DSA. Technical concepts are explained clearly and contextually appropriate. Minor areas for improvement include some incomplete thoughts and could benefit from more precise technical explanations in certain areas."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates strong technical vocabulary with natural usage of terms like MERN stack, JWT authentication, protected routes, API integration, Firebase authentication, leaflet.js, and DSA. Technical concepts are explained clearly and contextually appropriate. Minor areas for improvement include some incomplete thoughts and could benefit from more precise technical explanations in certain areas."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Idi",
+    "name": "Idioms",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows some natural phrasing like 'breaking it down into smaller parts' and 'step by step' but has consistent awkward constructions ('full stack gap development', 'prescriptive project', 'months that projects') and unnatural academic formality that creates distance from conversational flow. Mix of appropriate colloquialisms with frequent non-idiomatic expressions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows some natural phrasing like 'breaking it down into smaller parts' and 'step by step' but has consistent awkward constructions ('full stack gap development', 'prescriptive project', 'months that projects') and unnatural academic formality that creates distance from conversational flow. Mix of appropriate colloquialisms with frequent non-idiomatic expressions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "RepW",
+    "name": "Word Repeat",
+    "category": "Language Quality",
+    "layer": "M",
+    "source": "transcript",
+    "score": 0,
+    "raw": {
+      "repeat_words": 385,
+      "total_words": 1319,
+      "repeat_rate": 29.19
+    },
+    "confidence": 0.85,
+    "evidence": [
+      "Repeat words=385",
+      "Rate=29.2%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Pwr",
+    "name": "Power Words",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate uses some specific technical terms (MERN stack, JWT authentication, API integration) and action words like 'analyzed,' 'coordinated,' and 'breaking it down,' but overall language lacks power and precision. Frequent use of weak qualifiers ('I would say,' 'I believe,' 'really') and generic phrases ('I enjoy,' 'I like') diminish impact. Missing strong achievement-oriented language and confident assertions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate uses some specific technical terms (MERN stack, JWT authentication, API integration) and action words like 'analyzed,' 'coordinated,' and 'breaking it down,' but overall language lacks power and precision. Frequent use of weak qualifiers ('I would say,' 'I believe,' 'really') and generic phrases ('I enjoy,' 'I like') diminish impact. Missing strong achievement-oriented language and confident assertions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Gap",
+    "name": "Working Around Gaps",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates strong ability to work around vocabulary gaps through effective circumlocution. Uses phrases like 'prescriptive project' (likely meaning 'prescription'), 'pre-protected pages' (protected pages), 'months that projects' (likely 'one of those projects'), and 'Fibers authentication' (Firebase). While some terms are imprecise, meaning remains clear through context and detailed explanations. Communication flows well despite vocabulary limitations."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates strong ability to work around vocabulary gaps through effective circumlocution. Uses phrases like 'prescriptive project' (likely meaning 'prescription'), 'pre-protected pages' (protected pages), 'months that projects' (likely 'one of those projects'), and 'Fibers authentication' (Firebase). While some terms are imprecise, meaning remains clear through context and detailed explanations. Communication flows well despite vocabulary limitations."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Str",
+    "name": "Structure",
+    "category": "Answer Structure",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Answers show basic chronological order and attempt to address questions directly, but lack complete structure. Most answers are cut off mid-sentence, preventing full evaluation. When complete, they follow a simple pattern (situation-action-result) but miss strategic organization that would build compelling narratives or strong conclusions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Answers show basic chronological order and attempt to address questions directly, but lack complete structure. Most answers are cut off mid-sentence, preventing full evaluation. When complete, they follow a simple pattern (situation-action-result) but miss strategic organization that would build compelling narratives or strong conclusions."
+    ],
+    "depends_on": [
+      "Ctx",
+      "Act",
+      "Res"
+    ]
+  },
+  {
+    "code": "Ctx",
+    "name": "Context",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate provides clear, specific contexts including named projects (Prescriptive healthcare platform, Crypto health), educational institution (Maharaja Agrasen Institute of Technology), specific technologies (MERN stack, JWT authentication), and defined roles (full-stack developer, NSS volunteer). While contexts are detailed and credible, they lack highly precise verifiable details like exact dates, company names, or specific metrics that would warrant a perfect score."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides clear, specific contexts including named projects (Prescriptive healthcare platform, Crypto health), educational institution (Maharaja Agrasen Institute of Technology), specific technologies (MERN stack, JWT authentication), and defined roles (full-stack developer, NSS volunteer). While contexts are detailed and credible, they lack highly precise verifiable details like exact dates, company names, or specific metrics that would warrant a perfect score."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Act",
+    "name": "Action",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates clear personal actions with specific examples like building a full-stack healthcare platform independently, debugging JWT authentication issues through systematic analysis, and taking on coordination roles in NSS activities. Shows ownership of technical problem-solving and project development, though could be more precise about specific methodologies and decision-making rationale."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates clear personal actions with specific examples like building a full-stack healthcare platform independently, debugging JWT authentication issues through systematic analysis, and taking on coordination roles in NSS activities. Shows ownership of technical problem-solving and project development, though could be more precise about specific methodologies and decision-making rationale."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Res",
+    "name": "Result",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Results are mentioned but lack specificity and quantification. The candidate describes building functional applications and solving technical problems, but doesn't provide concrete metrics like user adoption, performance improvements, or measurable impact. Outcomes like 'successful implementation' and 'improved communication skills' are stated but not quantified or detailed enough to demonstrate clear value."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Results are mentioned but lack specificity and quantification. The candidate describes building functional applications and solving technical problems, but doesn't provide concrete metrics like user adoption, performance improvements, or measurable impact. Outcomes like 'successful implementation' and 'improved communication skills' are stated but not quantified or detailed enough to demonstrate clear value."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ex",
+    "name": "Example",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate provides relevant, concrete examples throughout - particularly the healthcare platform project with specific technical details (JWT authentication, MERN stack, protected routes issue). The examples demonstrate real problem-solving experience and technical competency. However, they lack the precision and memorable impact of a top-tier example, with some incomplete thoughts and could be more structured in presentation."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate provides relevant, concrete examples throughout - particularly the healthcare platform project with specific technical details (JWT authentication, MERN stack, protected routes issue). The examples demonstrate real problem-solving experience and technical competency. However, they lack the precision and memorable impact of a top-tier example, with some incomplete thoughts and could be more structured in presentation."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "STAR",
+    "name": "STAR",
+    "category": "Answer Structure",
+    "layer": "C",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "components": {
+        "situation": true,
+        "task": false,
+        "action": true,
+        "result": false
+      },
+      "reasoning": "Answer 3 provides the clearest STAR elements with a specific situation (JWT authentication issue) and detailed actions (analyzing token flow), but lacks clear task definition and measurable results. Other answers are mostly general descriptions or incomplete responses that cut off mid-sentence."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Answer 3 provides the clearest STAR elements with a specific situation (JWT authentication issue) and detailed actions (analyzing token flow), but lacks clear task definition and measurable results. Other answers are mostly general descriptions or incomplete responses that cut off mid-sentence."
+    ],
+    "depends_on": [
+      "Ctx",
+      "Act",
+      "Res",
+      "Str"
+    ]
+  },
+  {
+    "code": "Rel",
+    "name": "Relevance",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "qa_count": 10,
+      "score": 2,
+      "reasoning": "Most answers address the questions basically but with issues. A1-A3 are well-matched to technical questions. A4 appropriately shifts to non-academic interests. A5 provides a relevant non-tech example. However, A6 appears incomplete and doesn't address the specific question about handling difficult moments in volunteering, instead pivoting to general problem-solving skills. The candidate generally stays on topic but sometimes provides incomplete responses or misses specific aspects of multi-part questions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Most answers address the questions basically but with issues. A1-A3 are well-matched to technical questions. A4 appropriately shifts to non-academic interests. A5 provides a relevant non-tech example. However, A6 appears incomplete and doesn't address the specific question about handling difficult moments in volunteering, instead pivoting to general problem-solving skills. The candidate generally stays on topic but sometimes provides incomplete responses or misses specific aspects of multi-part questions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Drf",
+    "name": "Drift",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "The candidate shows some drift but generally returns to the questions. A1-A3 stay well on-topic. A4 appropriately shifts from tech to personal interests. A5 provides a good non-tech example as requested. However, A6 significantly drifts - the question asks about handling a difficult moment in volunteering and mentions confidence, but the answer pivots to general problem-solving skills and technical projects, only loosely connecting to the original question."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate shows some drift but generally returns to the questions. A1-A3 stay well on-topic. A4 appropriately shifts from tech to personal interests. A5 provides a good non-tech example as requested. However, A6 significantly drifts - the question asks about handling a difficult moment in volunteering and mentions confidence, but the answer pivots to general problem-solving skills and technical projects, only loosely connecting to the original question."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ver",
+    "name": "Verifiable",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Contains some verifiable details like specific college name (Maharaja Agrasen Institute of Technology), CGPA (8.69), degree program (B.Tech IT), and technical stack (MERN). However, project names appear inconsistent ('crypto health' vs 'prescriptive project'), many claims lack specifics (no GitHub links, deployment URLs, or measurable outcomes), and some details are vague (recent NSS activities, unnamed college events). While technical concepts mentioned are realistic, the overall response lacks concrete evidence that would allow full verification."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Contains some verifiable details like specific college name (Maharaja Agrasen Institute of Technology), CGPA (8.69), degree program (B.Tech IT), and technical stack (MERN). However, project names appear inconsistent ('crypto health' vs 'prescriptive project'), many claims lack specifics (no GitHub links, deployment URLs, or measurable outcomes), and some details are vague (recent NSS activities, unnamed college events). While technical concepts mentioned are realistic, the overall response lacks concrete evidence that would allow full verification."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Step",
+    "name": "Steps",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates clear step-by-step processes, particularly in Answer 3 (JWT authentication problem-solving: analyzed token flow, identified issue, implemented solution) and Answer 6 (breaking problems into smaller parts, consistent learning and practice). Shows systematic approach to technical challenges but lacks discussion of process improvement or systematic follow-up methods."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates clear step-by-step processes, particularly in Answer 3 (JWT authentication problem-solving: analyzed token flow, identified issue, implemented solution) and Answer 6 (breaking problems into smaller parts, consistent learning and practice). Shows systematic approach to technical challenges but lacks discussion of process improvement or systematic follow-up methods."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Num",
+    "name": "Numbers",
+    "category": "Specificity",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "total_numbers": 1,
+      "score": 3,
+      "reasoning": "Candidate provides one highly specific and relevant number - CGPA of 8.69, which is exact and meaningful for academic assessment. While other potential quantifiable details (project timelines, team sizes, event scale) are missing, the academic metric provided is precise and valuable for evaluation purposes."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides one highly specific and relevant number - CGPA of 8.69, which is exact and meaningful for academic assessment. While other potential quantifiable details (project timelines, team sizes, event scale) are missing, the academic metric provided is precise and valuable for evaluation purposes."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Nam",
+    "name": "Names",
+    "category": "Specificity",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "names_found": [
+        "Deepanshu Gunant",
+        "B.Tech in Information Technology",
+        "Maharaja Agrasen Institute of Technology",
+        "MERN stack",
+        "crypto health",
+        "insider jobs",
+        "prescriptive project",
+        "JWT",
+        "NSS",
+        "DSA"
+      ],
+      "reasoning": "Candidate provides several specific, verifiable names including their full name, institution, degree program, technology stack (MERN), specific project names (crypto health, prescriptive project), and technical terms (JWT, DSA). Also mentions NSS organization. These concrete details make the responses verifiable and credible, though some project descriptions could be more detailed."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides several specific, verifiable names including their full name, institution, degree program, technology stack (MERN), specific project names (crypto health, prescriptive project), and technical terms (JWT, DSA). Also mentions NSS organization. These concrete details make the responses verifiable and credible, though some project descriptions could be more detailed."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Det",
+    "name": "Detail",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Answers provide enough detail to understand the candidate's background and experiences, but lack precision and depth. Technical explanations are incomplete (JWT issue solution cut off), project descriptions are general rather than specific, and examples lack concrete metrics or detailed implementation specifics that would demonstrate deep understanding."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Answers provide enough detail to understand the candidate's background and experiences, but lack precision and depth. Technical explanations are incomplete (JWT issue solution cut off), project descriptions are general rather than specific, and examples lack concrete metrics or detailed implementation specifics that would demonstrate deep understanding."
+    ],
+    "depends_on": [
+      "Num",
+      "Nam"
+    ]
+  },
+  {
+    "code": "Con",
+    "name": "Concrete",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "The candidate demonstrates mostly concrete language with specific technical details (MERN stack, JWT authentication, CGPA 8.69), named projects (crypto health, prescriptive project), and detailed problem-solving examples. However, some responses contain vague phrases like 'exploring new technologies' and 'personal development' that lack specificity."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate demonstrates mostly concrete language with specific technical details (MERN stack, JWT authentication, CGPA 8.69), named projects (crypto health, prescriptive project), and detailed problem-solving examples. However, some responses contain vague phrases like 'exploring new technologies' and 'personal development' that lack specificity."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Why",
+    "name": "Reasoning",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate provides basic reasoning for actions (e.g., breaking down problems into smaller parts, analyzing token flow for JWT issues) but explanations lack depth and insight. Most responses focus on what was done rather than why specific approaches were chosen or what was learned from the experience."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides basic reasoning for actions (e.g., breaking down problems into smaller parts, analyzing token flow for JWT issues) but explanations lack depth and insight. Most responses focus on what was done rather than why specific approaches were chosen or what was learned from the experience."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "C&E",
+    "name": "Cause/Effect",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate shows simple cause-effect connections (JWT issue \u2192 users logged out \u2192 analyzed token flow) and mentions outcomes (learning \u2192 successful implementation), but lacks detailed explanation of causal mechanisms and deeper analysis of how specific actions led to specific results. Most examples are incomplete or cut off, limiting assessment of full causal reasoning."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows simple cause-effect connections (JWT issue \u2192 users logged out \u2192 analyzed token flow) and mentions outcomes (learning \u2192 successful implementation), but lacks detailed explanation of causal mechanisms and deeper analysis of how specific actions led to specific results. Most examples are incomplete or cut off, limiting assessment of full causal reasoning."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Opt",
+    "name": "Options",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate describes actions and solutions they implemented (JWT authentication approach, MERN stack choice, problem-solving methods) but does not mention considering alternative approaches or explain why their chosen methods were selected over other options. They state what they did without discussing the decision-making process or alternative paths considered."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate describes actions and solutions they implemented (JWT authentication approach, MERN stack choice, problem-solving methods) but does not mention considering alternative approaches or explain why their chosen methods were selected over other options. They state what they did without discussing the decision-making process or alternative paths considered."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Trd",
+    "name": "Tradeoffs",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate shows one-sided decision making without acknowledging tradeoffs. In Answer 3, they describe solving a JWT authentication issue but only focus on the solution without discussing what was gained or lost. They don't demonstrate awareness of alternative approaches, resource costs, or potential downsides of their chosen solutions. All responses focus on positive outcomes without considering tradeoffs inherent in technical or personal decisions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate shows one-sided decision making without acknowledging tradeoffs. In Answer 3, they describe solving a JWT authentication issue but only focus on the solution without discussing what was gained or lost. They don't demonstrate awareness of alternative approaches, resource costs, or potential downsides of their chosen solutions. All responses focus on positive outcomes without considering tradeoffs inherent in technical or personal decisions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Jud",
+    "name": "Judgment",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate shows basic decision-making in technical choices (MERN stack, JWT authentication) and demonstrates problem-solving approach, but lacks evidence of deliberate professional choices with owned consequences. Responses focus on technical execution rather than strategic decisions, and there's no clear ownership of significant outcomes or trade-offs that demonstrate mature professional judgment."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows basic decision-making in technical choices (MERN stack, JWT authentication) and demonstrates problem-solving approach, but lacks evidence of deliberate professional choices with owned consequences. Responses focus on technical execution rather than strategic decisions, and there's no clear ownership of significant outcomes or trade-offs that demonstrate mature professional judgment."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ins",
+    "name": "Insight",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "The candidate shows simple insights about technical problem-solving (JWT authentication issue) and personal growth through diverse experiences (NSS activities improving communication skills). However, the insights remain surface-level without deeper reflection on underlying principles or broader transferable lessons that could apply beyond specific technical contexts."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate shows simple insights about technical problem-solving (JWT authentication issue) and personal growth through diverse experiences (NSS activities improving communication skills). However, the insights remain surface-level without deeper reflection on underlying principles or broader transferable lessons that could apply beyond specific technical contexts."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ref",
+    "name": "Reflection",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate mentions learning from challenges (JWT authentication, NSS activities) but provides only generic lessons like 'improved communication' and 'problem-solving skills.' No specific behavioral changes or systematic improvements to future approach are described. The reflection lacks depth about how these experiences fundamentally changed their methods or mindset."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate mentions learning from challenges (JWT authentication, NSS activities) but provides only generic lessons like 'improved communication' and 'problem-solving skills.' No specific behavioral changes or systematic improvements to future approach are described. The reflection lacks depth about how these experiences fundamentally changed their methods or mindset."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Beyond",
+    "name": "Goes Beyond",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "The candidate provides some lessons learned (JWT authentication troubleshooting process, breaking down problems into smaller parts) and mentions skill development from experiences, but lacks deeper insights, systematic approaches, or broader principles that would demonstrate higher-level thinking. The responses stay mostly at the surface level of what happened rather than extracting meaningful frameworks or changed behaviors."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate provides some lessons learned (JWT authentication troubleshooting process, breaking down problems into smaller parts) and mentions skill development from experiences, but lacks deeper insights, systematic approaches, or broader principles that would demonstrate higher-level thinking. The responses stay mostly at the surface level of what happened rather than extracting meaningful frameworks or changed behaviors."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Adp",
+    "name": "Adaptability",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate shows basic adaptability by addressing different question topics and providing relevant examples, but responses appear somewhat rehearsed and cut off mid-sentence multiple times. While they can shift between technical and non-technical topics, the incomplete answers and lack of natural flow suggest they struggle to fully adapt their communication style during the interview process."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows basic adaptability by addressing different question topics and providing relevant examples, but responses appear somewhat rehearsed and cut off mid-sentence multiple times. While they can shift between technical and non-technical topics, the incomplete answers and lack of natural flow suggest they struggle to fully adapt their communication style during the interview process."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ask",
+    "name": "Clarifying",
+    "category": "Conversation Behavior",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 0,
+    "raw": {
+      "score": 0,
+      "reasoning": "The candidate never asks any clarifying questions throughout the interview responses. They provide direct answers to what they assume the questions are asking, but show no clarifying behavior when prompts might be unclear or could benefit from clarification."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate never asks any clarifying questions throughout the interview responses. They provide direct answers to what they assume the questions are asking, but show no clarifying behavior when prompts might be unclear or could benefit from clarification."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "B&F",
+    "name": "Back/Forth",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "cand_ratio": 0.476,
+      "score": 2,
+      "reasoning": "Candidate provides substantive responses and can maintain basic exchange, but answers appear to cut off mid-sentence multiple times (answers 1, 2, 4, 5) suggesting difficulty completing thoughts naturally. The 0.48 ratio indicates reasonable participation, but the incomplete responses suggest they need some interviewer support to fully develop their points and maintain smooth conversation flow."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides substantive responses and can maintain basic exchange, but answers appear to cut off mid-sentence multiple times (answers 1, 2, 4, 5) suggesting difficulty completing thoughts naturally. The 0.48 ratio indicates reasonable participation, but the incomplete responses suggest they need some interviewer support to fully develop their points and maintain smooth conversation flow."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Lis",
+    "name": "Listening",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate generally understands simple prompts but struggles with complex or multi-part questions. In Q6, they completely ignored the first part about handling a difficult moment with a student/guest and only addressed the second part about what they're good at. Shows basic comprehension but misses nuanced asks and question components."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate generally understands simple prompts but struggles with complex or multi-part questions. In Q6, they completely ignored the first part about handling a difficult moment with a student/guest and only addressed the second part about what they're good at. Shows basic comprehension but misses nuanced asks and question components."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ans",
+    "name": "Responsive",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate provides basic answers that are generally relevant but often incomplete or cut off mid-sentence. While responses address the questions asked, they lack depth and frequently end abruptly (A1, A2, A3). The final response (A6) appears to merge two different questions and doesn't fully address either. Answers are present but not consistently direct or complete."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides basic answers that are generally relevant but often incomplete or cut off mid-sentence. While responses address the questions asked, they lack depth and frequently end abruptly (A1, A2, A3). The final response (A6) appears to merge two different questions and doesn't fully address either. Answers are present but not consistently direct or complete."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Turn",
+    "name": "Turn-Taking",
+    "category": "Conversation Behavior",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 4,
+    "raw": {
+      "overlap_count": 0,
+      "overlap_duration": 0,
+      "score": 4,
+      "reasoning": "Perfect turn-taking with zero overlapping segments and 0.0s overlap duration. All candidate responses are complete, well-structured answers that flow naturally without interruptions, over-talking, or awkward timing issues."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Perfect turn-taking with zero overlapping segments and 0.0s overlap duration. All candidate responses are complete, well-structured answers that flow naturally without interruptions, over-talking, or awkward timing issues."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Rec",
+    "name": "Recovery",
+    "category": "Conversation Behavior",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows multiple incomplete responses (answers cut off mid-sentence in 1, 2, 3, 5) and doesn't demonstrate recovery from these interruptions. While content is coherent when complete, the pattern of unfinished thoughts suggests difficulty maintaining control and completing responses effectively."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows multiple incomplete responses (answers cut off mid-sentence in 1, 2, 3, 5) and doesn't demonstrate recovery from these interruptions. While content is coherent when complete, the pattern of unfinished thoughts suggests difficulty maintaining control and completing responses effectively."
+    ],
+    "depends_on": [
+      "SC",
+      "RP"
+    ]
+  },
+  {
+    "code": "Trust",
+    "name": "Trust",
+    "category": "Confidence Signals",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate shows technical knowledge and provides specific examples, but answers are frequently cut off mid-sentence, contain minor inconsistencies (project names vary), and lack polish in delivery. The content suggests competence but the incomplete responses and occasional unclear explanations create uncertainty about reliability."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows technical knowledge and provides specific examples, but answers are frequently cut off mid-sentence, contain minor inconsistencies (project names vary), and lack polish in delivery. The content suggests competence but the incomplete responses and occasional unclear explanations create uncertainty about reliability."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Pres",
+    "name": "Presence",
+    "category": "Confidence Signals",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate demonstrates technical knowledge and genuine enthusiasm but shows inconsistent communication skills. Several answers are cut off mid-sentence, there are grammatical errors and awkward phrasing throughout. While the content shows competence in full-stack development and problem-solving, the delivery lacks the polish and clarity expected in professional settings. The candidate sounds earnest but needs improvement in articulation and presentation skills."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates technical knowledge and genuine enthusiasm but shows inconsistent communication skills. Several answers are cut off mid-sentence, there are grammatical errors and awkward phrasing throughout. While the content shows competence in full-stack development and problem-solving, the delivery lacks the polish and clarity expected in professional settings. The candidate sounds earnest but needs improvement in articulation and presentation skills."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Hold",
+    "name": "Pressure Hold",
+    "category": "Confidence Signals",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate maintains core message throughout but shows declining articulation quality as responses progress. Early answers are well-structured, but later responses contain incomplete sentences, grammatical errors, and fragmented thoughts. Technical explanations remain coherent but communication clarity deteriorates under sustained questioning pressure."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate maintains core message throughout but shows declining articulation quality as responses progress. Early answers are well-structured, but later responses contain incomplete sentences, grammatical errors, and fragmented thoughts. Technical explanations remain coherent but communication clarity deteriorates under sustained questioning pressure."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Recv",
+    "name": "Recovery Speed",
+    "category": "Confidence Signals",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Multiple answers show incomplete thoughts that trail off mid-sentence (answers 1, 2, 4, 5) without recovery or completion. The candidate appears to lose track frequently and doesn't regain control to finish their points, indicating slow recovery with consistently weak delivery."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Multiple answers show incomplete thoughts that trail off mid-sentence (answers 1, 2, 4, 5) without recovery or completion. The candidate appears to lose track frequently and doesn't regain control to finish their points, indicating slow recovery with consistently weak delivery."
+    ],
+    "depends_on": [
+      "RP",
+      "SC"
+    ]
+  },
+  {
+    "code": "Own",
+    "name": "Ownership",
+    "category": "Confidence Signals",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates clear personal ownership throughout answers using strong first-person language ('I handled', 'I analyzed', 'I realized', 'I was able to implement'). Takes direct responsibility for technical challenges and solutions, particularly in JWT authentication problem-solving. Shows ownership of learning process and project outcomes. While impact could be more quantified, the ownership of actions and outcomes is consistently clear."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates clear personal ownership throughout answers using strong first-person language ('I handled', 'I analyzed', 'I realized', 'I was able to implement'). Takes direct responsibility for technical challenges and solutions, particularly in JWT authentication problem-solving. Shows ownership of learning process and project outcomes. While impact could be more quantified, the ownership of actions and outcomes is consistently clear."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Conf",
+    "name": "Confidence",
+    "category": "Confidence Signals",
+    "layer": "C",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows some confidence in technical knowledge and project experience, but responses contain frequent incomplete sentences, grammatical errors, and abrupt cutoffs that suggest nervousness or uncertainty. While demonstrates competence in problem-solving and technical skills, the delivery lacks the polish and composure expected of higher confidence levels."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows some confidence in technical knowledge and project experience, but responses contain frequent incomplete sentences, grammatical errors, and abrupt cutoffs that suggest nervousness or uncertainty. While demonstrates competence in problem-solving and technical skills, the delivery lacks the polish and composure expected of higher confidence levels."
+    ],
+    "depends_on": [
+      "Vol",
+      "Ste",
+      "Pac",
+      "Pau",
+      "Hold",
+      "Recv",
+      "Pres"
+    ]
+  },
+  {
+    "code": "Nerv",
+    "name": "Nervousness",
+    "category": "Confidence Signals",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "fillers": 11,
+      "filler_rate": 0.84,
+      "score": 3,
+      "reasoning": "Low filler rate (0.8/100 words) indicates good verbal control. Answers are coherent and detailed with clear structure. Some minor speech interruptions and incomplete sentences suggest slight nervousness, but overall demonstrates confidence and composure throughout the interview."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Low filler rate (0.8/100 words) indicates good verbal control. Answers are coherent and detailed with clear structure. Some minor speech interruptions and incomplete sentences suggest slight nervousness, but overall demonstrates confidence and composure throughout the interview."
+    ],
+    "depends_on": [
+      "FP",
+      "HP"
+    ]
+  },
+  {
+    "code": "Imp",
+    "name": "Impact",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate mentions specific outcomes like building a healthcare platform with authentication features and solving JWT token persistence issues, but lacks quantification (no metrics, user numbers, performance improvements, or measurable business impact). Outcomes are named but not meaningfully quantified or connected to broader impact."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions specific outcomes like building a healthcare platform with authentication features and solving JWT token persistence issues, but lacks quantification (no metrics, user numbers, performance improvements, or measurable business impact). Outcomes are named but not meaningfully quantified or connected to broader impact."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Lead",
+    "name": "Leadership",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows basic initiative through self-directed learning, independent full-stack development, and volunteer coordination activities. However, lacks clear examples of influencing others, guiding teams, or demonstrating significant leadership impact beyond personal projects and basic event assistance."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows basic initiative through self-directed learning, independent full-stack development, and volunteer coordination activities. However, lacks clear examples of influencing others, guiding teams, or demonstrating significant leadership impact beyond personal projects and basic event assistance."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Prof",
+    "name": "Maturity",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows basic professional awareness with appropriate technical focus and some understanding of workplace collaboration through NSS activities. However, demonstrates limited depth in professional judgment - responses lack strategic thinking, business context awareness, and mature reflection on professional growth. Communication is somewhat disjointed with incomplete thoughts, suggesting need for development in professional articulation and comprehensive problem-solving frameworks."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows basic professional awareness with appropriate technical focus and some understanding of workplace collaboration through NSS activities. However, demonstrates limited depth in professional judgment - responses lack strategic thinking, business context awareness, and mature reflection on professional growth. Communication is somewhat disjointed with incomplete thoughts, suggesting need for development in professional articulation and comprehensive problem-solving frameworks."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Prob",
+    "name": "Problem Solve",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates clear problem-solving process with specific example of JWT authentication issue. Shows systematic approach: analyzed token flow, identified root cause (token not persisting on refresh), and implemented solution. Also mentions breaking down complex problems into smaller parts. However, lacks detail on final implementation and measurable impact of solutions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates clear problem-solving process with specific example of JWT authentication issue. Shows systematic approach: analyzed token flow, identified root cause (token not persisting on refresh), and implemented solution. Also mentions breaking down complex problems into smaller parts. However, lacks detail on final implementation and measurable impact of solutions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Coll",
+    "name": "Collab",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate mentions participating in NSS volunteer activities involving team coordination and event management, and claims to enjoy 'collaborative environments' that improved teamwork skills. However, the collaboration examples lack specific details about their role, contributions, or measurable outcomes from working with others."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions participating in NSS volunteer activities involving team coordination and event management, and claims to enjoy 'collaborative environments' that improved teamwork skills. However, the collaboration examples lack specific details about their role, contributions, or measurable outcomes from working with others."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Learn",
+    "name": "Learnability",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates specific improvement behavior through concrete examples: systematically debugging JWT authentication issues by analyzing token flow, breaking down complex technical challenges into smaller parts, and successfully implementing new technologies like authentication and API integration despite initial difficulties. Shows consistent learning approach but lacks evidence of translating learning into systematic changes or measurable results."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates specific improvement behavior through concrete examples: systematically debugging JWT authentication issues by analyzing token flow, breaking down complex technical challenges into smaller parts, and successfully implementing new technologies like authentication and API integration despite initial difficulties. Shows consistent learning approach but lacks evidence of translating learning into systematic changes or measurable results."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Comp",
+    "name": "Competency",
+    "category": "Role Competency",
+    "layer": "C",
+    "source": "llm",
+    "score": 3,
+    "raw": {
+      "score": 3,
+      "reasoning": "Candidate demonstrates clear role-relevant behavior with concrete examples of full-stack development, problem-solving (JWT authentication issue), and learning agility. Shows ownership of projects and ability to work independently. However, lacks evidence of significant impact or advanced technical leadership that would warrant a score of 4."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate demonstrates clear role-relevant behavior with concrete examples of full-stack development, problem-solving (JWT authentication issue), and learning agility. Shows ownership of projects and ability to work independently. However, lacks evidence of significant impact or advanced technical leadership that would warrant a score of 4."
+    ],
+    "depends_on": [
+      "Rel",
+      "Ex",
+      "Act",
+      "Jud",
+      "Imp"
+    ]
+  },
+  {
+    "code": "Dia",
+    "name": "Diarization",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "speakers": 2,
+      "cand_turns": 10,
+      "int_turns": 11,
+      "overlap_count": 0,
+      "overlap_ratio": 0.0
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Speakers=2",
+      "Overlap=0.0%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "SNR",
+    "name": "Signal-To-Noise Ratio",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "snr_db": 118.33,
+      "noise_floor": 0.0,
+      "signal_level": 0.10137
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "SNR=118.3dB"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Drop",
+    "name": "Dropouts",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 0,
+    "raw": {
+      "zero_frames": 5533,
+      "dropout_ratio": 0.1415
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Zero frames=5533",
+      "Ratio=14.15%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Clip",
+    "name": "Clipping",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "clipping_ratio": 0.0,
+      "peak": 0.978529
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Clip ratio=0.0000"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "ECHO",
+    "error": "404 Not Found. {'message': '', 'status': 'Not Found'}"
+  },
+  {
+    "code": "Mic",
+    "name": "Mic Quality",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 3,
+    "raw": {
+      "rms": 0.05624,
+      "peak": 0.978529,
+      "snr_db": 118.33,
+      "clip_ratio": 0.0
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "RMS=0.0562",
+      "SNR=118.3dB"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Noi",
+    "name": "Noise",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "noise_floor": 0.0,
+      "rms": 0.05624,
+      "snr_db": 118.33
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Noise floor=0.0000",
+      "SNR=118.3dB"
+    ],
+    "depends_on": []
+  }
+]

@@ -1,0 +1,416 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkpmu9l000004lbguupvoyf",
+  "user_name": "Abisha Antony",
+  "metadata": {
+    "user_name": "Abisha Antony",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781860316739/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 11,
+    "candidate_substantive_turn_count": 11,
+    "candidate_word_count": 1356
+  },
+  "scores": {
+    "session_assistance_score": 0.1228,
+    "max_answer_score": 0.2543,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 122,
+      "text_excerpt": "okay, I I worked on a front end project where I built a reusable component based web application. So the main goal was to improve the performance and consistency across pages by reducing duplicate code. I created reusable UI components and integrated APIs to display dynamic data. So this helped me making the application faster, easier to maintain and scalable in future features and in my internship period like I also built my personal portfolio and And a website called Money Bee, like which is i",
+      "score": 0.0965,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0366,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0321,
+          "level": "low",
+          "words_per_second": 2.4101
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 102,
+      "text_excerpt": "Okay, I built it mainly using HTML, CSS, and JavaScript, and in some parts React for reusable components. So for API, I integration, I use a state page with fetch fetch and all. So the code was managed using Git and GitHub for version control. Like why I use these tools is because like I choose React because it makes it easy to create reusable components and manage dynamic data efficiently. So compared to plain JavaScript, React improves maintainability and it has scalability for larger applicat",
+      "score": 0.1428,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2022,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0235,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5615
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 85,
+      "text_excerpt": "Now one technical decision I had to make was whether to build the UI using plain JavaScript or switching to Ember or React. So at first I started with the basic JavaScript. But as the project grew, like I noticed code duplication and difficulty in managing updates across multiple pages. So I decided to move to React and break the UI into reusable components. So this improved code reusability and made the application easy to maintain and reduced the challenges. of bugs when updating features.",
+      "score": 0.1071,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0553,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6579
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 110,
+      "text_excerpt": "So my experience with React and JS has trained me to quickly understand structured systems and workflows as well. So in React, everything is built using components so that interacts with each other through clear inputs and outputs. It is similar to how systems like AMS work with modules and data flows. So when I worked with component based architecture, I learned how to break complex problems into smaller parts. So understanding dependencies and debug issues step by step. So this approach helps ",
+      "score": 0.1024,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0329,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.739
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 143,
+      "text_excerpt": "For example, if I open a new screen in new screen in a system like airlines, so I would first try to understand what the screen is used for. So whether it is for booking, scheduling, or updating flight information. So then I would break it down into parts, so similar to comprehension react. So we identify what data is being entered and what data is being displayed and what actions are available like save, update or submit. So next I would I may focus on the data flow where the input is coming fr",
+      "score": 0.149,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1183,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0625,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4048,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0681,
+          "level": "low",
+          "words_per_second": 3.1806
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 155,
+      "text_excerpt": "In my front end projects, like I ensure data accuracy by validating inputs at multiple levels before the data is processed or sent to the back end. So basically, first I use front end validations like required fields, format checks and constraints. So for example, ensuring email formats are correct or numbers fall within valid ranges. Secondly, it'll handle late cases in JS by adding custom custom validation logic. So like trimming spaces and checking for empty or null values and preventing inva",
+      "score": 0.1904,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3983,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0012,
+          "level": "low",
+          "words_per_second": 3.0669
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 129,
+      "text_excerpt": "So one specific validation rule I implemented was for form submissions where I restricted empty or white space only inputs for mandatory fields like name or title. So problem I noticed earlier was the users could enter spaces for all accidental blank values and those were still be submitted to the system. So this caused issues in display and also created invalid records in the database. So to solve this I added a trim check in JS to remove validating and trading spaces. So then generated the fin",
+      "score": 0.0697,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0252,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.8439
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 132,
+      "text_excerpt": "Okay, regarding repetitive work, like in my current work, I ensure consistency in repetitive task by first standardizing the process and then following a fixed structure every time. So, for example, if I'm working on a similar UI update or data anti-task, if I create a checklist of steps like verifying inputs and following naming conventions and testing the output before final submissions. So I also use reusable components or templates wherever possible. So, so I'm not rewriting the same logic a",
+      "score": 0.0796,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0379,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0173,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.8412
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 115,
+      "text_excerpt": "okay. regarding this like in one of my projects I noticed an inconsistency where the same form was behaving differently across two pages. So in one case the validation was blocking empty inputs properly. But in another page the same field was allowing white space values to be submitted. Like so address this like I first compared the code between both implementations and identified the logic. So the trim functionality was missing in the validation logic. So then I updated the validation to make i",
+      "score": 0.0772,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0486,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6547
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 115,
+      "text_excerpt": "to prevent the inconsistency from happening again, I changed both in process and how how I reuse logic. So instead of fixing issues case by case, I started standardizing the validation logic into a single reusable function and applied it across all similar forms. I also made it a rule to check existing implementations before writing new code. So I don't accidentally create different variations of the same logic. So on the process side, I'll add a small self-review checklist before final testing.",
+      "score": 0.2543,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5935,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3387,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7097
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 148,
+      "text_excerpt": "when I work on a system, I use a structured approach to manage multiple application and files efficiently. So first I'll organize my files into clearly named folders based on the project or task. So that I can quickly locate whenever it's needed. So instead of searching manually everything like I can you make use of the create formation of the name. Second, I use Windows shortcuts like alt tab and switch between application Windows, Windows tab to manage multiple tasks efficiently. I also becaus",
+      "score": 0.0823,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0644,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7468
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

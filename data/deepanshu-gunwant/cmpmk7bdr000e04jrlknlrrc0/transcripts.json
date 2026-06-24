@@ -1,0 +1,891 @@
+{
+  "segments": [
+    {
+      "speaker": "SPEAKER_1",
+      "start": 910.63,
+      "end": 914.47,
+      "text": "Tell me a bit more about your background and interest in technology."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 934.25,
+      "end": 964.25,
+      "text": "Hello, my name is Deepanshu Gunant and I'm currently pursuing B.Tech in Information Technology from Maharaja Agrasen Institute of Technology with a CAGV of 8.69. I am highly interested in software development and problem solving especially in full stack gap development using the MERN stack. I enjoy building practical applications that solve real world problems. I have worked on projects like crypto health"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 964.25,
+      "end": 994.25,
+      "text": "a secure platform with authentication and appointment management features. An insider jobs, a job portal with recruiter and candidate workflows. Through these projects, I gained hands-on experiences with React.js, Node.js, Express.js, MongoDB, JWT authentication, and REST APIs. Apart from projects, I have also completed internships in AI and AI and cloud and"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 994.25,
+      "end": 1014.23,
+      "text": "content development where I worked with the technologies like IBM cloud, Firebase and real time web features. I am particularly interested in continuously learning new technologies, improving my development skills and contributing to impactful software products in a collaborative environment."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1019.51,
+      "end": 1026.65,
+      "text": "You mentioned several projects and internships. Out of everything you have done so far, which one are you most proud of and why?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1063.75,
+      "end": 1093.75,
+      "text": "I would say I am most proud of building my prescriptive project which is a full stack healthcare platform developed using the MERN stack. I am proud of it because it was one of the first projects where I handled both front end and back end development completely on my own and turned an idea into a functional application. The platform includes features like patient and doctor login, appointment booking, JWT based"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1093.75,
+      "end": 1099.73,
+      "text": "Authentication, Role Based Dashboards And Responsive UI Design."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1099.87,
+      "end": 1129.87,
+      "text": "While building it, I worked with react.js, node.js, express.js, MongoDB and rest APIs which significantly improved my understanding of full stack development. I also faced several challenges during the development especially around authentication flow, API integration and managing application state. So all these issues improved my debugging skills and taught me how to approach problems more systematically."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1129.87,
+      "end": 1145.47,
+      "text": "What makes me most proud is that the project is practical, scalable, and closely related to real-world healthcare use cases. It gave me a lot of confidence in my technical abilities and motivated me to keep building more impactful software solutions."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1159.29,
+      "end": 1169.09,
+      "text": "You talked about challenges in authentication and state management. Can you walk me through one specific technical issue you faced in that project and how you solved it?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1183.69,
+      "end": 1213.69,
+      "text": "Yes, one specific issue I faced in the prescriptive project was related to JWT authentication and protected routes. Initially, after a user logged in successfully, the authentication state was not persisting properly when the page was refreshed. Because of that, users were getting logged out unexpectedly, and pre-protected pages were becoming inaccessible. To solve this, I first analyzed how the token flow was working between the"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1213.69,
+      "end": 1226.95,
+      "text": "front end and back end, I realized that although the JWT token was being generated correctly on login, the front end state was resetting after refresh because the authentication data was only stored temporarily in react state."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1227.55,
+      "end": 1257.55,
+      "text": "I solved this by securely storing the JWT token and then implementing logic to verify the token when the application loaded. I also added protected route handling so that only authenticated users could access certain pages like dashboards and appointment sections. After implementing this solution, the authentication flow became much more stable and user-friendly."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1257.55,
+      "end": 1266.25,
+      "text": "This experience improved my understanding of session handling, API security, and state management in full stack applications."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1305.49,
+      "end": 1309.79,
+      "text": "That project sounds quite hands on. What do you like to do when you are not studying?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1318.41,
+      "end": 1348.41,
+      "text": "Outside of my academics and projects, I enjoy exploring new technologies and working on personal development. I often spend time improving my coding and problem solving skills through DSA practice and by building small web development projects. Apart from tech, I also like listening to music and staying updated with new trends in software and AI."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1348.41,
+      "end": 1365.55,
+      "text": "I enjoy participating in college activities and collaborative environments as well, which has helped me improve my communication and teamwork skills. I believe maintaining a balance between technical learning and personal interest helps me stay motivated, productive, and adaptable."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1379.29,
+      "end": 1387.39,
+      "text": "You mentioned music and college activities. Can you give one recent example of something you did that was not related to technology at all?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1406.69,
+      "end": 1436.69,
+      "text": "Yes, recently I participated in college volunteer activities through NSS where I helped manage hospitality and coordination during campus events. My role involved guiding participants, coordinating with team members, and ensuring smooth event management. It was completely different from technical work, but I really enjoyed interacting with people, handling responsibilities in real time, and working as"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1436.69,
+      "end": 1447.67,
+      "text": "part of a team that experienced in improve my communication, coordination, confidence in handling situation outside of academics and technology."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1452.71,
+      "end": 1459.01,
+      "text": "In that volunteering experience, was there any difficult moment with a student or guest, and how did you handle it?"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1461.97,
+      "end": 1467.21,
+      "text": "You mentioned gaining confidence through these experiences. What is one thing you are good at?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1480.75,
+      "end": 1510.75,
+      "text": "One thing I believe I'm good at is problem solving and learning new technologies quickly. Whenever I face a technical challenge, I like breaking it down into smaller parts and solving it step by step instead of getting stuck or giving up. For example, while working on my months that projects I had to understand authentication, API integration and back end workflows which were initially challenging for me. But through consistent learning and"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1510.75,
+      "end": 1523.05,
+      "text": "on practice, I was able to implement them successfully. I also think I am good at adapting to new environment and collaborating with people which are developed through internships and college activities."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1524.03,
+      "end": 1531.13,
+      "text": "Overall, I would say my strengths are persistence, adaptability, and a willingness to continuously improve."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1536.45,
+      "end": 1545.33,
+      "text": "You highlighted problem solving and adaptability. Can you describe a recent situation where you had to learn a new tool or concept very quickly?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1555.15,
+      "end": 1585.15,
+      "text": "Yes, during my front end development internship, I had to quickly learn Fibers authentication and leaflet.js for implementing secure login and location based provider search features in the project. At that time, I had only basic knowledge of those tools, but the project requirement changed and we needed those features within a short timeline. To adapt quickly, I started learning through official documentation, tutorials, and hands-on practice while simultaneously working on the project."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1585.15,
+      "end": 1609.39,
+      "text": "projected. I divided the learning process into smaller tasks, first understanding authentication flow, then implementing map integration step by step. Within a short time, I was able to successfully integrate user authentication and real-time search functionality into the platform. That experience improved my confidence in learning unfamiliar technologies quickly and applying them effectively in real projects."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1629.55,
+      "end": 1638.01,
+      "text": "That connects nicely with your internships. How do you usually go about learning a new technology or tool? Can you walk me through your process?"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1640.95,
+      "end": 1649.63,
+      "text": "Thanks, Deepanshu, that was clear. What is one thing about computer science that surprised you? Something you did not expect when you started."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1668.99,
+      "end": 1698.99,
+      "text": "One thing that really surprised me about computer science was how much importance communication and problem solving mindset have, not just coding itself. When I first started, I thought software development was mainly about write code individually. But as I worked on projects and internships, I realized understanding requirements clearly, collaborating with others, debugging efficiently and continuously, adapting to new technologies are equally important. Even a well written application requires"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1698.99,
+      "end": 1724.63,
+      "text": "proper planning, teamwork, communication to become successful. Another thing that surprised me was how interconnected different concepts are. For example, while building full stack projects, I saw how front end, back end databases authentication APIs all work together to create a complete system. That practical integration made computer science much more interesting and dynamic than I initially expected."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1741.81,
+      "end": 1751.17,
+      "text": "You mentioned how dynamic and interconnected the field feels. Why did you choose computer science? Was it always the plan, or did something lead you there?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1766.99,
+      "end": 1796.99,
+      "text": "To be honest, initially I was mainly interested in technology because I was curious about how applications and websites actually work behind the scenes. But as I started learning programming and building projects, my interest in computer science grew much stronger. What I what really attracted me was the combination of logic, creativity, and problem solving. I liked the idea that with coding we can build practical solutions."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1796.99,
+      "end": 1804.89,
+      "text": "that people can actually use in real life. During college when I started working on full stack projects and internships"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1806.17,
+      "end": 1821.83,
+      "text": "I realized that computer science is not only about theory but also about continuously learning, adapting, and creating impactful projects. That practical exposure made me even more motivated to pursue software development seriously as a career."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1825.53,
+      "end": 1834.81,
+      "text": "You talked about curiosity and real projects. Looking ahead, what kind of software development work or role do you see yourself enjoying the most?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1844.83,
+      "end": 1874.83,
+      "text": "I see myself enjoying full stack software development the most because I like working on both the front end and back end part of an application. I enjoy the complete process of building a product from designing user interfaces to handling APIs authentication and database integration. I especially enjoy creating applications that solve real world problems and improve user experience. Through my mon stack projects I rely"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1874.83,
+      "end": 1882.09,
+      "text": "is that I like turning ideas into functional and scalable products while continuously learning new technologies."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1883.23,
+      "end": 1902.07,
+      "text": "In the future, I would like to work in a collaborative pre-product based environment where I can contribute to impactful software solutions, strengthen my problem solving skills and gradually grow into a developer who can handle both technical implementation and system level thinking."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1909.17,
+      "end": 1918.91,
+      "text": "Thanks Deepanshu Gurunath, that is all for this part. Your responses have been recorded. We will continue with the next part shortly. You may go ahead and end the call now."
+    }
+  ],
+  "turns": [
+    {
+      "id": 1,
+      "speaker": "SPEAKER_1",
+      "start": 910.63,
+      "end": 914.47,
+      "segment_ids": [
+        0
+      ],
+      "text": "Tell me a bit more about your background and interest in technology.",
+      "word_count": 12,
+      "duration": 3.84
+    },
+    {
+      "id": 2,
+      "speaker": "SPEAKER_0",
+      "start": 934.25,
+      "end": 1014.23,
+      "segment_ids": [
+        1,
+        2,
+        3
+      ],
+      "text": "Hello, my name is Deepanshu Gunant and I'm currently pursuing B.Tech in Information Technology from Maharaja Agrasen Institute of Technology with a CAGV of 8.69. I am highly interested in software development and problem solving especially in full stack gap development using the MERN stack. I enjoy building practical applications that solve real world problems. I have worked on projects like crypto health a secure platform with authentication and appointment management features. An insider jobs, a job portal with recruiter and candidate workflows. Through these projects, I gained hands-on experiences with React.js, Node.js, Express.js, MongoDB, JWT authentication, and REST APIs. Apart from projects, I have also completed internships in AI and AI and cloud and content development where I worked with the technologies like IBM cloud, Firebase and real time web features. I am particularly interested in continuously learning new technologies, improving my development skills and contributing to impactful software products in a collaborative environment.",
+      "word_count": 155,
+      "duration": 79.98
+    },
+    {
+      "id": 3,
+      "speaker": "SPEAKER_1",
+      "start": 1019.51,
+      "end": 1026.65,
+      "segment_ids": [
+        4
+      ],
+      "text": "You mentioned several projects and internships. Out of everything you have done so far, which one are you most proud of and why?",
+      "word_count": 23,
+      "duration": 7.14
+    },
+    {
+      "id": 4,
+      "speaker": "SPEAKER_0",
+      "start": 1063.75,
+      "end": 1145.47,
+      "segment_ids": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "text": "I would say I am most proud of building my prescriptive project which is a full stack healthcare platform developed using the MERN stack. I am proud of it because it was one of the first projects where I handled both front end and back end development completely on my own and turned an idea into a functional application. The platform includes features like patient and doctor login, appointment booking, JWT based Authentication, Role Based Dashboards And Responsive UI Design. While building it, I worked with react.js, node.js, express.js, MongoDB and rest APIs which significantly improved my understanding of full stack development. I also faced several challenges during the development especially around authentication flow, API integration and managing application state. So all these issues improved my debugging skills and taught me how to approach problems more systematically. What makes me most proud is that the project is practical, scalable, and closely related to real-world healthcare use cases. It gave me a lot of confidence in my technical abilities and motivated me to keep building more impactful software solutions.",
+      "word_count": 178,
+      "duration": 81.72
+    },
+    {
+      "id": 5,
+      "speaker": "SPEAKER_1",
+      "start": 1159.29,
+      "end": 1169.09,
+      "segment_ids": [
+        9
+      ],
+      "text": "You talked about challenges in authentication and state management. Can you walk me through one specific technical issue you faced in that project and how you solved it?",
+      "word_count": 28,
+      "duration": 9.8
+    },
+    {
+      "id": 6,
+      "speaker": "SPEAKER_0",
+      "start": 1183.69,
+      "end": 1266.25,
+      "segment_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "text": "Yes, one specific issue I faced in the prescriptive project was related to JWT authentication and protected routes. Initially, after a user logged in successfully, the authentication state was not persisting properly when the page was refreshed. Because of that, users were getting logged out unexpectedly, and pre-protected pages were becoming inaccessible. To solve this, I first analyzed how the token flow was working between the front end and back end, I realized that although the JWT token was being generated correctly on login, the front end state was resetting after refresh because the authentication data was only stored temporarily in react state. I solved this by securely storing the JWT token and then implementing logic to verify the token when the application loaded. I also added protected route handling so that only authenticated users could access certain pages like dashboards and appointment sections. After implementing this solution, the authentication flow became much more stable and user-friendly. This experience improved my understanding of session handling, API security, and state management in full stack applications.",
+      "word_count": 174,
+      "duration": 82.56
+    },
+    {
+      "id": 7,
+      "speaker": "SPEAKER_1",
+      "start": 1305.49,
+      "end": 1309.79,
+      "segment_ids": [
+        14
+      ],
+      "text": "That project sounds quite hands on. What do you like to do when you are not studying?",
+      "word_count": 17,
+      "duration": 4.3
+    },
+    {
+      "id": 8,
+      "speaker": "SPEAKER_0",
+      "start": 1318.41,
+      "end": 1365.55,
+      "segment_ids": [
+        15,
+        16
+      ],
+      "text": "Outside of my academics and projects, I enjoy exploring new technologies and working on personal development. I often spend time improving my coding and problem solving skills through DSA practice and by building small web development projects. Apart from tech, I also like listening to music and staying updated with new trends in software and AI. I enjoy participating in college activities and collaborative environments as well, which has helped me improve my communication and teamwork skills. I believe maintaining a balance between technical learning and personal interest helps me stay motivated, productive, and adaptable.",
+      "word_count": 95,
+      "duration": 47.14
+    },
+    {
+      "id": 9,
+      "speaker": "SPEAKER_1",
+      "start": 1379.29,
+      "end": 1387.39,
+      "segment_ids": [
+        17
+      ],
+      "text": "You mentioned music and college activities. Can you give one recent example of something you did that was not related to technology at all?",
+      "word_count": 24,
+      "duration": 8.1
+    },
+    {
+      "id": 10,
+      "speaker": "SPEAKER_0",
+      "start": 1406.69,
+      "end": 1447.67,
+      "segment_ids": [
+        18,
+        19
+      ],
+      "text": "Yes, recently I participated in college volunteer activities through NSS where I helped manage hospitality and coordination during campus events. My role involved guiding participants, coordinating with team members, and ensuring smooth event management. It was completely different from technical work, but I really enjoyed interacting with people, handling responsibilities in real time, and working as part of a team that experienced in improve my communication, coordination, confidence in handling situation outside of academics and technology.",
+      "word_count": 76,
+      "duration": 40.98
+    },
+    {
+      "id": 11,
+      "speaker": "SPEAKER_1",
+      "start": 1452.71,
+      "end": 1467.21,
+      "segment_ids": [
+        20,
+        21
+      ],
+      "text": "In that volunteering experience, was there any difficult moment with a student or guest, and how did you handle it? You mentioned gaining confidence through these experiences. What is one thing you are good at?",
+      "word_count": 35,
+      "duration": 14.5
+    },
+    {
+      "id": 12,
+      "speaker": "SPEAKER_0",
+      "start": 1480.75,
+      "end": 1531.13,
+      "segment_ids": [
+        22,
+        23,
+        24
+      ],
+      "text": "One thing I believe I'm good at is problem solving and learning new technologies quickly. Whenever I face a technical challenge, I like breaking it down into smaller parts and solving it step by step instead of getting stuck or giving up. For example, while working on my months that projects I had to understand authentication, API integration and back end workflows which were initially challenging for me. But through consistent learning and on practice, I was able to implement them successfully. I also think I am good at adapting to new environment and collaborating with people which are developed through internships and college activities. Overall, I would say my strengths are persistence, adaptability, and a willingness to continuously improve.",
+      "word_count": 120,
+      "duration": 50.38
+    },
+    {
+      "id": 13,
+      "speaker": "SPEAKER_1",
+      "start": 1536.45,
+      "end": 1545.33,
+      "segment_ids": [
+        25
+      ],
+      "text": "You highlighted problem solving and adaptability. Can you describe a recent situation where you had to learn a new tool or concept very quickly?",
+      "word_count": 24,
+      "duration": 8.88
+    },
+    {
+      "id": 14,
+      "speaker": "SPEAKER_0",
+      "start": 1555.15,
+      "end": 1609.39,
+      "segment_ids": [
+        26,
+        27
+      ],
+      "text": "Yes, during my front end development internship, I had to quickly learn Fibers authentication and leaflet.js for implementing secure login and location based provider search features in the project. At that time, I had only basic knowledge of those tools, but the project requirement changed and we needed those features within a short timeline. To adapt quickly, I started learning through official documentation, tutorials, and hands-on practice while simultaneously working on the project. projected. I divided the learning process into smaller tasks, first understanding authentication flow, then implementing map integration step by step. Within a short time, I was able to successfully integrate user authentication and real-time search functionality into the platform. That experience improved my confidence in learning unfamiliar technologies quickly and applying them effectively in real projects.",
+      "word_count": 129,
+      "duration": 54.24
+    },
+    {
+      "id": 15,
+      "speaker": "SPEAKER_1",
+      "start": 1629.55,
+      "end": 1649.63,
+      "segment_ids": [
+        28,
+        29
+      ],
+      "text": "That connects nicely with your internships. How do you usually go about learning a new technology or tool? Can you walk me through your process? Thanks, Deepanshu, that was clear. What is one thing about computer science that surprised you? Something you did not expect when you started.",
+      "word_count": 48,
+      "duration": 20.08
+    },
+    {
+      "id": 16,
+      "speaker": "SPEAKER_0",
+      "start": 1668.99,
+      "end": 1724.63,
+      "segment_ids": [
+        30,
+        31
+      ],
+      "text": "One thing that really surprised me about computer science was how much importance communication and problem solving mindset have, not just coding itself. When I first started, I thought software development was mainly about write code individually. But as I worked on projects and internships, I realized understanding requirements clearly, collaborating with others, debugging efficiently and continuously, adapting to new technologies are equally important. Even a well written application requires proper planning, teamwork, communication to become successful. Another thing that surprised me was how interconnected different concepts are. For example, while building full stack projects, I saw how front end, back end databases authentication APIs all work together to create a complete system. That practical integration made computer science much more interesting and dynamic than I initially expected.",
+      "word_count": 128,
+      "duration": 55.64
+    },
+    {
+      "id": 17,
+      "speaker": "SPEAKER_1",
+      "start": 1741.81,
+      "end": 1751.17,
+      "segment_ids": [
+        32
+      ],
+      "text": "You mentioned how dynamic and interconnected the field feels. Why did you choose computer science? Was it always the plan, or did something lead you there?",
+      "word_count": 26,
+      "duration": 9.36
+    },
+    {
+      "id": 18,
+      "speaker": "SPEAKER_0",
+      "start": 1766.99,
+      "end": 1821.83,
+      "segment_ids": [
+        33,
+        34,
+        35
+      ],
+      "text": "To be honest, initially I was mainly interested in technology because I was curious about how applications and websites actually work behind the scenes. But as I started learning programming and building projects, my interest in computer science grew much stronger. What I what really attracted me was the combination of logic, creativity, and problem solving. I liked the idea that with coding we can build practical solutions. that people can actually use in real life. During college when I started working on full stack projects and internships I realized that computer science is not only about theory but also about continuously learning, adapting, and creating impactful projects. That practical exposure made me even more motivated to pursue software development seriously as a career.",
+      "word_count": 124,
+      "duration": 54.84
+    },
+    {
+      "id": 19,
+      "speaker": "SPEAKER_1",
+      "start": 1825.53,
+      "end": 1834.81,
+      "segment_ids": [
+        36
+      ],
+      "text": "You talked about curiosity and real projects. Looking ahead, what kind of software development work or role do you see yourself enjoying the most?",
+      "word_count": 24,
+      "duration": 9.28
+    },
+    {
+      "id": 20,
+      "speaker": "SPEAKER_0",
+      "start": 1844.83,
+      "end": 1902.07,
+      "segment_ids": [
+        37,
+        38,
+        39
+      ],
+      "text": "I see myself enjoying full stack software development the most because I like working on both the front end and back end part of an application. I enjoy the complete process of building a product from designing user interfaces to handling APIs authentication and database integration. I especially enjoy creating applications that solve real world problems and improve user experience. Through my mon stack projects I rely is that I like turning ideas into functional and scalable products while continuously learning new technologies. In the future, I would like to work in a collaborative pre-product based environment where I can contribute to impactful software solutions, strengthen my problem solving skills and gradually grow into a developer who can handle both technical implementation and system level thinking.",
+      "word_count": 126,
+      "duration": 57.24
+    },
+    {
+      "id": 21,
+      "speaker": "SPEAKER_1",
+      "start": 1909.17,
+      "end": 1918.91,
+      "segment_ids": [
+        40
+      ],
+      "text": "Thanks Deepanshu Gurunath, that is all for this part. Your responses have been recorded. We will continue with the next part shortly. You may go ahead and end the call now.",
+      "word_count": 31,
+      "duration": 9.74
+    }
+  ],
+  "latency": [
+    {
+      "from_turn_id": 1,
+      "to_turn_id": 2,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 19.78
+    },
+    {
+      "from_turn_id": 2,
+      "to_turn_id": 3,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.28
+    },
+    {
+      "from_turn_id": 3,
+      "to_turn_id": 4,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 37.1
+    },
+    {
+      "from_turn_id": 4,
+      "to_turn_id": 5,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 13.82
+    },
+    {
+      "from_turn_id": 5,
+      "to_turn_id": 6,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 14.6
+    },
+    {
+      "from_turn_id": 6,
+      "to_turn_id": 7,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 39.24
+    },
+    {
+      "from_turn_id": 7,
+      "to_turn_id": 8,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 8.62
+    },
+    {
+      "from_turn_id": 8,
+      "to_turn_id": 9,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 13.74
+    },
+    {
+      "from_turn_id": 9,
+      "to_turn_id": 10,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 19.3
+    },
+    {
+      "from_turn_id": 10,
+      "to_turn_id": 11,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.04
+    },
+    {
+      "from_turn_id": 11,
+      "to_turn_id": 12,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 13.54
+    },
+    {
+      "from_turn_id": 12,
+      "to_turn_id": 13,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.32
+    },
+    {
+      "from_turn_id": 13,
+      "to_turn_id": 14,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 9.82
+    },
+    {
+      "from_turn_id": 14,
+      "to_turn_id": 15,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 20.16
+    },
+    {
+      "from_turn_id": 15,
+      "to_turn_id": 16,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 19.36
+    },
+    {
+      "from_turn_id": 16,
+      "to_turn_id": 17,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 17.18
+    },
+    {
+      "from_turn_id": 17,
+      "to_turn_id": 18,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 15.82
+    },
+    {
+      "from_turn_id": 18,
+      "to_turn_id": 19,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 3.7
+    },
+    {
+      "from_turn_id": 19,
+      "to_turn_id": 20,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 10.02
+    },
+    {
+      "from_turn_id": 20,
+      "to_turn_id": 21,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 7.1
+    }
+  ],
+  "pauses": [
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_0",
+      "start": 1099.73,
+      "end": 1099.87,
+      "duration": 0.14
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_0",
+      "start": 1226.95,
+      "end": 1227.55,
+      "duration": 0.6
+    },
+    {
+      "turn_id": 11,
+      "speaker": "SPEAKER_1",
+      "start": 1459.01,
+      "end": 1461.97,
+      "duration": 2.96
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_0",
+      "start": 1523.05,
+      "end": 1524.03,
+      "duration": 0.98
+    },
+    {
+      "turn_id": 15,
+      "speaker": "SPEAKER_1",
+      "start": 1638.01,
+      "end": 1640.95,
+      "duration": 2.94
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_0",
+      "start": 1804.89,
+      "end": 1806.17,
+      "duration": 1.28
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_0",
+      "start": 1882.09,
+      "end": 1883.23,
+      "duration": 1.14
+    }
+  ],
+  "overlaps": [],
+  "stats": {
+    "SPEAKER_1": {
+      "turn_count": 11,
+      "total_speaking_time": 105.02,
+      "total_words": 292,
+      "latency": {
+        "count": 10,
+        "mean": 13.06,
+        "median": 10.42,
+        "p25": 5.29,
+        "p75": 16.34,
+        "min": 3.7,
+        "max": 39.24,
+        "values": [
+          3.7,
+          5.04,
+          5.28,
+          5.32,
+          7.1,
+          13.74,
+          13.82,
+          17.18,
+          20.16,
+          39.24
+        ]
+      },
+      "pause": {
+        "count": 2,
+        "mean": 2.95,
+        "median": 2.95,
+        "p25": 2.94,
+        "p75": 2.96,
+        "min": 2.94,
+        "max": 2.96,
+        "values": [
+          2.94,
+          2.96
+        ]
+      },
+      "words": {
+        "count": 11,
+        "mean": 26.55,
+        "median": 24.0,
+        "p25": 23.5,
+        "p75": 29.5,
+        "min": 12,
+        "max": 48,
+        "values": [
+          12,
+          17,
+          23,
+          24,
+          24,
+          24,
+          26,
+          28,
+          31,
+          35,
+          48
+        ]
+      },
+      "duration": {
+        "count": 11,
+        "mean": 9.55,
+        "median": 9.28,
+        "p25": 7.62,
+        "p75": 9.77,
+        "min": 3.84,
+        "max": 20.08,
+        "values": [
+          3.84,
+          4.3,
+          7.14,
+          8.1,
+          8.88,
+          9.28,
+          9.36,
+          9.74,
+          9.8,
+          14.5,
+          20.08
+        ]
+      }
+    },
+    "SPEAKER_0": {
+      "turn_count": 10,
+      "total_speaking_time": 604.72,
+      "total_words": 1305,
+      "latency": {
+        "count": 10,
+        "mean": 16.8,
+        "median": 15.21,
+        "p25": 10.9,
+        "p75": 19.34,
+        "min": 8.62,
+        "max": 37.1,
+        "values": [
+          8.62,
+          9.82,
+          10.02,
+          13.54,
+          14.6,
+          15.82,
+          19.3,
+          19.36,
+          19.78,
+          37.1
+        ]
+      },
+      "pause": {
+        "count": 5,
+        "mean": 0.83,
+        "median": 0.98,
+        "p25": 0.6,
+        "p75": 1.14,
+        "min": 0.14,
+        "max": 1.28,
+        "values": [
+          0.14,
+          0.6,
+          0.98,
+          1.14,
+          1.28
+        ]
+      },
+      "words": {
+        "count": 10,
+        "mean": 130.5,
+        "median": 127.0,
+        "p25": 121.0,
+        "p75": 148.5,
+        "min": 76,
+        "max": 178,
+        "values": [
+          76,
+          95,
+          120,
+          124,
+          126,
+          128,
+          129,
+          155,
+          174,
+          178
+        ]
+      },
+      "duration": {
+        "count": 10,
+        "mean": 60.47,
+        "median": 55.24,
+        "p25": 51.34,
+        "p75": 74.3,
+        "min": 40.98,
+        "max": 82.56,
+        "values": [
+          40.98,
+          47.14,
+          50.38,
+          54.24,
+          54.84,
+          55.64,
+          57.24,
+          79.98,
+          81.72,
+          82.56
+        ]
+      }
+    }
+  },
+  "speaker_roles": {
+    "SPEAKER_1": "interviewer",
+    "SPEAKER_0": "candidate"
+  }
+}

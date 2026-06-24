@@ -1,0 +1,383 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkoyvw5000804jyqmazm7wh",
+  "user_name": "Abisha Antony",
+  "metadata": {
+    "user_name": "Abisha Antony",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781859204314/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 10,
+    "candidate_substantive_turn_count": 10,
+    "candidate_word_count": 1599
+  },
+  "scores": {
+    "session_assistance_score": 0.1577,
+    "max_answer_score": 0.2832,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 151,
+      "text_excerpt": "or like when I need to learn a new software or workflow independently, I start by understanding the overall objective and how the process fits into the bigger picture. So if resources such as walkthrough videos, documentation or existing examples are available, I'll review them carefully and take notes on the key steps. Then I then I break the workflow into smaller parts and practice each step to build confidence and accuracy. So while learning, I make it to a point, document important observati",
+      "score": 0.081,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0252,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.9252
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 155,
+      "text_excerpt": "Oh yeah, like one example from my time at Freshworks was when I had to work with a new module and code base that I had not worked on before. There was limited formal training available. So I started by reviewing the existing documentation and exploring the code base and understanding how the different components interacted with each other. I also referred to existing implementation and tested the functionality in a development environment where to understand the workflow step by step whenever I ",
+      "score": 0.1435,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0724,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1508,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.0262
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 134,
+      "text_excerpt": "So one situation that comes to my mind is when I was working on a feature that involved changes to a reusable component used across multiple parts of the application. So while testing the changes, I noticed that a small modification was causing unexpected behavior in another module that depended on the same component. So instead of assuming it was unrelated, I investigated further and reproduced this issue and identified the root cause. So I documented my findings, fixed the problem and thorough",
+      "score": 0.2337,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0343,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0796,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.59,
+          "level": "medium",
+          "words_per_second": 1.4794
+        },
+        "llm_preparedness": {
+          "score": 0.3121,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 87,
+      "text_excerpt": "Uh, after identifying the issue and confirming the root cause, I communicated it to my team and manager as early as possible. So I explained what I had observed and the potential impact on the other modules. And the steps I took to investigate it. I then shared the root cause, proposed solutions, and testing I performed to verify the fix. So once the fix was implemented, I updated the team on the outcome and confirmed that the issue had been resolved and without affecting other functionalities.",
+      "score": 0.1566,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1031,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2193,
+          "level": "low",
+          "words_per_second": 3.4551
+        },
+        "llm_preparedness": {
+          "score": 0.2071,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 132,
+      "text_excerpt": "in front end development even small errors can impact the user experience. So I follow a structured approach to minimize mistakes. So I start by thoroughly understanding the requirements before beginning any task to ensure that I am building the right solution. So as I work I break the task into smaller steps and validate each part rather than waiting until the end. And for changes that affect shared components or critical functionality like I take extra care to test different scenarios and veri",
+      "score": 0.2764,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6037,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.981
+        },
+        "llm_preparedness": {
+          "score": 0.3121,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 145,
+      "text_excerpt": "Okay, when working under right tight deadlines, I focus on planning, prioritization, and clear communication. So I start by understanding the requirements thoroughly, so that I can avoid rework later. Then I break the task into smaller and manageable steps and prioritize the most critical items first. I also set short milestones for myself to track progress and ensure that I am moving in the right direction. Through the process, I regularly validate my work instead of waiting until the end, whic",
+      "score": 0.0716,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.028,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0031,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5636
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 139,
+      "text_excerpt": "Uh, we had worked on a project called Due that was an enhancement to share, to share a front end component fresh work that was used across multiple products application. So the project had a tight deadline because the changes needed to be included in an upcoming release. So what made the timeline challenging was there, the component was being used by multiple teams and modules. So we couldn't focus only on the new functionality. So if I do any code change, it will impact for the other module as ",
+      "score": 0.0936,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0538,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0955,
+          "level": "low",
+          "words_per_second": 3.2446
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 219,
+      "text_excerpt": "When working with minimal Like when working with minimal supervision, like I focus on being organized, proactive, and accountable for the quality of my work. So I start by ensuring that I clearly understand the requirements and expected outcome before beginning of the task instead of waiting at the end. So like I'll break the work into smaller steps and validate my progress at each stage. And rather than waiting until the end, I also maintain a checklist to verify that all requirements have been",
+      "score": 0.2016,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4062,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0248,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3357,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6681
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 116,
+      "text_excerpt": "to make everyone understood like I didn't rely only on presenting the information. So after explaining the requirements or updates, I encouraged questions and discussions so that team members could clarify any doubts immediately. I also summarized the key points, expected outcomes and responsibilities and as well the timelines at the end of the discussion. So sometimes I followed up through messages and or documentation so that everyone had a clear reference. So one approach I found particularly",
+      "score": 0.2832,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6213,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.062,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5847
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 321,
+      "text_excerpt": "in my opinion attention to detail is one of the most important aspects of effective operations. So especially when I'm working with a new software when you when you are learning a new system basically, it is easy to overlook small details but even minor mistakes can lead to incorrect data, process delays and or additional rework. So attention to detail helps ensure that instructions are followed accurately, information is entered correctly and any inconsistencies are identified before they becom",
+      "score": 0.0356,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0627,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.895
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

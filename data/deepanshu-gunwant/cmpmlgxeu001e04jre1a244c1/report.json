@@ -1,0 +1,1516 @@
+{
+  "segments": [
+    {
+      "speaker": "SPEAKER_1",
+      "start": 19.41,
+      "end": 30.03,
+      "text": "Hi Deepanshu, I am Sarah and I will be your interviewer today. Tell me about a time you had too many things at once. How did you decide what mattered most?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 50.77,
+      "end": 80.77,
+      "text": "Yes, during one phase of my semester, I was simultaneously managing academic assignments, internship tasks, and development work on my MERN stack projects. At one point, multiple deadlines were very close together, so I had to prioritize carefully instead of trying to do everything at once. I first listed all the tasks based on urgency, impact, and deadlines. I focused"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 80.77,
+      "end": 91.69,
+      "text": "focused on completing the high priority and time sensitive work first, especially internship deliverables and important project milestones."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 92.13,
+      "end": 122.13,
+      "text": "I also divided larger tasks into smaller manageable parts and created simple schedule to track progress daily. At the same time I avoided multitasking too much because I realized it reduced productivity. Instead of instead I focused on one important task at a time and maintained regular communication whenever needed. Because of this approach I was able to complete my major task on time without"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 122.13,
+      "end": 132.25,
+      "text": "compromising the quality of work. The experience improved my time management, prioritization, and ability to stay calm under pressure."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 135.89,
+      "end": 142.21,
+      "text": "You mentioned staying calm under pressure. What specific strategies did you use to manage your stress in that period?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 151.97,
+      "end": 181.97,
+      "text": "During that period, one thing that helped me a lot was staying organized instead of getting overwhelmed by everything together. I used to break large tasks into smaller achievable goals and focus on completing them one step at a time. That made me, that made the workload feel more manageable. I also maintained a simple daily schedule where I prioritized the most important and urgent task first. Whenever I felt stressed, I tried"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 181.97,
+      "end": 211.97,
+      "text": "So avoid overthinking and instead focusing on solving the immediate problem in front of me. Apart from that, I made sure to take short breaks, listen to music for a while and refresh my mind before continuing work. I realized that staying calm and maintaining consistency is much more effective than working continuously under stress. Overall, that experience taught me the importance of time management, structured planning, and maintaining a balanced mindset during pressure."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 211.97,
+      "end": 213.11,
+      "text": "situations"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 220.33,
+      "end": 226.83,
+      "text": "You mentioned learning from that experience. What would you do differently next time if a similar situation happened?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 235.63,
+      "end": 265.63,
+      "text": "If a similar situation happened again, I think I would start planning and prioritizing even earlier instead of waiting until multiple deadlines became very close. That experience taught me the importance of proactive planning and regular progress tracking. I would also try to delegate or discuss workload earlier whenever possible instead of trying to handle everything independently for too long. Another thing I would improve is maintaining better balance between work"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 265.63,
+      "end": 284.39,
+      "text": "and rest from the beginning. Because consistent productivity is more effective than working under continuous pressure. Overall the experience helped me become more organized and aware of how important planning, communication and time management are in handling high pressure situations effectively."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 318.09,
+      "end": 327.87,
+      "text": "That connects well to another situation. Tell me about a time you were under real pressure to finish something. What did you sacrifice and what did you protect?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 335.75,
+      "end": 365.75,
+      "text": "Yes, one situation where I was under real pressure was during the final phase of my prescriptive project. While I was also managing internship work and academic submissions, the project still required debugging, authentication fixes, and UI improvements, but the review deadline was very close. At that time, I had to make careful decisions about what to sacrifice and what to protect. I sacrificed some of my free time and entertainment activities for a few days."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 365.75,
+      "end": 395.75,
+      "text": "I could stay full focused on completing the important deliverables. However, I made sure not to sacrifice the quality and stability of the project. Instead of rushing everything, I focused on completing the core features properly, especially authentication flow, API integration, and responsive design. I also protected communication and consistency. Rather than panicking, I kept tracking progress step by step and prioritized the"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 395.75,
+      "end": 413.01,
+      "text": "the most impactful task first. As a result, I was able to complete the project successfully before the deadline as in a stable working application. That experience taught me that under pressure, prioritization and maintaining quality are more important than simply trying to do everything at once."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 446.39,
+      "end": 454.39,
+      "text": "You mentioned protecting quality and stability. How did you decide which tasks or features could safely be dropped or delayed?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 461.43,
+      "end": 491.43,
+      "text": "I mainly decided based on impact, dependency, and user experience. First, I identified the core functionalities that were essential for the project to work properly, such as authentication, appointment booking flow, API connectivity, and database operations. I knew those features directly affected the stability and usability of the application, so they became the highest priority. Then I evaluated the remaining tasks, especially UI"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 491.43,
+      "end": 521.43,
+      "text": "enhancements or smaller enhancements and asked myself whether delaying them would affect the core functionality of the product if a feature was good to have but not critical for the main workflow. I either simplified it or postponed it for later improvement. I also tested the application regularly to identify which issues were actually impacting the user experience the most that helped me focus my time on solving high impact problems instead of spending too much time."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 521.43,
+      "end": 528.61,
+      "text": "minor details. This approach helped me manage the deadline effectively while still delivering a stable and functional application."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 534.19,
+      "end": 541.61,
+      "text": "You mentioned sacrificing free time. How did this pressure period affect your health or energy? And how did you handle that?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 549.29,
+      "end": 579.29,
+      "text": "During that period, there were definitely times when I felt mentally tired because I was balancing project work, academics, and internship responsibilities together. Initially, I tried to continuously work for long hours, but I realized that it was reducing my focus and productivity after a certain point. So instead of pushing continuously, I started managing my energy more carefully. I took short breaks between tasks, listened to music to refresh my mind."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 579.29,
+      "end": 609.29,
+      "text": "and try to maintain a more structured schedule rather than working randomly. I also focused on getting enough rest whenever possible because I understood that staying mentally fresh was important for maintaining code quality and problem-solving ability. Most importantly, I learned that handling pressure is not only about working harder but also about managing energy and maintaining consistency. That experience helped me become more decisive."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 609.29,
+      "end": 612.45,
+      "text": "and about balancing pre-productivity with personal well-being."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 697.39,
+      "end": 709.37,
+      "text": "Your experience with balance links to learning under pressure. Has there been a time you had to learn something fast because you had no choice? What did that reveal about how you learn? Second."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 723.91,
+      "end": 753.91,
+      "text": "Yes, during my front end internship, I had to quickly learn Firebase authentication and leaflet.js because those features became necessary for the project within a limited timeline. At that point, I had only basic familiarity with them. But since the functionality was important for the platform, I had no option but to learn and implement them quickly. What I what I did was first understand the core concept and overall workflow instead of trying to memorize"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 753.91,
+      "end": 783.91,
+      "text": "is everything. Then I learned through hands-on practice by building small implementations and gradually integrating them into actual project. Whenever I faced issues, I debugged step by step and referred to official documentation and reliable resources. That experience revealed that I learn best when I combine theory with practical implementation. I also realized that under pressure, I become more focused and solution oriented because I naturally start prioritizing the most important concept first."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 783.91,
+      "end": 794.07,
+      "text": "Most importantly, it showed me that I can adapt quickly to unfamiliar technologies when there is clear goal and responsibility attached to the work."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 799.21,
+      "end": 807.73,
+      "text": "You mentioned learning best through practice. How do you usually structure your learning when you face a completely new technology or concept?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 820.51,
+      "end": 850.51,
+      "text": "When I face completely new technology or concept, I usually try to learn it in a structured and practical way instead of jumping directly into advanced topics. First, I focus on understanding the basic purpose of technology, where it is used, and how it fits into overall workflow of a project. That helps me build a strong foundation. After that, I go through official documentation, beginner tutorials, and small examples to understand the core concepts step by step. Once I understand"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 850.51,
+      "end": 858.23,
+      "text": "Fundamentals, I start implementing small practical tasks because I learn much faster through hands-on practice."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 858.35,
+      "end": 888.35,
+      "text": "I also divide the learning process into smaller milestones instead of trying to learn everything at once for while learning JWT authentications and Firebase. I first understood the authentication flow conceptually, then created small test implementations and finally integrated them into my actual project. Whenever I get stuck, I debug systematically, search for reliable resources and try to understand the root cause rather than just copying solutions. Overall, I"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 888.35,
+      "end": 893.93,
+      "text": "Focus on consistency, practical implementation, and gradual improvement while learning any new technology."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 903.31,
+      "end": 911.09,
+      "text": "You mentioned consistency and gradual improvement. How do you keep yourself motivated when progress feels slow or you get stuck?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 916.53,
+      "end": 946.53,
+      "text": "When progress feels slow or gets stuck, I usually try to focus on small improvements instead of expecting immediate results. I remind myself that learning technical skills is a gradual process and even small progress eventually builds strong understanding over time. One thing that keeps me motivated is breaking larger goals into smaller achievable tasks. Completing smaller milestones gave me a sense of progress and helped maintain momentum."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 946.53,
+      "end": 976.53,
+      "text": "For example, while working on complex features like authentication or API integration, I focused on solving one issue at a time instead of thinking about the entire problem together. I also try to treat challenges as learning opportunities rather than failures. Whenever I get stuck, I take a short break, rethink the problem calmly and then approach it step by step. Sometimes even debugging a difficult issue teaches me more than completing an easy task, most importantly."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 976.53,
+      "end": 990.99,
+      "text": "I stay motivated by remembering the bigger goal which is the continuously improving my skills and becoming a better software developer. That mindset helps me stay consistent even when learning process becomes challenging."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1002.17,
+      "end": 1013.05,
+      "text": "Your approach to learning connects with how you explain to others. Tell me about a time you helped someone understand something difficult. What did that teach you about how you explain things?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1022.33,
+      "end": 1052.33,
+      "text": "Yes, during one of my project phases, one of my classmates was having difficulty in understanding how JWT authentication works in a MERN stack applications, especially the flow between front end login, token generation, and protected routes. Since I had recently worked on implementing it in my prescriptive project, I tried to explain by help, I tried to explain by explaining it in a simpler and more practical way instead of directly using complex"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1052.33,
+      "end": 1082.33,
+      "text": "technical terms, I first explained the overall flow step by step like how the user logs in, how the server generates the token, how the token is stored and how credit protected routes verify the authentication. Then I showed a simpler implementation example from a project so that the concept become easier to visualize. That experience taught me that good explanation is not about showing how much you know but about understanding the other personal person's perspective."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1082.33,
+      "end": 1094.93,
+      "text": "and simplifying the concept according to their level of understanding. It also made me realize that practical examples and clear step-by-step communication are much effective and then only theoretical explanations."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1100.15,
+      "end": 1106.57,
+      "text": "You adapted to their level. How do you usually check whether the other person has actually understood what you explained?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1133.23,
+      "end": 1156.25,
+      "text": "I usually try to confirm understanding through interaction instead of assuming everything is clear after one explanation. For example, after explaining a concept, I may ask the other person to summarize it in their own words or apply it to a small example. Then help me understand whether they truly understood the logic or still confused at some test step."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1157.35,
+      "end": 1187.35,
+      "text": "I also pay attention to their reactions and kind of questions they ask. If someone hesitates or seems unsure, I try to explain the same concept in a simpler or more practical way. In technical topics especially, I believe implementation is the best proof of understanding. So sometimes I encourage the person to try a small task independently while I guide them if needed. That approach has taught me that effective communication is not just about explaining clearly,"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1187.35,
+      "end": 1193.49,
+      "text": "but also about listening carefully and adapting based on other person's understanding."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1203.83,
+      "end": 1214.71,
+      "text": "This links to how you handle tricky situations with others. You see a colleague breaking a rule that nobody else has noticed. Do you say something? What do you do?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1226.33,
+      "end": 1256.33,
+      "text": "Yes, I would say something, but I would handle the situation professionally and respectfully instead of reacting immediately or publicly. First, I would try to understand the situation properly because sometimes there may be context or misunderstanding behind the action. If it was a minor issue, I would privately speak with the colleague and point out calmly instead of embarrassing them in front of others. However, if the rule of rule violation could"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1256.33,
+      "end": 1285.71,
+      "text": "effects security, ethics, team, workflow or company policy, then I believe it is important to report or escalate it through the proper channel if the issue continues. I think maintaining trust and professionalism in a team is very important, so my approach would be to handle situation responsibly, respectfully and with the intention to protect both the team and the work environment rather than creating conflict."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1289.15,
+      "end": 1295.93,
+      "text": "You mentioned context matters. How would your response change if that colleague was your close friend on the team?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1305.91,
+      "end": 1325.11,
+      "text": "If the colleague was a close friend, I would still handle the situation with responsibility, but I would probably speak with them even more directly and honestly in private first. I believe real professionalism and friendship both involve being truthful when something could create problems later. I would explain my concern."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1325.31,
+      "end": 1355.31,
+      "text": "calmly help them understand the possible impact of the issue and give them an opportunity to correct themselves. At the same time, I would make sure the conversation remains respectful and supportive rather than judgmental. However, if the issue was serious and continued even after discussion, then I would still prioritize ethics, team trust, and company policy over personal relationships."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1355.31,
+      "end": 1373.83,
+      "text": "I think maintaining integrity is important because decisions in professional environment can affect the entire team, not just one individual. So overall my tone and approach might become more personal and supportive with a close friend, but the core responsibility and professionalism would remain the same."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1377.71,
+      "end": 1383.11,
+      "text": "I would explain my concern clearly, listen to their side and encourage them to correct it."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1393.45,
+      "end": 1422.03,
+      "text": "I would explain my concern clearly, listen to their perspectives and encourage them to correct the issue themselves first. I believe handling situations privately and respectfully helps maintaining trust while still addressing the problem responsibly. At the same time, I would make sure the situation does not negatively affect the team workflow or company policies. So my approach would be supportive and professional while still prioritizing integrity and accountability."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1431.19,
+      "end": 1443.13,
+      "text": "Your focus on integrity links to handling confusion and the pressure. Your instructions are unclear, and your deadline is closed. Where is the line between asking for help and figuring it out yourself?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1454.43,
+      "end": 1484.43,
+      "text": "I believe balance comes from first making a sincere effort to understand and solve the problem independently, but also recognizing when waiting too long about affect the overall quality of work or the deadline. Usually I first try to analyze the problem myself by reviewing the requirements, breaking the issue into manageable parts, checking the documentation and testing possible solutions. I think this"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1484.43,
+      "end": 1514.43,
+      "text": "is important because it helps build problem solving ability and confidence. However, if I realize that I'm repeatedly stuck missing important clarity or spending too much time without progress, then I believe asking for help is the responsible thing to do. In a professional environment, asking the right question at the right time can save both time and effort for the team. So for me, the line is when independent effort stops being productive and starts dressing the project timeline."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1514.43,
+      "end": 1522.73,
+      "text": "or overall quality. I try to balance self-learning with collaboration rather than depending entirely on either one."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1526.89,
+      "end": 1532.49,
+      "text": "When you do decide to ask for help, how do you frame your questions so you respect others' time?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1545.21,
+      "end": 1575.21,
+      "text": "When I ask for help, I try to be clear, concise, and prepared so that the other person does not have to spend extra time understanding the entire situation from the beginning. I usually first explain what I'm trying to achieve, what steps I have already attempted, and where exactly I'm getting stuck. That way the discussion becomes more focused and productive instead of asking very broad questions. For example, if I face a technical issue, I try to"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1575.21,
+      "end": 1582.77,
+      "text": "narrow it down to a specific error, implementation challenge, or concept rather than simply saying that something is not working."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1583.85,
+      "end": 1599.75,
+      "text": "I also make sure I've already done some research or debugging on my own before approaching someone. I believe this approach shows respect for other person's time and also leads to better learning because the conversation becomes more solution oriented and meaningful."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1607.95,
+      "end": 1617.43,
+      "text": "Your approach to asking for help connects to debugging. Walk me through how you debug a problem. Uh, not just the steps, but how you think."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1625.81,
+      "end": 1648.17,
+      "text": "When I debug a problem, I first try to stay calm and avoid making random changes immediately. My main focus is to understand the root cause rather than only fixing the visible issue. I usually begin by clearly identifying what is expected to happen versus what is actually happening."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1648.77,
+      "end": 1678.77,
+      "text": "Then I try to narrow down the problem step by step by isolating different parts of the system such as front end API calls, backend processing or database operations. Mentally I treat debugging like a process of eliminations. I form small hypothesis about what could be the causing the causing the issue and test them one by one instead of assuming everything is broken. For example,"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1678.77,
+      "end": 1708.77,
+      "text": "While working on authentication in my MERN stack object, I checked whether the issue was coming from token generation, API response handling, route protection, or front-end state management individually. I also rely heavily on logs, error messages, browser development tools, and testing small scenarios to understand the actual flow of data. If I get stuck for too long, I step back, simplify the problem, and revisit the"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1708.77,
+      "end": 1725.09,
+      "text": "logic with a fresh perspective instead of forcing random solutions. Over time, debugging has taught me patience, structured thinking, and the importance of understanding systems deeper rather than just trying quick fixes."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1862.37,
+      "end": 1863.49,
+      "text": "Science"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1869.81,
+      "end": 1870.41,
+      "text": "Okay"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1935.75,
+      "end": 1936.91,
+      "text": "Completely my answer"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 1941.07,
+      "end": 1951.15,
+      "text": "Take a moment and think it through. You find an error an hour before the deadline. Fixing it properly takes 2 hours. What do you do and what does that choice say about you?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 1975.37,
+      "end": 2005.37,
+      "text": "If I found an important error 1 hour before the deadline, I would first quickly evaluate the severity and impact of the issue. If the bug affects core functionality, security, or user experience significantly, I would not ignore it just to meet the deadline artificially. In that situation, I would immediately communicate the issue clearly, explain the estimated fixed time, and focus on delivering the most stable and responsible solution."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2005.37,
+      "end": 2035.37,
+      "text": "possible. At the same time, if there is safe temporary work around time that keeps the system stable without creating bigger risk, I would consider using it while planning the complete fix properly afterward. But I would avoid hiding the issue or shipping something unreliably unknowingly. I think that choice says that I value accountability, transparency, and long-term quality over"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2035.37,
+      "end": 2037.19,
+      "text": "Simply appearing fast"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2038.25,
+      "end": 2046.01,
+      "text": "For me, meeting deadlines is important, but delivering trustworthy and stable work is equally important in software development."
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 2050.05,
+      "end": 2057.99,
+      "text": "You talked about impact and communication. How would you explain this last minute issue and your plan to a non-technical stakeholder?"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2079.11,
+      "end": 2109.11,
+      "text": "I would explain the situation in simple business terms instead of using technical details. For example, I would say that we identified an important issue close to the deadline that could affect the reliability or user user experience of the application if released immediately. Then I would clearly explain the impact available options and my recommendations. For example, I might say that we can either release quickly with the temporary"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2109.11,
+      "end": 2139.11,
+      "text": "around and monitor the issue carefully or take a later later more time to implement the proper fix and ensure better stability. I would also communicate the estimated timeline and the risks involved and what steps are already being taken to resolve the issue. My goal would be to keep the stakeholder informed, confident and able to make decisions without overwhelming them with unnecessary technical complexity. I think good"
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2139.11,
+      "end": 2148.17,
+      "text": "Communication in these situations is about clarity, honesty, and focusing on business impact rather than only technical terminology."
+    },
+    {
+      "speaker": "SPEAKER_0",
+      "start": 2158.29,
+      "end": 2159.51,
+      "text": "I finished next"
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 2167.85,
+      "end": 2177.29,
+      "text": "Thanks Deepanshu Gunwant. That's all for this part. Your responses have been recorded. We'll continue with the next part shortly. You may go ahead and end the call now."
+    }
+  ],
+  "turns": [
+    {
+      "id": 1,
+      "speaker": "SPEAKER_1",
+      "start": 19.41,
+      "end": 30.03,
+      "segment_ids": [
+        0
+      ],
+      "text": "Hi Deepanshu, I am Sarah and I will be your interviewer today. Tell me about a time you had too many things at once. How did you decide what mattered most?",
+      "word_count": 31,
+      "duration": 10.62
+    },
+    {
+      "id": 2,
+      "speaker": "SPEAKER_0",
+      "start": 50.77,
+      "end": 132.25,
+      "segment_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "text": "Yes, during one phase of my semester, I was simultaneously managing academic assignments, internship tasks, and development work on my MERN stack projects. At one point, multiple deadlines were very close together, so I had to prioritize carefully instead of trying to do everything at once. I first listed all the tasks based on urgency, impact, and deadlines. I focused focused on completing the high priority and time sensitive work first, especially internship deliverables and important project milestones. I also divided larger tasks into smaller manageable parts and created simple schedule to track progress daily. At the same time I avoided multitasking too much because I realized it reduced productivity. Instead of instead I focused on one important task at a time and maintained regular communication whenever needed. Because of this approach I was able to complete my major task on time without compromising the quality of work. The experience improved my time management, prioritization, and ability to stay calm under pressure.",
+      "word_count": 162,
+      "duration": 81.48
+    },
+    {
+      "id": 3,
+      "speaker": "SPEAKER_1",
+      "start": 135.89,
+      "end": 142.21,
+      "segment_ids": [
+        5
+      ],
+      "text": "You mentioned staying calm under pressure. What specific strategies did you use to manage your stress in that period?",
+      "word_count": 19,
+      "duration": 6.32
+    },
+    {
+      "id": 4,
+      "speaker": "SPEAKER_0",
+      "start": 151.97,
+      "end": 213.11,
+      "segment_ids": [
+        6,
+        7,
+        8
+      ],
+      "text": "During that period, one thing that helped me a lot was staying organized instead of getting overwhelmed by everything together. I used to break large tasks into smaller achievable goals and focus on completing them one step at a time. That made me, that made the workload feel more manageable. I also maintained a simple daily schedule where I prioritized the most important and urgent task first. Whenever I felt stressed, I tried So avoid overthinking and instead focusing on solving the immediate problem in front of me. Apart from that, I made sure to take short breaks, listen to music for a while and refresh my mind before continuing work. I realized that staying calm and maintaining consistency is much more effective than working continuously under stress. Overall, that experience taught me the importance of time management, structured planning, and maintaining a balanced mindset during pressure. situations",
+      "word_count": 148,
+      "duration": 61.14
+    },
+    {
+      "id": 5,
+      "speaker": "SPEAKER_1",
+      "start": 220.33,
+      "end": 226.83,
+      "segment_ids": [
+        9
+      ],
+      "text": "You mentioned learning from that experience. What would you do differently next time if a similar situation happened?",
+      "word_count": 18,
+      "duration": 6.5
+    },
+    {
+      "id": 6,
+      "speaker": "SPEAKER_0",
+      "start": 235.63,
+      "end": 284.39,
+      "segment_ids": [
+        10,
+        11
+      ],
+      "text": "If a similar situation happened again, I think I would start planning and prioritizing even earlier instead of waiting until multiple deadlines became very close. That experience taught me the importance of proactive planning and regular progress tracking. I would also try to delegate or discuss workload earlier whenever possible instead of trying to handle everything independently for too long. Another thing I would improve is maintaining better balance between work and rest from the beginning. Because consistent productivity is more effective than working under continuous pressure. Overall the experience helped me become more organized and aware of how important planning, communication and time management are in handling high pressure situations effectively.",
+      "word_count": 112,
+      "duration": 48.76
+    },
+    {
+      "id": 7,
+      "speaker": "SPEAKER_1",
+      "start": 318.09,
+      "end": 327.87,
+      "segment_ids": [
+        12
+      ],
+      "text": "That connects well to another situation. Tell me about a time you were under real pressure to finish something. What did you sacrifice and what did you protect?",
+      "word_count": 28,
+      "duration": 9.78
+    },
+    {
+      "id": 8,
+      "speaker": "SPEAKER_0",
+      "start": 335.75,
+      "end": 413.01,
+      "segment_ids": [
+        13,
+        14,
+        15
+      ],
+      "text": "Yes, one situation where I was under real pressure was during the final phase of my prescriptive project. While I was also managing internship work and academic submissions, the project still required debugging, authentication fixes, and UI improvements, but the review deadline was very close. At that time, I had to make careful decisions about what to sacrifice and what to protect. I sacrificed some of my free time and entertainment activities for a few days. I could stay full focused on completing the important deliverables. However, I made sure not to sacrifice the quality and stability of the project. Instead of rushing everything, I focused on completing the core features properly, especially authentication flow, API integration, and responsive design. I also protected communication and consistency. Rather than panicking, I kept tracking progress step by step and prioritized the the most impactful task first. As a result, I was able to complete the project successfully before the deadline as in a stable working application. That experience taught me that under pressure, prioritization and maintaining quality are more important than simply trying to do everything at once.",
+      "word_count": 186,
+      "duration": 77.26
+    },
+    {
+      "id": 9,
+      "speaker": "SPEAKER_1",
+      "start": 446.39,
+      "end": 454.39,
+      "segment_ids": [
+        16
+      ],
+      "text": "You mentioned protecting quality and stability. How did you decide which tasks or features could safely be dropped or delayed?",
+      "word_count": 20,
+      "duration": 8.0
+    },
+    {
+      "id": 10,
+      "speaker": "SPEAKER_0",
+      "start": 461.43,
+      "end": 528.61,
+      "segment_ids": [
+        17,
+        18,
+        19
+      ],
+      "text": "I mainly decided based on impact, dependency, and user experience. First, I identified the core functionalities that were essential for the project to work properly, such as authentication, appointment booking flow, API connectivity, and database operations. I knew those features directly affected the stability and usability of the application, so they became the highest priority. Then I evaluated the remaining tasks, especially UI enhancements or smaller enhancements and asked myself whether delaying them would affect the core functionality of the product if a feature was good to have but not critical for the main workflow. I either simplified it or postponed it for later improvement. I also tested the application regularly to identify which issues were actually impacting the user experience the most that helped me focus my time on solving high impact problems instead of spending too much time. minor details. This approach helped me manage the deadline effectively while still delivering a stable and functional application.",
+      "word_count": 158,
+      "duration": 67.18
+    },
+    {
+      "id": 11,
+      "speaker": "SPEAKER_1",
+      "start": 534.19,
+      "end": 541.61,
+      "segment_ids": [
+        20
+      ],
+      "text": "You mentioned sacrificing free time. How did this pressure period affect your health or energy? And how did you handle that?",
+      "word_count": 21,
+      "duration": 7.42
+    },
+    {
+      "id": 12,
+      "speaker": "SPEAKER_0",
+      "start": 549.29,
+      "end": 612.45,
+      "segment_ids": [
+        21,
+        22,
+        23
+      ],
+      "text": "During that period, there were definitely times when I felt mentally tired because I was balancing project work, academics, and internship responsibilities together. Initially, I tried to continuously work for long hours, but I realized that it was reducing my focus and productivity after a certain point. So instead of pushing continuously, I started managing my energy more carefully. I took short breaks between tasks, listened to music to refresh my mind. and try to maintain a more structured schedule rather than working randomly. I also focused on getting enough rest whenever possible because I understood that staying mentally fresh was important for maintaining code quality and problem-solving ability. Most importantly, I learned that handling pressure is not only about working harder but also about managing energy and maintaining consistency. That experience helped me become more decisive. and about balancing pre-productivity with personal well-being.",
+      "word_count": 144,
+      "duration": 63.16
+    },
+    {
+      "id": 13,
+      "speaker": "SPEAKER_1",
+      "start": 697.39,
+      "end": 709.37,
+      "segment_ids": [
+        24
+      ],
+      "text": "Your experience with balance links to learning under pressure. Has there been a time you had to learn something fast because you had no choice? What did that reveal about how you learn? Second.",
+      "word_count": 34,
+      "duration": 11.98
+    },
+    {
+      "id": 14,
+      "speaker": "SPEAKER_0",
+      "start": 723.91,
+      "end": 794.07,
+      "segment_ids": [
+        25,
+        26,
+        27
+      ],
+      "text": "Yes, during my front end internship, I had to quickly learn Firebase authentication and leaflet.js because those features became necessary for the project within a limited timeline. At that point, I had only basic familiarity with them. But since the functionality was important for the platform, I had no option but to learn and implement them quickly. What I what I did was first understand the core concept and overall workflow instead of trying to memorize is everything. Then I learned through hands-on practice by building small implementations and gradually integrating them into actual project. Whenever I faced issues, I debugged step by step and referred to official documentation and reliable resources. That experience revealed that I learn best when I combine theory with practical implementation. I also realized that under pressure, I become more focused and solution oriented because I naturally start prioritizing the most important concept first. Most importantly, it showed me that I can adapt quickly to unfamiliar technologies when there is clear goal and responsibility attached to the work.",
+      "word_count": 173,
+      "duration": 70.16
+    },
+    {
+      "id": 15,
+      "speaker": "SPEAKER_1",
+      "start": 799.21,
+      "end": 807.73,
+      "segment_ids": [
+        28
+      ],
+      "text": "You mentioned learning best through practice. How do you usually structure your learning when you face a completely new technology or concept?",
+      "word_count": 22,
+      "duration": 8.52
+    },
+    {
+      "id": 16,
+      "speaker": "SPEAKER_0",
+      "start": 820.51,
+      "end": 893.93,
+      "segment_ids": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "text": "When I face completely new technology or concept, I usually try to learn it in a structured and practical way instead of jumping directly into advanced topics. First, I focus on understanding the basic purpose of technology, where it is used, and how it fits into overall workflow of a project. That helps me build a strong foundation. After that, I go through official documentation, beginner tutorials, and small examples to understand the core concepts step by step. Once I understand Fundamentals, I start implementing small practical tasks because I learn much faster through hands-on practice. I also divide the learning process into smaller milestones instead of trying to learn everything at once for while learning JWT authentications and Firebase. I first understood the authentication flow conceptually, then created small test implementations and finally integrated them into my actual project. Whenever I get stuck, I debug systematically, search for reliable resources and try to understand the root cause rather than just copying solutions. Overall, I Focus on consistency, practical implementation, and gradual improvement while learning any new technology.",
+      "word_count": 178,
+      "duration": 73.42
+    },
+    {
+      "id": 17,
+      "speaker": "SPEAKER_1",
+      "start": 903.31,
+      "end": 911.09,
+      "segment_ids": [
+        33
+      ],
+      "text": "You mentioned consistency and gradual improvement. How do you keep yourself motivated when progress feels slow or you get stuck?",
+      "word_count": 20,
+      "duration": 7.78
+    },
+    {
+      "id": 18,
+      "speaker": "SPEAKER_0",
+      "start": 916.53,
+      "end": 990.99,
+      "segment_ids": [
+        34,
+        35,
+        36
+      ],
+      "text": "When progress feels slow or gets stuck, I usually try to focus on small improvements instead of expecting immediate results. I remind myself that learning technical skills is a gradual process and even small progress eventually builds strong understanding over time. One thing that keeps me motivated is breaking larger goals into smaller achievable tasks. Completing smaller milestones gave me a sense of progress and helped maintain momentum. For example, while working on complex features like authentication or API integration, I focused on solving one issue at a time instead of thinking about the entire problem together. I also try to treat challenges as learning opportunities rather than failures. Whenever I get stuck, I take a short break, rethink the problem calmly and then approach it step by step. Sometimes even debugging a difficult issue teaches me more than completing an easy task, most importantly. I stay motivated by remembering the bigger goal which is the continuously improving my skills and becoming a better software developer. That mindset helps me stay consistent even when learning process becomes challenging.",
+      "word_count": 178,
+      "duration": 74.46
+    },
+    {
+      "id": 19,
+      "speaker": "SPEAKER_1",
+      "start": 1002.17,
+      "end": 1013.05,
+      "segment_ids": [
+        37
+      ],
+      "text": "Your approach to learning connects with how you explain to others. Tell me about a time you helped someone understand something difficult. What did that teach you about how you explain things?",
+      "word_count": 32,
+      "duration": 10.88
+    },
+    {
+      "id": 20,
+      "speaker": "SPEAKER_0",
+      "start": 1022.33,
+      "end": 1094.93,
+      "segment_ids": [
+        38,
+        39,
+        40
+      ],
+      "text": "Yes, during one of my project phases, one of my classmates was having difficulty in understanding how JWT authentication works in a MERN stack applications, especially the flow between front end login, token generation, and protected routes. Since I had recently worked on implementing it in my prescriptive project, I tried to explain by help, I tried to explain by explaining it in a simpler and more practical way instead of directly using complex technical terms, I first explained the overall flow step by step like how the user logs in, how the server generates the token, how the token is stored and how credit protected routes verify the authentication. Then I showed a simpler implementation example from a project so that the concept become easier to visualize. That experience taught me that good explanation is not about showing how much you know but about understanding the other personal person's perspective. and simplifying the concept according to their level of understanding. It also made me realize that practical examples and clear step-by-step communication are much effective and then only theoretical explanations.",
+      "word_count": 181,
+      "duration": 72.6
+    },
+    {
+      "id": 21,
+      "speaker": "SPEAKER_1",
+      "start": 1100.15,
+      "end": 1106.57,
+      "segment_ids": [
+        41
+      ],
+      "text": "You adapted to their level. How do you usually check whether the other person has actually understood what you explained?",
+      "word_count": 20,
+      "duration": 6.42
+    },
+    {
+      "id": 22,
+      "speaker": "SPEAKER_0",
+      "start": 1133.23,
+      "end": 1193.49,
+      "segment_ids": [
+        42,
+        43,
+        44
+      ],
+      "text": "I usually try to confirm understanding through interaction instead of assuming everything is clear after one explanation. For example, after explaining a concept, I may ask the other person to summarize it in their own words or apply it to a small example. Then help me understand whether they truly understood the logic or still confused at some test step. I also pay attention to their reactions and kind of questions they ask. If someone hesitates or seems unsure, I try to explain the same concept in a simpler or more practical way. In technical topics especially, I believe implementation is the best proof of understanding. So sometimes I encourage the person to try a small task independently while I guide them if needed. That approach has taught me that effective communication is not just about explaining clearly, but also about listening carefully and adapting based on other person's understanding.",
+      "word_count": 150,
+      "duration": 60.26
+    },
+    {
+      "id": 23,
+      "speaker": "SPEAKER_1",
+      "start": 1203.83,
+      "end": 1214.71,
+      "segment_ids": [
+        45
+      ],
+      "text": "This links to how you handle tricky situations with others. You see a colleague breaking a rule that nobody else has noticed. Do you say something? What do you do?",
+      "word_count": 30,
+      "duration": 10.88
+    },
+    {
+      "id": 24,
+      "speaker": "SPEAKER_0",
+      "start": 1226.33,
+      "end": 1285.71,
+      "segment_ids": [
+        46,
+        47
+      ],
+      "text": "Yes, I would say something, but I would handle the situation professionally and respectfully instead of reacting immediately or publicly. First, I would try to understand the situation properly because sometimes there may be context or misunderstanding behind the action. If it was a minor issue, I would privately speak with the colleague and point out calmly instead of embarrassing them in front of others. However, if the rule of rule violation could effects security, ethics, team, workflow or company policy, then I believe it is important to report or escalate it through the proper channel if the issue continues. I think maintaining trust and professionalism in a team is very important, so my approach would be to handle situation responsibly, respectfully and with the intention to protect both the team and the work environment rather than creating conflict.",
+      "word_count": 139,
+      "duration": 59.38
+    },
+    {
+      "id": 25,
+      "speaker": "SPEAKER_1",
+      "start": 1289.15,
+      "end": 1295.93,
+      "segment_ids": [
+        48
+      ],
+      "text": "You mentioned context matters. How would your response change if that colleague was your close friend on the team?",
+      "word_count": 19,
+      "duration": 6.78
+    },
+    {
+      "id": 26,
+      "speaker": "SPEAKER_0",
+      "start": 1305.91,
+      "end": 1373.83,
+      "segment_ids": [
+        49,
+        50,
+        51
+      ],
+      "text": "If the colleague was a close friend, I would still handle the situation with responsibility, but I would probably speak with them even more directly and honestly in private first. I believe real professionalism and friendship both involve being truthful when something could create problems later. I would explain my concern. calmly help them understand the possible impact of the issue and give them an opportunity to correct themselves. At the same time, I would make sure the conversation remains respectful and supportive rather than judgmental. However, if the issue was serious and continued even after discussion, then I would still prioritize ethics, team trust, and company policy over personal relationships. I think maintaining integrity is important because decisions in professional environment can affect the entire team, not just one individual. So overall my tone and approach might become more personal and supportive with a close friend, but the core responsibility and professionalism would remain the same.",
+      "word_count": 157,
+      "duration": 67.92
+    },
+    {
+      "id": 27,
+      "speaker": "SPEAKER_1",
+      "start": 1377.71,
+      "end": 1383.11,
+      "segment_ids": [
+        52
+      ],
+      "text": "I would explain my concern clearly, listen to their side and encourage them to correct it.",
+      "word_count": 16,
+      "duration": 5.4
+    },
+    {
+      "id": 28,
+      "speaker": "SPEAKER_0",
+      "start": 1393.45,
+      "end": 1422.03,
+      "segment_ids": [
+        53
+      ],
+      "text": "I would explain my concern clearly, listen to their perspectives and encourage them to correct the issue themselves first. I believe handling situations privately and respectfully helps maintaining trust while still addressing the problem responsibly. At the same time, I would make sure the situation does not negatively affect the team workflow or company policies. So my approach would be supportive and professional while still prioritizing integrity and accountability.",
+      "word_count": 69,
+      "duration": 28.58
+    },
+    {
+      "id": 29,
+      "speaker": "SPEAKER_1",
+      "start": 1431.19,
+      "end": 1443.13,
+      "segment_ids": [
+        54
+      ],
+      "text": "Your focus on integrity links to handling confusion and the pressure. Your instructions are unclear, and your deadline is closed. Where is the line between asking for help and figuring it out yourself?",
+      "word_count": 33,
+      "duration": 11.94
+    },
+    {
+      "id": 30,
+      "speaker": "SPEAKER_0",
+      "start": 1454.43,
+      "end": 1522.73,
+      "segment_ids": [
+        55,
+        56,
+        57
+      ],
+      "text": "I believe balance comes from first making a sincere effort to understand and solve the problem independently, but also recognizing when waiting too long about affect the overall quality of work or the deadline. Usually I first try to analyze the problem myself by reviewing the requirements, breaking the issue into manageable parts, checking the documentation and testing possible solutions. I think this is important because it helps build problem solving ability and confidence. However, if I realize that I'm repeatedly stuck missing important clarity or spending too much time without progress, then I believe asking for help is the responsible thing to do. In a professional environment, asking the right question at the right time can save both time and effort for the team. So for me, the line is when independent effort stops being productive and starts dressing the project timeline. or overall quality. I try to balance self-learning with collaboration rather than depending entirely on either one.",
+      "word_count": 160,
+      "duration": 68.3
+    },
+    {
+      "id": 31,
+      "speaker": "SPEAKER_1",
+      "start": 1526.89,
+      "end": 1532.49,
+      "segment_ids": [
+        58
+      ],
+      "text": "When you do decide to ask for help, how do you frame your questions so you respect others' time?",
+      "word_count": 19,
+      "duration": 5.6
+    },
+    {
+      "id": 32,
+      "speaker": "SPEAKER_0",
+      "start": 1545.21,
+      "end": 1599.75,
+      "segment_ids": [
+        59,
+        60,
+        61
+      ],
+      "text": "When I ask for help, I try to be clear, concise, and prepared so that the other person does not have to spend extra time understanding the entire situation from the beginning. I usually first explain what I'm trying to achieve, what steps I have already attempted, and where exactly I'm getting stuck. That way the discussion becomes more focused and productive instead of asking very broad questions. For example, if I face a technical issue, I try to narrow it down to a specific error, implementation challenge, or concept rather than simply saying that something is not working. I also make sure I've already done some research or debugging on my own before approaching someone. I believe this approach shows respect for other person's time and also leads to better learning because the conversation becomes more solution oriented and meaningful.",
+      "word_count": 141,
+      "duration": 54.54
+    },
+    {
+      "id": 33,
+      "speaker": "SPEAKER_1",
+      "start": 1607.95,
+      "end": 1617.43,
+      "segment_ids": [
+        62
+      ],
+      "text": "Your approach to asking for help connects to debugging. Walk me through how you debug a problem. Uh, not just the steps, but how you think.",
+      "word_count": 26,
+      "duration": 9.48
+    },
+    {
+      "id": 34,
+      "speaker": "SPEAKER_0",
+      "start": 1625.81,
+      "end": 1936.91,
+      "segment_ids": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "text": "When I debug a problem, I first try to stay calm and avoid making random changes immediately. My main focus is to understand the root cause rather than only fixing the visible issue. I usually begin by clearly identifying what is expected to happen versus what is actually happening. Then I try to narrow down the problem step by step by isolating different parts of the system such as front end API calls, backend processing or database operations. Mentally I treat debugging like a process of eliminations. I form small hypothesis about what could be the causing the causing the issue and test them one by one instead of assuming everything is broken. For example, While working on authentication in my MERN stack object, I checked whether the issue was coming from token generation, API response handling, route protection, or front-end state management individually. I also rely heavily on logs, error messages, browser development tools, and testing small scenarios to understand the actual flow of data. If I get stuck for too long, I step back, simplify the problem, and revisit the logic with a fresh perspective instead of forcing random solutions. Over time, debugging has taught me patience, structured thinking, and the importance of understanding systems deeper rather than just trying quick fixes. Science Okay Completely my answer",
+      "word_count": 219,
+      "duration": 311.1
+    },
+    {
+      "id": 35,
+      "speaker": "SPEAKER_1",
+      "start": 1941.07,
+      "end": 1951.15,
+      "segment_ids": [
+        70
+      ],
+      "text": "Take a moment and think it through. You find an error an hour before the deadline. Fixing it properly takes 2 hours. What do you do and what does that choice say about you?",
+      "word_count": 34,
+      "duration": 10.08
+    },
+    {
+      "id": 36,
+      "speaker": "SPEAKER_0",
+      "start": 1975.37,
+      "end": 2046.01,
+      "segment_ids": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "text": "If I found an important error 1 hour before the deadline, I would first quickly evaluate the severity and impact of the issue. If the bug affects core functionality, security, or user experience significantly, I would not ignore it just to meet the deadline artificially. In that situation, I would immediately communicate the issue clearly, explain the estimated fixed time, and focus on delivering the most stable and responsible solution. possible. At the same time, if there is safe temporary work around time that keeps the system stable without creating bigger risk, I would consider using it while planning the complete fix properly afterward. But I would avoid hiding the issue or shipping something unreliably unknowingly. I think that choice says that I value accountability, transparency, and long-term quality over Simply appearing fast For me, meeting deadlines is important, but delivering trustworthy and stable work is equally important in software development.",
+      "word_count": 151,
+      "duration": 70.64
+    },
+    {
+      "id": 37,
+      "speaker": "SPEAKER_1",
+      "start": 2050.05,
+      "end": 2057.99,
+      "segment_ids": [
+        75
+      ],
+      "text": "You talked about impact and communication. How would you explain this last minute issue and your plan to a non-technical stakeholder?",
+      "word_count": 21,
+      "duration": 7.94
+    },
+    {
+      "id": 38,
+      "speaker": "SPEAKER_0",
+      "start": 2079.11,
+      "end": 2159.51,
+      "segment_ids": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "text": "I would explain the situation in simple business terms instead of using technical details. For example, I would say that we identified an important issue close to the deadline that could affect the reliability or user user experience of the application if released immediately. Then I would clearly explain the impact available options and my recommendations. For example, I might say that we can either release quickly with the temporary around and monitor the issue carefully or take a later later more time to implement the proper fix and ensure better stability. I would also communicate the estimated timeline and the risks involved and what steps are already being taken to resolve the issue. My goal would be to keep the stakeholder informed, confident and able to make decisions without overwhelming them with unnecessary technical complexity. I think good Communication in these situations is about clarity, honesty, and focusing on business impact rather than only technical terminology. I finished next",
+      "word_count": 160,
+      "duration": 80.4
+    },
+    {
+      "id": 39,
+      "speaker": "SPEAKER_1",
+      "start": 2167.85,
+      "end": 2177.29,
+      "segment_ids": [
+        80
+      ],
+      "text": "Thanks Deepanshu Gunwant. That's all for this part. Your responses have been recorded. We'll continue with the next part shortly. You may go ahead and end the call now.",
+      "word_count": 29,
+      "duration": 9.44
+    }
+  ],
+  "latency": [
+    {
+      "from_turn_id": 1,
+      "to_turn_id": 2,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 20.74
+    },
+    {
+      "from_turn_id": 2,
+      "to_turn_id": 3,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 3.64
+    },
+    {
+      "from_turn_id": 3,
+      "to_turn_id": 4,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 9.76
+    },
+    {
+      "from_turn_id": 4,
+      "to_turn_id": 5,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 7.22
+    },
+    {
+      "from_turn_id": 5,
+      "to_turn_id": 6,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 8.8
+    },
+    {
+      "from_turn_id": 6,
+      "to_turn_id": 7,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 33.7
+    },
+    {
+      "from_turn_id": 7,
+      "to_turn_id": 8,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 7.88
+    },
+    {
+      "from_turn_id": 8,
+      "to_turn_id": 9,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 33.38
+    },
+    {
+      "from_turn_id": 9,
+      "to_turn_id": 10,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 7.04
+    },
+    {
+      "from_turn_id": 10,
+      "to_turn_id": 11,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.58
+    },
+    {
+      "from_turn_id": 11,
+      "to_turn_id": 12,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 7.68
+    },
+    {
+      "from_turn_id": 12,
+      "to_turn_id": 13,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 84.94
+    },
+    {
+      "from_turn_id": 13,
+      "to_turn_id": 14,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 14.54
+    },
+    {
+      "from_turn_id": 14,
+      "to_turn_id": 15,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.14
+    },
+    {
+      "from_turn_id": 15,
+      "to_turn_id": 16,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 12.78
+    },
+    {
+      "from_turn_id": 16,
+      "to_turn_id": 17,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 9.38
+    },
+    {
+      "from_turn_id": 17,
+      "to_turn_id": 18,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 5.44
+    },
+    {
+      "from_turn_id": 18,
+      "to_turn_id": 19,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 11.18
+    },
+    {
+      "from_turn_id": 19,
+      "to_turn_id": 20,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 9.28
+    },
+    {
+      "from_turn_id": 20,
+      "to_turn_id": 21,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 5.22
+    },
+    {
+      "from_turn_id": 21,
+      "to_turn_id": 22,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 26.66
+    },
+    {
+      "from_turn_id": 22,
+      "to_turn_id": 23,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 10.34
+    },
+    {
+      "from_turn_id": 23,
+      "to_turn_id": 24,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 11.62
+    },
+    {
+      "from_turn_id": 24,
+      "to_turn_id": 25,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 3.44
+    },
+    {
+      "from_turn_id": 25,
+      "to_turn_id": 26,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 9.98
+    },
+    {
+      "from_turn_id": 26,
+      "to_turn_id": 27,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 3.88
+    },
+    {
+      "from_turn_id": 27,
+      "to_turn_id": 28,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 10.34
+    },
+    {
+      "from_turn_id": 28,
+      "to_turn_id": 29,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 9.16
+    },
+    {
+      "from_turn_id": 29,
+      "to_turn_id": 30,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 11.3
+    },
+    {
+      "from_turn_id": 30,
+      "to_turn_id": 31,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 4.16
+    },
+    {
+      "from_turn_id": 31,
+      "to_turn_id": 32,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 12.72
+    },
+    {
+      "from_turn_id": 32,
+      "to_turn_id": 33,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 8.2
+    },
+    {
+      "from_turn_id": 33,
+      "to_turn_id": 34,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 8.38
+    },
+    {
+      "from_turn_id": 34,
+      "to_turn_id": 35,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_0",
+      "duration": 137.28
+    },
+    {
+      "from_turn_id": 35,
+      "to_turn_id": 36,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_0",
+      "duration": 65.34
+    },
+    {
+      "from_turn_id": 36,
+      "to_turn_id": 37,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 4.16
+    },
+    {
+      "from_turn_id": 37,
+      "to_turn_id": 38,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 24.22
+    },
+    {
+      "from_turn_id": 38,
+      "to_turn_id": 39,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 4.04
+    },
+    {
+      "from_turn_id": 39,
+      "to_turn_id": 40,
+      "from_speaker": "SPEAKER_1",
+      "to_speaker": "SPEAKER_0",
+      "duration": 21.12
+    },
+    {
+      "from_turn_id": 40,
+      "to_turn_id": 41,
+      "from_speaker": "SPEAKER_0",
+      "to_speaker": "SPEAKER_1",
+      "duration": 8.34
+    }
+  ],
+  "pauses": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_0",
+      "start": 91.69,
+      "end": 92.13,
+      "duration": 0.44
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_0",
+      "start": 858.23,
+      "end": 858.35,
+      "duration": 0.12
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_0",
+      "start": 1156.25,
+      "end": 1157.35,
+      "duration": 1.1
+    },
+    {
+      "turn_id": 26,
+      "speaker": "SPEAKER_0",
+      "start": 1325.11,
+      "end": 1325.31,
+      "duration": 0.2
+    },
+    {
+      "turn_id": 32,
+      "speaker": "SPEAKER_0",
+      "start": 1582.77,
+      "end": 1583.85,
+      "duration": 1.08
+    },
+    {
+      "turn_id": 34,
+      "speaker": "SPEAKER_0",
+      "start": 1648.17,
+      "end": 1648.77,
+      "duration": 0.6
+    },
+    {
+      "turn_id": 35,
+      "speaker": "SPEAKER_0",
+      "start": 1863.49,
+      "end": 1869.81,
+      "duration": 6.32
+    },
+    {
+      "turn_id": 38,
+      "speaker": "SPEAKER_0",
+      "start": 2037.19,
+      "end": 2038.25,
+      "duration": 1.06
+    },
+    {
+      "turn_id": 40,
+      "speaker": "SPEAKER_0",
+      "start": 2148.17,
+      "end": 2158.29,
+      "duration": 10.12
+    }
+  ],
+  "overlaps": [],
+  "stats": {
+    "SPEAKER_1": {
+      "turn_count": 20,
+      "total_speaking_time": 171.76,
+      "total_words": 492,
+      "latency": {
+        "count": 19,
+        "mean": 13.43,
+        "median": 7.22,
+        "p25": 4.16,
+        "p75": 9.86,
+        "min": 3.44,
+        "max": 84.94,
+        "values": [
+          3.44,
+          3.64,
+          3.88,
+          4.04,
+          4.16,
+          4.16,
+          5.14,
+          5.22,
+          5.58,
+          7.22,
+          8.2,
+          8.34,
+          9.16,
+          9.38,
+          10.34,
+          11.18,
+          33.38,
+          33.7,
+          84.94
+        ]
+      },
+      "pause": {
+        "count": 0,
+        "mean": 0,
+        "median": 0,
+        "p25": 0,
+        "p75": 0,
+        "min": 0,
+        "max": 0,
+        "values": []
+      },
+      "words": {
+        "count": 20,
+        "mean": 24.6,
+        "median": 21.5,
+        "p25": 19.75,
+        "p75": 30.25,
+        "min": 16,
+        "max": 34,
+        "values": [
+          16,
+          18,
+          19,
+          19,
+          19,
+          20,
+          20,
+          20,
+          21,
+          21,
+          22,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          34
+        ]
+      },
+      "duration": {
+        "count": 20,
+        "mean": 8.59,
+        "median": 8.26,
+        "p25": 6.71,
+        "p75": 10.21,
+        "min": 5.4,
+        "max": 11.98,
+        "values": [
+          5.4,
+          5.6,
+          6.32,
+          6.42,
+          6.5,
+          6.78,
+          7.42,
+          7.78,
+          7.94,
+          8.0,
+          8.52,
+          9.44,
+          9.48,
+          9.78,
+          10.08,
+          10.62,
+          10.88,
+          10.88,
+          11.94,
+          11.98
+        ]
+      }
+    },
+    "SPEAKER_0": {
+      "turn_count": 1,
+      "total_speaking_time": 8.04,
+      "total_words": 2,
+      "latency": {
+        "count": 1,
+        "mean": 137.28,
+        "median": 137.28,
+        "p25": 137.28,
+        "p75": 137.28,
+        "min": 137.28,
+        "max": 137.28,
+        "values": [
+          137.28
+        ]
+      },
+      "pause": {
+        "count": 1,
+        "mean": 6.32,
+        "median": 6.32,
+        "p25": 6.32,
+        "p75": 6.32,
+        "min": 6.32,
+        "max": 6.32,
+        "values": [
+          6.32
+        ]
+      },
+      "words": {
+        "count": 1,
+        "mean": 2.0,
+        "median": 2,
+        "p25": 2,
+        "p75": 2,
+        "min": 2,
+        "max": 2,
+        "values": [
+          2
+        ]
+      },
+      "duration": {
+        "count": 1,
+        "mean": 8.04,
+        "median": 8.04,
+        "p25": 8.04,
+        "p75": 8.04,
+        "min": 8.04,
+        "max": 8.04,
+        "values": [
+          8.04
+        ]
+      }
+    }
+  },
+  "speaker_roles": {
+    "SPEAKER_1": "interviewer",
+    "SPEAKER_0": "candidate"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": "auto_research_v1",
+  "description": "Tunable assessment parameters for the V1 interview LLM-detection pipeline",
+  "signal_weights": {
+    "statistical_anomaly": 0.21,
+    "complexity_difference": 0.22,
+    "polish_difference": 0.12,
+    "timing_context": 0.1,
+    "llm_preparedness": 0.36
+  },
+  "answer_thresholds": {
+    "watch_score": 0.28,
+    "flagged_score": 0.65,
+    "flagged_min_major_signals": 2
+  },
+  "verdict_rules": {
+    "ai_assisted_min_flagged": 2,
+    "ai_assisted_min_flagged_ratio": 0.4,
+    "mixed_min_flagged": 1,
+    "mixed_min_watch": 2
+  },
+  "signal_parameters": {
+    "polish_word_count_guard": 30,
+    "polish_dampening_factor": 0.5,
+    "timing_normalize_floor": 0.3,
+    "timing_normalize_ceiling": 2.0,
+    "statistical_composite_low": 0.1,
+    "statistical_composite_high": 0.28,
+    "statistical_z_floor": 1.0,
+    "statistical_z_ceiling": 3.0,
+    "complexity_fk_floor": 1.5,
+    "complexity_fk_ceiling": 10.0,
+    "complexity_dep_floor": 0.2,
+    "complexity_dep_ceiling": 1.8,
+    "complexity_long_word_floor": 0.03,
+    "complexity_long_word_ceiling": 0.25,
+    "complexity_rare_word_floor": 0.02,
+    "complexity_rare_word_ceiling": 0.15,
+    "polish_formality_floor": 0.05,
+    "polish_formality_ceiling": 0.25,
+    "polish_sentence_length_floor": 4.0,
+    "polish_sentence_length_ceiling": 18.0,
+    "polish_proselint_floor": 1.0,
+    "polish_proselint_ceiling": 5.0
+  },
+  "data_quality": {
+    "min_substantive_words": 15,
+    "min_candidate_words": 80,
+    "min_substantive_turns": 2
+  }
+}

@@ -1,0 +1,9 @@
+[project]
+name = "v1-auto-research"
+version = "0.1.0"
+description = "Automated parameter tuning for V1 interview assessment pipeline"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = []

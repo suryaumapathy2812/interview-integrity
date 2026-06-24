@@ -1,0 +1,1906 @@
+[
+  {
+    "code": "Vol",
+    "name": "Volume",
+    "category": "Voice Delivery",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "rms": 0.063253,
+      "peak": 0.947332,
+      "clip_ratio": 0.0,
+      "p10": 1.7826333941969863e-12,
+      "p90": 0.12082581222057343
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "RMS=0.0633",
+      "Peak=0.9473",
+      "Clip=0.0000"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Var",
+    "name": "Vocal Variety",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate shows minimal vocal variety with predominantly flat delivery. While there are occasional moments of slight emphasis when discussing interests like UI/UX design, the overall pattern is monotonous with frequent hesitations, repetitions, and language switching that disrupts natural flow and expression. The delivery lacks the dynamic variation needed to engage listeners or emphasize key points effectively."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate shows minimal vocal variety with predominantly flat delivery. While there are occasional moments of slight emphasis when discussing interests like UI/UX design, the overall pattern is monotonous with frequent hesitations, repetitions, and language switching that disrupts natural flow and expression. The delivery lacks the dynamic variation needed to engage listeners or emphasize key points effectively."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ste",
+    "name": "Steadiness",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Frequent instability across all dimensions - volume drops mid-sentence, erratic pacing with sudden stops and starts, tone shifts unpredictably, and speech becomes increasingly fragmented and difficult to follow, particularly in later answers where sentences trail off incomplete."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent instability across all dimensions - volume drops mid-sentence, erratic pacing with sudden stops and starts, tone shifts unpredictably, and speech becomes increasingly fragmented and difficult to follow, particularly in later answers where sentences trail off incomplete."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ton",
+    "name": "Tone",
+    "category": "Voice Delivery",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "tone_category": "nervous",
+      "reasoning": "Candidate displays significant nervousness with frequent stuttering, incomplete sentences, code-switching between English and Hindi, and fragmented thoughts. Speech patterns are hesitant with multiple false starts and unclear articulation that would negatively impact listener perception of voice quality and overall communication effectiveness."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate displays significant nervousness with frequent stuttering, incomplete sentences, code-switching between English and Hindi, and fragmented thoughts. Speech patterns are hesitant with multiple false starts and unclear articulation that would negatively impact listener perception of voice quality and overall communication effectiveness."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Prj",
+    "name": "Projection",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "audio",
+    "score": 3,
+    "raw": {
+      "rms": 0.063253,
+      "peak": 0.947332,
+      "snr_db": 161.63,
+      "clip_ratio": 0.0
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "RMS=0.0633",
+      "SNR=161.6dB",
+      "Clip=0.0000"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "En",
+    "name": "Energy",
+    "category": "Voice Delivery",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows moderate engagement with enthusiasm for technical topics like UI/UX design and data analytics, but energy is inconsistent across answers. Communication struggles and frequent language switching suggest nervousness rather than disengagement. Demonstrates passion for projects but delivery lacks consistent vitality."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows moderate engagement with enthusiasm for technical topics like UI/UX design and data analytics, but energy is inconsistent across answers. Communication struggles and frequent language switching suggest nervousness rather than disengagement. Demonstrates passion for projects but delivery lacks consistent vitality."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Clr",
+    "name": "Clarity",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Many words are hard to understand due to frequent grammatical errors, incomplete sentences, code-switching between English and Hindi, repetitive stammering, and unclear articulation. While some basic meaning can be extracted with significant effort, the overall communication is heavily impaired."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Many words are hard to understand due to frequent grammatical errors, incomplete sentences, code-switching between English and Hindi, repetitive stammering, and unclear articulation. While some basic meaning can be extracted with significant effort, the overall communication is heavily impaired."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Mon",
+    "name": "Monotony",
+    "category": "Voice Delivery",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Speech shows mostly flat delivery with repetitive patterns, frequent filler words ('I am', 'so I choose that'), and mechanical sentence structures. While there are occasional attempts at emphasis, the overall pattern is monotonous with limited natural variation in rhythm or intonation."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Speech shows mostly flat delivery with repetitive patterns, frequent filler words ('I am', 'so I choose that'), and mechanical sentence structures. While there are occasional attempts at emphasis, the overall pattern is monotonous with limited natural variation in rhythm or intonation."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "WPM",
+    "name": "Words Per Minute",
+    "category": "Pace & Rhythm",
+    "layer": "M",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "avg_wpm": 161.6,
+      "turn_wpm": [
+        135.6,
+        138.7,
+        150.0,
+        138.4,
+        126.9,
+        179.6,
+        186.7,
+        161.5,
+        236.8
+      ],
+      "turn_count": 9
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Avg WPM=161.6",
+      "Turns=9"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Acc",
+    "name": "Acceleration",
+    "category": "Pace & Rhythm",
+    "layer": "M",
+    "source": "transcript",
+    "score": 0,
+    "raw": {
+      "avg_accel": 12.65,
+      "max_accel": 75.31,
+      "accel_rates": [
+        3.07,
+        11.31,
+        -11.62,
+        -11.51,
+        52.7,
+        7.12,
+        -25.16,
+        75.31
+      ]
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Avg accel=12.7 WPM",
+      "Max accel=75.3 WPM"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Dec",
+    "name": "Deceleration",
+    "category": "Pace & Rhythm",
+    "layer": "M",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "avg_decel": -12.65,
+      "max_decel": 25.16,
+      "decel_rates": [
+        -3.07,
+        -11.31,
+        11.62,
+        11.51,
+        -52.7,
+        -7.12,
+        25.16,
+        -75.31
+      ]
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Avg decel=-12.7 WPM",
+      "Max decel=25.2 WPM"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Rus",
+    "name": "Rushing",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 1,
+    "raw": {
+      "avg_wpm": 161.6,
+      "rush_count": 4,
+      "rush_ratio": 0.444,
+      "wpm_list": [
+        135.6,
+        138.7,
+        150.0,
+        138.4,
+        126.9,
+        179.6,
+        186.7,
+        161.5,
+        236.8
+      ]
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Avg WPM=161.6",
+      "Rush ratio=44.4%"
+    ],
+    "depends_on": [
+      "WPM"
+    ]
+  },
+  {
+    "code": "Drg",
+    "name": "Dragging",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "avg_wpm": 161.6,
+      "drag_count": 0,
+      "drag_ratio": 0.0,
+      "wpm_list": [
+        135.6,
+        138.7,
+        150.0,
+        138.4,
+        126.9,
+        179.6,
+        186.7,
+        161.5,
+        236.8
+      ]
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Avg WPM=161.6",
+      "Drag ratio=0.0%"
+    ],
+    "depends_on": [
+      "WPM"
+    ]
+  },
+  {
+    "code": "Pac",
+    "name": "Pace Control",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 1,
+    "raw": {
+      "avg_wpm": 161.6,
+      "spread": 41.2,
+      "out_of_range_ratio": 0.333
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Avg WPM=161.6",
+      "Spread=41.2",
+      "Out-of-range=33.3%"
+    ],
+    "depends_on": [
+      "WPM",
+      "Rus",
+      "Drg"
+    ]
+  },
+  {
+    "code": "Rhy",
+    "name": "Rhythm",
+    "category": "Pace & Rhythm",
+    "layer": "D",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "spread": 41.2,
+      "long_pauses": 1,
+      "pause_count": 5
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Spread=41.2",
+      "Long pauses=1"
+    ],
+    "depends_on": [
+      "Pac"
+    ]
+  },
+  {
+    "code": "FP",
+    "name": "Filled Pause",
+    "category": "Pauses & Silence",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_fillers": 3,
+      "total_words": 625,
+      "rate_per_100": 0.48,
+      "per_turn": [
+        {
+          "turn_id": 2,
+          "fillers": 1,
+          "words": 75
+        },
+        {
+          "turn_id": 4,
+          "fillers": 0,
+          "words": 46
+        },
+        {
+          "turn_id": 6,
+          "fillers": 0,
+          "words": 66
+        },
+        {
+          "turn_id": 8,
+          "fillers": 0,
+          "words": 50
+        },
+        {
+          "turn_id": 10,
+          "fillers": 0,
+          "words": 34
+        },
+        {
+          "turn_id": 12,
+          "fillers": 0,
+          "words": 75
+        },
+        {
+          "turn_id": 14,
+          "fillers": 2,
+          "words": 159
+        },
+        {
+          "turn_id": 16,
+          "fillers": 0,
+          "words": 117
+        },
+        {
+          "turn_id": 18,
+          "fillers": 0,
+          "words": 3
+        }
+      ]
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Fillers=3",
+      "Rate=0.5/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "HP",
+    "name": "Hesitation Pause",
+    "category": "Pauses & Silence",
+    "layer": "M+D",
+    "source": "transcript",
+    "score": 1,
+    "raw": {
+      "hp_count": 3,
+      "hp_with_fillers": 2,
+      "hesitation_ratio": 0.667,
+      "rate_per_100": 0.48
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "HP count=3",
+      "Rate=0.5/100w"
+    ],
+    "depends_on": [
+      "FP"
+    ]
+  },
+  {
+    "code": "Lat",
+    "name": "Latency",
+    "category": "Pauses & Silence",
+    "layer": "M",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "avg_latency": 1.94,
+      "p25": 1.0,
+      "p75": 1.5,
+      "too_fast_ratio": 0.222,
+      "too_slow_ratio": 0.111,
+      "latencies": [
+        1.54,
+        1.08,
+        1.36,
+        1.0,
+        1.18,
+        1.5,
+        8.36,
+        0.72,
+        0.7
+      ]
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Avg=1.94s",
+      "Fast=22%",
+      "Slow=11%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Sil",
+    "name": "Long Silence",
+    "category": "Pauses & Silence",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "long_pause_count": 0,
+      "long_pause_ratio": 0.0,
+      "long_pause_total_s": 0,
+      "threshold_s": 2.5
+    },
+    "confidence": 0.85,
+    "evidence": [
+      "Long pauses=0",
+      "Ratio=0.0%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "OP",
+    "name": "Owned Pause",
+    "category": "Pauses & Silence",
+    "layer": "D",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "owned_count": 2,
+      "owned_ratio": 0.4,
+      "total_pauses": 5
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Owned=2",
+      "Ratio=40.0%"
+    ],
+    "depends_on": [
+      "FP",
+      "HP"
+    ]
+  },
+  {
+    "code": "RP",
+    "name": "Recovery Pause",
+    "category": "Pauses & Silence",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "recovery_pause_count": 4,
+      "score": 1,
+      "reasoning": "Recovery is rare and weak. Most pauses lead to repetitive stammering, incomplete thoughts, or language switching rather than meaningful recovery. The candidate struggles to resume coherently after pausing, with frequent false starts and fragmented sentences that don't improve answer quality."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Recovery is rare and weak. Most pauses lead to repetitive stammering, incomplete thoughts, or language switching rather than meaningful recovery. The candidate struggles to resume coherently after pausing, with frequent false starts and fragmented sentences that don't improve answer quality."
+    ],
+    "depends_on": [
+      "OP"
+    ]
+  },
+  {
+    "code": "Pau",
+    "name": "Pause Quality",
+    "category": "Pauses & Silence",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "pause_count": 5,
+      "score": 1,
+      "reasoning": "While pause frequency is low, the candidate shows significant speech disruption through repetitive false starts, incomplete thoughts, and language switching mid-sentence. The pauses appear to be moments of struggle rather than deliberate communication tools, indicating poor fluency control."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "While pause frequency is low, the candidate shows significant speech disruption through repetitive false starts, incomplete thoughts, and language switching mid-sentence. The pauses appear to be moments of struggle rather than deliberate communication tools, indicating poor fluency control."
+    ],
+    "depends_on": [
+      "FP",
+      "HP",
+      "OP",
+      "RP",
+      "Lat",
+      "Sil"
+    ]
+  },
+  {
+    "code": "FS",
+    "name": "False Starts",
+    "category": "Fluency",
+    "layer": "M",
+    "source": "transcript",
+    "score": 3,
+    "raw": {
+      "total_fs": 6,
+      "total_words": 625,
+      "rate_per_100": 0.96,
+      "per_turn": [
+        {
+          "turn_id": 2,
+          "false_starts": 2,
+          "words": 75
+        },
+        {
+          "turn_id": 4,
+          "false_starts": 0,
+          "words": 46
+        },
+        {
+          "turn_id": 6,
+          "false_starts": 0,
+          "words": 66
+        },
+        {
+          "turn_id": 8,
+          "false_starts": 0,
+          "words": 50
+        },
+        {
+          "turn_id": 10,
+          "false_starts": 0,
+          "words": 34
+        },
+        {
+          "turn_id": 12,
+          "false_starts": 0,
+          "words": 75
+        },
+        {
+          "turn_id": 14,
+          "false_starts": 3,
+          "words": 159
+        },
+        {
+          "turn_id": 16,
+          "false_starts": 1,
+          "words": 117
+        },
+        {
+          "turn_id": 18,
+          "false_starts": 0,
+          "words": 3
+        }
+      ]
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "FS=6",
+      "Rate=1.0/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Rep",
+    "name": "Repetition",
+    "category": "Fluency",
+    "layer": "M",
+    "source": "transcript",
+    "score": 3,
+    "raw": {
+      "adj_repeats": 6,
+      "bigram_repeats": 1,
+      "total_repeats": 7,
+      "total_words": 625,
+      "rate_per_100": 1.12
+    },
+    "confidence": 0.85,
+    "evidence": [
+      "Repeats=7",
+      "Rate=1.1/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "SC",
+    "name": "Self-Correct",
+    "category": "Fluency",
+    "layer": "M+D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_sc": 1,
+      "total_words": 625,
+      "rate_per_100": 0.16,
+      "per_turn": [
+        {
+          "turn_id": 2,
+          "corrections": 0,
+          "words": 75
+        },
+        {
+          "turn_id": 4,
+          "corrections": 0,
+          "words": 46
+        },
+        {
+          "turn_id": 6,
+          "corrections": 0,
+          "words": 66
+        },
+        {
+          "turn_id": 8,
+          "corrections": 0,
+          "words": 50
+        },
+        {
+          "turn_id": 10,
+          "corrections": 0,
+          "words": 34
+        },
+        {
+          "turn_id": 12,
+          "corrections": 0,
+          "words": 75
+        },
+        {
+          "turn_id": 14,
+          "corrections": 0,
+          "words": 159
+        },
+        {
+          "turn_id": 16,
+          "corrections": 1,
+          "words": 117
+        },
+        {
+          "turn_id": 18,
+          "corrections": 0,
+          "words": 3
+        }
+      ]
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Corrections=1",
+      "Rate=0.2/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Run",
+    "name": "Run-On Speech",
+    "category": "Fluency",
+    "layer": "D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "run_on_turns": 0,
+      "run_on_ratio": 0.0
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Run-on turns=0",
+      "Ratio=0.0%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Frag",
+    "name": "Fragments",
+    "category": "Fluency",
+    "layer": "M+D",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "total_fragments": 2,
+      "total_words": 625,
+      "rate_per_100": 0.32
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Fragments=2",
+      "Rate=0.3/100w"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Flo",
+    "name": "Speech Flow",
+    "category": "Fluency",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "fillers": 3,
+      "repeats": 6,
+      "disruption_rate": 1.44,
+      "score": 1,
+      "reasoning": "Speech shows frequent breakdowns with multiple false starts ('I am I am design'), adjacent repeats ('attract attract', 'creative creatively'), language switching mid-sentence, and incomplete thoughts. The disruption rate of 1.4/100 words combined with observable pattern of stops and restarts indicates frequent interruption to natural flow."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Speech shows frequent breakdowns with multiple false starts ('I am I am design'), adjacent repeats ('attract attract', 'creative creatively'), language switching mid-sentence, and incomplete thoughts. The disruption rate of 1.4/100 words combined with observable pattern of stops and restarts indicates frequent interruption to natural flow."
+    ],
+    "depends_on": [
+      "FS",
+      "Rep",
+      "SC"
+    ]
+  },
+  {
+    "code": "Coh",
+    "name": "Cohesion",
+    "category": "Fluency",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "connectors": 6,
+      "connector_rate": 0.96,
+      "score": 1,
+      "reasoning": "Ideas are mostly presented as disconnected lists with minimal logical flow. Frequent repetition, incomplete thoughts, and abrupt topic shifts create weak connections between sentences. The low connector usage (1.0/100w) reflects the fragmented nature of responses where ideas don't build cohesively upon each other."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Ideas are mostly presented as disconnected lists with minimal logical flow. Frequent repetition, incomplete thoughts, and abrupt topic shifts create weak connections between sentences. The low connector usage (1.0/100w) reflects the fragmented nature of responses where ideas don't build cohesively upon each other."
+    ],
+    "depends_on": [
+      "Conn"
+    ]
+  },
+  {
+    "code": "Conn",
+    "name": "Connector Words",
+    "category": "Fluency",
+    "layer": "M+J",
+    "source": "transcript",
+    "score": 2,
+    "raw": {
+      "basic_count": 51,
+      "advanced_count": 6,
+      "total_connectors": 57,
+      "advanced_ratio": 0.105
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Basic=51",
+      "Advanced=6",
+      "Adv ratio=10.5%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Grm",
+    "name": "Grammar",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Frequent grammatical errors including incomplete sentences, incorrect verb forms, word order issues, and code-switching to Hindi significantly impair comprehension. While some meaning can be extracted, the errors create substantial strain for the listener and often obscure the intended message."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent grammatical errors including incomplete sentences, incorrect verb forms, word order issues, and code-switching to Hindi significantly impair comprehension. While some meaning can be extracted, the errors create substantial strain for the listener and often obscure the intended message."
+    ],
+    "depends_on": [
+      "Ten",
+      "SVA"
+    ]
+  },
+  {
+    "code": "Ten",
+    "name": "Tense",
+    "category": "Language Quality",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Frequent tense errors throughout with inconsistent use of present/past tenses, incomplete sentences, and grammatical confusion that significantly impacts clarity. While some meaning can be extracted, the tense inaccuracies create substantial communication barriers."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent tense errors throughout with inconsistent use of present/past tenses, incomplete sentences, and grammatical confusion that significantly impacts clarity. While some meaning can be extracted, the tense inaccuracies create substantial communication barriers."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "SVA",
+    "name": "Agreement",
+    "category": "Language Quality",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Frequent subject-verb agreement errors throughout, including 'I am pursuing...campus' (missing preposition), 'there is very creative design model creating', 'its UI UX is very interesting', 'I genuinely work' (tense inconsistency), 'they they have not a battery', and many others. While some sentences are grammatically correct, the errors are pervasive and often impede clear communication."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent subject-verb agreement errors throughout, including 'I am pursuing...campus' (missing preposition), 'there is very creative design model creating', 'its UI UX is very interesting', 'I genuinely work' (tense inconsistency), 'they they have not a battery', and many others. While some sentences are grammatically correct, the errors are pervasive and often impede clear communication."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Sent",
+    "name": "Sentence",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Frequent broken sentences, incomplete thoughts, code-switching between English and Hindi, grammatical errors, and fragmented ideas. While some basic meaning can be extracted, the sentence structures are consistently flawed and difficult to follow."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent broken sentences, incomplete thoughts, code-switching between English and Hindi, grammatical errors, and fragmented ideas. While some basic meaning can be extracted, the sentence structures are consistently flawed and difficult to follow."
+    ],
+    "depends_on": [
+      "Grm"
+    ]
+  },
+  {
+    "code": "Voc",
+    "name": "Vocabulary",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "unique_ratio": 0.345,
+      "total_words": 597,
+      "score": 1,
+      "reasoning": "Very limited vocabulary range with frequent repetition of basic words like 'I am', 'very', 'choose', 'work'. Speech contains numerous grammatical errors, incomplete sentences, code-switching to Hindi, and imprecise word usage (e.g., 'compute' instead of 'complete'). The unique word ratio of 0.35 indicates significant repetition, and technical terms are used incorrectly or incompletely."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Very limited vocabulary range with frequent repetition of basic words like 'I am', 'very', 'choose', 'work'. Speech contains numerous grammatical errors, incomplete sentences, code-switching to Hindi, and imprecise word usage (e.g., 'compute' instead of 'complete'). The unique word ratio of 0.35 indicates significant repetition, and technical terms are used incorrectly or incompletely."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Reg",
+    "name": "Register",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 0,
+    "raw": {
+      "score": 0,
+      "reasoning": "Language is clearly inappropriate for interview context with severe issues: frequent code-switching between English and Hindi, incomplete sentences, grammatical errors, unclear communication, and inability to articulate thoughts coherently. The candidate struggles to maintain professional English throughout and fails to communicate ideas effectively."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Language is clearly inappropriate for interview context with severe issues: frequent code-switching between English and Hindi, incomplete sentences, grammatical errors, unclear communication, and inability to articulate thoughts coherently. The candidate struggles to maintain professional English throughout and fails to communicate ideas effectively."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Tech",
+    "name": "Technical",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Uses some technical terms like 'UI UX', 'Power BI', 'SQL', 'data analytics', and 'solar energy' but application is often incorrect or unclear. Terms are mentioned without proper context or explanation, and there are frequent grammatical errors that obscure meaning. Technical vocabulary appears forced rather than natural, with limited understanding demonstrated."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Uses some technical terms like 'UI UX', 'Power BI', 'SQL', 'data analytics', and 'solar energy' but application is often incorrect or unclear. Terms are mentioned without proper context or explanation, and there are frequent grammatical errors that obscure meaning. Technical vocabulary appears forced rather than natural, with limited understanding demonstrated."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Idi",
+    "name": "Idioms",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Very limited natural phrasing with frequent grammatical errors, code-switching to Hindi, incomplete sentences, and awkward constructions like 'I am design I am like to design' and 'I will compute in the certain time.' While some basic ideas are communicated, the language lacks idiomatic fluency and professional control."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Very limited natural phrasing with frequent grammatical errors, code-switching to Hindi, incomplete sentences, and awkward constructions like 'I am design I am like to design' and 'I will compute in the certain time.' While some basic ideas are communicated, the language lacks idiomatic fluency and professional control."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "RepW",
+    "name": "Word Repeat",
+    "category": "Language Quality",
+    "layer": "M",
+    "source": "transcript",
+    "score": 0,
+    "raw": {
+      "repeat_words": 269,
+      "total_words": 597,
+      "repeat_rate": 45.06
+    },
+    "confidence": 0.85,
+    "evidence": [
+      "Repeat words=269",
+      "Rate=45.1%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Pwr",
+    "name": "Power Words",
+    "category": "Language Quality",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Language is predominantly generic and repetitive with frequent filler words ('very', 'also', 'so'), basic vocabulary, and lacks precision. Multiple incomplete sentences, code-switching, and vague expressions like 'technical things' and 'certain time' demonstrate weak word choice. No evidence of strong action verbs or emphasis-aware language."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Language is predominantly generic and repetitive with frequent filler words ('very', 'also', 'so'), basic vocabulary, and lacks precision. Multiple incomplete sentences, code-switching, and vague expressions like 'technical things' and 'certain time' demonstrate weak word choice. No evidence of strong action verbs or emphasis-aware language."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Gap",
+    "name": "Working Around Gaps",
+    "category": "Language Quality",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate frequently encounters vocabulary gaps that cause communication breakdowns. While they attempt to work around missing words (e.g., describing UI/UX as 'creative design model creating'), their explanations often become unclear or incomplete. Code-switching to Hindi and incomplete sentences indicate they struggle to find alternative ways to express ideas in English, resulting in repeated communication failures."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate frequently encounters vocabulary gaps that cause communication breakdowns. While they attempt to work around missing words (e.g., describing UI/UX as 'creative design model creating'), their explanations often become unclear or incomplete. Code-switching to Hindi and incomplete sentences indicate they struggle to find alternative ways to express ideas in English, resulting in repeated communication failures."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Str",
+    "name": "Structure",
+    "category": "Answer Structure",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Answers lack coherent structure with frequent false starts, incomplete thoughts, and language switching mid-sentence. Ideas are scattered without logical flow or clear organization, making responses difficult to follow despite containing some relevant content."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Answers lack coherent structure with frequent false starts, incomplete thoughts, and language switching mid-sentence. Ideas are scattered without logical flow or clear organization, making responses difficult to follow despite containing some relevant content."
+    ],
+    "depends_on": [
+      "Ctx",
+      "Act",
+      "Res"
+    ]
+  },
+  {
+    "code": "Ctx",
+    "name": "Context",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate mentions some real contexts like 'Blood Bank Management System' project, 'University College of Engineering Tiruchirappalli', 'Rila three-day entrepreneurship program', and 'Power BI using SQL' work experience. However, these contexts lack clear details about specific roles, tasks, or verifiable information that would make them precise and actionable for follow-up questions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions some real contexts like 'Blood Bank Management System' project, 'University College of Engineering Tiruchirappalli', 'Rila three-day entrepreneurship program', and 'Power BI using SQL' work experience. However, these contexts lack clear details about specific roles, tasks, or verifiable information that would make them precise and actionable for follow-up questions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Act",
+    "name": "Action",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate mentions several personal actions (pursuing degree, working part-time in data analytics, studying aptitude, improving communication skills, finishing mini project) but descriptions are broad and lack specific details about methodology, outcomes, or clear ownership of results."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions several personal actions (pursuing degree, working part-time in data analytics, studying aptitude, improving communication skills, finishing mini project) but descriptions are broad and lack specific details about methodology, outcomes, or clear ownership of results."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Res",
+    "name": "Result",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate mentions some outcomes like completing a mini project in blood bank management system and part-time work in data analytics, but these are stated vaguely without specific details, metrics, or clear impact. Most responses focus on interests and ongoing activities rather than concrete results achieved."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate mentions some outcomes like completing a mini project in blood bank management system and part-time work in data analytics, but these are stated vaguely without specific details, metrics, or clear impact. Most responses focus on interests and ongoing activities rather than concrete results achieved."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ex",
+    "name": "Example",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate mentions a few specific items like 'blood bank management system mini project' and 'Power BI using SQL' but provides no concrete details, context, or outcomes. The examples are vague, poorly articulated, and fail to demonstrate competencies or achievements meaningfully."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate mentions a few specific items like 'blood bank management system mini project' and 'Power BI using SQL' but provides no concrete details, context, or outcomes. The examples are vague, poorly articulated, and fail to demonstrate competencies or achievements meaningfully."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "STAR",
+    "name": "STAR",
+    "category": "Answer Structure",
+    "layer": "C",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "components": {
+        "situation": false,
+        "task": false,
+        "action": false,
+        "result": false
+      },
+      "reasoning": "All responses are general introductory statements about background, interests, and current activities. No specific behavioral examples with clear situations, tasks, actions taken, or measurable results are provided. The candidate mentions projects like 'blood bank management system' and 'data analytics work' but doesn't structure these as complete STAR examples with context, challenges, specific actions, and outcomes."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "All responses are general introductory statements about background, interests, and current activities. No specific behavioral examples with clear situations, tasks, actions taken, or measurable results are provided. The candidate mentions projects like 'blood bank management system' and 'data analytics work' but doesn't structure these as complete STAR examples with context, challenges, specific actions, and outcomes."
+    ],
+    "depends_on": [
+      "Ctx",
+      "Act",
+      "Res",
+      "Str"
+    ]
+  },
+  {
+    "code": "Rel",
+    "name": "Relevance",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "qa_count": 9,
+      "score": 1,
+      "reasoning": "Answers are loosely related but consistently miss the specific asks. Candidate mentions relevant topics (UI/UX, data analytics) but doesn't directly address questions about 5-year goals, degree enjoyment specifics, or what they'd build with unlimited resources. Communication issues and tangential responses prevent clear, focused answers."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Answers are loosely related but consistently miss the specific asks. Candidate mentions relevant topics (UI/UX, data analytics) but doesn't directly address questions about 5-year goals, degree enjoyment specifics, or what they'd build with unlimited resources. Communication issues and tangential responses prevent clear, focused answers."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Drf",
+    "name": "Drift",
+    "category": "Answer Structure",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Frequent drift throughout. A1 switches languages mid-answer, A4 completely shifts from degree enjoyment to entrepreneurship programs, A5 introduces new technical area (data analytics) when asked about UI/UX, and A6 entirely ignores the 'what would you build' question to discuss interview skills. Only A2 and A3 stay somewhat on topic."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent drift throughout. A1 switches languages mid-answer, A4 completely shifts from degree enjoyment to entrepreneurship programs, A5 introduces new technical area (data analytics) when asked about UI/UX, and A6 entirely ignores the 'what would you build' question to discuss interview skills. Only A2 and A3 stay somewhat on topic."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ver",
+    "name": "Verifiable",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Contains some verifiable elements like specific institution (University College of Engineering Tiruchirappalli), degree program (Computer Science Engineering), technical skills (Power BI, SQL), and project mention (Blood Bank Management System), but lacks concrete details like dates, company names, specific achievements, or measurable outcomes that would make verification straightforward."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Contains some verifiable elements like specific institution (University College of Engineering Tiruchirappalli), degree program (Computer Science Engineering), technical skills (Power BI, SQL), and project mention (Blood Bank Management System), but lacks concrete details like dates, company names, specific achievements, or measurable outcomes that would make verification straightforward."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Step",
+    "name": "Steps",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate mentions scattered activities (Power BI, SQL, studying aptitude, improving communication) but provides no clear sequence or systematic process for any task. Responses lack coherent step-by-step thinking and are fragmented with language mixing issues."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate mentions scattered activities (Power BI, SQL, studying aptitude, improving communication) but provides no clear sequence or systematic process for any task. Responses lack coherent step-by-step thinking and are fragmented with language mixing issues."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Num",
+    "name": "Numbers",
+    "category": "Specificity",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "total_numbers": 0,
+      "score": 1,
+      "reasoning": "Contains only vague quantities like '11th and 12th', 'three days', 'one hour' without meaningful metrics, dates, or impact measurements that would demonstrate concrete achievements or experience"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Contains only vague quantities like '11th and 12th', 'three days', 'one hour' without meaningful metrics, dates, or impact measurements that would demonstrate concrete achievements or experience"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Nam",
+    "name": "Names",
+    "category": "Specificity",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "names_found": [
+        "University College of Engineering Tiruchirappalli",
+        "University College of Engineering, Kichirappalli BIT campus",
+        "Blood Bank Management System",
+        "Rila",
+        "Power BI",
+        "SQL"
+      ],
+      "reasoning": "Candidate mentions some specific names including educational institutions, a project (Blood Bank Management System), and technical tools (Power BI, SQL). However, many references are vague ('three day program', 'entrepreneurship program', 'one new company') and there are inconsistencies in institution names. The named entities provide some concrete details but lack the specificity and consistency needed for higher scores."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions some specific names including educational institutions, a project (Blood Bank Management System), and technical tools (Power BI, SQL). However, many references are vague ('three day program', 'entrepreneurship program', 'one new company') and there are inconsistencies in institution names. The named entities provide some concrete details but lack the specificity and consistency needed for higher scores."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Det",
+    "name": "Detail",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Answers contain vague, fragmented details with poor language structure. While some specific elements are mentioned (Power BI, SQL, blood bank management system), they lack context and depth. Most responses are unclear, repetitive, and don't provide meaningful insight into the candidate's actual experience or capabilities."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Answers contain vague, fragmented details with poor language structure. While some specific elements are mentioned (Power BI, SQL, blood bank management system), they lack context and depth. Most responses are unclear, repetitive, and don't provide meaningful insight into the candidate's actual experience or capabilities."
+    ],
+    "depends_on": [
+      "Num",
+      "Nam"
+    ]
+  },
+  {
+    "code": "Con",
+    "name": "Concrete",
+    "category": "Specificity",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate's language is mostly vague and abstract with minimal concrete details. While they mention a few specific items like 'Blood Bank Management System', 'Power BI', 'SQL', and 'three day program', these are overshadowed by numerous vague phrases like 'very creative design model', 'very interesting and creativity', 'genuinely work on', and 'unlimited time'. The communication is also fragmented with frequent language switching and unclear expressions, making it difficult to extract concrete information about their actual experience and capabilities."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate's language is mostly vague and abstract with minimal concrete details. While they mention a few specific items like 'Blood Bank Management System', 'Power BI', 'SQL', and 'three day program', these are overshadowed by numerous vague phrases like 'very creative design model', 'very interesting and creativity', 'genuinely work on', and 'unlimited time'. The communication is also fragmented with frequent language switching and unclear expressions, making it difficult to extract concrete information about their actual experience and capabilities."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Why",
+    "name": "Reasoning",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate provides weak, circular reasoning with statements like 'I choose UI UX because it's creative and interesting' without explaining why creativity matters to them or how it connects to their goals. Reasoning is repetitive, lacks depth, and doesn't demonstrate clear decision-making processes or insights into their choices."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides weak, circular reasoning with statements like 'I choose UI UX because it's creative and interesting' without explaining why creativity matters to them or how it connects to their goals. Reasoning is repetitive, lacks depth, and doesn't demonstrate clear decision-making processes or insights into their choices."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "C&E",
+    "name": "Cause/Effect",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows sequence of events (chose CS \u2192 chose UI/UX, experienced Power BI \u2192 interested in data analytics) but lacks clear explanatory connections between actions and outcomes. Most statements are descriptive rather than demonstrating causal understanding of how specific actions led to specific results."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows sequence of events (chose CS \u2192 chose UI/UX, experienced Power BI \u2192 interested in data analytics) but lacks clear explanatory connections between actions and outcomes. Most statements are descriptive rather than demonstrating causal understanding of how specific actions led to specific results."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Opt",
+    "name": "Options",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate states their choices (UI/UX, computer science, data analytics) but doesn't mention considering any alternative options or explain why they chose these over other possibilities. They simply state what they selected without demonstrating awareness of other paths they could have taken."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate states their choices (UI/UX, computer science, data analytics) but doesn't mention considering any alternative options or explain why they chose these over other possibilities. They simply state what they selected without demonstrating awareness of other paths they could have taken."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Trd",
+    "name": "Tradeoffs",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 0,
+    "raw": {
+      "score": 0,
+      "reasoning": "The candidate shows no awareness of tradeoffs in any response. All answers focus only on positive aspects of their choices (choosing UI/UX, pursuing CS, working on data analytics) without acknowledging what was given up, alternative options considered, or any downsides to their decisions. No evidence of weighing pros and cons or understanding opportunity costs."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate shows no awareness of tradeoffs in any response. All answers focus only on positive aspects of their choices (choosing UI/UX, pursuing CS, working on data analytics) without acknowledging what was given up, alternative options considered, or any downsides to their decisions. No evidence of weighing pros and cons or understanding opportunity costs."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Jud",
+    "name": "Judgment",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate mentions choices (UI/UX, computer science, entrepreneurship) but provides superficial reasoning like 'it's creative' or 'interesting' without demonstrating deep consideration of alternatives, trade-offs, or ownership of outcomes. No clear evidence of deliberate judgment or acceptance of consequences from decisions made."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions choices (UI/UX, computer science, entrepreneurship) but provides superficial reasoning like 'it's creative' or 'interesting' without demonstrating deep consideration of alternatives, trade-offs, or ownership of outcomes. No clear evidence of deliberate judgment or acceptance of consequences from decisions made."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ins",
+    "name": "Insight",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate provides mostly generic statements about liking design and creativity without demonstrating deeper understanding. While they mention some experiences (blood bank project, data analytics work), they fail to articulate meaningful insights or learning principles from these experiences. The responses lack reflection on what was actually learned or how experiences shaped their understanding."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate provides mostly generic statements about liking design and creativity without demonstrating deeper understanding. While they mention some experiences (blood bank project, data analytics work), they fail to articulate meaningful insights or learning principles from these experiences. The responses lack reflection on what was actually learned or how experiences shaped their understanding."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ref",
+    "name": "Reflection",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "The candidate mentions some general areas for improvement (communication skills, aptitude) and states they are working on them, but provides no specific reflection on past experiences or concrete examples of how experiences led to behavioral changes. The responses lack depth and fail to demonstrate meaningful self-analysis or learning from specific situations."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate mentions some general areas for improvement (communication skills, aptitude) and states they are working on them, but provides no specific reflection on past experiences or concrete examples of how experiences led to behavioral changes. The responses lack depth and fail to demonstrate meaningful self-analysis or learning from specific situations."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Beyond",
+    "name": "Goes Beyond",
+    "category": "Reasoning",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate provides some generic add-ons like mentioning entrepreneurship programs and skill improvement plans, but lacks depth, specific insights, or meaningful lessons. Answers are mostly surface-level descriptions without demonstrating learning from experiences or broader principles that would be memorable or valuable."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate provides some generic add-ons like mentioning entrepreneurship programs and skill improvement plans, but lacks depth, specific insights, or meaningful lessons. Answers are mostly surface-level descriptions without demonstrating learning from experiences or broader principles that would be memorable or valuable."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Adp",
+    "name": "Adaptability",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate struggles significantly with adaptability. Responses show confusion about basic details (changing degree program, mixing languages mid-sentence), inability to provide coherent follow-up information, and difficulty staying on topic. When asked different questions, answers become increasingly disjointed rather than building clarity or addressing the specific direction of questions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate struggles significantly with adaptability. Responses show confusion about basic details (changing degree program, mixing languages mid-sentence), inability to provide coherent follow-up information, and difficulty staying on topic. When asked different questions, answers become increasingly disjointed rather than building clarity or addressing the specific direction of questions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ask",
+    "name": "Clarifying",
+    "category": "Conversation Behavior",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 0,
+    "raw": {
+      "score": 0,
+      "reasoning": "The candidate never asks any clarifying questions throughout the interview responses. They provide answers without seeking clarification on unclear prompts or questions, and some responses appear to address different questions than what may have been asked, suggesting they should have clarified but didn't."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "The candidate never asks any clarifying questions throughout the interview responses. They provide answers without seeking clarification on unclear prompts or questions, and some responses appear to address different questions than what may have been asked, suggesting they should have clarified but didn't."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "B&F",
+    "name": "Back/Forth",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "cand_ratio": 0.474,
+      "score": 1,
+      "reasoning": "Candidate struggles to maintain coherent exchanges with frequent language switching, incomplete thoughts, and unclear responses that often don't directly address questions. While they attempt to respond to each prompt, the communication barriers require significant interviewer patience and likely frequent clarification requests to sustain the conversation."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate struggles to maintain coherent exchanges with frequent language switching, incomplete thoughts, and unclear responses that often don't directly address questions. While they attempt to respond to each prompt, the communication barriers require significant interviewer patience and likely frequent clarification requests to sustain the conversation."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Lis",
+    "name": "Listening",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate frequently misunderstands or provides tangential responses. In Q1, misheard interviewer's name (Sara\u2192Zara). Q4 asked about favorite part of degree but answered about external programs. Q6 asked what they would build with unlimited resources but answered about improving personal skills instead. Shows pattern of not fully processing the specific question being asked."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate frequently misunderstands or provides tangential responses. In Q1, misheard interviewer's name (Sara\u2192Zara). Q4 asked about favorite part of degree but answered about external programs. Q6 asked what they would build with unlimited resources but answered about improving personal skills instead. Shows pattern of not fully processing the specific question being asked."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Ans",
+    "name": "Responsive",
+    "category": "Conversation Behavior",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate consistently provides indirect, rambling responses that don't directly address the questions asked. Answers lack focus, contain significant language barriers, and often drift to unrelated topics (e.g., Q6 asks about building something with unlimited resources, but candidate discusses improving communication skills instead)."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate consistently provides indirect, rambling responses that don't directly address the questions asked. Answers lack focus, contain significant language barriers, and often drift to unrelated topics (e.g., Q6 asks about building something with unlimited resources, but candidate discusses improving communication skills instead)."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Turn",
+    "name": "Turn-Taking",
+    "category": "Conversation Behavior",
+    "layer": "M+J",
+    "source": "llm",
+    "score": 4,
+    "raw": {
+      "overlap_count": 0,
+      "overlap_duration": 0,
+      "score": 4,
+      "reasoning": "Perfect turn-taking with zero overlapping segments and 0.0s overlap duration. Candidate waited for questions and responded appropriately without interrupting or over-talking, demonstrating respectful interview etiquette despite some language fluency challenges."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Perfect turn-taking with zero overlapping segments and 0.0s overlap duration. Candidate waited for questions and responded appropriately without interrupting or over-talking, demonstrating respectful interview etiquette despite some language fluency challenges."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Rec",
+    "name": "Recovery",
+    "category": "Conversation Behavior",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows minimal recovery ability. While they attempt to continue after language switches and stuttering (Answer 1), and try to clarify points when confused (Answer 2-3), the recovery is consistently slow and incomplete. They frequently repeat mistakes, struggle with language consistency throughout, and fail to regain smooth communication flow even after multiple attempts to self-correct."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows minimal recovery ability. While they attempt to continue after language switches and stuttering (Answer 1), and try to clarify points when confused (Answer 2-3), the recovery is consistently slow and incomplete. They frequently repeat mistakes, struggle with language consistency throughout, and fail to regain smooth communication flow even after multiple attempts to self-correct."
+    ],
+    "depends_on": [
+      "SC",
+      "RP"
+    ]
+  },
+  {
+    "code": "Trust",
+    "name": "Trust",
+    "category": "Confidence Signals",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Significant inconsistencies undermine trustworthiness: claims to be pursuing B.Ed then Computer Science Engineering, switches between languages mid-sentence, provides vague or contradictory details about experience and projects. Communication issues and lack of coherent narrative make it difficult to verify claims or assess genuine competence."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Significant inconsistencies undermine trustworthiness: claims to be pursuing B.Ed then Computer Science Engineering, switches between languages mid-sentence, provides vague or contradictory details about experience and projects. Communication issues and lack of coherent narrative make it difficult to verify claims or assess genuine competence."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Pres",
+    "name": "Presence",
+    "category": "Confidence Signals",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows very hesitant communication with frequent grammatical errors, code-switching between English and Hindi mid-sentence, incomplete thoughts, and unclear explanations. While they demonstrate some technical knowledge and enthusiasm, the delivery lacks the clarity and confidence expected in professional settings."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows very hesitant communication with frequent grammatical errors, code-switching between English and Hindi mid-sentence, incomplete thoughts, and unclear explanations. While they demonstrate some technical knowledge and enthusiasm, the delivery lacks the clarity and confidence expected in professional settings."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Hold",
+    "name": "Pressure Hold",
+    "category": "Confidence Signals",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows significant deterioration under pressure with frequent code-switching to native language, incomplete sentences, and increasingly fragmented responses. While basic meaning is sometimes conveyed on familiar topics like their background, communication breaks down substantially as questions progress, indicating poor pressure management."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows significant deterioration under pressure with frequent code-switching to native language, incomplete sentences, and increasingly fragmented responses. While basic meaning is sometimes conveyed on familiar topics like their background, communication breaks down substantially as questions progress, indicating poor pressure management."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Recv",
+    "name": "Recovery Speed",
+    "category": "Confidence Signals",
+    "layer": "D",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows slow recovery with persistent issues. While they attempt to continue after disruptions like language switching (Answer 1) and unclear explanations, the recovery is incomplete. Answers remain structurally weak with ongoing grammar issues, unclear messaging, and lack of coherent flow throughout all responses."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows slow recovery with persistent issues. While they attempt to continue after disruptions like language switching (Answer 1) and unclear explanations, the recovery is incomplete. Answers remain structurally weak with ongoing grammar issues, unclear messaging, and lack of coherent flow throughout all responses."
+    ],
+    "depends_on": [
+      "RP",
+      "SC"
+    ]
+  },
+  {
+    "code": "Own",
+    "name": "Ownership",
+    "category": "Confidence Signals",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Shows some personal ownership with 'I' statements and mentions of personal projects (blood bank management system, data analytics work, entrepreneurship program), but lacks clear accountability for outcomes or specific impacts. Language is often vague and doesn't demonstrate deep ownership of results or learning from experiences."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Shows some personal ownership with 'I' statements and mentions of personal projects (blood bank management system, data analytics work, entrepreneurship program), but lacks clear accountability for outcomes or specific impacts. Language is often vague and doesn't demonstrate deep ownership of results or learning from experiences."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Conf",
+    "name": "Confidence",
+    "category": "Confidence Signals",
+    "layer": "C",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows low confidence with frequent speech breakdowns, code-switching between English and Hindi mid-sentence, repetitive stammering ('I am I am'), incomplete thoughts, and inconsistent self-presentation (claiming different educational backgrounds). While they attempt to engage with questions, the delivery suggests significant nervousness and lack of composure under interview pressure."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows low confidence with frequent speech breakdowns, code-switching between English and Hindi mid-sentence, repetitive stammering ('I am I am'), incomplete thoughts, and inconsistent self-presentation (claiming different educational backgrounds). While they attempt to engage with questions, the delivery suggests significant nervousness and lack of composure under interview pressure."
+    ],
+    "depends_on": [
+      "Vol",
+      "Ste",
+      "Pac",
+      "Pau",
+      "Hold",
+      "Recv",
+      "Pres"
+    ]
+  },
+  {
+    "code": "Nerv",
+    "name": "Nervousness",
+    "category": "Confidence Signals",
+    "layer": "D+J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "fillers": 3,
+      "filler_rate": 0.48,
+      "score": 1,
+      "reasoning": "Frequent nervous signals including repetitive false starts ('I am I am design'), code-switching to native language mid-sentence, incomplete thoughts, and fragmented speech patterns throughout multiple answers indicate significant nervousness that impacts communication clarity."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Frequent nervous signals including repetitive false starts ('I am I am design'), code-switching to native language mid-sentence, incomplete thoughts, and fragmented speech patterns throughout multiple answers indicate significant nervousness that impacts communication clarity."
+    ],
+    "depends_on": [
+      "FP",
+      "HP"
+    ]
+  },
+  {
+    "code": "Imp",
+    "name": "Impact",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate mentions some activities (blood bank management system project, 3-day entrepreneurship program, part-time data analytics work) but provides no quantified outcomes, measurable results, or clear impact from their actions. Claims are vague and lack specific details about achievements or meaningful contributions."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions some activities (blood bank management system project, 3-day entrepreneurship program, part-time data analytics work) but provides no quantified outcomes, measurable results, or clear impact from their actions. Claims are vague and lack specific details about achievements or meaningful contributions."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Lead",
+    "name": "Leadership",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate mentions starting a company and participating in entrepreneurship programs, but provides no concrete examples of leading others, taking initiative with measurable outcomes, or demonstrating actual leadership behaviors. Claims lack substance and supporting details."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate mentions starting a company and participating in entrepreneurship programs, but provides no concrete examples of leading others, taking initiative with measurable outcomes, or demonstrating actual leadership behaviors. Claims lack substance and supporting details."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Prof",
+    "name": "Maturity",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Demonstrates immature professional judgment with inconsistent educational background claims, poor communication skills affecting professional presentation, code-switching between languages during interview, and vague or contradictory statements about experience and goals. Shows basic awareness of professional development needs but lacks the maturity to present coherently in a professional setting."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Demonstrates immature professional judgment with inconsistent educational background claims, poor communication skills affecting professional presentation, code-switching between languages during interview, and vague or contradictory statements about experience and goals. Shows basic awareness of professional development needs but lacks the maturity to present coherently in a professional setting."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Prob",
+    "name": "Problem Solve",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate makes generic claims about choosing UI/UX and working on projects but provides no evidence of actual problem-solving processes, handling constraints, or overcoming specific challenges. Responses lack concrete examples of problem identification, analysis, or resolution steps."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate makes generic claims about choosing UI/UX and working on projects but provides no evidence of actual problem-solving processes, handling constraints, or overcoming specific challenges. Responses lack concrete examples of problem identification, analysis, or resolution steps."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Coll",
+    "name": "Collab",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 0,
+    "raw": {
+      "score": 0,
+      "reasoning": "No collaboration evidence found. All answers focus on individual pursuits, personal interests, and solo activities. No mention of teamwork, group projects, working with others, or collaborative experiences."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "No collaboration evidence found. All answers focus on individual pursuits, personal interests, and solo activities. No mention of teamwork, group projects, working with others, or collaborative experiences."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Learn",
+    "name": "Learnability",
+    "category": "Role Competency",
+    "layer": "J",
+    "source": "llm",
+    "score": 2,
+    "raw": {
+      "score": 2,
+      "reasoning": "Candidate shows basic learning examples like working with Power BI/SQL and attending entrepreneurship programs, and expresses desire to improve communication and aptitude skills with some structured approach (daily practice). However, lacks specific examples of learning from feedback or failure, and doesn't demonstrate how learning translated into systematic changes or measurable results."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows basic learning examples like working with Power BI/SQL and attending entrepreneurship programs, and expresses desire to improve communication and aptitude skills with some structured approach (daily practice). However, lacks specific examples of learning from feedback or failure, and doesn't demonstrate how learning translated into systematic changes or measurable results."
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Comp",
+    "name": "Competency",
+    "category": "Role Competency",
+    "layer": "C",
+    "source": "llm",
+    "score": 1,
+    "raw": {
+      "score": 1,
+      "reasoning": "Candidate shows interest in UI/UX and mentions some relevant experience (blood bank management system project, Power BI/SQL), but communication issues significantly hinder demonstration of competencies. Answers lack clarity, structure, and depth. While there's basic understanding of the field and some technical exposure, the candidate cannot effectively articulate their skills or experiences in a way that demonstrates role-relevant behavior."
+    },
+    "confidence": 0.6,
+    "evidence": [
+      "Candidate shows interest in UI/UX and mentions some relevant experience (blood bank management system project, Power BI/SQL), but communication issues significantly hinder demonstration of competencies. Answers lack clarity, structure, and depth. While there's basic understanding of the field and some technical exposure, the candidate cannot effectively articulate their skills or experiences in a way that demonstrates role-relevant behavior."
+    ],
+    "depends_on": [
+      "Rel",
+      "Ex",
+      "Act",
+      "Jud",
+      "Imp"
+    ]
+  },
+  {
+    "code": "Dia",
+    "name": "Diarization",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "transcript",
+    "score": 4,
+    "raw": {
+      "speakers": 2,
+      "cand_turns": 9,
+      "int_turns": 10,
+      "overlap_count": 0,
+      "overlap_ratio": 0.0
+    },
+    "confidence": 0.7,
+    "evidence": [
+      "Speakers=2",
+      "Overlap=0.0%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "SNR",
+    "name": "Signal-To-Noise Ratio",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "snr_db": 161.63,
+      "noise_floor": 0.0,
+      "signal_level": 0.120826
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "SNR=161.6dB"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Drop",
+    "name": "Dropouts",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 0,
+    "raw": {
+      "zero_frames": 2399,
+      "dropout_ratio": 0.2908
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Zero frames=2399",
+      "Ratio=29.08%"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Clip",
+    "name": "Clipping",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "clipping_ratio": 0.0,
+      "peak": 0.947332
+    },
+    "confidence": 0.9,
+    "evidence": [
+      "Clip ratio=0.0000"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "ECHO",
+    "error": "404 Not Found. {'message': '', 'status': 'Not Found'}"
+  },
+  {
+    "code": "Mic",
+    "name": "Mic Quality",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 3,
+    "raw": {
+      "rms": 0.063253,
+      "peak": 0.947332,
+      "snr_db": 161.63,
+      "clip_ratio": 0.0
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "RMS=0.0633",
+      "SNR=161.6dB"
+    ],
+    "depends_on": []
+  },
+  {
+    "code": "Noi",
+    "name": "Noise",
+    "category": "Recording Quality",
+    "layer": "M",
+    "source": "audio",
+    "score": 4,
+    "raw": {
+      "noise_floor": 0.0,
+      "rms": 0.063253,
+      "snr_db": 161.63
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "Noise floor=0.0000",
+      "SNR=161.6dB"
+    ],
+    "depends_on": []
+  }
+]

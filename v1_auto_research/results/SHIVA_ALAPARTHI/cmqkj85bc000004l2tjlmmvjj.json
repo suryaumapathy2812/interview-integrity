@@ -1,0 +1,179 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkj85bc000004l2tjlmmvjj",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781849560838/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 6,
+    "candidate_substantive_turn_count": 4,
+    "candidate_word_count": 172
+  },
+  "scores": {
+    "session_assistance_score": 0.1027,
+    "max_answer_score": 0.1905,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 39,
+      "text_excerpt": "Yeah, so I would take feedback and I will ensure that the feedback is taken into consideration while reiterating and building so that we can pay attention to what the customers feel and what they say and tweak accordingly.",
+      "score": 0.1905,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1122,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.322,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6667,
+          "level": "high"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4375
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 28,
+      "text_excerpt": "Yeah. So, there were lots of complex requirements and I ensured that I wrote it all down and I spoke to my mentor whenever I needed some support.",
+      "score": 0.0564,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.06,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.029,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5926
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 33,
+      "text_excerpt": "Okay. So I ensure that I keep the option for the users to interact with us and share with us actively so that we can incorporate that in our app. Yeah, that's all.",
+      "score": 0.0853,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0409,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0683,
+          "level": "low",
+          "words_per_second": 1.9504
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 51,
+      "text_excerpt": "it's really important that you own not just in software development I think in all fields you need to be owning outcomes and you need to take responsibility for it so that it's a successful project. Because customers are involved, you need to ensure that you give your 100% to them.",
+      "score": 0.0788,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0195,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3929,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4854
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

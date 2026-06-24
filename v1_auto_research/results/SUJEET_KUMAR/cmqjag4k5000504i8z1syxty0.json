@@ -1,0 +1,348 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjag4k5000504i8z1syxty0",
+  "user_name": "SUJEET KUMAR",
+  "metadata": {
+    "user_name": "SUJEET KUMAR",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781774344253/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 10,
+    "candidate_substantive_turn_count": 9,
+    "candidate_word_count": 719
+  },
+  "scores": {
+    "session_assistance_score": 0.145,
+    "max_answer_score": 0.4284,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 57,
+      "text_excerpt": "Firstly, I try to convince and firstly, I try to know about their issues. After that, I'm trying to convince them if they, he and she are able to convince, so it will be good. Otherwise, I try to explain all things, all things about their problem. So, And I'm trying to engage them in these things.",
+      "score": 0.0625,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0242,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0227
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 67,
+      "text_excerpt": "First I ask what happened sir. After that he he or she answering me then I'm trying to know about after that I ask what is your problem sir is there any issues in in there is there any issues is there any problem that would you happen? First, I am trying to know about their issues. After that, I take any suggestion. I give any suggestion.",
+      "score": 0.1417,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0281,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0303
+        },
+        "llm_preparedness": {
+          "score": 0.2979,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 63,
+      "text_excerpt": "If if my client has any objection about the solution, so I can try to move for another solution. If our client has a question about this particular solution, so we can try to switch on another solution. Definitely, we have multiple types of solutions. Definitely, I can explain one by one. Definitely, anyone is suitable for that person. So I can try.",
+      "score": 0.1623,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0152,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0147,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7617
+        },
+        "llm_preparedness": {
+          "score": 0.3264,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 83,
+      "text_excerpt": "a big strategy and related to the our field and after making strategy definitely we can try to do very better And we have first we try to make when describing your our experience this common successful strategy like first I'm trying to active listening and discovering which show how to identify the client specified pains points rather than just pitching a product. After that building reports then objection handling. Then persistence and follow up. And last I'm trying to do consultative selling.",
+      "score": 0.4284,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.095,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2014,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3917,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7437
+        },
+        "llm_preparedness": {
+          "score": 0.8929,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 92,
+      "text_excerpt": "Enviro describe Yeah, sister, I can describe. Instead of him gently gesting a prize, I asked open-ended question and let them speak without interruption. I minor their concern back to them to ensure they felt heart saying it sound like human concern, isn't the ghost. Like that. And like the pivot, once they felt understood, their defensiveness loaded, I addressed the objection. by showing a customer report of any new features they had yet utilized, which directly offset the price increase by sav",
+      "score": 0.0993,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0096,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1023,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0044
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 75,
+      "text_excerpt": "If if someone is a new client, so I can try to convince them like first listen to understand focus on ROI, return on investment. Leverage a social proof. Offer a low risk entry. be transparent and honest. I can give these all things. explain these all things for that person. So definitely we can we are able to convince and hesitate client about the value of service. I can able to explain all things.",
+      "score": 0.0702,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0211,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3435,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8592
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 95,
+      "text_excerpt": "Okay I can try to explain ROI in very simple word to assistant the class. ROI is essential a way to see how much extra money you get back for every dollar you spend. Think of it like planting a seeds. ROI tells you how many fruits you will get from that one seeds. If you spend 100 dollar and end up with 150 dollar you return in the $50 profit you made on top of your original investment. I can explain in a very simple way. for these all things, saying these all things.",
+      "score": 0.0553,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0282,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.029
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "This is a great question to showcase our original skills and familiarity with the sales and technologies. First, tools we can use CRM software, mention tools like Salesforce, like that. How you, how I use them to log every interaction app, and second is I can use KPI dashboard. Okay, so visual data to track metrics like conversion rates, average, like different types of things. And third one is pipelining review, describe how to conduct regular self audit of your account. And fourth is Salesforc",
+      "score": 0.1571,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1527,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0852,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4275,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8374
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 73,
+      "text_excerpt": "Firstly, I start my day by checking the CRM task list. I prioritize list or account that are flagged on high intendence high priority and or have upcoming follows of deadlines. This this it ensure me I am spending my most energetic hours on the most value opportunities. Then we can try the midday performance monitoring dashboard. I check the sales dashboard to track my progress against weekly KPI like call like that.",
+      "score": 0.128,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0787,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1214,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1221
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

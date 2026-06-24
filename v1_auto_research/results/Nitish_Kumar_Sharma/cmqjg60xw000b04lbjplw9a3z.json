@@ -1,0 +1,484 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjg60xw000b04lbjplw9a3z",
+  "user_name": "Nitish Kumar Sharma",
+  "metadata": {
+    "user_name": "Nitish Kumar Sharma",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq51tlgl009c6j05m2oqii6w",
+    "jd_name": "Jr. MEAN Stack Developer",
+    "company": "Upmetrics",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781783954648/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 13,
+    "candidate_substantive_turn_count": 13,
+    "candidate_word_count": 934
+  },
+  "scores": {
+    "session_assistance_score": 0.144,
+    "max_answer_score": 0.5675,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 56,
+      "text_excerpt": "One of my major project is learning management system built using React JS, Node JS, Express JS and MongoDB. The problem it solves is providing a complete online learning platform where students can access courses, extend live classes, take exams, interact with teachers through the chat room and it also supports the quick chat AI assistant.",
+      "score": 0.0889,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0447,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0565,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4167,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9802
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 83,
+      "text_excerpt": "Hmm I built the project using React JS for the front end, Node JS and Express JS for the back end, and MongoDB for the database. I choose React, it helps. I use Node.js because express.js because it is efficient for building and the rest API for handling the multiple requests. MongoDB was chosen We can connect the cloud version. And it is also flexible and works well with JavaScript based on application. And I use JWT token, secret token for that authentication.",
+      "score": 0.0648,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0289,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0062,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5502
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 68,
+      "text_excerpt": "The hardest technical decision was implementing real-time communication for the live classes and student-teacher interaction. I had to choose between normal HTTPS request and web sockets. I select socket IO because it provides real-time two-way communication and it is more suitable for live chat and instant update. Although it was more complex to implement, it improved the user user experience by enabling real-time video setting and chat also.",
+      "score": 0.08,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0294,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0756,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7472
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 70,
+      "text_excerpt": "Uh, the MERN stack consists of MongoDB Express JS and Node JS. It is not the MEAN stack, it is MERN stack. Okay? And uh, the I have used React for the front end which sends request to the Express JS and API running on the Node JS. The backend process, the request interacts with MongoDB to store it and retrieves. and send the response back to the front end.",
+      "score": 0.0911,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.07,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0879,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0858
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 19,
+      "text_excerpt": "Actually at first I say I said that MERN stack not MEAN stack. M E R N MERN stack.",
+      "score": 0.137,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3924,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.017
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "textbook"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 176,
+      "text_excerpt": "Okay First, to set up the simple RESTful API in Express JS, I would create a Node JS project, install Express, create a server file. Then the basic structure should be server.js which starts the Express server. Then I would create the routes which contains the API routes such as user, such as login. login and register and and for then I will I will create the controllers which contains business logic then I will create models which contains MongoDB full schema and then I will create middleware w",
+      "score": 0.1032,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1085,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0391,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3071,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8767
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 69,
+      "text_excerpt": "how would I organize the the structure should be the inside the project folder we we will have the server.js config file routes controllers models middleware services utilities and uploads routes handles the API endpoints controllers contain the business logic model define the database schema as middleware handles the authentication services contains the business reusable business functions and config store the database and environment setting and That is all",
+      "score": 0.5675,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6675,
+          "level": "high"
+        },
+        "complexity_difference": {
+          "score": 0.6509,
+          "level": "high"
+        },
+        "polish_difference": {
+          "score": 0.6252,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.105,
+          "level": "low",
+          "words_per_second": 1.3653
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 60,
+      "text_excerpt": "Hmm For the learning platform, I create separate collection in MongoDB for the users, courses, enrollments, exam, results, OTP, and the collection are linked using the MongoDB object ID. For example, a course contains the teacher's ID and enrollment contains both student and course ID. This design reduces the data duplication and makes the system easier to scale and maintain.",
+      "score": 0.0851,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0324,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0386,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.606
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 89,
+      "text_excerpt": "In the user collection, I would include fields like name, email, password, role, profile, image, and create it. In the course collection, I would I would store title, description, instructor, and price category and course content. And for the Angular application with real-time updates, I would use lazy loading, on push change, change detection, and track by in list to reduce the unnecessary rendering. I would also optimize API calls, use the web socket efficiently. for the real-time data and che",
+      "score": 0.1078,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1431,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9272
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 49,
+      "text_excerpt": "on push and detection improves performance because Angular updates component only when its input data changes. Instead of checking all the components continuously with real-time data, this reduces unnecessary rendering and CPU usage, making the application faster and more responsive, especially when there are many components on the page.",
+      "score": 0.166,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0873,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2254,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9051
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 91,
+      "text_excerpt": "I handle the in my learning management project, I use JWT which is JSON web tokens for user authentication. User login in with their email and password and after successful verification a JWT token is generated and sent to the client. For security I used Bycrip to hash the password before storing them into database. I used I also implement a role based access control for students, teachers, and admins, which protect the API routes using authentication middleware and validate the user input to pr",
+      "score": 0.207,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0771,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.3562,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1016
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 75,
+      "text_excerpt": "Okay For that, first error handling, I would use a centralized error handling middleware. Errors from routes and controllers are passing using the next function in which I pass the error and the middleware returns the appropriate status codes and message such as 400 error for bad request, 401 error for 401 error for un unauthorized access, 404 error not found, 500 for server error. This keeps the error handling consistent and makes debugging easier.",
+      "score": 0.1004,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1084,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3543,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6447
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 26,
+      "speaker": "SPEAKER_01",
+      "word_count": 29,
+      "text_excerpt": "end the call now. I did not answer the last question, so why should, why, why do I have to end the call? Okay, can I end the call?",
+      "score": 0.0732,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1265,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0102,
+          "level": "low",
+          "words_per_second": 2.161
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

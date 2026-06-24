@@ -1,0 +1,348 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqdph3y8000i04l2itlauibn",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781436788861/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 10,
+    "candidate_substantive_turn_count": 9,
+    "candidate_word_count": 348
+  },
+  "scores": {
+    "session_assistance_score": 0.1537,
+    "max_answer_score": 0.3708,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 48,
+      "text_excerpt": "Um, yes, during my internship, I had to collaborate with three team members to meet my project deadline, and my role was a team lead. So I had to assign tasks to them and make sure I follow up and come up with ideas and make it happen.",
+      "score": 0.0614,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0193,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5316
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 74,
+      "text_excerpt": "So, there were a lot of disagreements and confusion in the team because each one of them wanted to be a team lead and each one of them wanted to make sure they had different roles and added value. So whenever there was a disagreement, I made sure I called them for a meeting and had an open discussion and open talk so that they are able to unblock and work with each other.",
+      "score": 0.2122,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2723,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2222,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6018,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.9671
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 43,
+      "text_excerpt": "Um, so I solved this problem by making sure that I had, I did not know about carbon emissions, then I had to learn about it. I did go through a lot of YouTube videos and courses and then that's how I learned.",
+      "score": 0.0651,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0351,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0037,
+          "level": "low",
+          "words_per_second": 2.4432
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 17,
+      "text_excerpt": "Yes, I implemented a feature where there is continuous monitoring that is happening using time series data.",
+      "score": 0.1415,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2974,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2549,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0442,
+          "level": "low",
+          "words_per_second": 2.3743
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 24,
+      "text_excerpt": "Um, I used a lot of concepts like, um, TypeScript, Java, Node.js, and AWS EC2 instances because those were the ones that I required.",
+      "score": 0.1072,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0398,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0869,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2218,
+          "level": "low",
+          "words_per_second": 2.0725
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 31,
+      "text_excerpt": "So I handled multiple users by making sure that I do asynchronous mode where whenever an editing is happening and a new job is coming in I will reject those jobs.",
+      "score": 0.3708,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5032,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.385,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4218,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7385
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 40,
+      "text_excerpt": "Uh, there were a lot of times when I had to deliver under pressure, but I used to take it slow, and I always made sure I had enough time in a sprint to accommodate for bugs and any issues.",
+      "score": 0.2408,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0554,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2365,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6429,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.1572,
+          "level": "low",
+          "words_per_second": 3.3167
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 22,
+      "text_excerpt": "Um, I always prioritized and wrote down what needs to be completed first and that's how I went about planning for this.",
+      "score": 0.0693,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0454,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1551,
+          "level": "low",
+          "words_per_second": 3.3133
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 41,
+      "text_excerpt": "Um, yes, so I always make sure I can scale by writing. Uh, whenever I write, I write it in a very optimized way and I also talk to my mentors and make sure scalability is part of the system design.",
+      "score": 0.115,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1001,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0623,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.9883
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

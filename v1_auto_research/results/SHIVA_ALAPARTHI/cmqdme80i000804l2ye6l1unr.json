@@ -1,0 +1,383 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqdme80i000804l2ye6l1unr",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781431603954/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 12,
+    "candidate_substantive_turn_count": 10,
+    "candidate_word_count": 492
+  },
+  "scores": {
+    "session_assistance_score": 0.1762,
+    "max_answer_score": 0.517,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 2
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 50,
+      "text_excerpt": "The project that I recently built is a web-based collaborator workspace where multiple users can manage tasks and see updates instantly on a shared dashboard. Um, so I used several techniques to handle data conflicts and real-time networking so that multiple users can drag and drop their task cards simultaneously.",
+      "score": 0.163,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2801,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1284,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.496,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0292
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 43,
+      "text_excerpt": "So to build the real time collaborative project management canvas, I used TypeScript and SQL. For the front end user interface I used React and Next.js. And back end I used Node.js and Express.js. For database storage I mostly used Postgres and Prisma.",
+      "score": 0.0761,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.09,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3168
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 62,
+      "text_excerpt": "The hardest technical decision is choosing how to handle real-time data when multiple users edit it at the same time. So to solve this, I had to design the architecture very differently and the database had to check different time stamps. And if the data changed while the user was editing, it should reject the update and force the users to refresh.",
+      "score": 0.1387,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.089,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3967,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4721
+        },
+        "llm_preparedness": {
+          "score": 0.205,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 72,
+      "text_excerpt": "So, in the food ordering application, I had to manage different customer profiles. I had to make sure the restaurant and menu service handles restaurant onboarding menu and pricing. I also had to make sure the payment is integrated and the delivery and driver services are part of that. And as and when the food is ready, the notification has also should be triggered. So I had to with multiple API endpoints.",
+      "score": 0.11,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1678,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0664,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3608,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.225
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 58,
+      "text_excerpt": "Um, in these microservices architecture, the paths communicate using a hybrid approach. So it will be synchronous for immediate users and asynchronous for long running workflows. And synchronous communication. The customer app sends a request to the gateway. The gateway forwards the request to the order service. The order service makes a direct blocking to the restaurant service.",
+      "score": 0.517,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6226,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1393,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6173,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.437
+        },
+        "llm_preparedness": {
+          "score": 0.7964,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 40,
+      "text_excerpt": "Optimizing a REST API to handle massive concurrency requires addressing a lot of bottlenecks. I had to do database optimization, I had to do architectural and application scalability, fault tolerance and system protection. And yeah, that's how I handled it.",
+      "score": 0.1412,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0971,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1426,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1622
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 43,
+      "text_excerpt": "the most single change that I made to improve scalability is offloading the read traffic from your database by implementing a redis cash layer. I will check cash first and then cash hit and cash miss. this is how I improved the scalability.",
+      "score": 0.0984,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1019,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0117,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3889
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 36,
+      "text_excerpt": "Um, in distributed environment you need to sign up for dozens of small isolated services. But in auto configuration mode you don't have to do that. Um, service discovery scale dynamically, their IP addresses change constantly.",
+      "score": 0.1065,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1393,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3077
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 42,
+      "text_excerpt": "So, in order to efficiently query, I will make sure indexing is applied. I will also make sure a lot of the data needs are addressed beforehand. And I will make sure the data has primary and secondary key along with it.",
+      "score": 0.0934,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0928,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0055,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1875
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 32,
+      "text_excerpt": "So to implement production rate security system, the entry point service to service communication should be there. There should be a centralized authentication and there should also be a token verification process.",
+      "score": 0.3177,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5605,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1454,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4484,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0302,
+          "level": "low",
+          "words_per_second": 2.6711
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "2 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

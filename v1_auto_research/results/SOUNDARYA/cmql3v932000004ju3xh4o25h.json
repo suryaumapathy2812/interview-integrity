@@ -1,0 +1,79 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmql3v932000004ju3xh4o25h",
+  "user_name": "SOUNDARYA",
+  "metadata": {
+    "user_name": "SOUNDARYA",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq51tlgl00956j059j3qsd1s",
+    "jd_name": "Software Development Engineer in Test",
+    "company": "Chingari",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_pIvsueOBWRRyK6wBwajoQ5WuCrREKvPE_1781884225454/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "unusable",
+    "score": 0.5,
+    "issues": [
+      "too_few_candidate_answers",
+      "too_little_candidate_speech"
+    ],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 1,
+    "candidate_substantive_turn_count": 1,
+    "candidate_word_count": 29
+  },
+  "scores": {
+    "session_assistance_score": 0.0308,
+    "max_answer_score": 0.0308,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "unknown",
+    "confidence": "high",
+    "reason": "Session data is not sufficient for assessment."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 29,
+      "text_excerpt": "Uh, I have built, uh, in when I have been having in training, I have been in full stack development where I have been build a project which is",
+      "score": 0.0308,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7725
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "This session does not contain enough usable candidate speech to assess.",
+    "generated_by": "template_v1"
+  }
+}

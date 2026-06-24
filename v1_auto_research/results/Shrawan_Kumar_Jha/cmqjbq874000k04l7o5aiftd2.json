@@ -1,0 +1,212 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjbq874000k04l7o5aiftd2",
+  "user_name": "Shrawan Kumar Jha",
+  "metadata": {
+    "user_name": "Shrawan Kumar Jha",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781776496572/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 7,
+    "candidate_substantive_turn_count": 5,
+    "candidate_word_count": 636
+  },
+  "scores": {
+    "session_assistance_score": 0.1542,
+    "max_answer_score": 0.293,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 142,
+      "text_excerpt": "I believe communication is one of the most important skills for a business advisor because it helps build trust and understand client needs accurately. My approach is to first listen carefully to the client, ask relevant questions, and understand their goals. Challenges and expectations before suggesting any solution. For example, if a client is looking for business registration or compliance support, I would first understand their business stage, current requirement, and concern. Based on that ",
+      "score": 0.1699,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1652,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0234
+        },
+        "llm_preparedness": {
+          "score": 0.2693,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 118,
+      "text_excerpt": "In my opinion, a dynamic and energetic personality is built on qualities such as a positive attitude, adaptability, enthusiasm, confident and willing to learn. A person with these qualities stays motivated, responds well to challenges and remains focused on achieving goals. In a self-sales environment, these qualities are especially important because every customer is different. A positive attitude helps build strong relationships. Adaptability helps in handling different customer situations and",
+      "score": 0.293,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6034,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1555,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.467,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0095
+        },
+        "llm_preparedness": {
+          "score": 0.2193,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 148,
+      "text_excerpt": "One situation where I had to influence someone was during a college event. A few participants were hesitate to take part because they felt it would require too much time and effort. Instead of simplify asking them to join, I first listened to their concerns and tried to understand their perspective. Then I understand the benefits of participating such as gaining experience, improving teamwork skills and building confidence. I also shared how the event could add value. to their overall learning e",
+      "score": 0.0713,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0301,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1077
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 136,
+      "text_excerpt": "To stay targeted, target driven, I would focus on planning consistency and continuous follow up. I believe sales target are achieved by breaking them into smaller daily and weekly goals rather than only focusing on the final number. For example, I would track the number of leads conducted, follow ups completed and meaningful customer conversations each day. This would help me measure my progress and identify areas where I needed need to improve. I would also prioritize high potential leads, main",
+      "score": 0.1583,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2994,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3977
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 82,
+      "text_excerpt": "During my college project, I worked as part of a team where we had to coordinate different tasks and ensure that everyone was aligned with the project goal. My responsibility was to communicate regularly with team members, share updates, and help resolve any issues that could affect progress. Whenever challenges arose, we discussed them openly, listened to different perspectives, and worked together to find solutions. This helped us complete the project successfully. and taught me the importance",
+      "score": 0.0786,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0331,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0187,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3851
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

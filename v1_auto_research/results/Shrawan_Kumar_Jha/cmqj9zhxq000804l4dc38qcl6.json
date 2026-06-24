@@ -1,0 +1,212 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqj9zhxq000804l4dc38qcl6",
+  "user_name": "Shrawan Kumar Jha",
+  "metadata": {
+    "user_name": "Shrawan Kumar Jha",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781773565766/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 6,
+    "candidate_substantive_turn_count": 5,
+    "candidate_word_count": 379
+  },
+  "scores": {
+    "session_assistance_score": 0.0907,
+    "max_answer_score": 0.1256,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 86,
+      "text_excerpt": "My name is Shravan Kumar Jha. I have completed my graduation in Bachelor of Science in Information Technology. I am someone who enjoys interacting with people, understanding their requirements, and helping them find suitable solutions. I applied for the Vakil Sir position. at business advisor role because this role matches my interest in customer interaction, relationship building and business development. I believe Vakil sir provide a great platform to learn, contribute and build a long term ca",
+      "score": 0.1256,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0926,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1427,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4335
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 92,
+      "text_excerpt": "What motivate me to pursue career in sales is the opportunity to interact with different people, understand their needs and help them find the right solution. I enjoy communication and building relationship and sales allow me to make a direct impact on both customer and business group. I also like the fact that sales is a performance driven field where continuous learning, hard work and good customer service are rewarded. As a fresher, I see sales as a great career path to develop my communicati",
+      "score": 0.067,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.015,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0297,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7316
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 79,
+      "text_excerpt": "I would rate my proficiency in both English and Hindi as good. I am comfortable communicating with people in both languages and can switch between them based on customer preference. For example, during the recent sales assessment, I handled conversations in English as well as Hindi. I listened carefully to customer concern, explained solutions clearly and responded competently in the language they were most comfortable with. This helped me communicate effectively and build a better connection wi",
+      "score": 0.0673,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0178,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6333
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 28,
+      "text_excerpt": "This role fit in my plans because I want to job in business advisor role so this job seems like this so I want to join this company",
+      "score": 0.0719,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0864,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2381,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.439
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 81,
+      "text_excerpt": "While working on examination management system project, I learned the importance of clear communication and coordination. I regularly discussed requirements, shared updates, and ensured that everyone involved had a clear understanding of the project objective. Whenever there were doubts or challenges, I focused on active listening and discussing possible solutions. This helped avoid misunderstanding and ensured smooth collaboration. I believe these communication and coordination skills are also ",
+      "score": 0.1217,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0355,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.144,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2778
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

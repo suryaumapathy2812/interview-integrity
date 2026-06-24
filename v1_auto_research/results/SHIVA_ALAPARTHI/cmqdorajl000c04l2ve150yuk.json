@@ -1,0 +1,179 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqdorajl000c04l2ve150yuk",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781435585210/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 4,
+    "candidate_substantive_turn_count": 4,
+    "candidate_word_count": 168
+  },
+  "scores": {
+    "session_assistance_score": 0.109,
+    "max_answer_score": 0.1686,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 59,
+      "text_excerpt": "Recently I built a real-time expense tracker using Python and React framework with a Postgres SQL backend. I integrated this with Razorpay for payment tracking and deployed it on AWS EC2 instance. I built a real-time expense tracker using Python and React with a Postgres SQL, integrated with Racer Pay for payment tracking and deployed on AWS EC2 instance.",
+      "score": 0.1686,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1336,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1676,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.474,
+          "level": "medium",
+          "words_per_second": 1.12
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 42,
+      "text_excerpt": "One of the hardest technical decision was to understand what kind of an architecture will work for this problem statement. I had to debate between React and Flask application in Python in order to see what will give the most optimized speed.",
+      "score": 0.0996,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0685,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0789,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1082,
+          "level": "low",
+          "words_per_second": 2.7097
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 29,
+      "text_excerpt": "Um, when I designed and implemented this food ordering RESTful API, I used PostgreSQL database and Redis. I deployed on AWS with auto scaling to handle peak order loads.",
+      "score": 0.0353,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0139,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4493
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 38,
+      "text_excerpt": "So for this, I use time series data. I design schemas for vehicle tracking, um, road segments with indexing strategies. I built a restful API in the fast API to serve live traffic density reports to downstream dashboards.",
+      "score": 0.1326,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1613,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0211,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3491,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0579,
+          "level": "low",
+          "words_per_second": 2.6243
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

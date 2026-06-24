@@ -1,0 +1,177 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqdq410a000004l72iqeqldq",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781437860272/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 5,
+    "candidate_substantive_turn_count": 4,
+    "candidate_word_count": 237
+  },
+  "scores": {
+    "session_assistance_score": 0.1035,
+    "max_answer_score": 0.1458,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 1,
+      "speaker": "SPEAKER_01",
+      "word_count": 17,
+      "text_excerpt": "The student has selected. Let's get through the actual agent experience, look at the kind of questions.",
+      "score": 0.1298,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3024,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.096,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.237,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.1955
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 5,
+      "speaker": "SPEAKER_01",
+      "word_count": 102,
+      "text_excerpt": "So during my internship, I had to work with three of the team members and there were a lot of challenges. One starting from identifying what kind of role that each of the team members will play. The other one was around how to distribute tasks between each of us. And the third one was around who would be the team lead for this. So in order to resolve this, we had to sit down and have a voting between each of us to decide who would be the team lead. And what kind of tasks each of us will be alloc",
+      "score": 0.0757,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0439,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.0947
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 7,
+      "speaker": "SPEAKER_01",
+      "word_count": 27,
+      "text_excerpt": "As I had mentioned, we called for a voting or sometimes we also called for different meetings to make sure that we are able to handle this.",
+      "score": 0.0627,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0485,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0279,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2034,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.9867
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 9,
+      "speaker": "SPEAKER_01",
+      "word_count": 90,
+      "text_excerpt": "The agent is clearly going back to one of the projects that was done and it's also asking about how the student approved solving this. Any technical challenges because this is what is asked in the job description. Um, so in the food ordering application, I faced a lot of challenges where, um, technically I had to understand how each of, um, the technologies work and how scalable and how I can optimize. Um, and I had to talk to a lot of my peers and mentors to unblock those.",
+      "score": 0.1458,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.094,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1591,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7709
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

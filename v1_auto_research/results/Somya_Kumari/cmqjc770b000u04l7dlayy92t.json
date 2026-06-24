@@ -1,0 +1,348 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjc770b000u04l7dlayy92t",
+  "user_name": "Somya Kumari",
+  "metadata": {
+    "user_name": "Somya Kumari",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781777290536/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 9,
+    "candidate_substantive_turn_count": 9,
+    "candidate_word_count": 1342
+  },
+  "scores": {
+    "session_assistance_score": 0.2444,
+    "max_answer_score": 0.4887,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 4
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 144,
+      "text_excerpt": "One project I work on was a multiplication huge web application. I built it using HTML, CSS, and JavaScript. The main purpose of this project has to help students practice multiplication in an interactive and aggressive way. The application generates multiplication questions, allows users to submit answers, and provides instant feedback. or what whatever the answer is correct or not it also keep track of the user score which help them monitor their program and improve their skill. I will respons",
+      "score": 0.3541,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.025,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6624
+        },
+        "llm_preparedness": {
+          "score": 0.8679,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 178,
+      "text_excerpt": "I build the multiplication use web application using HTML, CSS and Java script. First, I use HTML to create the structure of web application needing the question area, answer input field, bottom and score display. Then I use CSS to making a interface clear, responsive, responsible and the use friendly. For all function it I use JavaScript. It for responsibility to generate random application multiplication question validation the user enter update the score and display the feedback instant. I us",
+      "score": 0.4887,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6411,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.05,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2535,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.4733
+        },
+        "llm_preparedness": {
+          "score": 0.8821,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 148,
+      "text_excerpt": "The harder technical decision was decision how to manage the huge logic so that the education remains simple, accurate, accurate and responsible. I have to decide whatever to keep all the logic on the client side, use web development, use Java, skip or introduction a web scan system. Since the application was relatively simple and it did not require user account and data storage, I decided to keep everything in the front end using JavaScript. Another challenge for designing the score calculator ",
+      "score": 0.3682,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0927,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5809
+        },
+        "llm_preparedness": {
+          "score": 0.8679,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 133,
+      "text_excerpt": "Will I have no working with external client professional yet? I have handled required grading situation during the academy project. For example, will building my multiplication huge web application. I first try to understand the need to intense user which have student who want to simple and interactive way to participate multiplication to address who need the focus on features such as easy negation, instant feedback on answer and scoring check. It get getter feedback, our classmate who test the ",
+      "score": 0.3857,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0565,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1148,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6339
+        },
+        "llm_preparedness": {
+          "score": 0.8679,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 81,
+      "text_excerpt": "One specific qualify question I I asked what should you use so the new question immediately after the user submit the answer or should it first display what whatever The answer was correct or incorrect. I asked, I asked this because I could directly effort the user experience after discussing it and getting the feedback. I decided to show immediate feedback first and then move to next question. This made the application more interactive and help user to learn their mistake.",
+      "score": 0.0932,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.098,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7586
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 141,
+      "text_excerpt": "If for scientific league interest or having limited knowledge about our service, I could first focus to understand their current situation, challenge and business goal, refers other immediate try to sell. I could ask open ending question to learn more about their needs, basic on their response. I could explain our service in Simple and relatable team focus on how they have sold their client specific for and add value to their business. I could also share example huge cash there that are relative",
+      "score": 0.073,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0355,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.671
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 174,
+      "text_excerpt": "One open-ending question I could ask is, can you tell me about the big challenge you are currently facing in your business and proper purpose. This question ensures the lead to share detailed information about their need, pain point and goal. Based on their response, I can better understand our service can help them and how to position in right solution regarding my technological skill, my web development Ground help to understand and present information is a clear and structured way for example",
+      "score": 0.1478,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0616,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0953,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.5179,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5631
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 218,
+      "text_excerpt": "One type of chart I could use is a bar chart for example. For example, I can be used to compare the number of client inquiry conversation and review the generate from different service. This help us answer business question such as which service is performed best and where improve in it. In a legal service domain, I believe a successfully self which should focus on understanding the client's needs, clearly explain the service, build trust, and highlight the value of benefits since legal services",
+      "score": 0.1283,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2207,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0319,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5137
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 125,
+      "text_excerpt": "I could properly follow up reminder based on urgent client interest level and business impact. First, I could focus on client who have so strong interest or are close to make a decision because timely follow up can help move the process forward. Next, I could properly client with upcoming deadline and complement requirement as delay could affect their business. Final, I could follow up to lead how to still explain of of of Option to maintain cleanliness agreement and build relationship for examp",
+      "score": 0.1607,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1199,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0938,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3726,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1391,
+          "level": "low",
+          "words_per_second": 1.0035
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "4 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

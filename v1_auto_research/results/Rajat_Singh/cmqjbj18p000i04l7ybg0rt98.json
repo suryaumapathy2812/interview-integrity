@@ -1,0 +1,482 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjbj18p000i04l7ybg0rt98",
+  "user_name": "Rajat Singh",
+  "metadata": {
+    "user_name": "Rajat Singh",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781776160683/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 15,
+    "candidate_substantive_turn_count": 13,
+    "candidate_word_count": 1462
+  },
+  "scores": {
+    "session_assistance_score": 0.1738,
+    "max_answer_score": 0.4505,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 2
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 208,
+      "text_excerpt": "So talking about my project I have worked on in college. What did you I built with a problem register shop. So basically I made a chatbot using agent TKI. So I am telling you the best project that I have ever made. I have made banking management system which helps the banks to manage their clients and customer also to deposit, withdraw and transfer money between multiple accounts with the with the two step very authentication. And I have met three sections in my banking management system project",
+      "score": 0.0636,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0712,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0969,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3408
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 58,
+      "text_excerpt": "So, how did I manage it? So first I would gather the client's requirements by understanding what features what features they need such as customer registration, account creation, deposit, withdraw, fund transfer, loan management and transaction history. So next I would design the system architecture database and user interface, the backend, whole security, handle business logic. Business logic",
+      "score": 0.1513,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0653,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2868,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1045
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 102,
+      "text_excerpt": "while the front end would provide an easy to use interface for customer and bank security would be a top priority. So I would implement user authentication, role based access, password encryption and secure transaction process. After development I would thoroughly test all features, fix any usage, deploy the application and provide ongoing maintenance and updates based on user feedback. So I have actually used so for I have actually used HTML, CSS, JavaScript for front end and For backend, I hav",
+      "score": 0.0656,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0239,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0321,
+          "level": "low",
+          "words_per_second": 2.5888
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 120,
+      "text_excerpt": "So for me the hardest part while while making the banking system is since bank the hardest technical was choosing how to balance security with ease of use. Since banking system handle sensitive financial data, I decided to implement role based access control encrypted password and secure authentication. At the same time, at the same time I kept the user interface simple so customer and bank employment could use the system. system easily. This approach improved both security and user experience. ",
+      "score": 0.2222,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4548,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.035,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3952,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2506
+        },
+        "llm_preparedness": {
+          "score": 0.205,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 77,
+      "text_excerpt": "Okay So Python lead management process. So I used Python mainly for backend development and automation automation. For example, while working on an AI chatbot solution, I used Python to process client's request, connect the chatbot with APIs, manage customer data and automate the repetitive task. Python also helps in integrating AI models and generating responses based on user queries. It improved efficiency, reduced manual work and made the solution more scalable. That's all from my side.",
+      "score": 0.4505,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2096,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.225,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1813
+        },
+        "llm_preparedness": {
+          "score": 0.8929,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 16,
+      "text_excerpt": "means one specific example of lead management Lead management tasks would automate with Python, would automate.",
+      "score": 0.3665,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6487,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1744,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1702,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.4323,
+          "level": "medium",
+          "words_per_second": 1.1994
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 101,
+      "text_excerpt": "So yes, I am. So I'm answering the question. A one lead management task I would automate with Python is sending follow-up emails to potential clients. For example, after a client attends a demo of our agentic AI chatbot, a Python script can automatically check the CRM, identify clients who have not responded within three days and send them a personalized follow-up email. It can also update the lead status and notify the sales team if the client replies. This automation saves the time, ensure no ",
+      "score": 0.1114,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.036,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0433,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1532,
+          "level": "low",
+          "words_per_second": 2.7947
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 120,
+      "text_excerpt": "How I am maintaining the client database Princeford So So, to maintain a client database effectively, I would ensure that all client information is accurate, complete, and updated regularly. After every interaction, I would record important details such as contact information, meeting notes, client requirements, follow-up updates, and the current status of the opportunity in the CRM system. I would regularly review the database to remove duplicate records, update outdated information, and ensure",
+      "score": 0.2387,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2965,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2198,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3712,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1134
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 137,
+      "text_excerpt": "to use SQL and Excel to analyze Penalize the clients. So I use SQL to retrieve and analyze client data from Database, for example, I can write queries to find active clients, identify leads that have not been contacted recently, track sales performance, and generate reports based on client activity. I use Excel to organize and analyze the extracted data. Features like filters, pivot tables, charts, and formulas help me identify, measure sales performance, and prepare reports for management. For ",
+      "score": 0.1353,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0522,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1681,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1684
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 167,
+      "text_excerpt": "The time when I had to convince Someone So I want to take a viewpoint. in a project So, and what strategies I used. So during my BCA project, our team had different opinions about which technology to use. One teammate wanted to use a new framework, while I believed that Java and MySQL would be the better choice because everyone on the team was already familiar with them. And we had a limited deadline. So instead of arguing, I listened to my teammate's decisions and acknowledged The benefits of t",
+      "score": 0.0837,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0687,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3987
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 104,
+      "text_excerpt": "So while building the banking operation website, I followed a structured software development approach. First I gathered and analyzed the the user requirements such as user registration, account management, deposit, withdraw And next I design the database and application architecture. I develop the front end for a simple and user friendly interface. And the back end to handle business logic and secure transaction. I use SQL to store and manage customer and transaction data after development. I p",
+      "score": 0.1422,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2356,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0133,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3335,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3853
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 28,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "track and remind yourself to follow. I would ensure that no interest value is missed. I would automate the interest. calculation process instead of relying on manual updates, the system would calculate interest automatically based on the account balance. Interest rate and specified schedule such as daily or monthly. I would use schedule jobs to run the calculation at the correct time. Store every interest transaction in the database and maintain detail logs for editing. I would also validate the",
+      "score": 0.1743,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2533,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0913,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2591
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 30,
+      "speaker": "SPEAKER_01",
+      "word_count": 125,
+      "text_excerpt": "Hi, how would I visually visually show results So clients So clients quickly see. So, talking about to help clients quickly understand results, I would present the data using a simple dashboard with clear charts and graphs. For example, I would use a I would use a bar chart to compare monthly transaction or line chart to show account balance or interest growth over time. And summary cards to display key information such as total balance, total interest earned and recent transaction. I would also",
+      "score": 0.0539,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0677,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1736,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2612
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "2 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

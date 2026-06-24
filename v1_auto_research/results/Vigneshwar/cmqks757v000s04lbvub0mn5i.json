@@ -1,0 +1,383 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqks757v000s04lbvub0mn5i",
+  "user_name": "Vigneshwar",
+  "metadata": {
+    "user_name": "Vigneshwar",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_aVchUtm01PvDWTNFyt6W3dwJYcOERAd5_1781864624836/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 10,
+    "candidate_substantive_turn_count": 10,
+    "candidate_word_count": 1068
+  },
+  "scores": {
+    "session_assistance_score": 0.1421,
+    "max_answer_score": 0.2129,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 102,
+      "text_excerpt": "During my internship, I had to work with tools and concepts that I will that I have not used before. Instead of waiting for extensive guide, I started by watching tutorial videos and reading the available documentation. And I took notes, practiced the steps on my own and created a small reference document for myself. As a result, I was able to understand the workflow quickly and contribute to the project with the minimal supervision. And this experience taught me the importance of self-learning ",
+      "score": 0.1431,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.096,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1266,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1206
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 87,
+      "text_excerpt": "During my building the project of AI bot project, I had to learn a new workflow mainly through tutorials and documentation. I took detailed notes on the step up process and key configuration and common issues. Later I have encountered a problem where the output was not behaving as expected. I used those notes to review each step and discover that the integration setting had been missed. After fixing that, the issue was resolved. This experience taught me how structured note-taking can improve bo",
+      "score": 0.2129,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.564,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0299
+        },
+        "llm_preparedness": {
+          "score": 0.1571,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 144,
+      "text_excerpt": "During my internship, I was testing a feature before it was finalized. While reviewing the output, I noticed that the results were not matching the expected behavior described in the user requirements. Instead of assuming it was acceptable, I retracted the workflow, checked the inputs, and compared the actual output with the expected outcome. After confirming that, there was indeed an issue. I documented the problem clearly and discussed with my team member and mentors and managers. Together, we",
+      "score": 0.1675,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.062,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0173,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.157
+        },
+        "llm_preparedness": {
+          "score": 0.3121,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 130,
+      "text_excerpt": "Oh, when documenting the issue, I tried to provide enough information so that someone else could understand and reproduce it without needing additional clarification. Hence, I included a brief description of the issue, the expected result based on the requirements, the actual result I observed, the steps I followed to reproduce the issue, any relevant inputs or configurations or conditions under which the problem occurred. screenshots or logs when it is available. So these are the ways that I wi",
+      "score": 0.1634,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1186,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0925,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3769,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9316
+        },
+        "llm_preparedness": {
+          "score": 0.2071,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 179,
+      "text_excerpt": "During my time at the internship, there was a period when I had multiple responsibilities at the time, including completing a feature assignment, testing existing functionality, and preparing updates for my manager before a review meeting. So to manage this workload, I first identified which tasks were critical to the upcoming deadline and which could wait. I broke the work into smaller milestones and focused on tweeting the high priority items first. And I also tracked my progress throughout th",
+      "score": 0.1421,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1175,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0195,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9823
+        },
+        "llm_preparedness": {
+          "score": 0.2071,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 121,
+      "text_excerpt": "I usually break work into milestones based on the major major stages of the task, such as understanding requirements or implementation, testing and review. I allocate time according to complexity and keep buffer time for unexpected issues. In one project I have worked, I noticed that a features outputs didn't consistently match the expected behavior. I first verified the issue myself, documented the expected actual results and recorded the steps to reproduce it. Then I shared these findings with",
+      "score": 0.1296,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1995,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0107,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9862
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 74,
+      "text_excerpt": "So I usually start by verifying whether the issue is caused by a misunderstanding or a simple mistake on my side. I review the process, documentation and previous examples before escalating. However, if the issue could affect accuracy, quality or deadlines or other team members, I rest it immediately and share the information I have gathered so far to the team members. My goal is to independent while ensuring important issues are communicated. Yearly",
+      "score": 0.0933,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0642,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0213,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0246,
+          "level": "low",
+          "words_per_second": 2.3948
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 90,
+      "text_excerpt": "To ensuring the accuracy, I follow a consistent process. Verify important fields before submitting and review my work periodically instead of waiting until the end. If something looks unusual, I stop and confirm it rather than guessing. I for maintaining focus during repetitive work, I break the task into smaller sessions and track my progress through short milestones. This helps me stay engaged and maintain the same level of attention throughout the shift. I believe consistency, careful review,",
+      "score": 0.1783,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3614,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9108
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 79,
+      "text_excerpt": "When learning a new process, I start by understanding the overall workflow and I review the training materials carefully. And I take notes on important steps and common mistakes, then practice the process on a small set of examples. During the learning phase, I review my work frequently to catch misunderstandings early. If something is unclear, I verified it instead of guessing. Once I'm confident, In the process, I focused on improving efficiency while maintaining accuracy in my progress.",
+      "score": 0.0785,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0274,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0241,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.192
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 62,
+      "text_excerpt": "I would maintain a structured set of notes that includes the issue, the clarification I received, and the correction, the correct action to take. I would organize these notes by process or scenario and update my checklist whenever a new clarification is provided. This allows me to Apply the same guidance consistently in future shifts and reduce the chance of repeating mistakes.",
+      "score": 0.1128,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.137,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0207,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8246
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

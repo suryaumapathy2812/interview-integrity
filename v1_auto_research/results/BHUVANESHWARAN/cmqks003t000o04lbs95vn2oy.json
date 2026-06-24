@@ -1,0 +1,311 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqks003t000o04lbs95vn2oy",
+  "user_name": "BHUVANESHWARAN",
+  "metadata": {
+    "user_name": "BHUVANESHWARAN",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781864294189/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 15,
+    "candidate_substantive_turn_count": 8,
+    "candidate_word_count": 361
+  },
+  "scores": {
+    "session_assistance_score": 0.1099,
+    "max_answer_score": 0.1918,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 85,
+      "text_excerpt": "Yeah, my project name is called FinSmart. It is a lending management web application which is made for small business owners and private lenders. It's loan I build it to solve the problem manually tracking loans using notebooks or excel sheets. It's often lead to errors. With my project Fin Smart, the system automatically calculated interest next payment date and I have a smart dashboard. It shows total interest total loan amount total collected and pending amount. This is my project I have done",
+      "score": 0.169,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2648,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1228,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3912,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8864
+        },
+        "llm_preparedness": {
+          "score": 0.1143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 48,
+      "text_excerpt": "Ah yes. I used HTTPS, HTML, CSS, Vanilla JS and back end Python Fast API framework, database Postgres SQL. I used I have used a lot of calculation methods in Fast API. I used libraries, SQL Alchemy, Fast API, UBICON, that kind of project. This I have done",
+      "score": 0.1918,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3436,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2891,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7217
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 57,
+      "text_excerpt": "Yes, I first learn basic fundamentals and ask my friends whoever know this new that kind of that technologies. I ask them to how to approach the how to learn the approach and that kind of things. I asked and knowing more detail. After that I make a step by step to learn and I have learned.",
+      "score": 0.0746,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0865,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0016,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0757
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 38,
+      "text_excerpt": "Yes, I have learned to make a simple timetable for me to the project completed to learn. I have or I make an Excel sheet to track my study system. I regularly calculating them and I have learned.",
+      "score": 0.0839,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0194,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0477,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6212
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 38,
+      "text_excerpt": "Yeah, I I have updated perfectly after that I check once or twice to I make sure that I have done perfectly. I make sure that. Whatever I have done it, I make sure that it works perfectly.",
+      "score": 0.0903,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.089,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1158
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 16,
+      "text_excerpt": "Yeah, I have that what is the difficulty, difficulty that kind of data I have worked.",
+      "score": 0.0729,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0514,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.034,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1803,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0748,
+          "level": "low",
+          "words_per_second": 2.2727
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 23,
+      "text_excerpt": "I have tracked my project, it's loan tracked manually. And I have a lot of data to my database. Specific example is Hmm",
+      "score": 0.1638,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1159,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2078,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1642,
+          "level": "low",
+          "words_per_second": 1.2665
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 17,
+      "text_excerpt": "Sorry, what do you mean exactly? Can you repeat one more again? I did not get it",
+      "score": 0.0332,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0074,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8047
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

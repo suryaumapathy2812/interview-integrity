@@ -1,0 +1,416 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjabccp000104i8or3fibin",
+  "user_name": "Shrawan Kumar Jha",
+  "metadata": {
+    "user_name": "Shrawan Kumar Jha",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781774127463/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 13,
+    "candidate_substantive_turn_count": 11,
+    "candidate_word_count": 1161
+  },
+  "scores": {
+    "session_assistance_score": 0.1821,
+    "max_answer_score": 0.2868,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 2
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 102,
+      "text_excerpt": "As a fresher, I have not handled professional sales leads yet, but I can share a similar experience during a college activity. I had to coordinate with participants and remind them multiple times about deadlines and required information. My approach was to follow up, politely understand if they are they were facing any issues and provide the necessary support. I maintained regular communication without being pushy. As a result, most participants respond on time and the activity was completed suc",
+      "score": 0.1912,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3699,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0647,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3783,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3589
+        },
+        "llm_preparedness": {
+          "score": 0.155,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 94,
+      "text_excerpt": "Yes, during a college activity, I had to collect information from a participant who was repeatedly delaying their response. Instead of continuously pushing them, I politely followed up after reasonable intervals and asked if there were any, there was any difficulty from their side. I listened to their concern, clarified what was required and kept the communication friendly and professional. After a few follow up, they responded and provided the required information. This experience taught me tha",
+      "score": 0.2803,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5735,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1988,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2307
+        },
+        "llm_preparedness": {
+          "score": 0.2193,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 90,
+      "text_excerpt": "Client, I'm not sure if I want to adopt this service right now. Me, I completely understand your hesitation before making any decision. May I know what concerned you the most cost value or whether it fits your requirement? Client, I'm not sure if it will be useful for my business. Me, that's a valid concern. Let me first understand your business needs and current challenges. Based on that, I can explain how this service can help and save time, improve efficiently, or solve specific problems you ",
+      "score": 0.1324,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.079,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3835
+        },
+        "llm_preparedness": {
+          "score": 0.2143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 119,
+      "text_excerpt": "Once I have understood the client concern and explained the benefits, I would try to move the conversation towards a decision by asking a gentle Closing question. For example, I would say based on our concern, do you feel this solution addressed your requirements? If the client responds positively, I would continue with great, would you like me to help you with the next step so you can start benefiting from the service? If they are still unsure, I would clarify any remaining doubts and summarize",
+      "score": 0.1479,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1439,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0025,
+          "level": "low",
+          "words_per_second": 2.8026
+        },
+        "llm_preparedness": {
+          "score": 0.2193,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 139,
+      "text_excerpt": "I believe one of the most effective strategies for closing a sales is understand the customer needs and clearly showing how the solution addresses those needs. Customers are more likely to make a decision when they see direct value rather than just product features. For example, if a customer is concerned about saving time and reducing business compliance issues, I would focus on how Vakil Sir service can simplify process and reduce their workload. After addressing Their concern, I would summari",
+      "score": 0.1693,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3705,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0547,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5227
+        },
+        "llm_preparedness": {
+          "score": 0.1143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 73,
+      "text_excerpt": "Certainly based on our decision discussion, this solution can help you save time, reduce the hassle of managing compliance and documentation and give you access to professional support whenever needed. It is designed to make business process simpler and more efficient, allowing you to focus on growing your business, considering these benefits and the value it can provide. Would you like to go ahead with the next step so we can get started?",
+      "score": 0.1045,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0784,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0391,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3571,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7259
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 114,
+      "text_excerpt": "In my opinion, successful cross-selling starts with understanding the client's needs and building trust. A client is more likely to consider an additional service when they clearly see how it can benefit them. The key factors are understanding the client's requirement, understanding relevant services, explaining the value clearly, and recommending only those services that genuinely help the client. For example, if a client is talking about a company registration service, I would first ensure the",
+      "score": 0.1543,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2707,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0156,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6401
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 94,
+      "text_excerpt": "For this question, my ground, my background in information technology help has helped me develop analytical thinking, problem-solving skills, and attention to detail. When interacting with clients, I can quickly understand their requirements, identify their challenges, and explain solutions in a simpler and easy-to-understand manner. For example, if a client is confused about a process or services, I can break down complex information into simple steps and guide them clearly. I believe this abil",
+      "score": 0.2868,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5308,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1287,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3885,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2849
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 125,
+      "text_excerpt": "Yes, during my college project work, some classmates who were not from a technical background were confused about how the system works and why certain steps were required. Instead of using technical terms, I explained the process using a simple real-life example. For instance, I compared the system workflow to a normal registration and verification process that people use every day. I explained each step one by one, answered their questions, and made Sure, make sure they were comfortable before ",
+      "score": 0.2498,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4271,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0906,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4397,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4665
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 83,
+      "text_excerpt": "If I were given a sales target and face challenges, my first step would be to say organize and focus on high priority activities. I would identify the most promising leads, follow up consistently and spend more time on customer who have shown genuine interest. I would also plan my day carefully, maintain a follow up schedule and track my process regularly. If I faced objection from customers, I would try to understand their concerns. and provide suitable solution rather than giving up",
+      "score": 0.1174,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1729,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5106
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 121,
+      "text_excerpt": "I would start my day by reviewing my tasks and prioritizing the most important activities. First, I would follow up with interested leads because they are closer to making a decision, then I would reach out to the new leads to build a strong pipeline for future opportunities. Throughout the day, I would keep track of customer responses and schedule follow-up at appropriate time. When handling objections, I would listen carefully, understand the client's concern, and provide clear relevance. solu",
+      "score": 0.1688,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3489,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3038,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.556
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "2 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

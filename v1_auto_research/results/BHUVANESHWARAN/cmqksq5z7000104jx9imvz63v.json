@@ -1,0 +1,414 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqksq5z7000104jx9imvz63v",
+  "user_name": "BHUVANESHWARAN",
+  "metadata": {
+    "user_name": "BHUVANESHWARAN",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781865505005/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 20,
+    "candidate_substantive_turn_count": 11,
+    "candidate_word_count": 456
+  },
+  "scores": {
+    "session_assistance_score": 0.1032,
+    "max_answer_score": 0.2447,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 87,
+      "text_excerpt": "Yeah, I can able to learn this learn that. Uh, using first I learn the basic fundamentals of that tool. After that I am knowing if the any person, any friends, anybody who knows the tool, I ask them how to learn, the way of learning the tool. After that I watching YouTube videos by learn and asking more questions about my friends and whoever knows that tool, whoever experience with that tool, I'm asking more questions to learn them and Every and everyday practice by learn",
+      "score": 0.0751,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0816,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3393,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.799
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 58,
+      "text_excerpt": "Hello Daily watching videos by and break it down whatever how to learn the basic fundamentals after that practicing by real world works how to learn the way of learning work by daily practices and ask neighbors to help whoever know the tools of with the more detailed experience person I am asking help to learn the tool",
+      "score": 0.2447,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.32,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.5,
+          "level": "medium"
+        },
+        "polish_difference": {
+          "score": 0.5833,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0878
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 40,
+      "text_excerpt": "Yeah, I have worked on a project called workplace study. The project I I'm a part of a member that project. I worked I have shared my thoughts and respected others respected others thoughts and recollect and work with them.",
+      "score": 0.0649,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0304,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0051,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6142
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 37,
+      "text_excerpt": "First I have the make a small plan how to how to how will I work the entire back end structure. I have I have made the plan after that I worked step by step by planning.",
+      "score": 0.0472,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0194,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0156,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0218,
+          "level": "low",
+          "words_per_second": 2.1816
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 47,
+      "text_excerpt": "Yeah. If if we worked a two or three members project, we have done by communication. If I have questions anything about the project, I asked my teammates to how to find the problem, figure it out and collaborate with them to work perfect and make perfect.",
+      "score": 0.1027,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1028,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0234,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.755
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 21,
+      "text_excerpt": "Yeah, because if the if the task is repeating, we have already experience with the task. So, I have we have",
+      "score": 0.036,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0163,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0468
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 17,
+      "text_excerpt": "made own make meeting and find prevents errors whatever we have done whatever error we have it",
+      "score": 0.0693,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.048,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0661,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0044,
+          "level": "low",
+          "words_per_second": 1.5371
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 28,
+      "speaker": "SPEAKER_01",
+      "word_count": 55,
+      "text_excerpt": "First I make a list of all tasks to make perfect. But I have not worked perfect deadlines before but I want to become a become complete every task before the deadline. So I have make a list of all tasks which task is more important to before small deadline. I make perfect the toss",
+      "score": 0.0943,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0466,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3727,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0677,
+          "level": "low",
+          "words_per_second": 2.2597
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 30,
+      "speaker": "SPEAKER_01",
+      "word_count": 16,
+      "text_excerpt": "Yeah. I am comfortable with move to another work like using AI tools enhance workflow. Okay",
+      "score": 0.0831,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0131,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0382,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1855,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2062,
+          "level": "low",
+          "words_per_second": 1.194
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 34,
+      "speaker": "SPEAKER_01",
+      "word_count": 22,
+      "text_excerpt": "With I have I think is that team collaboration It is the minimal supervision of Minimal work efficiency in a work team.",
+      "score": 0.2357,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1479,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.3286,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2436,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.206,
+          "level": "low",
+          "words_per_second": 1.1944
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 38,
+      "speaker": "SPEAKER_01",
+      "word_count": 24,
+      "text_excerpt": "Yeah, first I have decided to make a list how to finish the task before the deadline. After that, I worked step by step.",
+      "score": 0.0823,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0262,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2797,
+          "level": "low",
+          "words_per_second": 2.6201
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

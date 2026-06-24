@@ -1,0 +1,79 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqks6aq8000q04lbsp3tp3bv",
+  "user_name": "bhuvan",
+  "metadata": {
+    "user_name": "bhuvan",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_lGFcFPZW2nRRDGl4cMYvSxPeUx0A4bwL_1781864587916/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "unusable",
+    "score": 0.5,
+    "issues": [
+      "too_few_candidate_answers",
+      "too_little_candidate_speech"
+    ],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 1,
+    "candidate_substantive_turn_count": 1,
+    "candidate_word_count": 20
+  },
+  "scores": {
+    "session_assistance_score": 0.0308,
+    "max_answer_score": 0.0308,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "unknown",
+    "confidence": "high",
+    "reason": "Session data is not sufficient for assessment."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 20,
+      "text_excerpt": "முமெண்ட் ஃபார் திஸ் ஒன். வாட் டூ யூ பர்சீவ் அஸ் யுவர் பிகெஸ்ட் வீக்னஸ் அண்ட் ஹௌ ஹேவ் யூ வொர்க் டு இம்ப்ரூவ் இட்?",
+      "score": 0.0308,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.5088
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "This session does not contain enough usable candidate speech to assess.",
+    "generated_by": "template_v1"
+  }
+}

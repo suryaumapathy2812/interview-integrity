@@ -1,0 +1,445 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkpkr0d000904ldc793chrg",
+  "user_name": "BHUVANESHWARAN",
+  "metadata": {
+    "user_name": "BHUVANESHWARAN",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781860220471/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 19,
+    "candidate_substantive_turn_count": 12,
+    "candidate_word_count": 484
+  },
+  "scores": {
+    "session_assistance_score": 0.1357,
+    "max_answer_score": 0.3664,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 20,
+      "text_excerpt": "I learned JS using independently. I have by own course and watch videos and work out writing in real world.",
+      "score": 0.0337,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0269,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0308,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1768,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0043,
+          "level": "low",
+          "words_per_second": 1.4104
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 43,
+      "text_excerpt": "um I learned array destructuring things. I watching videos and know write it down and more I think multiple ways to solve the problems. ask AI to help to solve the solve the problem and find it, practice more multiple ways to learn.",
+      "score": 0.0731,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.025,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0156,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0717,
+          "level": "low",
+          "words_per_second": 1.296
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "I used the fast API for back end processing. I used multiple loan track calculation methods. I used calculation methods to make perfect the loan tracking.",
+      "score": 0.2452,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6089,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.3005,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.297,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9757
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 33,
+      "text_excerpt": "Yes, I have faced one issue is, if the loan amount is today, today is like something January 31st, but next payment due date is next month because but February have not February",
+      "score": 0.3664,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4121,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.2332,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.8362,
+          "level": "high"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6684
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 18,
+      "text_excerpt": "the next payment date. So I have issued that problem. I find it pay multiple using multiple corporations.",
+      "score": 0.0843,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0211,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0919,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1012,
+          "level": "low",
+          "words_per_second": 2.1898
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 59,
+      "text_excerpt": "But I have faced that I put one date to one 12 or two that date January 1st but next calculate date is that is automatically calculated adding 30 days. It's like going to March March 2 that that kind of next payment date. I noticed that and thinking about how to solve this problem and finding It out",
+      "score": 0.1027,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0187,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1031,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3347,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9344
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 47,
+      "text_excerpt": "Uh, I have not worked, uh, submitted work before the deadlines. I have worked, I have submitted a lot of projects after the deadline. Uh, but I want to become, I think I, I will. Submit the projects before the deadline, hereafter. I'm trying to do that.",
+      "score": 0.0741,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0388,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9389
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 43,
+      "text_excerpt": "Uh, first if one task assign, I have, I want to make a list of all tasks and which is more important, more recruit task is first I completed, I want to complete the task, after that I do step by step. Maranam",
+      "score": 0.2614,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1478,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.3533,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.5095,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6033
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 26,
+      "speaker": "SPEAKER_01",
+      "word_count": 17,
+      "text_excerpt": "Yeah, I have, I learned technologies using videos and I have learned perfectly and built building websites.",
+      "score": 0.1296,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0291,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2487,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1952,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5568
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 32,
+      "speaker": "SPEAKER_01",
+      "word_count": 20,
+      "text_excerpt": "Yeah, I'm using A and uh manually find it out, then removing unwanted codes and work it down. Thank you",
+      "score": 0.1196,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0243,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2048,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.076,
+          "level": "low",
+          "words_per_second": 1.2887
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 34,
+      "speaker": "SPEAKER_01",
+      "word_count": 42,
+      "text_excerpt": "Hmm I used static if else conditions. But this is a longer way to no need this is very basic way. I thought was this is not like I want to move to advanced level so I used dictionary to find this.",
+      "score": 0.0698,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0251,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0008,
+          "level": "low",
+          "words_per_second": 2.0192
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 36,
+      "speaker": "SPEAKER_01",
+      "word_count": 59,
+      "text_excerpt": "I give multiple friends to work my project. If there is any issue, please let me know. I have fixed, I fixed to become better my project and they are using and they give me feedback and I am correcting the feedback. And I have, I used multiple times. to find if there is any error, any issues. Okay",
+      "score": 0.0685,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0216,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7322
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

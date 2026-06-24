@@ -1,0 +1,210 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqj9u7ie000204l4j7kt8r77",
+  "user_name": "Somya Kumari",
+  "metadata": {
+    "user_name": "Somya Kumari",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781773321519/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 6,
+    "candidate_substantive_turn_count": 5,
+    "candidate_word_count": 517
+  },
+  "scores": {
+    "session_assistance_score": 0.1116,
+    "max_answer_score": 0.1697,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 87,
+      "text_excerpt": "I recently completed my graduation and I have a strong interest in learning and building my career. During my study, I worked on projects that helped to improve my communication, communication problem solving and the teamwork. It was what interested me the most about selling in the opportunity to interact with different people, understand their needs and help. them find the right solution and enjoy communication with others and building responsive relationship. I believe my communication skill w",
+      "score": 0.0985,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0252,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0594,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8186
+        },
+        "llm_preparedness": {
+          "score": 0.1143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 107,
+      "text_excerpt": "I could rate my Hindi fluency in 9 out of 10 and the English fluency to 7 out of 10. Hindi is my national language. I am so very confident speaking, reading and writing in Hindi. For English, I am effectively in communication, understanding instruction and written mail or message. I am continue working and prove my spoken English. In the professional context, I have used Hindi while communicating with people, experience information, explain information and handling discuss. I have used English d",
+      "score": 0.1063,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0952,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0414,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.87
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "As a fresher, I do not have a direct professional negotiation experience yet, but if I have to negotiation with a client, I could first listen carefully to understand their need and need and the content. For example, if a client feel that I I service have to expense, I could explain the value and benefit it provide and try to find a solution that works. For both and client and the company, I could not remind, I could remind polite professional and focused on build a long term relationship. My go",
+      "score": 0.0949,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0419,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4405,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.968
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "My technical background helped me understand product service and technology more effectively. As a business advisor, this knowledge can help explain solutions clearly to clients, understand their requirements better, and build trust with them. I believe combining technical knowledge with good Communication still can be a strong average in this role. Regarding recall, yes, I am opening open to recall into Chennai if I am selected for the role. I see as a good opportunity to career growth and prof",
+      "score": 0.0886,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0839,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6652
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 93,
+      "text_excerpt": "In my office, I successfully sell person in someone who understand the customer need, communication clear, build trust and follow a consistent good listening skill, patient, confident and problem solve ability are also the very important things. I am a new for the sales field. I plan to develop their skill by learning from experienced professional professor. Professional taking feedback seriously, practice communication regular and gain hand to hand experience short climate internet. I am quickl",
+      "score": 0.1697,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2581,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1187,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9489
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

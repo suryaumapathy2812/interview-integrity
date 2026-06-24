@@ -1,0 +1,212 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkq7svx000a04lb4199xes1",
+  "user_name": "Abisha Antony",
+  "metadata": {
+    "user_name": "Abisha Antony",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781861297196/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 5,
+    "candidate_substantive_turn_count": 5,
+    "candidate_word_count": 775
+  },
+  "scores": {
+    "session_assistance_score": 0.1643,
+    "max_answer_score": 0.2499,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 174,
+      "text_excerpt": "yes, in one of my project like I had to work with the APIs and data handling, but I didn't have a prior experience with the advanced API integration tools or patterns at that time. So to to complete the task, I independently learned how REST APIs works in detail, including request methods and response handling and how to integrate them using in JavaScript. So I referred to documentation, practice model test calls and built a simple prototype first before integrating it into the actual project. S",
+      "score": 0.1623,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0549,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.1094
+        },
+        "llm_preparedness": {
+          "score": 0.3121,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 126,
+      "text_excerpt": "yes I have used AI tools like GitHub, Copilot, Cursor and Cloud to support my development work and I see them as a productivity enhancer rather than a replacement for understanding. So like for example Copilot helps me in suggesting code common functions and syntax patterns which saves time during development. So this allows me to focus more on logic structure and problem solving instead of repetitive coding. So however I always review and validate the suggestions before using them. So make sure",
+      "score": 0.1448,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0565,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.8494
+        },
+        "llm_preparedness": {
+          "score": 0.2621,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 140,
+      "text_excerpt": "when I work on repetitive task, I rely on a structured process to maintain accuracy and attention details. So I don't treat each entry is as isolated. So I follow the same step by step checklist every time. So nothing is missed. Like for example, I first verify the input data carefully before processing. Then cross check key fields like a format completeness and consistency with previous entries or expected patterns. So after completing the task, I do a quick self review to ensure that there are",
+      "score": 0.1694,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3338,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.9022
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 177,
+      "text_excerpt": "Hmm Okay, one challenging project I worked on involved welding and maintaining a feature that required integrating multiple components and handling frequent updates across the UI. So the complexity came from ensuring consistency across different screens while also meeting tight timelines. So to manage it, I first broke the work into smaller tasks and prioritized based on dependencies. So I followed a structured approach as I mentioned earlier, first implementing the core functionality and then a",
+      "score": 0.0949,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0348,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0653,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6569
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 158,
+      "text_excerpt": "Okay, my front end development experience can be helpful in manual update process. Because it has trained me to work with a structured data, follow consistent formats and pay close attention to accuracy. So basically in front end work, especially when handling forms and UI updates, I often deal with manual inputs, validations and ensuring data is correctly reflected across different screens. So this is very similar to manual updates in airline operation systems where accuracy and consistency are",
+      "score": 0.2499,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5201,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1056,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7846
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

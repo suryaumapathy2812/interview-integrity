@@ -1,0 +1,247 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjcy2l9001104l7dxs6lkkl",
+  "user_name": "Somya Kumari",
+  "metadata": {
+    "user_name": "Somya Kumari",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781778547201/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 7,
+    "candidate_substantive_turn_count": 6,
+    "candidate_word_count": 656
+  },
+  "scores": {
+    "session_assistance_score": 0.1136,
+    "max_answer_score": 0.315,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 127,
+      "text_excerpt": "During my internship, I was given a task that required me to work with new tools to understand the experiment. understand a code base in the short amount of time. Instance, I will not familiar with all the components. So I quick reminder all the documents, study study the instant code and asking rivet rivet question of whatever need. I broken the task into small step, write the most important requirement and test my Work regularly, not avoid errors, stay organic and learning quickly. I have been",
+      "score": 0.0511,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0647,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6571
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 44,
+      "text_excerpt": "When working with a new client, how was, who was very special requirement, I could first focus on the understand their need in detail. I could listen carefully, ask specific questions and take note to ensure, ensure I fully understand their experience. Thank you",
+      "score": 0.0817,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0311,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5896
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 74,
+      "text_excerpt": "expansions, goals and content. After that I could summarize the understand and confirm it with the client to avoid my misunderstand. I believe clear communication is very important to build trust. I could also provide regular updates, response, promote to their query and be transparent about timeline and possible short by beginner professional reliable and attractive to their requirement, I could build a strong relationship and ensure that the client feel value and understand.",
+      "score": 0.1198,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0587,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0318,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5887
+        },
+        "llm_preparedness": {
+          "score": 0.1714,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 151,
+      "text_excerpt": "If I have give a chance to sell target in my first month, I could start by understand the and understand the service and product thoroughly so that I could confidently explain their value to potential client. I could provide leader based on their interest level and follow up constitution. I could focus on building relationship, understand client with Provide solution for them just try to make their self. I could also learn from experience team members, seek feedback regular and track my daily pr",
+      "score": 0.0423,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0277,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0168,
+          "level": "low",
+          "words_per_second": 1.9211
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 135,
+      "text_excerpt": "My web development background helped me understand technical concepts and explain them in a simple way to clients where I can interact with clients. I can better understand their requirements, identify the challenges, and communicate possible solutions to clarify. For example, if a client is interested in building an online presentation or improving their business process, can understand the technological respect in individual and explain the benefit in business team refer their using complex te",
+      "score": 0.315,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5325,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.2407,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 121,
+      "text_excerpt": "In my option, the most important respect for maintained client relation is trust. When clients trust you, they are more likely to share their, their, their, their consider your recommendation and continue work with your company. I could be trust, thought, clear communication, honesty and Constitution, I could listen carefully to the client need provide accurate information and state religion experience. I could also ensure regular follow up and keeping client update on program so they always fee",
+      "score": 0.0718,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0318,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.2991
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

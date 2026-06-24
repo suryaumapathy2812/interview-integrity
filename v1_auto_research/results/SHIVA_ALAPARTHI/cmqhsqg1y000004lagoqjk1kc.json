@@ -1,0 +1,313 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqhsqg1y000004lagoqjk1kc",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/17/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781684127359/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 11,
+    "candidate_substantive_turn_count": 8,
+    "candidate_word_count": 440
+  },
+  "scores": {
+    "session_assistance_score": 0.1729,
+    "max_answer_score": 0.4735,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 87,
+      "text_excerpt": "Sure. Hi, I'm Shiva, and I've been living in Chennai for the past 12 years. And I've studied B.Tech and I'll be and and I'm looking for a job. And I feel like my education software development has prepared me quite a bit and apart from what my education has done, I have also put in the effort to look that are necessary for this job and also to be able to be in power with what is required. for a software software developers role Yes. Next.",
+      "score": 0.1189,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2048,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0117,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2739,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2361,
+          "level": "low",
+          "words_per_second": 1.731
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "simple"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 22,
+      "text_excerpt": "Yeah, so I will use the features that help me handle many users at the same time in Java and Spring Boot.",
+      "score": 0.1662,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2869,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1102,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1835,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.4339,
+          "level": "medium",
+          "words_per_second": 3.47
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 44,
+      "text_excerpt": "absolutely, being customer obsessed is quite key because anything you do for the customers require you to put yourself in their shoes and think about them, which means you are obsessed with your customer. And that I think helps you develop good software products.",
+      "score": 0.1062,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0707,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1565,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4309
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "simple"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 71,
+      "text_excerpt": "Sure. In my project when I didn't know what I was supposed to do or when things were ambiguous, I first wrote it down, I put my thoughts down on a pen and paper. Then I took time to have a look at it, reread it, run it by someone else, and then I think it gave me much more clarity than if I were to just keep thinking about it.",
+      "score": 0.1401,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0566,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0443,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2945,
+          "level": "low",
+          "words_per_second": 3.2332
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 65,
+      "text_excerpt": "Yes, so customer feedback is a continuous thing, and we need those feedback loops to be able to reiterate and improve our product. Now, if we look at the first stage, we kind of get their feedback while using it by observation or by actually collecting feedback from them, and then we collect all of their feedback and try to implement that as a feature.",
+      "score": 0.2331,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1783,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1996,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.5238,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0728,
+          "level": "low",
+          "words_per_second": 2.0087
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 48,
+      "text_excerpt": "Ha, so some innovative solutions that I would consider Implementing in application development is having like a report button or give a feedback or after an activity ask them to rate it or thumbs up that is gonna capture quick feedback for us to help develop customer experience.",
+      "score": 0.4735,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6125,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.4194,
+          "level": "medium"
+        },
+        "polish_difference": {
+          "score": 0.6667,
+          "level": "high"
+        },
+        "timing_context": {
+          "score": 0.069,
+          "level": "low",
+          "words_per_second": 2.0151
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 56,
+      "text_excerpt": "Sure. A situation where I had to make a quick decision was when I did not know who the customer was, but then I had to make a quick decision on what I would offer them. Then I sort of went ahead with what I thought the customer would need. So that's how I did it.",
+      "score": 0.0956,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0527,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1106,
+          "level": "low",
+          "words_per_second": 1.9444
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "Uh, yes, the most important trait I believe would be the one, um, where people are willing to learn. So I think that is quite key.",
+      "score": 0.0496,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0446,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0131,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6263
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

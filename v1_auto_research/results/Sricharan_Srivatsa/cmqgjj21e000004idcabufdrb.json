@@ -1,0 +1,111 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqgjj21e000004idcabufdrb",
+  "user_name": "Sricharan Srivatsa",
+  "metadata": {
+    "user_name": "Sricharan Srivatsa",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmqgfsg120001dc056v1zm07f",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/16/diagnostic_B1Xct69SrbnovLT7dwwkOcZAYWPqtC6F_1781608201968/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 0.75,
+    "issues": [
+      "too_little_candidate_speech"
+    ],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 4,
+    "candidate_substantive_turn_count": 2,
+    "candidate_word_count": 64
+  },
+  "scores": {
+    "session_assistance_score": 0.0634,
+    "max_answer_score": 0.0677,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "medium",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 5,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "So, this is typically what Sarah would sound like. Hi Sarah, I'm Darshini and I'm excited to be here. I have learned Excel on my own.",
+      "score": 0.0591,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0595,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0269,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.766
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 7,
+      "speaker": "SPEAKER_01",
+      "word_count": 25,
+      "text_excerpt": "Um, I generally input the data and then I check for duplicates and I try, I check it at least twice before I sign off.",
+      "score": 0.0677,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0294,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0518,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2202,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4851
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

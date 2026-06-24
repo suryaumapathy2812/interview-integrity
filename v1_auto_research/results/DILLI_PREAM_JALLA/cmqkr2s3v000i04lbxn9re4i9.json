@@ -1,0 +1,280 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkr2s3v000i04lbxn9re4i9",
+  "user_name": "DILLI PREAM JALLA",
+  "metadata": {
+    "user_name": "DILLI PREAM JALLA",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781862747610/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 8,
+    "candidate_substantive_turn_count": 7,
+    "candidate_word_count": 991
+  },
+  "scores": {
+    "session_assistance_score": 0.0922,
+    "max_answer_score": 0.163,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 34,
+      "text_excerpt": "No, there was this time that I am, I mean, I'm trying to learn Zira, Zira tool first, first in the YouTube how to learn how the tool works. their island about the syrup",
+      "score": 0.1079,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0844,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0765,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1642,
+          "level": "low",
+          "words_per_second": 1.5814
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 36,
+      "text_excerpt": "the basics basics. And then if there is any doubt I used to connect with the people who are learning the Zira or who the who knows Zira. And then I used to clear the doubts.",
+      "score": 0.1223,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0549,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2256,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0439,
+          "level": "low",
+          "words_per_second": 2.5352
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 66,
+      "text_excerpt": "First, um I mean, based on the task, I'll try to set up based on what kind of task that I have to, how much, I mean whether it's a small task or big one. This big one first, I start with the big one. And particularly the time that I have to submit them, based on these three things that I'll pay towards the task.",
+      "score": 0.0742,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0139,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3483,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1219,
+          "level": "low",
+          "words_per_second": 2.6677
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 139,
+      "text_excerpt": "Personal control, I mean, it would be easy for us to get the code and push the code easily in a fast pace and form. I mean, we don't have to, like, we don't have to seriously write the code. It would be easy for me to get the code into the online just by writing through few lines in the command instead of... just writing the code for outputting the code in the into the platform. The version control really helps to just the code just by using few of commands in the I mean the command prompt CMD a",
+      "score": 0.163,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2281,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0123,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.461,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1924
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 181,
+      "text_excerpt": "First, um for the tie down, I mean, Pod I'll try to make sure everything is clear first for the repetitive task. I'll make sure that the task that I'm going to do, for example, now it's clear, it's clear and the data that I'm actually achieve the data and the task. First I'll try and the task here, I mean first I'll clearly. So I'm going to repeat a task, repeat a task. Work born maybe And first, I'll make sure the data is accurate, first thing, and while I'm entering, I'll check the data twice.",
+      "score": 0.0565,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0222,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0094,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9691
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 110,
+      "text_excerpt": "Hmm Yeah, in my project, when I'm doing the India project, there was, I mean, particularly one project, it was a communication gap between my team and, I mean, me and my teammates, where we faced struggles. And sometimes we used to mismatch the flow and then Yeah, it's like I won't say we faced very difficult issues, but there were some issues. And we have and then we come to a point where clearly discussed everything and those are the things that we faced. and we had to make sure it won't happe",
+      "score": 0.0924,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0369,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0496,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3452,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8631
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 423,
+      "text_excerpt": "Until now I haven't used A automation, but I used AI, but I things where there are good situations to for using automations like for repeat you like to send my to send mail to the client or to update the update the clients or the people about the application or the updates. Can able to use easily, communicate with them. and for recreators cars, uh, uh, yeah, cars, you can easily, you can easily automate them. And for one particular thing, yeah, there was this, uh, as I said, uh, this application",
+      "score": 0.0293,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.033,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1008,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3148
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

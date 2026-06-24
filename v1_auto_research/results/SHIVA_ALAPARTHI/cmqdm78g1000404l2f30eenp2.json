@@ -1,0 +1,80 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqdm78g1000404l2f30eenp2",
+  "user_name": "SHIVA ALAPARTHI",
+  "metadata": {
+    "user_name": "SHIVA ALAPARTHI",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq51tlgl007l6j05vvs1lsjb",
+    "jd_name": "Software Engineer",
+    "company": "Amazon",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781431285946/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_1",
+  "data_quality": {
+    "status": "unusable",
+    "score": 0.25,
+    "issues": [
+      "only_one_speaker_detected",
+      "too_few_candidate_answers",
+      "too_little_candidate_speech"
+    ],
+    "speaker_count": 1,
+    "candidate_speaker": "SPEAKER_1",
+    "candidate_turn_count": 1,
+    "candidate_substantive_turn_count": 1,
+    "candidate_word_count": 46
+  },
+  "scores": {
+    "session_assistance_score": 0.0615,
+    "max_answer_score": 0.0615,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "unknown",
+    "confidence": "high",
+    "reason": "Session data is not sufficient for assessment."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 1,
+      "speaker": "SPEAKER_1",
+      "word_count": 46,
+      "text_excerpt": "Hi Shiva, I am Sarah and I will be interviewing you today for the software engineer role at Amazon. We are on the final round today. Can you describe how you ensured customer satisfaction in the projects you developed, such as the food ordering web application?",
+      "score": 0.0615,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.9487
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "This session does not contain enough usable candidate speech to assess.",
+    "generated_by": "template_v1"
+  }
+}

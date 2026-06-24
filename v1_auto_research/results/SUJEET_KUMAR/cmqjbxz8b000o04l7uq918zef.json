@@ -1,0 +1,278 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjbxz8b000o04l7uq918zef",
+  "user_name": "SUJEET KUMAR",
+  "metadata": {
+    "user_name": "SUJEET KUMAR",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781776861674/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 9,
+    "candidate_substantive_turn_count": 7,
+    "candidate_word_count": 682
+  },
+  "scores": {
+    "session_assistance_score": 0.1954,
+    "max_answer_score": 0.4246,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 145,
+      "text_excerpt": "Okay, I can explain. Uh, first got it. Uh, this is a classical behavioral question for the business advisor role and it helps very much. Uh, first in my final year in my project. We were working with the client who need Any issues who need to know about any information, their problem was different. As a business advisor, my task was to translate the requirement into a solution that was both practical or miserable. The client wanted specific first action. First, I did a need discovery call to cla",
+      "score": 0.1312,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2444,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8925
+        },
+        "llm_preparedness": {
+          "score": 0.1143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 96,
+      "text_excerpt": "Okay, I can explain. How do you apply direct analytical thinking? Definitely, I can, I can explain how I can first, I can try to break down the requirement into a smaller manageable component to understand the core need. Definitely if we can do these things, break down the requirement into a smaller manageable, a smaller part, definitely it would be full to know about the core need. Then collect the organized data from different sources to evaluate, validate and context. Then we can analyze the ",
+      "score": 0.4246,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3247,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1369,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3652,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7544
+        },
+        "llm_preparedness": {
+          "score": 0.7964,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 72,
+      "text_excerpt": "Yes, yes, I can provide the example. I can just First Four cross selling strategy. First strategy is deep dive audits. Review current clients. First we take review current for the from the current clients. Account regularly to find gaps in their performance or take stack. Then we move on active listening. And after that we move on value lead actions and Last we can move on Unified Account Planning and um",
+      "score": 0.1797,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.355,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0023,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0177,
+          "level": "low",
+          "words_per_second": 1.5293
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "Okay Explain How would I approach? So, I would use multi channel channels value driven approach rather than just checking in here is how would handle it. First I can try to try the best approach like the value add follow up. Instead of asking did you see my last email like that. See are something is full. First we can ask actions, send the industry articles like that and goals. Second is diversify communications. Third is keep it short and low pressures and fourth is the permission permission to",
+      "score": 0.1616,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3097,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9564
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 59,
+      "text_excerpt": "first first a few like I can explain a few key traits to consider like empathy. Understand the client unit challenge allow to position yourself as a problem solver rather than just a vendor. Second is active listening. We can try to listen carefully for the user for the for our clients. We can try to listen their issues.",
+      "score": 0.1489,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.259,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0109,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1011
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 59,
+      "text_excerpt": "Second is we have to take more patience when whenever climb is speaking, we can we can control, we can make better patience. After that authenticity, people buy from people they trust, being genuine and transparent about the what a product can and cannot do, create a foundation of integrity. Then consistency. These all things are very important. to",
+      "score": 0.1607,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2721,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0787,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7879
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 133,
+      "text_excerpt": "Kumar In my project, there are several issues. First, how to structure, like there are several issues we face. Uh, like situations, task, actions, and results, how can we handle these all things? Like suppose, like at that time, uh, we face some issues like situation brief, describe a specific project and challenge that across a technical box, a tight deadlines or shortage. And second is task, explain what need to be done and why it was difficult. Action. Third one is and detail the specific ste",
+      "score": 0.1609,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3049,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3382,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9946
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

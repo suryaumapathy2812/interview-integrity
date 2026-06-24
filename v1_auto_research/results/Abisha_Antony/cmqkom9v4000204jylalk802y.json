@@ -1,0 +1,280 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkom9v4000204jylalk802y",
+  "user_name": "Abisha Antony",
+  "metadata": {
+    "user_name": "Abisha Antony",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781858612415/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 7,
+    "candidate_substantive_turn_count": 7,
+    "candidate_word_count": 618
+  },
+  "scores": {
+    "session_assistance_score": 0.1159,
+    "max_answer_score": 0.2402,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 97,
+      "text_excerpt": "yeah, hi, I am Abisha. I have around three years of experience as a front end developer at Freshworks. So during this time I worked on large scale applications and reusable components and AI related networking features. So my role required attention to detail and problem solving and collaborating with different teams. So currently I'm exploring opportunities where I can learning especially around AI driven systems and operations. So what attracted me to this role is the opportunity to work close",
+      "score": 0.0607,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0158,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.105
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 39,
+      "text_excerpt": "So I can, I enjoy environments where I can learn quickly and have a visible impact. So in startups, responsibilities are broader than in an opportunity to contribute directly to business outcomes. So that kind of role attracts me.",
+      "score": 0.0988,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1991,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7857
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 28,
+      "text_excerpt": "So like, my strength is I'm a quick learner and detail oriented and comfortable working independently. I'm a proactive, I can work with the team collaboration as well.",
+      "score": 0.0674,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0575,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.1111
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 111,
+      "text_excerpt": "Hmm So during my time at Freshworks as a front end developer, attention to detail was very important because even small mistakes could affect the user experience of thousands of customers. So like one example was like when I was worked on reusable UI components that were used across multiple products. So before releasing any channels, I carefully validated all the impact areas are covered and all the education functionalities. And since these components were shared across different areas of the ",
+      "score": 0.2402,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5029,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0435,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3162,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0302,
+          "level": "low",
+          "words_per_second": 2.5262
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 107,
+      "text_excerpt": "Uh so like during my time I had often need to adapt to new tools and technologies based on the project requirements. So one example was when I had to work on AI related features, I need to work on React. So React was unfamiliar at that time for me. So then where there was not always a formal training available, I took the initiative to learn through documentation and existing code basis team discussions and I had a hands on experiments. So I broke the learning process into for smaller pieces and",
+      "score": 0.0864,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0769,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 3.0006
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 140,
+      "text_excerpt": "Also like when I have multiple tasks with competing deadlines, I first understand the priority and business impacts of each task. So I identify which items are more most urgent and which have the greatest impact on users of the team. So next I break the work into smaller and manageable steps and estimate the effort required for each. So based on those estimates, I plan my day and focus on completing high priority task first while keeping track on other deadlines. And I also communicate proactive",
+      "score": 0.074,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0385,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.818
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 96,
+      "text_excerpt": "like what excites me most is the opportunity to work in an industry where accuracy and efficiency have a direct impact on real world operations. So I guess airline operations involve managing complex processes and even small improvements can make a significant difference. I'm also very interested in AI and how it can automate repetitive task, reduce errors and improve decision making. So I guess this role is particularly appealing because it combines operational process with AI driven automation",
+      "score": 0.1835,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2365,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1346,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7956
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

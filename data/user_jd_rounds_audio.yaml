@@ -1,0 +1,414 @@
+source: neon_production
+sorted_by: user.createdAt ascending
+generated_at: '2026-06-22T05:41:15Z'
+users:
+- user_id: FGEb9YjEuFdYtnmQrvBEP6pOOQ8xnZt2
+  signed_up_at: '2026-06-09 18:32:48.663'
+  name: PRITHINGA DEVI
+  email: prithinga05@gmail.com
+  phone_number: '+919500100313'
+  jobs:
+  - diagnostic_id: cmq92o88u0002zaset9nxlpyo
+    jd_id: cmq51tlgl006o6j05ls79m0wo
+    jd_name: Quality Specialist
+    company: Amazon
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqamnbax0000mrsegj3h5zl5
+      audio_url: null
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqan2v120002mrsezg6wtvyy
+      audio_url: null
+- user_id: rX6Rhltvkp1JhUhYYSOL4ZpgLajFVisw
+  signed_up_at: '2026-06-12 08:15:21.172'
+  name: Bala Murugan K
+  email: kannanbalu745@gmail.com
+  phone_number: '+916379050519'
+  jobs: []
+- user_id: 774L1F6TvQTpW8DwrMPN4BKg3iRvidSs
+  signed_up_at: '2026-06-12 17:38:09.776'
+  name: Sricharan Srivatsa
+  email: charantracks1404@gmail.com
+  phone_number: '+918610821713'
+  jobs:
+  - diagnostic_id: cmqb7rgq00002fp0598s0vhwo
+    jd_id: cmq51tlgl007l6j05vvs1lsjb
+    jd_name: Software Engineer
+    company: Amazon
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqb7s4cz0003fp05771aoxjl
+      audio_url: null
+- user_id: YS8cmiYeVtjrib6b134Wp3TNv5Zccjj5
+  signed_up_at: '2026-06-13 08:27:25.669'
+  name: Aswathy B
+  email: aswathybicon@gmail.com
+  phone_number: '+918610002422'
+  jobs: []
+- user_id: izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF
+  signed_up_at: '2026-06-14 09:41:39.509'
+  name: SHIVA ALAPARTHI
+  email: alaparthishiva123@gmail.com
+  phone_number: '+919962401204'
+  jobs:
+  - diagnostic_id: cmqdlz5qq000004l7e4esw65c
+    jd_id: cmq51tlgl007l6j05vvs1lsjb
+    jd_name: Software Engineer
+    company: Amazon
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqkolygs000004jyolysyuxz
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781858595844/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqdph3y8000i04l2itlauibn
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781436788861/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqdme80i000804l2ye6l1unr
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781431603954/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqdm78g1000404l2f30eenp2
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_izq8Xx2d7DVaqJaLi2HYV6xgYFsac8GF_1781431285946/audio.mp3
+- user_id: J3nrhchVMfTzOt113Q0KnPnsRyoXgGHn
+  signed_up_at: '2026-06-14 10:34:07.659'
+  name: SHIVA ALAPARTHI
+  email: alaparthishiva123@gmail.com
+  phone_number: '+918939160827'
+  jobs: []
+- user_id: bwuAuvQbMhNETJgNWUXtmrGug6oVslRh
+  signed_up_at: '2026-06-14 11:05:14.143'
+  name: SHIVA ALAPARTHI
+  email: alaparthishiva123@gmail.com
+  phone_number: '+919500181597'
+  jobs:
+  - diagnostic_id: cmqdoqu6p000004l8p4dbeoqc
+    jd_id: cmq51tlgl007l6j05vvs1lsjb
+    jd_name: Software Engineer
+    company: Amazon
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqhsqg1y000004lagoqjk1kc
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/17/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781684127359/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqdq410a000004l72iqeqldq
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781437860272/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqdorajl000c04l2ve150yuk
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/14/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781435585210/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqkj85bc000004l2tjlmmvjj
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_bwuAuvQbMhNETJgNWUXtmrGug6oVslRh_1781849560838/audio.mp3
+- user_id: B1Xct69SrbnovLT7dwwkOcZAYWPqtC6F
+  signed_up_at: '2026-06-16 06:44:44.139'
+  name: Sricharan Srivatsa
+  email: charantracks1404@gmail.com
+  phone_number: '+919916294334'
+  jobs:
+  - diagnostic_id: cmqginavr000204ju0w3z8v2m
+    jd_id: cmqgfsg120001dc056v1zm07f
+    jd_name: Process Trainee / Operations Associate
+    company: Airline Operations
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqgjj21e000004idcabufdrb
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/16/diagnostic_B1Xct69SrbnovLT7dwwkOcZAYWPqtC6F_1781608201968/audio.mp3
+- user_id: o9HHVTymei6K0a3KsqDbPY9xI74OIHdP
+  signed_up_at: '2026-06-18 08:17:37.955'
+  name: '+916385151162'
+  email: plus-916385151162@otp.foreverlearning.in
+  phone_number: '+916385151162'
+  jobs: []
+- user_id: gW2oW7vxeJGxg6biZVKB3zKW5kwuAKcs
+  signed_up_at: '2026-06-18 08:38:17.552'
+  name: Stephen Marshall
+  email: 4u.marshall@gmail.com
+  phone_number: '+919597543516'
+  jobs: []
+- user_id: j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj
+  signed_up_at: '2026-06-18 08:50:50.968'
+  name: Rajat Singh
+  email: rajatroxx9934@gmail.com
+  phone_number: '+919835130137'
+  jobs:
+  - diagnostic_id: cmqj9vcmv000104jxzdom5v5h
+    jd_id: cmq6i81y10002us05qujb9g2p
+    jd_name: Business Advisor
+    company: Vakilsearch
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqja6h69000c04l4bf5jdj1a
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781773895626/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqjar6oj000004l73bu3oysg
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781774863362/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqjbj18p000i04l7ybg0rt98
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781776160683/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqjcbfth000004lejct5m5pg
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781777482370/audio.mp3
+- user_id: XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95
+  signed_up_at: '2026-06-18 08:50:51.925'
+  name: Shrawan Kumar Jha
+  email: shrawanjha2004@gmail.com
+  phone_number: '+917782978429'
+  jobs:
+  - diagnostic_id: cmqj9ynn0000304jxd84inba7
+    jd_id: cmq6i81y10002us05qujb9g2p
+    jd_name: Business Advisor
+    company: Vakilsearch
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqj9zhxq000804l4dc38qcl6
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781773565766/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqjabccp000104i8or3fibin
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781774127463/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqjcz4vm001404l7dfzjt0n6
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781778593585/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqjbq874000k04l7o5aiftd2
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781776496572/audio.mp3
+- user_id: UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ
+  signed_up_at: '2026-06-18 08:50:56.99'
+  name: Somya Kumari
+  email: Somyakri2300@gmail.com
+  phone_number: '+917488042794'
+  jobs:
+  - diagnostic_id: cmqj9t8ts000004jx8cmszpk2
+    jd_id: cmq6i81y10002us05qujb9g2p
+    jd_name: Business Advisor
+    company: Vakilsearch
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqj9u7ie000204l4j7kt8r77
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781773321519/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqjac6dq000304i8j269krpf
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781774161303/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqjc770b000u04l7dlayy92t
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781777290536/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqjcy2l9001104l7dxs6lkkl
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781778547201/audio.mp3
+- user_id: IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS
+  signed_up_at: '2026-06-18 08:51:29.713'
+  name: SUJEET KUMAR
+  email: sujeetksharma1106@gmail.com
+  phone_number: '+919693887223'
+  jobs:
+  - diagnostic_id: cmqj9vw9n000204jx60j0uijg
+    jd_id: cmq6i81y10002us05qujb9g2p
+    jd_name: Business Advisor
+    company: Vakilsearch
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqje0l0b000004lb01n45atx
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781780341840/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqjag4k5000504i8z1syxty0
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781774344253/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqjaxc3p000604l7fiop4pj5
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781775150339/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqjbxz8b000o04l7uq918zef
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781776861674/audio.mp3
+- user_id: 9o87whbgiXdOvM6yHwikmHz33Cubh5A6
+  signed_up_at: '2026-06-18 08:55:50.04'
+  name: Nitish Kumar Sharma
+  email: nitishji7050@gmail.com
+  phone_number: '+919472509542'
+  jobs:
+  - diagnostic_id: cmqjeig64000004kwlzdrme6b
+    jd_id: cmq51tlgl009c6j05m2oqii6w
+    jd_name: Jr. MEAN Stack Developer
+    company: Upmetrics
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqjfabtz000404lb5rur8q6j
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781782475568/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqjfm5gr000804lbr4zo1ce6
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781783024930/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqjg60xw000b04lbjplw9a3z
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781783954648/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqjgoz2n000f04lb5c1442go
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781784840471/audio.mp3
+- user_id: lGFcFPZW2nRRDGl4cMYvSxPeUx0A4bwL
+  signed_up_at: '2026-06-19 06:16:04.23'
+  name: bhuvan
+  email: bhuvan@company.com
+  phone_number: '+919940330701'
+  jobs:
+  - diagnostic_id: cmqks5t7t000004l2essysbxo
+    jd_id: cmqhwrjhl0001gs056nrysgoz
+    jd_name: Process Trainee / Operations Associate
+    company: Airline Operations
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqks6aq8000q04lbsp3tp3bv
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_lGFcFPZW2nRRDGl4cMYvSxPeUx0A4bwL_1781864587916/audio.mp3
+- user_id: 31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs
+  signed_up_at: '2026-06-19 08:35:25.372'
+  name: Abisha Antony
+  email: abishaantony.v@gmail.com
+  phone_number: '+916379481526'
+  jobs:
+  - diagnostic_id: cmqkol96c000404l4dbic3lug
+    jd_id: cmqhwrjhl0001gs056nrysgoz
+    jd_name: Process Trainee / Operations Associate
+    company: Airline Operations
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqkom9v4000204jylalk802y
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781858612415/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqkoyvw5000804jyqmazm7wh
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781859204314/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqkpmu9l000004lbguupvoyf
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781860316739/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqkq7svx000a04lb4199xes1
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_31Cv7CcU0gOePAM91EUb6H2JXf4rTlgs_1781861297196/audio.mp3
+- user_id: WNoxAnP770FiyK8aYGS9uCCL6ocssK5F
+  signed_up_at: '2026-06-19 08:37:33.808'
+  name: DILLI PREAM JALLA
+  email: dillippream.j@gmail.com
+  phone_number: '+919000364286'
+  jobs:
+  - diagnostic_id: cmqkoo9a7000504l4m3rb544x
+    jd_id: cmqhwrjhl0001gs056nrysgoz
+    jd_name: Process Trainee / Operations Associate
+    company: Airline Operations
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqkopvio000404jyrmzpwgg9
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781858779133/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqkpca9l000604ldlgmkpyxi
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781859832310/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqkq79z7000804lb84aoqr2j
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781861273913/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqkr2s3v000i04lbxn9re4i9
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781862747610/audio.mp3
+- user_id: pIvsueOBWRRyK6wBwajoQ5WuCrREKvPE
+  signed_up_at: '2026-06-19 08:39:22.476'
+  name: SOUNDARYA
+  email: soundaryabavanasi@gmail.com
+  phone_number: '+919032739892'
+  jobs:
+  - diagnostic_id: cmqktkla0000204l8s1ijegqf
+    jd_id: cmq51tlgl00956j059j3qsd1s
+    jd_name: Software Development Engineer in Test
+    company: Chingari
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqktmyuo000004ibvlce38m9
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_pIvsueOBWRRyK6wBwajoQ5WuCrREKvPE_1781867043782/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqku3v22000104jxb6aie63v
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_pIvsueOBWRRyK6wBwajoQ5WuCrREKvPE_1781867831332/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmql3v932000004ju3xh4o25h
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_pIvsueOBWRRyK6wBwajoQ5WuCrREKvPE_1781884225454/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqluscuf000004lcjpfi4rbj
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/20/diagnostic_pIvsueOBWRRyK6wBwajoQ5WuCrREKvPE_1781929445820/audio.mp3
+- user_id: yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO
+  signed_up_at: '2026-06-19 08:44:59.109'
+  name: BHUVANESHWARAN
+  email: bhuvaneshchennai01@gmail.com
+  phone_number: '+919043704754'
+  jobs:
+  - diagnostic_id: cmqkp0vor00000bi1k2r49b7x
+    jd_id: cmqhwrjhl0001gs056nrysgoz
+    jd_name: Process Trainee / Operations Associate
+    company: Airline Operations
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqkp1hnc000004ld9z5hswez
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781859320622/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqkpkr0d000904ldc793chrg
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781860220471/audio.mp3
+    - round_number: 3
+      round_type: technical-thinking
+      session_id: cmqks003t000o04lbs95vn2oy
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781864294189/audio.mp3
+    - round_number: 4
+      round_type: career-readiness
+      session_id: cmqksq5z7000104jx9imvz63v
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781865505005/audio.mp3
+- user_id: aVchUtm01PvDWTNFyt6W3dwJYcOERAd5
+  signed_up_at: '2026-06-19 09:39:08.701'
+  name: Vigneshwar
+  email: iamvignesh1274@gmail.com
+  phone_number: '+918608171080'
+  jobs:
+  - diagnostic_id: cmqkqznqc000704l7q9366jxa
+    jd_id: cmqhwrjhl0001gs056nrysgoz
+    jd_name: Process Trainee / Operations Associate
+    company: Airline Operations
+    rounds:
+    - round_number: 1
+      round_type: screening
+      session_id: cmqkr1ywh000g04lb1efcpdf6
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_aVchUtm01PvDWTNFyt6W3dwJYcOERAd5_1781862702671/audio.mp3
+    - round_number: 2
+      round_type: behavioural
+      session_id: cmqks757v000s04lbvub0mn5i
+      audio_url: https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_aVchUtm01PvDWTNFyt6W3dwJYcOERAd5_1781864624836/audio.mp3

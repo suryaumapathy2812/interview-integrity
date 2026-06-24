@@ -1,0 +1,381 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjar6oj000004l73bu3oysg",
+  "user_name": "Rajat Singh",
+  "metadata": {
+    "user_name": "Rajat Singh",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781774863362/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 13,
+    "candidate_substantive_turn_count": 10,
+    "candidate_word_count": 1445
+  },
+  "scores": {
+    "session_assistance_score": 0.1394,
+    "max_answer_score": 0.3735,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 2
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 187,
+      "text_excerpt": "So, describe a situation where I had to convince, where I had to convince So talking about when I had to convince someone to see your perspective. convince someone to see your perspective. So yes. So during my BCA, our team was working and on a project, our team was working on a project. So, and one teammate wanted to use a different technology and that the rest of us were not familiar. So I believe that using Java and MySQL would be better choices because everyone in the team already had experi",
+      "score": 0.3354,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0169,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0851,
+          "level": "low",
+          "words_per_second": 2.0181
+        },
+        "llm_preparedness": {
+          "score": 0.7964,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 134,
+      "text_excerpt": "So this question So what was the most challenging objection that teammate raised and how did I specifically respond to it? The biggest concern my teammate raised that was using Java and Epscale might not provide as many advanced features as the newer technologies they suggested instead of rejecting they instead of rejecting they suggested instead of I acknowledge their point and explain that our main objective was to complete the project successfully within the given deadline. Since the entire t",
+      "score": 0.3735,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0964,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1202,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3652,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6683
+        },
+        "llm_preparedness": {
+          "score": 0.7964,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "template"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 132,
+      "text_excerpt": "So if I were managing client requirements for an agenting AI chatbot, I'd first understand the client's business goals by asking clear questions about what they want the chatbot to achieve. For example, whether it is for customer support, lead generation, or answering FAQ, frequently asked questions. So next, I would gather detailed requirements such as target users, key features, integration with existing system, and expected response quality. I would confirm my understanding by summarizing the",
+      "score": 0.0969,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0216,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0787,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.7443
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 125,
+      "text_excerpt": "So, I'm answering now. So, staying staying with client and understanding their requirement. So imagine so, first I would politely ask what the main concern is. For example, I would ask could you please share what's stopping you from choosing our chatbot solution. Then I would listen carefully. What what interrupting if the concern is about cost, I would explain the long-term savings and efficiency. If it's about to receive your security, I would explain the chatbot's features, data security, and",
+      "score": 0.1435,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0122,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6327
+        },
+        "llm_preparedness": {
+          "score": 0.3121,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 144,
+      "text_excerpt": "So client still says they wanted, they wanted to think more. So first of all, I will tell them that they understand their they understand my my solution. So if if if client they need more time to think after them, I would respect their decision and avoid pressuring them. I would thank them for their time and ask if they have any remaining questions or concern. I will briefly summarize how the agent TK chatbot can help solve their business challenges and offer to provide any additional informatio",
+      "score": 0.0183,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0091,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5632
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 110,
+      "text_excerpt": "So approaches and outcomes. So sir, now I'm sharing my experience. In a similar situation, I would first understand the client business needs and challenges by asking relevant questions based on their requirement. I would explain how our agentic AI chatbot can solve their specific problems such as improving customer supporting, reduce reduce response time and increasing operational efficiency. I would demonstrate the key features through through a live demo and highlight the business value rathe",
+      "score": 0.0706,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0263,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.047,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2467
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 167,
+      "text_excerpt": "So, with a real person, a good example is selling an agent AI chatbot to hospital. Initially, the hospital administrator was unsure because they believed their existing customer support team was sufficient. I first listened to their concern and asked about the challenges they were facing. They mentioned that patient often had to wait long time to get answer about appointments and services. I explained how the agent AI chatbot could provide 24/7 instant responses. appointments, answer common pati",
+      "score": 0.1056,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0885,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3716,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0546,
+          "level": "low",
+          "words_per_second": 2.8557
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 173,
+      "text_excerpt": "in simple business terms. So yes, I'm so I'm telling the answer of previous question for non-technical client. Okay. I would avoid technical terms and focus on the business benefits. For example, instead of saying our chatbot uses AI and machine learning, I would say think of it as a smart virtual assistant that can answer your customer question instantly 24 hours a day even with your staff is unavailable. And second question is can you give one example of can you give one Example Example of tec",
+      "score": 0.0717,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0791,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4707
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 140,
+      "text_excerpt": "So what technique I use, I use to maintain Maintain positive relationship with existing Clients So So taking so taking this question I'm answering now. So to maintain a positive relationship with existing life I would stay in regular contact even when there are no issues. I would check in periodically to make sure the chatbot is meeting their business needs and ask if they any feedback or new requirements. If a client reports a problem I would respond quickly keep them informed until it is resol",
+      "score": 0.1012,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0232,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.154,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2105,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0176,
+          "level": "low",
+          "words_per_second": 2.1328
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 26,
+      "speaker": "SPEAKER_01",
+      "word_count": 123,
+      "text_excerpt": "How I balance time between many existing Lines So while managing multiple existing clients, I would prioritize tasks based on urgency and business impact. I would keep a schedule on track, meetings, follow-ups, and deadlines so that no client is overlooked. I would also maintain clear communication by responding to mails and messages promptly and keeping clients updated on the progress of their requests. If two clients need help at the same time, I would address the more urgent issue first by in",
+      "score": 0.0769,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0248,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0217,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2956
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "2 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

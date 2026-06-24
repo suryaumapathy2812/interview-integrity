@@ -1,0 +1,719 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjaxc3p000604l7fiop4pj5",
+  "user_name": "SUJEET KUMAR",
+  "metadata": {
+    "user_name": "SUJEET KUMAR",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781775150339/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 31,
+    "candidate_substantive_turn_count": 20,
+    "candidate_word_count": 2128
+  },
+  "scores": {
+    "session_assistance_score": 0.1656,
+    "max_answer_score": 0.3962,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 3
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 191,
+      "text_excerpt": "Okay, I can explain these all things. I worked on a college inquiry agent. It helps students and also their parents to know about the college and institute before availability, physical availability. because if any user before they can able to know about the college so it would be good and and In my internship we learn more much things object oriented programming concept work with rest API solved algorithm problems like that. And it helps to know about all about the Python. So it during my inter",
+      "score": 0.1045,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2265,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7054
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 39,
+      "text_excerpt": "Okay Hello I used I used N10. N10 is basically used for making workflow and that's why I used N10 and after use after N10 N10 homepage we can use AI agent and we can create these all agent.",
+      "score": 0.0742,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0349,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0891,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6196
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 149,
+      "text_excerpt": "In, uh, I like Python language because, uh, I have, uh, more knowledge about the Python language, how we can use it, how we can using this, using Python code, what we can build and, uh, I can try to, uh, be a Python developer. That is why I learn Python and, uh, and Python helps to, uh, give a prompt, connect with API like that. It helps more much about the field of AI, that is why. And I built this project using Python for backend HTML CS and JavaScript frontend MongoDB and database. Choose Pyt",
+      "score": 0.1686,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1311,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1477,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1086,
+          "level": "low",
+          "words_per_second": 2.3369
+        },
+        "llm_preparedness": {
+          "score": 0.1929,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 102,
+      "text_excerpt": "Okay There are several technical issues like I can explain. The hardest decision was choosing how to store the traveling college information efficiently. So that I choose MongoDB because it is very flexible and handle different types of data easily. This decision improved the speed and scalability of the project, scalability of my project. That is why I choose MongoDB. First I choose MS Excel, but it would not be suitable for that application. That is, after that, after more searching, we know a",
+      "score": 0.084,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2017,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0113,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9238
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 81,
+      "text_excerpt": "Okay Uh, I can explain. Okay. So basically my Python development experience has taught me how to understand user requirement, analyze problem and provide effective solutions. If I provide effective solution definitely it would be better for the environment that person who has any types of issues. This skill will help me understand client legal needs at vehicle search and guide them to right service with accuracy and confidence. That is why I choose Python And my experience is very good.",
+      "score": 0.1231,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1972,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.008,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6116
+        },
+        "llm_preparedness": {
+          "score": 0.1143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 193,
+      "text_excerpt": "Yeah, I can give example. Basically In my college inquiry as an project, user wanted quick and accurate informations. You know, in every areas, in every district as well as in all over the India, everyone know about the quick and accurate informations without any physical availability, without going any other state if any person want to know about the college. So in this way they have need to go the college and that's why In this way, they have need to go to college and know about the college. B",
+      "score": 0.1247,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2775,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3586,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0665,
+          "level": "low",
+          "words_per_second": 2.2653
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 90,
+      "text_excerpt": "Okay, I can explain what I can do for this feeling first I would I would like to listen carefully to the client requirement and ask relevant question to understand their needs clearly. Then I would explain the availability service, available service in a simple language and suggest the most suitable solutions. My focus would be building a trust. If I build a excellent trust, so it would be better for me and our companies. So that is why first I try to make a trust and ensuring client satisfactio",
+      "score": 0.0897,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1554,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6617
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "Yeah Yes, I can explain. So, uh, the yes yes yes, I can explain. Uh, first I ask, uh, what are the primary business goals and",
+      "score": 0.3725,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0422,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.2595,
+          "level": "low",
+          "words_per_second": 1.1111
+        },
+        "llm_preparedness": {
+          "score": 0.8929,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 117,
+      "text_excerpt": "Okay. So, as per my opinion, in a vehicle search converting lead into a cell requires a mix of expertise like speed and trust. First I can If I can, first I think, as per my opinion, the first step is speed to lead. In legal and professional service, the first person to call often wins. Reach out to leads as soon as they inquire to capture them. And second is consultative selling, third is like trust build. with social proofs and fourth is transparent pricing and process. transparent systems and",
+      "score": 0.1796,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3319,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3918,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9086
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 28,
+      "speaker": "SPEAKER_01",
+      "word_count": 55,
+      "text_excerpt": "Yeah, I can explain what, uh, in, uh, it takes a representative to respond to the potential customer. After that, if you delay your response, if I delay your response by one or two days, several factors can negatively impact your conversation rate, like lost interest, competitor's advantage, perception of poor service, contact friction. Like",
+      "score": 0.2036,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2226,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1822,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3793,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7674
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 32,
+      "speaker": "SPEAKER_01",
+      "word_count": 55,
+      "text_excerpt": "That's a very most important question you can ask. in this session, database management for leading tracking like very important like first we can know about the how we can use data integrity, explain how your experience ensure the lead information organized and accurate searchable data, insight reporting, workflow automation for client interactions like this.",
+      "score": 0.3962,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5729,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.3508,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.5002,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6536
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 34,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "Yeah, I can I can explain I can explain. Think about that. A late velocity tracking late that the high engagement but have not been contacted.",
+      "score": 0.0774,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1443,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1523
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 40,
+      "speaker": "SPEAKER_01",
+      "word_count": 46,
+      "text_excerpt": "existing client. Yeah, first, first of all, leveraging existing trust to create new opportunities. So first is nature existing relationship and second is systematic perspective and third is grow the database by current client. In this section, we know about the client feelings and handle this",
+      "score": 0.1449,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2579,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7969
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 42,
+      "speaker": "SPEAKER_01",
+      "word_count": 123,
+      "text_excerpt": "I can explain So first to first Uh, one concern action I take every month is sending to personal value, uh, note. This isn't selfish but rather sharing a specific industry inside a relevant article or suggestion tailored to the current business goals. It demonstrates that I am constantly thinking about their success. And second is the success review. I implemented a brief monthly impact and I reached out highlight a specific wins or a milestone or we achieve together in the previously 30 days. A",
+      "score": 0.1845,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3126,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0469,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3661,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8552
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 44,
+      "speaker": "SPEAKER_01",
+      "word_count": 284,
+      "text_excerpt": "Yeah, I can explain. Okay First My knowledge of REST API integration can enhance the client experience at vehicle search in the following way in the following terms like they are different different terms but I can explain some. First is automation and efficiency. I can help to automate the data flow between client and vehicle search backend. For example, instead of manual document upload, API can facilitate the direct secure transfer of data. and reducing times of legal and tax filing. It is a ",
+      "score": 0.1237,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.318,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0325,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0539,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0586
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 48,
+      "speaker": "SPEAKER_01",
+      "word_count": 150,
+      "text_excerpt": "Yes, yes, I can explain. There are several times how did I use simplified complex technical analysis into values like communication helps to know about if in my project we know we are not able to in early time we are not able to know about the people issues. But right now we are able to know about the people issue with the help of communications and negotiation means how did to handle the pushback on code timelines and features. It would be a good if because if you are doing if you are an engine",
+      "score": 0.1498,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.172,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0375,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1301,
+          "level": "low",
+          "words_per_second": 2.3734
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 50,
+      "speaker": "SPEAKER_01",
+      "word_count": 138,
+      "text_excerpt": "Okay, I will give you the example. Uh, I will give you the example like, uh, in my last role, my lead wanted to, uh, uh, to use a monolithic structure of new features to save time. I proposed a serviceless approach. When they hesitated about complexity, I said, I have built a quick project showing that while the initial step takes 2 extra days, it eliminates our scaling. bottle neck and will reduce our monthly cloud cost by 20%. So it helps to convenience them. and convince them if I understand ",
+      "score": 0.1155,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1531,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3579,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8494
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 54,
+      "speaker": "SPEAKER_01",
+      "word_count": 105,
+      "text_excerpt": "I can explain First, what methodology I can use? First, I can explain. There are several methodology I used and I can try to explain. First is speed to read immediate response. And in this competitive landscape, the golden hours is critical. I prioritize responding to new inquiries with 5 minutes to capitalize to lead expecting interest. Second is structure follow up. Third is CRM driven automations, fourth is value added personalizations, fifth is lead scoring and prioritization. Finally, I wou",
+      "score": 0.184,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2848,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0901,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0653
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 58,
+      "speaker": "SPEAKER_01",
+      "word_count": 35,
+      "text_excerpt": "Okay, I I can explain how I prioritize this. To first specifically I should prioritize any lead that meets your ideal customer profile, ICP and has performed high intent action with the last 24 hours.",
+      "score": 0.1201,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1177,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0608,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5681
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 62,
+      "speaker": "SPEAKER_01",
+      "word_count": 95,
+      "text_excerpt": "Yeah, there are several terms that we should use to prioritize the data. First is categorize by urgency or impact. Use a framework like is an hours matrix to rank a high priority, schedule low priorities. Second is set realistic expectation. Use tools and automations. Like I recently had a situation where a routine database optimize coincided with an unscheduled client meeting request. I prioritized the optimization as it prevents potential downtime, but I immediately messaged the client to resc",
+      "score": 0.2908,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4202,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.2312,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4161,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7612
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "3 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

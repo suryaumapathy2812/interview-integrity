@@ -1,0 +1,257 @@
+{
+  "request_id": "20260615_47a98342-e8cc-45d4-bfed-2ba2ff441929",
+  "transcript": "Tell me a bit more about your background and interest in technology. Hello, my name is Deepanshu Gunant and I'm currently pursuing B.Tech in Information Technology from Maharaja Agrasen Institute of Technology with a CAGV of 8.69. I am highly interested in software development and problem solving especially in full stack gap development using the MERN stack. I enjoy building practical applications that solve real world problems. I have worked on projects like crypto health a secure platform with authentication and appointment management features. An insider jobs, a job portal with recruiter and candidate workflows. Through these projects, I gained hands-on experiences with React.js, Node.js, Express.js, MongoDB, JWT authentication, and REST APIs. Apart from projects, I have also completed internships in AI and AI and cloud and content development where I worked with the technologies like IBM cloud, Firebase and real time web features. I am particularly interested in continuously learning new technologies, improving my development skills and contributing to impactful software products in a collaborative environment. You mentioned several projects and internships. Out of everything you have done so far, which one are you most proud of and why? I would say I am most proud of building my prescriptive project which is a full stack healthcare platform developed using the MERN stack. I am proud of it because it was one of the first projects where I handled both front end and back end development completely on my own and turned an idea into a functional application. The platform includes features like patient and doctor login, appointment booking, JWT based Authentication, Role Based Dashboards And Responsive UI Design. While building it, I worked with react.js, node.js, express.js, MongoDB and rest APIs which significantly improved my understanding of full stack development. I also faced several challenges during the development especially around authentication flow, API integration and managing application state. So all these issues improved my debugging skills and taught me how to approach problems more systematically. What makes me most proud is that the project is practical, scalable, and closely related to real-world healthcare use cases. It gave me a lot of confidence in my technical abilities and motivated me to keep building more impactful software solutions. You talked about challenges in authentication and state management. Can you walk me through one specific technical issue you faced in that project and how you solved it? Yes, one specific issue I faced in the prescriptive project was related to JWT authentication and protected routes. Initially, after a user logged in successfully, the authentication state was not persisting properly when the page was refreshed. Because of that, users were getting logged out unexpectedly, and pre-protected pages were becoming inaccessible. To solve this, I first analyzed how the token flow was working between the front end and back end, I realized that although the JWT token was being generated correctly on login, the front end state was resetting after refresh because the authentication data was only stored temporarily in react state. I solved this by securely storing the JWT token and then implementing logic to verify the token when the application loaded. I also added protected route handling so that only authenticated users could access certain pages like dashboards and appointment sections. After implementing this solution, the authentication flow became much more stable and user-friendly. This experience improved my understanding of session handling, API security, and state management in full stack applications. That project sounds quite hands on. What do you like to do when you are not studying? Outside of my academics and projects, I enjoy exploring new technologies and working on personal development. I often spend time improving my coding and problem solving skills through DSA practice and by building small web development projects. Apart from tech, I also like listening to music and staying updated with new trends in software and AI. I enjoy participating in college activities and collaborative environments as well, which has helped me improve my communication and teamwork skills. I believe maintaining a balance between technical learning and personal interest helps me stay motivated, productive, and adaptable. You mentioned music and college activities. Can you give one recent example of something you did that was not related to technology at all? Yes, recently I participated in college volunteer activities through NSS where I helped manage hospitality and coordination during campus events. My role involved guiding participants, coordinating with team members, and ensuring smooth event management. It was completely different from technical work, but I really enjoyed interacting with people, handling responsibilities in real time, and working as part of a team that experienced in improve my communication, coordination, confidence in handling situation outside of academics and technology. In that volunteering experience, was there any difficult moment with a student or guest, and how did you handle it? You mentioned gaining confidence through these experiences. What is one thing you are good at? One thing I believe I'm good at is problem solving and learning new technologies quickly. Whenever I face a technical challenge, I like breaking it down into smaller parts and solving it step by step instead of getting stuck or giving up. For example, while working on my months that projects I had to understand authentication, API integration and back end workflows which were initially challenging for me. But through consistent learning and on practice, I was able to implement them successfully. I also think I am good at adapting to new environment and collaborating with people which are developed through internships and college activities. Overall, I would say my strengths are persistence, adaptability, and a willingness to continuously improve. You highlighted problem solving and adaptability. Can you describe a recent situation where you had to learn a new tool or concept very quickly? Yes, during my front end development internship, I had to quickly learn Fibers authentication and leaflet.js for implementing secure login and location based provider search features in the project. At that time, I had only basic knowledge of those tools, but the project requirement changed and we needed those features within a short timeline. To adapt quickly, I started learning through official documentation, tutorials, and hands-on practice while simultaneously working on the project. projected. I divided the learning process into smaller tasks, first understanding authentication flow, then implementing map integration step by step. Within a short time, I was able to successfully integrate user authentication and real-time search functionality into the platform. That experience improved my confidence in learning unfamiliar technologies quickly and applying them effectively in real projects. That connects nicely with your internships. How do you usually go about learning a new technology or tool? Can you walk me through your process? Thanks, Deepanshu, that was clear. What is one thing about computer science that surprised you? Something you did not expect when you started. One thing that really surprised me about computer science was how much importance communication and problem solving mindset have, not just coding itself. When I first started, I thought software development was mainly about write code individually. But as I worked on projects and internships, I realized understanding requirements clearly, collaborating with others, debugging efficiently and continuously, adapting to new technologies are equally important. Even a well written application requires proper planning, teamwork, communication to become successful. Another thing that surprised me was how interconnected different concepts are. For example, while building full stack projects, I saw how front end, back end databases authentication APIs all work together to create a complete system. That practical integration made computer science much more interesting and dynamic than I initially expected. You mentioned how dynamic and interconnected the field feels. Why did you choose computer science? Was it always the plan, or did something lead you there? To be honest, initially I was mainly interested in technology because I was curious about how applications and websites actually work behind the scenes. But as I started learning programming and building projects, my interest in computer science grew much stronger. What I what really attracted me was the combination of logic, creativity, and problem solving. I liked the idea that with coding we can build practical solutions. that people can actually use in real life. During college when I started working on full stack projects and internships I realized that computer science is not only about theory but also about continuously learning, adapting, and creating impactful projects. That practical exposure made me even more motivated to pursue software development seriously as a career. You talked about curiosity and real projects. Looking ahead, what kind of software development work or role do you see yourself enjoying the most? I see myself enjoying full stack software development the most because I like working on both the front end and back end part of an application. I enjoy the complete process of building a product from designing user interfaces to handling APIs authentication and database integration. I especially enjoy creating applications that solve real world problems and improve user experience. Through my mon stack projects I rely is that I like turning ideas into functional and scalable products while continuously learning new technologies. In the future, I would like to work in a collaborative pre-product based environment where I can contribute to impactful software solutions, strengthen my problem solving skills and gradually grow into a developer who can handle both technical implementation and system level thinking. Thanks Deepanshu Gurunath, that is all for this part. Your responses have been recorded. We will continue with the next part shortly. You may go ahead and end the call now.",
+  "timestamps": null,
+  "diarized_transcript": {
+    "entries": [
+      {
+        "transcript": "Tell me a bit more about your background and interest in technology.",
+        "start_time_seconds": 910.63,
+        "end_time_seconds": 914.47,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "Hello, my name is Deepanshu Gunant and I'm currently pursuing B.Tech in Information Technology from Maharaja Agrasen Institute of Technology with a CAGV of 8.69. I am highly interested in software development and problem solving especially in full stack gap development using the MERN stack. I enjoy building practical applications that solve real world problems. I have worked on projects like crypto health",
+        "start_time_seconds": 934.25,
+        "end_time_seconds": 964.25,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "a secure platform with authentication and appointment management features. An insider jobs, a job portal with recruiter and candidate workflows. Through these projects, I gained hands-on experiences with React.js, Node.js, Express.js, MongoDB, JWT authentication, and REST APIs. Apart from projects, I have also completed internships in AI and AI and cloud and",
+        "start_time_seconds": 964.25,
+        "end_time_seconds": 994.25,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "content development where I worked with the technologies like IBM cloud, Firebase and real time web features. I am particularly interested in continuously learning new technologies, improving my development skills and contributing to impactful software products in a collaborative environment.",
+        "start_time_seconds": 994.25,
+        "end_time_seconds": 1014.23,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "You mentioned several projects and internships. Out of everything you have done so far, which one are you most proud of and why?",
+        "start_time_seconds": 1019.51,
+        "end_time_seconds": 1026.65,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "I would say I am most proud of building my prescriptive project which is a full stack healthcare platform developed using the MERN stack. I am proud of it because it was one of the first projects where I handled both front end and back end development completely on my own and turned an idea into a functional application. The platform includes features like patient and doctor login, appointment booking, JWT based",
+        "start_time_seconds": 1063.75,
+        "end_time_seconds": 1093.75,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "Authentication, Role Based Dashboards And Responsive UI Design.",
+        "start_time_seconds": 1093.75,
+        "end_time_seconds": 1099.73,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "While building it, I worked with react.js, node.js, express.js, MongoDB and rest APIs which significantly improved my understanding of full stack development. I also faced several challenges during the development especially around authentication flow, API integration and managing application state. So all these issues improved my debugging skills and taught me how to approach problems more systematically.",
+        "start_time_seconds": 1099.87,
+        "end_time_seconds": 1129.87,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "What makes me most proud is that the project is practical, scalable, and closely related to real-world healthcare use cases. It gave me a lot of confidence in my technical abilities and motivated me to keep building more impactful software solutions.",
+        "start_time_seconds": 1129.87,
+        "end_time_seconds": 1145.47,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "You talked about challenges in authentication and state management. Can you walk me through one specific technical issue you faced in that project and how you solved it?",
+        "start_time_seconds": 1159.29,
+        "end_time_seconds": 1169.09,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "Yes, one specific issue I faced in the prescriptive project was related to JWT authentication and protected routes. Initially, after a user logged in successfully, the authentication state was not persisting properly when the page was refreshed. Because of that, users were getting logged out unexpectedly, and pre-protected pages were becoming inaccessible. To solve this, I first analyzed how the token flow was working between the",
+        "start_time_seconds": 1183.69,
+        "end_time_seconds": 1213.69,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "front end and back end, I realized that although the JWT token was being generated correctly on login, the front end state was resetting after refresh because the authentication data was only stored temporarily in react state.",
+        "start_time_seconds": 1213.69,
+        "end_time_seconds": 1226.95,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "I solved this by securely storing the JWT token and then implementing logic to verify the token when the application loaded. I also added protected route handling so that only authenticated users could access certain pages like dashboards and appointment sections. After implementing this solution, the authentication flow became much more stable and user-friendly.",
+        "start_time_seconds": 1227.55,
+        "end_time_seconds": 1257.55,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "This experience improved my understanding of session handling, API security, and state management in full stack applications.",
+        "start_time_seconds": 1257.55,
+        "end_time_seconds": 1266.25,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "That project sounds quite hands on. What do you like to do when you are not studying?",
+        "start_time_seconds": 1305.49,
+        "end_time_seconds": 1309.79,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "Outside of my academics and projects, I enjoy exploring new technologies and working on personal development. I often spend time improving my coding and problem solving skills through DSA practice and by building small web development projects. Apart from tech, I also like listening to music and staying updated with new trends in software and AI.",
+        "start_time_seconds": 1318.41,
+        "end_time_seconds": 1348.41,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "I enjoy participating in college activities and collaborative environments as well, which has helped me improve my communication and teamwork skills. I believe maintaining a balance between technical learning and personal interest helps me stay motivated, productive, and adaptable.",
+        "start_time_seconds": 1348.41,
+        "end_time_seconds": 1365.55,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "You mentioned music and college activities. Can you give one recent example of something you did that was not related to technology at all?",
+        "start_time_seconds": 1379.29,
+        "end_time_seconds": 1387.39,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "Yes, recently I participated in college volunteer activities through NSS where I helped manage hospitality and coordination during campus events. My role involved guiding participants, coordinating with team members, and ensuring smooth event management. It was completely different from technical work, but I really enjoyed interacting with people, handling responsibilities in real time, and working as",
+        "start_time_seconds": 1406.69,
+        "end_time_seconds": 1436.69,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "part of a team that experienced in improve my communication, coordination, confidence in handling situation outside of academics and technology.",
+        "start_time_seconds": 1436.69,
+        "end_time_seconds": 1447.67,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "In that volunteering experience, was there any difficult moment with a student or guest, and how did you handle it?",
+        "start_time_seconds": 1452.71,
+        "end_time_seconds": 1459.01,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "You mentioned gaining confidence through these experiences. What is one thing you are good at?",
+        "start_time_seconds": 1461.97,
+        "end_time_seconds": 1467.21,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "One thing I believe I'm good at is problem solving and learning new technologies quickly. Whenever I face a technical challenge, I like breaking it down into smaller parts and solving it step by step instead of getting stuck or giving up. For example, while working on my months that projects I had to understand authentication, API integration and back end workflows which were initially challenging for me. But through consistent learning and",
+        "start_time_seconds": 1480.75,
+        "end_time_seconds": 1510.75,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "on practice, I was able to implement them successfully. I also think I am good at adapting to new environment and collaborating with people which are developed through internships and college activities.",
+        "start_time_seconds": 1510.75,
+        "end_time_seconds": 1523.05,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "Overall, I would say my strengths are persistence, adaptability, and a willingness to continuously improve.",
+        "start_time_seconds": 1524.03,
+        "end_time_seconds": 1531.13,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "You highlighted problem solving and adaptability. Can you describe a recent situation where you had to learn a new tool or concept very quickly?",
+        "start_time_seconds": 1536.45,
+        "end_time_seconds": 1545.33,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "Yes, during my front end development internship, I had to quickly learn Fibers authentication and leaflet.js for implementing secure login and location based provider search features in the project. At that time, I had only basic knowledge of those tools, but the project requirement changed and we needed those features within a short timeline. To adapt quickly, I started learning through official documentation, tutorials, and hands-on practice while simultaneously working on the project.",
+        "start_time_seconds": 1555.15,
+        "end_time_seconds": 1585.15,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "projected. I divided the learning process into smaller tasks, first understanding authentication flow, then implementing map integration step by step. Within a short time, I was able to successfully integrate user authentication and real-time search functionality into the platform. That experience improved my confidence in learning unfamiliar technologies quickly and applying them effectively in real projects.",
+        "start_time_seconds": 1585.15,
+        "end_time_seconds": 1609.39,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "That connects nicely with your internships. How do you usually go about learning a new technology or tool? Can you walk me through your process?",
+        "start_time_seconds": 1629.55,
+        "end_time_seconds": 1638.01,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "Thanks, Deepanshu, that was clear. What is one thing about computer science that surprised you? Something you did not expect when you started.",
+        "start_time_seconds": 1640.95,
+        "end_time_seconds": 1649.63,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "One thing that really surprised me about computer science was how much importance communication and problem solving mindset have, not just coding itself. When I first started, I thought software development was mainly about write code individually. But as I worked on projects and internships, I realized understanding requirements clearly, collaborating with others, debugging efficiently and continuously, adapting to new technologies are equally important. Even a well written application requires",
+        "start_time_seconds": 1668.99,
+        "end_time_seconds": 1698.99,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "proper planning, teamwork, communication to become successful. Another thing that surprised me was how interconnected different concepts are. For example, while building full stack projects, I saw how front end, back end databases authentication APIs all work together to create a complete system. That practical integration made computer science much more interesting and dynamic than I initially expected.",
+        "start_time_seconds": 1698.99,
+        "end_time_seconds": 1724.63,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "You mentioned how dynamic and interconnected the field feels. Why did you choose computer science? Was it always the plan, or did something lead you there?",
+        "start_time_seconds": 1741.81,
+        "end_time_seconds": 1751.17,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "To be honest, initially I was mainly interested in technology because I was curious about how applications and websites actually work behind the scenes. But as I started learning programming and building projects, my interest in computer science grew much stronger. What I what really attracted me was the combination of logic, creativity, and problem solving. I liked the idea that with coding we can build practical solutions.",
+        "start_time_seconds": 1766.99,
+        "end_time_seconds": 1796.99,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "that people can actually use in real life. During college when I started working on full stack projects and internships",
+        "start_time_seconds": 1796.99,
+        "end_time_seconds": 1804.89,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "I realized that computer science is not only about theory but also about continuously learning, adapting, and creating impactful projects. That practical exposure made me even more motivated to pursue software development seriously as a career.",
+        "start_time_seconds": 1806.17,
+        "end_time_seconds": 1821.83,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "You talked about curiosity and real projects. Looking ahead, what kind of software development work or role do you see yourself enjoying the most?",
+        "start_time_seconds": 1825.53,
+        "end_time_seconds": 1834.81,
+        "speaker_id": "SPEAKER_1"
+      },
+      {
+        "transcript": "I see myself enjoying full stack software development the most because I like working on both the front end and back end part of an application. I enjoy the complete process of building a product from designing user interfaces to handling APIs authentication and database integration. I especially enjoy creating applications that solve real world problems and improve user experience. Through my mon stack projects I rely",
+        "start_time_seconds": 1844.83,
+        "end_time_seconds": 1874.83,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "is that I like turning ideas into functional and scalable products while continuously learning new technologies.",
+        "start_time_seconds": 1874.83,
+        "end_time_seconds": 1882.09,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "In the future, I would like to work in a collaborative pre-product based environment where I can contribute to impactful software solutions, strengthen my problem solving skills and gradually grow into a developer who can handle both technical implementation and system level thinking.",
+        "start_time_seconds": 1883.23,
+        "end_time_seconds": 1902.07,
+        "speaker_id": "SPEAKER_0"
+      },
+      {
+        "transcript": "Thanks Deepanshu Gurunath, that is all for this part. Your responses have been recorded. We will continue with the next part shortly. You may go ahead and end the call now.",
+        "start_time_seconds": 1909.17,
+        "end_time_seconds": 1918.91,
+        "speaker_id": "SPEAKER_1"
+      }
+    ]
+  },
+  "language_code": "en-IN",
+  "language_probability": 1.0
+}

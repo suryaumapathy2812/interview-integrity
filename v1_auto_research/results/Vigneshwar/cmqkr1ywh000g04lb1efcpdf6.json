@@ -1,0 +1,245 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkr1ywh000g04lb1efcpdf6",
+  "user_name": "Vigneshwar",
+  "metadata": {
+    "user_name": "Vigneshwar",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_aVchUtm01PvDWTNFyt6W3dwJYcOERAd5_1781862702671/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 9,
+    "candidate_substantive_turn_count": 6,
+    "candidate_word_count": 1299
+  },
+  "scores": {
+    "session_assistance_score": 0.1583,
+    "max_answer_score": 0.3093,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 283,
+      "text_excerpt": "Yeah, sure. Hello, my name is Vignesh. I recently completed currently continuing my degree in BCA, Bachelor of Computer Applications in Data Science. During my studies, I developed an interest in technology as well as in problem solving and learning new software tools. And I also I completed product development internship where I worked on understanding requirements from the clients and building solutions and meeting with the team members. So that was a thing. And that experience improved my ana",
+      "score": 0.1362,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2942,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0187,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3377
+        },
+        "llm_preparedness": {
+          "score": 0.1714,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 144,
+      "text_excerpt": "based on my reflecting how the AI was including like. So it's like developing an AI bot. was like a small bot that gave me some little sum of experience with AI driving problem solving with that. It shows how automation can make a process like more efficient way and how important it is to understand real user workforce, right? So since this startup is building an AI solutions to operate some operate you know automate operational tasks like collecting the datas or updating the data or something. ",
+      "score": 0.1193,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3439,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.025,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2068,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.212
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 264,
+      "text_excerpt": "I think my greatest strength is my attention to detail, like combining my ability to learn processes quickly. So where I can learn a new workflow or new projects or new product or software, whatever it may be. And I focus on each step thoroughly rather than rushing through it, right? So this helps me to understand what kind of the next process or task going to be. accurately or under consistently, right? So, in during my internship and projects, the I did in the last but last projects or interns",
+      "score": 0.1159,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3112,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2961
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 273,
+      "text_excerpt": "So my full stack development experience in previous companies have taught me like how software systems are working, how data flows are going between the different components like so they are that is the one thing I have learned and that is the importance of accuracy while handling that information as well as the data. So while this role is like more operational focused. So I believe that, um, that my background helps me to understand understanding the data processes quickly. Data Process Pe and ",
+      "score": 0.3093,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5242,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1767,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.434,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.968
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 173,
+      "text_excerpt": "while handling some repetitive task under deadlines, I focused on something instead of I focused on speed. I focused on balancing speed with accuracy. So I usually start by understanding that understanding the priority of tasks that has been assigned to me and breaking that task into separate separate sections for Repetitive process I follow, like I followed a structured approach or checklist to ensure consistency. and Yeah, I also make a habit to review my regular work, regular regular work tha",
+      "score": 0.1182,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2354,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0742,
+          "level": "low",
+          "words_per_second": 1.7095
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 154,
+      "text_excerpt": "So based for the last question that you were asking, so I could not able to record my answer. So I continue for that answer. So like to reduce errors like to double check the process that I did, that I did. So like double check the information, double check the task that I did so far. So that can able to easily do my work under regular. And also ask for clarification whenever needed, asking clarification to my colleagues or work team members. So whenever they are free or available. So as for Win",
+      "score": 0.1506,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2757,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2903
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

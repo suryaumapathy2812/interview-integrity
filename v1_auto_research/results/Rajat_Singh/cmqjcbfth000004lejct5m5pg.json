@@ -1,0 +1,381 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjcbfth000004lejct5m5pg",
+  "user_name": "Rajat Singh",
+  "metadata": {
+    "user_name": "Rajat Singh",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781777482370/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 18,
+    "candidate_substantive_turn_count": 10,
+    "candidate_word_count": 781
+  },
+  "scores": {
+    "session_assistance_score": 0.1796,
+    "max_answer_score": 0.364,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 2
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 111,
+      "text_excerpt": "So So for a cultural fit, during my BCA project, I worked with teammates who had different levels of technical knowledge. So members were comfortable with programming while others were not. I realized that using technical terms was creating confusion. So I changed my communication style by explaining the task in simple languages, giving practical examples and checking regularly if everyone understood. I also encouraged team members to ask questions whenever they had doubt. As a result, the team ",
+      "score": 0.1438,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3852,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0287,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2709
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 87,
+      "text_excerpt": "How would I leverage Technology to enhance So in a software development project, I would leverage technology by using version controls of tools like Git for collaboration, project management tools such as Jira or Trello to track tasks and Python or SQL to automate repetitive work and analyze data. I would also use testing tools to identify bugs early and communication platform like Microsoft Teams or Slack to keep everyone working by using these technologies. can work more efficiently, reduce er",
+      "score": 0.3133,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6713,
+          "level": "high"
+        },
+        "complexity_difference": {
+          "score": 0.3849,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.5861,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0248,
+          "level": "low",
+          "words_per_second": 1.7372
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 96,
+      "text_excerpt": "So, what steps that I take if a client is unhappy with our service? I would first listen carefully without interrupting to fully understand their concern. I would acknowledge their frustration, apologize for the incomings, and ask questions to identify the root cause. Then I would explain the solution clearly, provide realistic timelines, and keep the client updated until the issue is resolved. After resolving it, I would follow up to make sure they are satisfied and use their feedback to improv",
+      "score": 0.1016,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2039,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0178,
+          "level": "low",
+          "words_per_second": 2.4096
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 41,
+      "text_excerpt": "So, uh, my experience. involving my experience with projects which projects involving Data A and AI So once again I am moving my laptop. So So during my BCA I worked on projects that that in that involved that involved to",
+      "score": 0.364,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0426,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.3167,
+          "level": "low",
+          "words_per_second": 1.2409
+        },
+        "llm_preparedness": {
+          "score": 0.825,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 91,
+      "text_excerpt": "So So, during my BCI work on project that involved handling and analyzing data using Python, SQL, and XM, I collected clean and organized data before analyzing it to generate useful insight. I also explored basic AI and machine learning concepts such as data. Pre-processing, data pre-processing, and model training and prediction using Python libraries. Through these projects, I learned the importance of data quality problem-solving and presenting results clearly. While I am a fresher, I am eager",
+      "score": 0.2719,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4476,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1683,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3811,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1006
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 22,
+      "text_excerpt": "So I mentioned earlier from data, what I think more important More important in self relationship building or closing the deal. Please",
+      "score": 0.0708,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0828,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0078,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0693,
+          "level": "low",
+          "words_per_second": 1.6616
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "So I think relationship building is most important. First understand the user requirement and then Then provide them the best solution and then close the deal.",
+      "score": 0.0832,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1624,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1959
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 26,
+      "speaker": "SPEAKER_01",
+      "word_count": 107,
+      "text_excerpt": "So, to keep myself energized and focused to reach my sales target while my others are also competing for the same client. So first of all, I do not compete with anyone. I just provide the best solution to the user and their requirement first. So, I do not actually compete, I just provide the best solution to the client and reaching and providing and providing the personal, I provide the personal growth also and raising. the company's stack day by day. So, first of all, I I'm not competing with a",
+      "score": 0.0983,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1346,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.156,
+          "level": "low",
+          "words_per_second": 2.6446
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 30,
+      "speaker": "SPEAKER_01",
+      "word_count": 62,
+      "text_excerpt": "So when following up with a code lead, I would first interview our previous interaction to understand the interest, then I would then I would then I would reach out with a polite and personalized message or call rather than using a generic approach. I would highlight any new value such as an updated solution or irrelevant information. That matches their needs.",
+      "score": 0.159,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2985,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3387,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.31
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 32,
+      "speaker": "SPEAKER_01",
+      "word_count": 106,
+      "text_excerpt": "Client Relationship So So, in my projects, I balanced requirements by first understanding the client's or project requirements clearly and then breaking the work into smaller tasks based on priority. I discussed progress regularly with my team to make sure we were meeting expectations to keep track of tasks and communication. I used Excel to maintain progress, SQL to manage project data when needed, and shared documents for updates. If I were working with clients professionally, I would use a CR",
+      "score": 0.1904,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.373,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3785,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2222
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "2 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

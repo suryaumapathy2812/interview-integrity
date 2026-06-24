@@ -1,0 +1,348 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkq79z7000804lb84aoqr2j",
+  "user_name": "DILLI PREAM JALLA",
+  "metadata": {
+    "user_name": "DILLI PREAM JALLA",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781861273913/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 12,
+    "candidate_substantive_turn_count": 9,
+    "candidate_word_count": 2008
+  },
+  "scores": {
+    "session_assistance_score": 0.1296,
+    "max_answer_score": 0.2066,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 150,
+      "text_excerpt": "I recently completed my fifth start project during my training in FSSAI, First of XPS Software Academy. Its name is Vijay. It's aimed to delay, I mean, it's aimed to reduce the delay time to get the proper healthcare and so the person, I mean, people can able to get the proper healthcare on time and they can able to avoid the risk later they are going to face regarding health issues. That's the college that I worked on. and it helps it helps the people to find out what what kind of issues they a",
+      "score": 0.2066,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3711,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0209,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3075,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1745
+        },
+        "llm_preparedness": {
+          "score": 0.2479,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 445,
+      "text_excerpt": "First I completed my PRT for these are requirements like explaining the project clearly. I have written it, completed a document on this and after completing it, I done, I completed ERT. This what kind of tables that I am going to use for the data entry and then I done. the diagram like the flow of the diagram using sigma and those these kind of tools like their front end part this how my to say and explain this how my website gonna look I'm UI and UX, I completed UI and UX and then I too used t",
+      "score": 0.1014,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2819,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1135,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0017,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.883
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 69,
+      "text_excerpt": "Neon, it's a, it's a online DB. You don't have to use any server for that. Like you don't have to use PC admin or those kind of things. You can use Neon. It's easy, easy of use. You can be able to use and edit the tables when we need. And yeah, and update them. And you can and track the data easily. That's why I used me.",
+      "score": 0.13,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3492,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3777
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 340,
+      "text_excerpt": "Hmm Foundation that I have to make Yeah, one technical issue that I had to make is, uh, there, there was a time where I had to integrate Meet, Google, like Google Meet, uh, similar software into my application. instead of using Google Meet, I used another platform, Jitsi. It's name is Jitsi. And there is only one reason, it's the user can don't have to face any struggle, they can they can be they can stay in my application if I use Jitsi. And they it will be easy for them to use that application",
+      "score": 0.1311,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1427,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0815,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2757,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1155
+        },
+        "llm_preparedness": {
+          "score": 0.1429,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 204,
+      "text_excerpt": "On First, I don't know, I mean, what these tools will do. And but there was an, first thing that I'll do is I'll try what, first I'll research about that was what, what kind of task that they'll do. And then I'll, I'll go to YouTube, first I'll try to learn the basics and there after, I mean, what kind of process they'll do, what kind of task they'll complete in the specific role. and I'll try to learn them accordingly. After getting into some stage, I mean like beginner, after getting into begi",
+      "score": 0.1332,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2217,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2942
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 223,
+      "text_excerpt": "for for practicing I mean, there will be some tools, I don't know, right, to practice them, like, I'll search further to see if there are any tools to practice those softwares. First, I'll search it, and if there are any available, I'll practice on them. And Uh, if I don't find, if I don't find any of them, um, I'll try to look for, um, if there is any chance, how I can able to practice. Like, is there an application where I can able to practice them or I can able to download and don't, it's oka",
+      "score": 0.0984,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1033,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0191,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3171,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3588
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 243,
+      "text_excerpt": "Hello Hmm No, I didn't. was saying there was some This time when I'm upgrading my team, there was this one particular path that, yeah, faced problem. I mean, while I'm using the, when I'm upgrading my backend and the tables. And uh there was one part um it's there some uh mixing I mean connection between one and another. That's where I felt uh I mean I faced some issue there. And then later on uh I'll thoroughly check the schemas and everything. Um yeah they were after checking them. Uh they wer",
+      "score": 0.1108,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1189,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0138,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0402,
+          "level": "low",
+          "words_per_second": 1.7409
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 212,
+      "text_excerpt": "Okay, first, um, I'll check the schema. I mean, first I'll neatly check for when it comes to the schema part. First, I'll check the table thoroughly, and then, uh, I went to schemas. While I'm checking the schema, I mean, while I'm checking the schemas, there was one part that is leaking, and then I updated it. So, for example, let's say like Yeah, that's the one part that I made. First, I make sure if it matches the tables or not. And after making sure, there was, as I said before, that's one p",
+      "score": 0.1137,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1415,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.042,
+          "level": "low",
+          "words_per_second": 1.738
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 114,
+      "text_excerpt": "Okay, if your record is unclear. I mean if I had to update instruction and if the record is unclear and I think unclear and First, um, I'll go to the document and if suddenly I'll try I'll try to consult my DP teammates and try to take help and help from them. I mean help from them. I mean the person who sent it or like if it's my teammate who sent or sent the record and clear record to the instructions. First, I'll after after went to the after I went to the report. So if I am not clear, I will",
+      "score": 0.1415,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1664,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0774,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3012
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

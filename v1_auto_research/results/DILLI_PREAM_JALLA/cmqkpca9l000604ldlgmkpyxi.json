@@ -1,0 +1,313 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkpca9l000604ldlgmkpyxi",
+  "user_name": "DILLI PREAM JALLA",
+  "metadata": {
+    "user_name": "DILLI PREAM JALLA",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_WNoxAnP770FiyK8aYGS9uCCL6ocssK5F_1781859832310/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 12,
+    "candidate_substantive_turn_count": 8,
+    "candidate_word_count": 1991
+  },
+  "scores": {
+    "session_assistance_score": 0.1814,
+    "max_answer_score": 0.45,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 352,
+      "text_excerpt": "Hi, good afternoon. Um, yeah, there was a time that I had to learn new tools and technology on my own self. where, um, first, uh, I'll, I'll first I'll search, uh, based on the problem what I'm facing. I'll try to search online, uh, on search engine like Google. Uh, it can be some like AI tools like which are ChatGPT and Gemini where I'll try to find solution, uh, on those. for two searching and to find various solutions first I'll search the problem that I'm facing on on the on any place search",
+      "score": 0.1255,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2854,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1078,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1696
+        },
+        "llm_preparedness": {
+          "score": 0.0643,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 153,
+      "text_excerpt": "First, um after integrating, I mean after um just integrating my back end to the Chrome job, I check I started checking those end points like um 401, uh 402 and 500, the whether they are working or not and they are perfectly working. First, I'll check the end points thoroughly for few minutes. After uh after everything was okay, uh I make sure everything Okay, the application is working. And if there is a problem, I could show this endpoint isn't working. There was some, for example, 500. There ",
+      "score": 0.1374,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2957,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.1869,
+          "level": "low",
+          "words_per_second": 1.5835
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 95,
+      "text_excerpt": "First, I'll make sure whether the requirement I met my requirements or not. After that, after make make sure I met all the requirements that has been given to me. I'll check the application once again thoroughly and I'll make sure there was no mistake. Yeah, that's how I'll do it. And also I'll check if there is anything missing or not and make sure everything's okay. I met the requirements and I checked the application. It's working perfectly and everything is good and I'll make the task as I'l",
+      "score": 0.1127,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2657,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0002,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4663
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 211,
+      "text_excerpt": "Yeah, there was this time I had to integrate like some platform, I mean, to my application for video calling, like Meet, Google Meet, where I integrated the platform and I thought, yeah, everything is going fine, but suddenly when I tried to use it, of course, it's opening the platform, but the problem is it's not connecting. with the other user other side of the user where it it's been such a big thing for me and later on yeah fine it's a brief stuff that I'm using I thought why it's happening ",
+      "score": 0.45,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6416,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.3407,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6899,
+          "level": "high"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0111
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 411,
+      "text_excerpt": "Where I clear first, um, I'll clearly explain what, uh, if, if I'm as I said before, I'll start, uh, if I'm facing the problem, uh, on connecting one user to another, I'll try, um, I'll try, I'll try to first, I'll try to understand the problem of understanding it. Uh, I'll try to communicate, uh, I'll try to say to my, uh, mentor or a team or stakeholder this is the problem that I'm currently facing, that we are currently facing. the yeah. And we are looking for the solution. It won't take much",
+      "score": 0.2795,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2399,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.2596,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6181,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2175
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 221,
+      "text_excerpt": "Um, there was a skill project that I am doing, um, that I had done before where I had to submit, um, the research that I have done and the slides that I prepared and the ad that I've done. Um, it's not much time, it's just 15 days deadline from starting to ending. I mean, end of the to give the presentation, just 15 days where I have done everything from starting to end within that time. It was such a tight schedule and And I have to make an ad. It became like a very big thing. Um, I'm doing a b",
+      "score": 0.1133,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3032,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3253
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 294,
+      "text_excerpt": "For that, first when I I decided the plan that I had to do, planning where I don't, to be honest, I didn't put any checklist where, but I prioritize my tasks based on in a way where. First I had to do the research because without research you can't move forward. Like that I move to move forward. First I prioritize my doing the document and then I prioritize while researching about the company. So it would be it would be easy for me to track and to make the slides. And I done my slides second. wh",
+      "score": 0.0997,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2611,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4098
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 247,
+      "text_excerpt": "for when I'm working mostly alone, I'll update others via the channels that that we are using if we are using like Slack. I'll communicate with them with my team using this. mostly. And if you are using any tools regarding the issues like zero, yeah, I'll update it using whether what kind of problem that I faced. And I'll mention it clearly on zero and Order slack. I clearly mentioned the problem that I'm facing and the progress. And similarly to Jira, if I'm facing any issue in the application,",
+      "score": 0.1331,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2691,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4268
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

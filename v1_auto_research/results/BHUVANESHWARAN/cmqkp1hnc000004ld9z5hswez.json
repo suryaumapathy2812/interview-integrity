@@ -1,0 +1,313 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqkp1hnc000004ld9z5hswez",
+  "user_name": "BHUVANESHWARAN",
+  "metadata": {
+    "user_name": "BHUVANESHWARAN",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmqhwrjhl0001gs056nrysgoz",
+    "jd_name": "Process Trainee / Operations Associate",
+    "company": "Airline Operations",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/19/diagnostic_yky1XWs3JOfA7tUTOHUzK4Cm7J3ZT6wO_1781859320622/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 13,
+    "candidate_substantive_turn_count": 8,
+    "candidate_word_count": 225
+  },
+  "scores": {
+    "session_assistance_score": 0.0783,
+    "max_answer_score": 0.1331,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 65,
+      "text_excerpt": "Okay. My name is Bhuvaneshwaran. I'm from Pudukkottai. I have completed my 12th standard in Government Boys Higher Secondary School. After that I got one opportunity to study Press Works STF Software Academy where I learned push stack development using Python. My I like to learn new technologies, new things that is motivated me to learn new web technologies. I like to learn new things.",
+      "score": 0.114,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0431,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1085,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0104,
+          "level": "low",
+          "words_per_second": 2.0237
+        },
+        "llm_preparedness": {
+          "score": 0.1143,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 19,
+      "text_excerpt": "I have developed one full stack website called Fin Smart. I can able to build new responsive web applications.",
+      "score": 0.1022,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1897,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1702,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2165,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8812
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 25,
+      "text_excerpt": "I have used multiple AIs to build my website. I can able to handle AIs using build website and knowing more details from the AI.",
+      "score": 0.0915,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0594,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1707,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2033,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8064
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "My problem I consider I face this. Sometimes AI is have not respond perfectly. I have I have faced that kind of problems in a using.",
+      "score": 0.0397,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0276,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.4806
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 23,
+      "text_excerpt": "I give I give the prompt perfectly. After that the AI responded perfectly. Before that I have not get perfect response from AI.",
+      "score": 0.0529,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0264,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0402,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8489
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 16,
+      "text_excerpt": "Yeah, I learned React, ReactJS, new technologies using AI and watching videos. I is also a",
+      "score": 0.0543,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0192,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0176,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0741,
+          "level": "low",
+          "words_per_second": 1.28
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 24,
+      "text_excerpt": "I can I have not worked perfect at all task times but I want to become a complete the task in the perfect deadline.",
+      "score": 0.1331,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1862,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0328,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3349,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8433
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 16,
+      "text_excerpt": "because I want to finish the task before the deadline to improve myself. Improve my value",
+      "score": 0.0389,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0229,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0022,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.4842
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjgoz2n000f04lb5c1442go",
+  "user_name": "Nitish Kumar Sharma",
+  "metadata": {
+    "user_name": "Nitish Kumar Sharma",
+    "round_number": 4,
+    "round_type": "career-readiness",
+    "jd_id": "cmq51tlgl009c6j05m2oqii6w",
+    "jd_name": "Jr. MEAN Stack Developer",
+    "company": "Upmetrics",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781784840471/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 6,
+    "candidate_substantive_turn_count": 4,
+    "candidate_word_count": 316
+  },
+  "scores": {
+    "session_assistance_score": 0.1779,
+    "max_answer_score": 0.2344,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 50,
+      "text_excerpt": "Yes I would use logging tools such as Winston or Morgan to record error. The logs would include error message, status code, time stamp, and request details. These logs can be stored in log files or monitoring systems, making it easier to track issue, analyze features, and debug problem later.",
+      "score": 0.1494,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4205,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.021,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9142
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 84,
+      "text_excerpt": "Yes I see the code reviews as learning opportunity. When receiving feedback, I listen carefully, understand the suggestion, and make improvements if needed. When giving feedback, I focus on the code and explain my suggestions respectfully and clearly. For example, while working on my learning management system project, I reviewed my own code, received feedback from mentors and my friends on improving my API structure. And code reusability, I refactored repeated code into reusable functions which",
+      "score": 0.1761,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2791,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0249,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9952
+        },
+        "llm_preparedness": {
+          "score": 0.205,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 72,
+      "text_excerpt": "In the Cloud DevOps pipeline project, I collaborated by using Git and GitHub for the version control and code sharing. We discussed deployment requirements, reviewed workflows, configuration, and ensured that the code changes were properly tested before merging. I helped set up the GitHub actions for automated build and deployment, and we monitored pipeline results together to quickly identify and and fix any issue. This ensures a smooth and reliable CI/CD integration.",
+      "score": 0.2344,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3974,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1313,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9587
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 107,
+      "text_excerpt": "I believe good communication comes from the regular discussion, active listening and clear documentation. In software project, I make sure team members understand requirements, share progress updates and discuss issues. I would like to set myself as which can fit in the team. So I would take the work which my team leader will give me and the role. they he will suggest me. My teamwork experience has taught me how to collaborate effectively, accept feedback, and support others when solving problem",
+      "score": 0.1516,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2788,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.025
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

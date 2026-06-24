@@ -1,0 +1,247 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjfabtz000404lb5rur8q6j",
+  "user_name": "Nitish Kumar Sharma",
+  "metadata": {
+    "user_name": "Nitish Kumar Sharma",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmq51tlgl009c6j05m2oqii6w",
+    "jd_name": "Jr. MEAN Stack Developer",
+    "company": "Upmetrics",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781782475568/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 9,
+    "candidate_substantive_turn_count": 6,
+    "candidate_word_count": 385
+  },
+  "scores": {
+    "session_assistance_score": 0.1953,
+    "max_answer_score": 0.397,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 103,
+      "text_excerpt": "Hello, I am Nitish Kumar Sharma and I am I am I am currently I have completed my Bachelor of Science in Information Technology from Siemens Group of Institution. I have a strong interest in web development and have worked on several projects in full style. Using React JS, Node JS, Express JS and MongoDB. One of my major project is learning the management system where I developed features such as user authentication, course management. management, online exam, real time chat and AI power chat boa",
+      "score": 0.1781,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4234,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0681,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.065
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 103,
+      "text_excerpt": "Hmm In the development of learning management system project, I worked as full stack developer and was responsible for both front end and back end development. On the front end, I used React, HTML, CSS and Material UI for the responsive pages and user friendly interfaces and in the back end I used Node.js, Express.js and built with REST API. Uh, and I use MongoDB with the Mongo's data storage and and I implement JWT authentication for the user role access control for students, teacher, administr",
+      "score": 0.126,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3443,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0228,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2658,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8976
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 36,
+      "text_excerpt": "Uh, actually I, I was very interested in full stack developer from the beginning when did, when I, uh, when I When I take admission in this course So I was very interested from the beginning.",
+      "score": 0.1694,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3252,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1169,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.492,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7442
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 40,
+      "text_excerpt": "Actually, it is MERN stack which is my skills in Node React JS is like I'm intermediate intermediate level and in Node JS I have created multiple projects so I on that technology I am also on the intermediate level.",
+      "score": 0.397,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5213,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.3118,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6667,
+          "level": "high"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7376
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 32,
+      "text_excerpt": "My long-term career goal is to be a full software developer at the good company with learning and earning good salary. And I want to pursue my career in full stack developer.",
+      "score": 0.1898,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3817,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3602,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9925
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 48,
+      "text_excerpt": "Yeah, in the cloud project, I have faced multiple challenges. For example, Creating the creating the CICD pipeline was challenging for me. It always sends the error. And which I I have debugged the error with the help of AI tools and with the help of my teacher",
+      "score": 0.1115,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1927,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0198,
+          "level": "low",
+          "words_per_second": 1.487
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

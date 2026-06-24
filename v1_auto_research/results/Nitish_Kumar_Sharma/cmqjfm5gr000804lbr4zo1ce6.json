@@ -1,0 +1,311 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjfm5gr000804lbr4zo1ce6",
+  "user_name": "Nitish Kumar Sharma",
+  "metadata": {
+    "user_name": "Nitish Kumar Sharma",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq51tlgl009c6j05m2oqii6w",
+    "jd_name": "Jr. MEAN Stack Developer",
+    "company": "Upmetrics",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_9o87whbgiXdOvM6yHwikmHz33Cubh5A6_1781783024930/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 19,
+    "candidate_substantive_turn_count": 8,
+    "candidate_word_count": 529
+  },
+  "scores": {
+    "session_assistance_score": 0.215,
+    "max_answer_score": 0.4409,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 3
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 43,
+      "text_excerpt": "Hello, I am Nitish Kumar Sharma. And the main and uh The time where I I usually fix when I whenever I found any bug, it really irritating for me but I always try to debug it very soon as soon as possible.",
+      "score": 0.0461,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0194,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0203,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5682
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 54,
+      "text_excerpt": "Okay. So the challenges I once faced was the was the SSH authentication and development configuration. I solved it by proper properly setting up the SSH key, GitHub, secrets, and server permission. This helped me to automate my deployment surely and it was the bug I found in my project of DevOps. So Latejit",
+      "score": 0.1187,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.223,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0686,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5323
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 95,
+      "text_excerpt": "I ensure the code that I wrote is maintainable by reading the code line by line and each each of the like function when I have created which should be in the the the I have written the comment before the function that why should I write the why why did I write this function and what will be the its action and so I have written comments inside the code so that it and and for the clean maintenance I also Try to check multiple times for the, multiple times for the clean cut.",
+      "score": 0.4409,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.6479,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.4281,
+          "level": "medium"
+        },
+        "polish_difference": {
+          "score": 0.4533,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0196,
+          "level": "low",
+          "words_per_second": 1.9916
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 39,
+      "text_excerpt": "I collaborated with senior developers like with my teachers through the GitHub. They actually see my code from on the GitHub account and then review it and They suggest me the new thing, they suggest me some ideas, whatever.",
+      "score": 0.1337,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2188,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0043,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5306
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 30,
+      "speaker": "SPEAKER_01",
+      "word_count": 26,
+      "text_excerpt": "Hmm So front end and the back end I usually connect through the REST API. And the rest API created using the Node.js backend and Express.js.",
+      "score": 0.1538,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3586,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2055,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6189
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 32,
+      "speaker": "SPEAKER_01",
+      "word_count": 42,
+      "text_excerpt": "Before deployment, I test REST API using Postman. I check all the endpoints, response data through authentication using JWT tokens and handle error cases after successful. integrate the front end with API and perform end to end testing. ensure everything works correctly.",
+      "score": 0.3447,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.5949,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.2102,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4408,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6393
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 34,
+      "speaker": "SPEAKER_01",
+      "word_count": 50,
+      "text_excerpt": "How did I manage my time? Okay. So I just split the work like if I have to develop front end then I will set the time to develop front end and set the time to develop back end and set the time to test the APIs like in days.",
+      "score": 0.1267,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1919,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0094,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7819
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 36,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "The first thing I will do the first thing I will do to stop the service and then I will try to find the bug and during that I will correct it on real time so that It will not affect Diabetes It will not affect the user If I found a security vulnerability after deployment, I would first assess its impact and if necessarily temporarily restrict the affected feature, then I would fix the issue, test the solution thoroughly, then after deploy the patch as quickly as possible after deployment, I woul",
+      "score": 0.3554,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4551,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.2519,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.6667,
+          "level": "high"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6037
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "3 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

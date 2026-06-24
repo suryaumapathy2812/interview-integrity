@@ -1,0 +1,245 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqja6h69000c04l4bf5jdj1a",
+  "user_name": "Rajat Singh",
+  "metadata": {
+    "user_name": "Rajat Singh",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_j9HmcmxF1w7fbuox10fFJeWaqtx4UvQj_1781773895626/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 7,
+    "candidate_substantive_turn_count": 6,
+    "candidate_word_count": 653
+  },
+  "scores": {
+    "session_assistance_score": 0.0868,
+    "max_answer_score": 0.2652,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 0
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 151,
+      "text_excerpt": "So talking about my introduction, my name is Rajat Singh and I have completed my MCA, I've completed my BCA from CMH college which is affiliated to AK New and currently I am and I have done three projects like bank system, chatbot using as NTK and and a website that helps the people to interact with the people and talking and I have made my banking system using HTML, CSS, Java system and PA backend. PSP and MySQL and then And then talking about my hobbies, I I love to play cricket, footballs and",
+      "score": 0.2652,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3608,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.564,
+          "level": "medium"
+        },
+        "polish_difference": {
+          "score": 0.4167,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2844
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 95,
+      "text_excerpt": "So, my technical background, that is skills in coding and data analysis. So, talking about my technical background, I have the knowledge of PHP, MySQL, HTML, CSS, JavaScript and Python, C, Java. So, this helps the people to make their work easy. I can make the software by using these programs according to their requirements. So, this helps the client to do their work efficiency, to do their work efficiency and efficiently and so Apart from this, this helps the clients to get required to get requ",
+      "score": 0.0803,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0957,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0041,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0213,
+          "level": "low",
+          "words_per_second": 2.0925
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 128,
+      "text_excerpt": "So talking about sales. The sales that motivate me, the first thing that I want to tell is that I love to interact with people. I love to interact with what what they need, what are their problem. So that type of solution I provide to them. So sales sales specifically means understanding the client requirement and providing them providing them the best solution regarding it. So it helps their work easy their their work easy and they get their solution also. So, from my side sales is just not sel",
+      "score": 0.0304,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0464,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5427
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 108,
+      "text_excerpt": "So So if I if if if I'm talking with a non-technical person and he if he just get stuck in some some error some problem in his CPU or computer anything. So first of all I I will tell them tell them to just keep calm and quiet and then tell me and then then then tell them that what the problem they are facing what are the problem they are facing in their computer and in their CPU. So So from that I will provide them that solution. So that's all from my side that I understand the client that I dea",
+      "score": 0.0171,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0347,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0321,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2737
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 85,
+      "text_excerpt": "So, relationship with clients is just understanding their requirement and providing them the best solution. And what are the strategies that I think that best in the client, that the strategies that best fit in the client is the requirement that they need to provide, that requirement that need to their work to provide them the best solution according to their requirement. So just that the if I just provide them the best solution, the relationship will automatically created. So that's all from my",
+      "score": 0.0963,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0853,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0214,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.6414
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 84,
+      "text_excerpt": "So if if I communicating with a client in Hindi who needs assistant. So first of all I understand what are the requirements of the client to their assistant and how if I how to I approach the conversation. And to and what key points would I cover. So the first I first I understand what the user is requirement what the client is requirement and then that type then that then that I understand its problem and then I provide that Type of",
+      "score": 0.0318,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0483,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.0833,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0054,
+          "level": "low",
+          "words_per_second": 2.7379
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

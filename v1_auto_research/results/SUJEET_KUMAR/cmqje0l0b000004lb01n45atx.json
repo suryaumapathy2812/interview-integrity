@@ -1,0 +1,383 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqje0l0b000004lb01n45atx",
+  "user_name": "SUJEET KUMAR",
+  "metadata": {
+    "user_name": "SUJEET KUMAR",
+    "round_number": 1,
+    "round_type": "screening",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_IlTMkzWM8PgEJVSjtqYP7dottVOrbeBS_1781780341840/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 13,
+    "candidate_substantive_turn_count": 10,
+    "candidate_word_count": 917
+  },
+  "scores": {
+    "session_assistance_score": 0.2184,
+    "max_answer_score": 0.3906,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 4
+  },
+  "verdict": {
+    "label": "mixed",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 86,
+      "text_excerpt": "Ya, my technical skills because everywhere sales role is Python is very important for this time and it helps to enhance the sales role means if we have a Python knowledge definitely we can handle all the data whatever data comes in our company comes in a sales group we can analyze this all data and make make it report in a very better way. In this way, Python helped more much to handle the data, analyze the data and many more things. And you mentioned",
+      "score": 0.1305,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.236,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0939,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3074,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0665,
+          "level": "low",
+          "words_per_second": 1.6239
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 79,
+      "text_excerpt": "Yeah, definitely. Actually, hello, good afternoon. My name is Sujit Kumar. I am from Bihar where I completed both my 10th and 12th education under the Bihar board. Currently, I am pursuing my Bachelor of Science in Information Technology from Siemens College, Patna. Regarding my hobby, I am an active person who loves playing sports and games. I am also very passionate about listening to music in my free time, which helps me. to stay relaxed and focused mindset",
+      "score": 0.3906,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2301,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0689,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.043,
+          "level": "low",
+          "words_per_second": 2.41
+        },
+        "llm_preparedness": {
+          "score": 0.7964,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 84,
+      "text_excerpt": "If I talk about in sales, so Sales, I like very much in the sales sector because sales sector teaches, teaches lots of things, how to behave with the person, how to talk with the person and sales if you are working in a sales team, definitely your mindset will be improved in a very better way. In sales, we can learn more and more things like how to handle the customer, how to convince the customer. That's why I like it. One much",
+      "score": 0.1161,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2053,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1187,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2388
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 161,
+      "text_excerpt": "Okay I will give the answer Uh, first, uh, I motivate itself because I know what is the role of business advisor and I like very much. Uh, there are specific responsibilities of a business advisor such like highlight the transition, explain how your sales background has prepared you for a consecutive role like sales skills, sales tout me. How to identify client, pain, points and communicate value effectively. And focus on vehicle search values so that you have researched the company. I am motiva",
+      "score": 0.3847,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2748,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0187,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.9305
+        },
+        "llm_preparedness": {
+          "score": 0.7964,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 117,
+      "text_excerpt": "Yes yes I get it I can explain since I am an there are several situations like a client initially reached out in English to discuss technical issues. So in this way we can definitely discuss with the English language. So in this way if suppose anyone client can come here and ask and talk with in Hindi language. So what can I do? In this way we can also do we can also talk with the Hindi language. So in this way, in similar transition of Hindi and English, like Hinglish, a mix of both or pure Hin",
+      "score": 0.379,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.152,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0362,
+          "level": "low",
+          "words_per_second": 2.3985
+        },
+        "llm_preparedness": {
+          "score": 0.8536,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 44,
+      "text_excerpt": "Okay No, I'm currently located in right now I'm not currently located in Chennai but when I get a job in Chennai so definitely I will located on Chennai. And we can if our company reallocate so definitely it will be good for us.",
+      "score": 0.0718,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.019,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0032,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3352,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0178,
+          "level": "low",
+          "words_per_second": 1.7067
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 97,
+      "text_excerpt": "There are several qualities related to the business advisor like strategic thinking, the ability to see the big capture and helps to business navigate long term goals with while managing immediate. Second is analytic skills. It helps more much to analyze anything and third is adaptability skills. It helps to adapt. conditions, situations, and culture also, really regions, markets like that. And strong communication, if you are a business advisor, definitely you have a good communication, definit",
+      "score": 0.1444,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2539,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0474,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.2508,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0234
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 96,
+      "text_excerpt": "I explain, uh, to provide a strong, like, uh, here, uh, we can, uh, I have, we can try to, uh, handle this and recommended strategy like, uh, as per my opinion, there are several recommended strategies like active listening, seeking first to understand the other party's needs and contrast. Second is finding common grounds, and fourth, third is preparation. Fourth is principled negotiation and fourth is proposing a win-win. Principle negotiation focusing on your interest rather than the rigid pos",
+      "score": 0.1453,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1359,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0453,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4662,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0645
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 93,
+      "text_excerpt": "Okay This is how can we handle. We can try to handle this for maintain a positive mindset, explain that you are view rejection as a natural part of the sales process. It's really about you. It is usually about the timing, budget, or specific needs of the clients. And there are several things like analyze the why, this like ask for feedback. If possible, politely ask the prospect. to why they declined. And third is define your approach. See, define your approach, update your sales pitch for the n",
+      "score": 0.1243,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1943,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1243
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 26,
+      "speaker": "SPEAKER_01",
+      "word_count": 52,
+      "text_excerpt": "Okay there are several challenges and maintaining the client's relationship like managing expectations. It is crucial to be transparent about what is possible within a specific time frame or budget under promoting and over delivering is a classical strategy to maintain credibility. Effective communications, handling conflict, building long term trust, these all.",
+      "score": 0.2969,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4308,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.2461,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.4032,
+          "level": "medium"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8492
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "4 answer(s) stand out and should be reviewed with the transcript and audio.",
+    "generated_by": "template_v1"
+  }
+}

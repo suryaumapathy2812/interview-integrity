@@ -1,0 +1,414 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjcz4vm001404l7dfzjt0n6",
+  "user_name": "Shrawan Kumar Jha",
+  "metadata": {
+    "user_name": "Shrawan Kumar Jha",
+    "round_number": 3,
+    "round_type": "technical-thinking",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_XclBq8IV9AhXRdgIOYPDJg4xFp4DTQ95_1781778593585/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 13,
+    "candidate_substantive_turn_count": 11,
+    "candidate_word_count": 1454
+  },
+  "scores": {
+    "session_assistance_score": 0.1619,
+    "max_answer_score": 0.351,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 150,
+      "text_excerpt": "One of my projects I worked on was an online examination management system. The main objective of this project was to simplify and organize the examination process. For both students and administrators, the system allows students to access exams online, submit their responses, and view results, while administrators can manage exam questions and students record efficiently. The problem it solves is reducing manual work, improving accuracy, and making the examination process more convenient and or",
+      "score": 0.1326,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2499,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0246,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.0587
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 156,
+      "text_excerpt": "For this system, I used HTML, CSS, and JavaScript for the front end because they help create a simple, responsive, and user-friendly interface. For storing and managing data, I used MongoDB, and the back end was designed to handle user authentication by using Node.js. I choose these technologies because they are relatively reliable, widely used, and suitable for building web-based applications. They also provide good scalability and make it easier to manage user data securely. The development pr",
+      "score": 0.1225,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2275,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.1739
+        },
+        "llm_preparedness": {
+          "score": 0.1,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 149,
+      "text_excerpt": "One of the hardest decision was designing the system in a way that balanced security, reliability, and easy to use. Since it was an examination system, it was important to ensure that only authorized user could access exams while keeping the process simple for students. I had to think carefully about how users could log in, access exam, submit answer and view results without making the system complicated. The challenges was to create a workflow that was secure but also user friendly. To address ",
+      "score": 0.351,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0521,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0297,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4434
+        },
+        "llm_preparedness": {
+          "score": 0.825,
+          "level": "high",
+          "available": true,
+          "likely_origin": "llm_generated",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 129,
+      "text_excerpt": "When a client reaches out for assistance with legal services, my first priority would be to understand their requirements clearly before setting any solution. I would begin by asking open-ended questions such as, could you tell me little about your business requirement and what specific challenges are you facing right now? I would listen carefully, take note of their concern and ask follow-up question to understand the urgency, objectives and expected outcome. For example, Well, if a client need",
+      "score": 0.1783,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1563,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4722
+        },
+        "llm_preparedness": {
+          "score": 0.2979,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 105,
+      "text_excerpt": "Before proceeding, I would summarize the client requirement in my own words and confirm them directly with the client. For example, I would say just to make sure I have understood correctly, you are looking for assistance with company registration and your main priorities are completing the process quickly and understanding the compliance requirements, is that correct? This gives the client an opportunity to confirm, clarify or add any missing information if needed. I would ask additional questi",
+      "score": 0.0849,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0723,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.5265
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 97,
+      "text_excerpt": "Ensuring accurate and organized client information is very important because it helps provide better service and maintain strong client relationship. My approach would be to record client detail carefully, verify important information during conversation and update records immediately after every interaction. I also maintain proper notes on client requirements, follow-up dates and the status of each lead to ensure nothing is missed. In addition, I would regularly review the data for Completeness",
+      "score": 0.1802,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2688,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0724,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3731,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3084
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 121,
+      "text_excerpt": "If I notice duplicate or conflict entries in the client database, my first priority would be to verify the information by checking previous records, interaction history, and the latest update available. For duplicate entries, I would ensure that all relevant information is consolidated into a single accurate record to avoid confusion and repeated communication with the client. For conflicting information such as different contacts, details or requirements, I would cross-check the record and if n",
+      "score": 0.2024,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3841,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.036,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3582,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.2839
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 113,
+      "text_excerpt": "One example comes for my online examination management system project. During testing, I noticed that users were taking longer than expected to complete certain tasks because the workflow was not very intuitive. To understand the issue, I analyzed the user journey step by step and identified the points where users were getting confused or spending extra time. After reviewing the process, I suggested simplifying the navigation and making the instruction clear. Once these improvements were impleme",
+      "score": 0.1714,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3374,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0025,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4114
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 20,
+      "speaker": "SPEAKER_01",
+      "word_count": 164,
+      "text_excerpt": "If a client is unhappy with the proposed solution, my first step would be to listen carefully and understand the exact reason for their dissatisfaction. I would allow them to explain their concern without interrupting and make sure they feel heard and understood. Once they understand the issue, I would ask clarifying questions to identify whether the concern is related to cost, features, timelines, or suitability. Then I would address those concerns by providing additional information, exploring",
+      "score": 0.1084,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1054,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0172,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3714,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.4691
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 22,
+      "speaker": "SPEAKER_01",
+      "word_count": 141,
+      "text_excerpt": "In competitive environment like legal services, I believe the most effective strategy is to focus on understanding the client's need and building trust. Clients usually choose a service provider who understand their requirements and can clearly explain how the situation will help them. Solution will help them. My approach would be to first identify the client specific challenge, listen carefully to their concern and then recommend the most relevant service. I would handle highlight the value whe",
+      "score": 0.1023,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.1026,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0224,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3406
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 24,
+      "speaker": "SPEAKER_01",
+      "word_count": 119,
+      "text_excerpt": "If I handle many leads, I would prioritize them based on their level of interest, urgency, and likelihood of conversation. Not all leads are at the same stage, so I would focus first on those who have shown strong interest. Asked detailed questions or requested information about the next steps. I would categorize leads into high, medium, and low priority. High priority leads would receive immediate attention and regular follow up. While medium priority leads could be nurtured through scheduled c",
+      "score": 0.1466,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.2633,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 2.3179
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}

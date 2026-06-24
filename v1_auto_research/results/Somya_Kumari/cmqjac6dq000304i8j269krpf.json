@@ -1,0 +1,348 @@
+{
+  "version": "assessment_rules_v1",
+  "session_id": "cmqjac6dq000304i8j269krpf",
+  "user_name": "Somya Kumari",
+  "metadata": {
+    "user_name": "Somya Kumari",
+    "round_number": 2,
+    "round_type": "behavioural",
+    "jd_id": "cmq6i81y10002us05qujb9g2p",
+    "jd_name": "Business Advisor",
+    "company": "Vakilsearch",
+    "audio_url": "https://pre-screen-sessions.s3.ap-south-1.amazonaws.com/agents/diagnostic-agent/sessions/2026/06/18/diagnostic_UCwyWwYY3zi5oTBs664DT7UL0aSFANRQ_1781774161303/audio.mp3"
+  },
+  "candidate_speaker": "SPEAKER_01",
+  "data_quality": {
+    "status": "usable",
+    "score": 1.0,
+    "issues": [],
+    "speaker_count": 2,
+    "candidate_speaker": "SPEAKER_01",
+    "candidate_turn_count": 9,
+    "candidate_substantive_turn_count": 9,
+    "candidate_word_count": 1118
+  },
+  "scores": {
+    "session_assistance_score": 0.1306,
+    "max_answer_score": 0.2809,
+    "flagged_answer_ratio": 0.0,
+    "flagged_answer_count": 0,
+    "watch_answer_count": 1
+  },
+  "verdict": {
+    "label": "genuine",
+    "confidence": "high",
+    "reason": "Deterministic rules over correlated evidence."
+  },
+  "answer_assessments": [
+    {
+      "turn_id": 2,
+      "speaker": "SPEAKER_01",
+      "word_count": 107,
+      "text_excerpt": "During my academic project, I feel faced a challenge with developing a multiplication. Huge web app incentives have some issue with the JavaScript logical and the IS code calculator have not working correctly because for this the application have not given accurate results. To solve the problem, I carefully review my code, identify by the error and test each function step by step. I also refer to online resource and practice debugging technological after making a necessary correction. The applic",
+      "score": 0.1659,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4685,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.0458,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3427,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6331
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 4,
+      "speaker": "SPEAKER_01",
+      "word_count": 56,
+      "text_excerpt": "The single most important step was debugging the Java code step by step. I checked each function individually and found that they have an error in the score calculator logic. After correcting that logic and testing it again, the application starts working properly. This helped me understand. and the importance of systematic trouble shooting and testing.",
+      "score": 0.2809,
+      "label": "watch",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.4718,
+          "level": "medium"
+        },
+        "complexity_difference": {
+          "score": 0.1233,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.4508
+        },
+        "llm_preparedness": {
+          "score": 0.3264,
+          "level": "low",
+          "available": true,
+          "likely_origin": "recalled_from_memory",
+          "structural_pattern": "list"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 6,
+      "speaker": "SPEAKER_01",
+      "word_count": 146,
+      "text_excerpt": "To understand a client's technical requirement, I could first listen carefully and ask questions to understand their goals, target users, and experience from the web development. I could get details about the features that are needed, such as user login, this board form, or payment system, after understanding the requirement. I could summarize them to ensure that I have understood everything correctly. If any technical team are confused for the client, I could explain them in simple language. Fi",
+      "score": 0.1295,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0999,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0012,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0783,
+          "level": "low",
+          "words_per_second": 1.1866
+        },
+        "llm_preparedness": {
+          "score": 0.1714,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "rambling"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 8,
+      "speaker": "SPEAKER_01",
+      "word_count": 117,
+      "text_excerpt": "If a client in heritage about the the pricing I could first listen to their consent and consult content and understand the reason behind their objective. For others, focus only on the course. I could explain the value and benefit for our service such as quality, reliability, support, and the long-term behavior they could receive. I could also share evaluation examples or successfully describe the story. If available to help them understand their return on their investment, if need, I could discu",
+      "score": 0.1034,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.036,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.1766,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.553
+        },
+        "llm_preparedness": {
+          "score": 0.05,
+          "level": "low",
+          "available": true,
+          "likely_origin": "real_time",
+          "structural_pattern": "narrative"
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 10,
+      "speaker": "SPEAKER_01",
+      "word_count": 124,
+      "text_excerpt": "If the client still feel the service is too expensive, I could remind calm and try to understand their specific consent. Whatever it is the budget limited and unsentable about the benefit, I could acknowledge their constant and explain how the service can help their achieve their goal and save time and resources in their long run. If the price is still still expensive, I could discuss available option or packages the best fit their need will stay within company policy. Even if the customer do no",
+      "score": 0.0884,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.046,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3986,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.7113
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 12,
+      "speaker": "SPEAKER_01",
+      "word_count": 145,
+      "text_excerpt": "I could politely lead based on their level of interest, arrears, and potential business value. For example, if a client has asked for detailed information and showing a strong interest in our service, I could follow up with them soon, some people who only explore options after they In a student conversation, I could keep note about their client requirement and concern during the follow up. I could address any question they have, provide additional information and check if they need any. Essentia",
+      "score": 0.0903,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0891,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3333,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.6736
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 14,
+      "speaker": "SPEAKER_01",
+      "word_count": 127,
+      "text_excerpt": "I decide the timely based on the client level for interest and the timeline they mentioned during the conversation. For example, if a client said they need to decide within a week, I could follow up to two, three days. If they asked to more time, I could respect that and connect them closer to the date they suggest. Also, I try try not to follow follow up. too frequently as that can feel pushy. The goal is to stand engaged and helpful while respect the client decision making provide. For example",
+      "score": 0.0817,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0943,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.25,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.033,
+          "level": "low",
+          "words_per_second": 1.9757
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 16,
+      "speaker": "SPEAKER_01",
+      "word_count": 110,
+      "text_excerpt": "In my academy project, I I ensure that all team members have a example by mention clear communication and discuss the project goal at the beginner. We divide tasks based on each person's strength and regular check our program. We use group discuss and regular update to make sure everyone understand their responsibility and deadline if any issue. In cross, we discuss them together and found a solution and found solution as a team for during the web development project. We have regular discuss abo",
+      "score": 0.1863,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.3627,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.3742,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.8254
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    },
+    {
+      "turn_id": 18,
+      "speaker": "SPEAKER_01",
+      "word_count": 186,
+      "text_excerpt": "When a team member was falling behind, I could first try to understand the reason. Sometimes it could be due to the technological issue, lack of clarity and overload. I could communicate with them, offer support if needed and help. Calify the task. We could also review proprietary and create a plan to get back on track. My focus could be on. cobblerated referred them blame so that the the team could achieve the project project goals together regarding across sale if a client could not see the ne",
+      "score": 0.0491,
+      "label": "normal",
+      "signals": {
+        "statistical_anomaly": {
+          "score": 0.0567,
+          "level": "low"
+        },
+        "complexity_difference": {
+          "score": 0.0,
+          "level": "low"
+        },
+        "polish_difference": {
+          "score": 0.1667,
+          "level": "low"
+        },
+        "timing_context": {
+          "score": 0.0,
+          "level": "low",
+          "words_per_second": 1.5675
+        },
+        "llm_preparedness": {
+          "score": 0.0,
+          "level": "low",
+          "available": false
+        }
+      },
+      "plain_reasons": []
+    }
+  ],
+  "summary": {
+    "short": "The candidate's answers are broadly consistent across this session.",
+    "generated_by": "template_v1"
+  }
+}
