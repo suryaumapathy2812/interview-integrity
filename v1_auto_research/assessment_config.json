@@ -17,7 +17,11 @@
     "ai_assisted_min_flagged": 2,
     "ai_assisted_min_flagged_ratio": 0.4,
     "mixed_min_flagged": 1,
-    "mixed_min_watch": 2
+    "mixed_min_watch": 2,
+    "mixed_llm_session_verdict_boost": ["mixed_genuine_and_llm", "pre_prepared_with_llm"],
+    "mixed_llm_session_min_watch": 1,
+    "mixed_cross_answer_suspicious_ratio_threshold": 0.4,
+    "mixed_cross_answer_score_threshold": 0.4
   },
   "signal_parameters": {
     "polish_word_count_guard": 30,

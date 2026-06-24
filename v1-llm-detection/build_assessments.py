@@ -267,6 +267,42 @@ def llm_turn_lookup(llm: dict[str, Any]) -> dict[int, dict[str, Any]]:
     return {int(item.get("turn_id")): item for item in llm.get("per_answer_analysis", []) if item.get("turn_id") is not None}
 
 
+def signal_cross_answer(llm: dict[str, Any]) -> dict[str, Any]:
+    """Use LLM's cross-answer analysis to detect sessions with multiple suspicious turns.
+
+    This captures the session-level view that per-answer scoring misses.
+    """
+    if not llm:
+        return {"score": 0.0, "level": "low", "available": False}
+
+    verdict = llm.get("verdict", {})
+    suspicious_turns = verdict.get("suspicious_turn_ids", [])
+    genuine_turns = verdict.get("genuine_turn_ids", [])
+    total_analyzed = len(suspicious_turns) + len(genuine_turns)
+
+    if total_analyzed == 0:
+        return {"score": 0.0, "level": "low", "available": True}
+
+    # Ratio of suspicious turns
+    suspicious_ratio = len(suspicious_turns) / total_analyzed
+
+    # LLM session confidence score
+    llm_confidence = float(verdict.get("confidence_score", 0.0) or 0.0)
+
+    # Combine: high suspicious ratio + high confidence = strong signal
+    score = clamp((suspicious_ratio * 0.6) + (llm_confidence * 0.4))
+
+    return {
+        "score": round(score, 4),
+        "level": level(score),
+        "available": True,
+        "suspicious_turn_count": len(suspicious_turns),
+        "genuine_turn_count": len(genuine_turns),
+        "suspicious_ratio": round(suspicious_ratio, 4),
+        "llm_session_confidence": round(llm_confidence, 4),
+    }
+
+
 def signal_llm(turn_id: int, llm_by_turn: dict[int, dict[str, Any]]) -> dict[str, Any]:
     item = llm_by_turn.get(turn_id)
     if not item:
@@ -359,7 +395,7 @@ def build_answer_assessments(report: dict[str, Any], nlp: dict[str, Any], llm: d
     return assessments
 
 
-def verdict(data_quality_result: dict[str, Any], answers: list[dict[str, Any]]) -> dict[str, Any]:
+def verdict(data_quality_result: dict[str, Any], answers: list[dict[str, Any]], cross_answer: dict[str, Any] | None = None, llm: dict[str, Any] | None = None) -> dict[str, Any]:
     if data_quality_result["status"] == "unusable":
         return {"label": "unknown", "confidence": "high", "reason": "Session data is not sufficient for assessment."}
 
@@ -368,9 +404,23 @@ def verdict(data_quality_result: dict[str, Any], answers: list[dict[str, Any]]) 
     total = len(answers)
     flagged_ratio = len(flagged) / total if total else 0.0
 
+    # Use cross-answer signal from LLM if available
+    cross_score = (cross_answer or {}).get("score", 0.0)
+    suspicious_ratio = (cross_answer or {}).get("suspicious_ratio", 0.0)
+
+    # Check LLM's session-level verdict directly
+    llm_session_verdict = (llm or {}).get("verdict", {}).get("assessment", "unknown")
+
+    # Original verdict logic
     if len(flagged) >= 2 and flagged_ratio >= 0.4:
         label_name = "ai_assisted"
     elif len(flagged) >= 1 or len(watch) >= 2:
+        label_name = "mixed"
+    # NEW: If LLM session-level verdict is mixed and we have at least 1 watch, upgrade to mixed
+    elif llm_session_verdict in ("mixed_genuine_and_llm", "pre_prepared_with_llm") and len(watch) >= 1:
+        label_name = "mixed"
+    # NEW: If cross-answer signal is strong and we have at least 1 watch, upgrade to mixed
+    elif suspicious_ratio >= 0.4 and len(watch) >= 1 and cross_score >= 0.4:
         label_name = "mixed"
     else:
         label_name = "genuine"
@@ -401,13 +451,19 @@ def build_session(paths: SessionPaths, metadata: dict[str, Any]) -> dict[str, An
     quality = data_quality(report, nlp, paths)
     candidate = quality.get("candidate_speaker")
     answers = build_answer_assessments(report, nlp, llm, candidate) if candidate else []
-    verdict_result = verdict(quality, answers)
+
+    # Compute cross-answer signal from LLM session-level analysis
+    cross_answer = signal_cross_answer(llm)
+
+    verdict_result = verdict(quality, answers, cross_answer, llm)
     scores = {
         "session_assistance_score": round(safe_mean([item["score"] for item in answers]), 4),
         "max_answer_score": round(max([item["score"] for item in answers], default=0.0), 4),
         "flagged_answer_ratio": round(sum(1 for item in answers if item["label"] == "flagged") / len(answers), 4) if answers else 0.0,
         "flagged_answer_count": sum(1 for item in answers if item["label"] == "flagged"),
         "watch_answer_count": sum(1 for item in answers if item["label"] == "watch"),
+        "cross_answer_score": cross_answer.get("score", 0.0),
+        "cross_answer_suspicious_ratio": cross_answer.get("suspicious_ratio", 0.0),
     }
     return {
         "version": VERSION,
